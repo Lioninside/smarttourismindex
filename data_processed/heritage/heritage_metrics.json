@@ -1,0 +1,1353 @@
+[
+  {
+    "slug": "aarau",
+    "name": "Aarau",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "adelboden",
+    "name": "Adelboden",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "aeschi-bei-spiez",
+    "name": "Aeschi bei Spiez",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "altstaetten",
+    "name": "Altstätten",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "amden",
+    "name": "Amden",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "andermatt",
+    "name": "Andermatt",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "anniviers",
+    "name": "Anniviers",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "appenzell",
+    "name": "Appenzell",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "arbon",
+    "name": "Arbon",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "arosa",
+    "name": "Arosa",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "ascona",
+    "name": "Ascona",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "bad-ragaz",
+    "name": "Bad Ragaz",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "baden",
+    "name": "Baden",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "basel",
+    "name": "Basel",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "beatenberg",
+    "name": "Beatenberg",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "beckenried",
+    "name": "Beckenried",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "bellinzona",
+    "name": "Bellinzona",
+    "local_unesco": true,
+    "heritage_label": "strong",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "berguen",
+    "name": "Bergün",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "bern",
+    "name": "Bern",
+    "local_unesco": true,
+    "heritage_label": "strong",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "biel-bienne",
+    "name": "Biel/Bienne",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "blonay-saint-legier",
+    "name": "Blonay - Saint-Légier",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "bourg-en-lavaux",
+    "name": "Bourg-en-Lavaux",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "bregaglia",
+    "name": "Bregaglia",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "breil-brigels",
+    "name": "Breil/Brigels",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "brienz",
+    "name": "Brienz",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "brig-glis",
+    "name": "Brig-Glis",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "buchs",
+    "name": "Buchs",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "bulle",
+    "name": "Bulle",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "bullet",
+    "name": "Bullet",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "burgdorf",
+    "name": "Burgdorf",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "celerina-schlarigna",
+    "name": "Celerina/Schlarigna",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "champery",
+    "name": "Champéry",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "chateau-doex",
+    "name": "Château-d'Oex",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "chiasso",
+    "name": "Chiasso",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "chur",
+    "name": "Chur",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "clos-du-doubs",
+    "name": "Clos du Doubs",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "collina-doro",
+    "name": "Collina d'Oro",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "crans-montana",
+    "name": "Crans-Montana",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "davos",
+    "name": "Davos",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "delemont",
+    "name": "Delémont",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "diemtigen",
+    "name": "Diemtigen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "duebendorf",
+    "name": "Dübendorf",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "egerkingen",
+    "name": "Egerkingen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "einsiedeln",
+    "name": "Einsiedeln",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "emmen",
+    "name": "Emmen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "emmetten",
+    "name": "Emmetten",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "engelberg",
+    "name": "Engelberg",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "eschenbach",
+    "name": "Eschenbach",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "evolene",
+    "name": "Evolène",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "feusisberg",
+    "name": "Feusisberg",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "flims",
+    "name": "Flims",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "flums",
+    "name": "Flums",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "frauenfeld",
+    "name": "Frauenfeld",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "freienbach",
+    "name": "Freienbach",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "fribourg",
+    "name": "Fribourg",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "gais",
+    "name": "Gais",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "geneve",
+    "name": "Genève",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "glarus-nord",
+    "name": "Glarus Nord",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "glarus-sued",
+    "name": "Glarus Süd",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "goms",
+    "name": "Goms",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "gonten",
+    "name": "Gonten",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "grenchen",
+    "name": "Grenchen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "grindelwald",
+    "name": "Grindelwald",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "gruyeres",
+    "name": "Gruyères",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "guarda",
+    "name": "Guarda",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "gurtnellen",
+    "name": "Gurtnellen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "hasliberg",
+    "name": "Hasliberg",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "haut-intyamon",
+    "name": "Haut-Intyamon",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "heiden",
+    "name": "Heiden",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "herzogenbuchsee",
+    "name": "Herzogenbuchsee",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "horgen",
+    "name": "Horgen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "hundwil",
+    "name": "Hundwil",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "ilanz-glion",
+    "name": "Ilanz/Glion",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "ingenbohl",
+    "name": "Ingenbohl",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "innertkirchen",
+    "name": "Innertkirchen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "interlaken",
+    "name": "Interlaken",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "kandersteg",
+    "name": "Kandersteg",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "klosters",
+    "name": "Klosters",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "kloten",
+    "name": "Kloten",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "koeniz",
+    "name": "Köniz",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "kreuzlingen",
+    "name": "Kreuzlingen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "kriens",
+    "name": "Kriens",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "kuessnacht",
+    "name": "Küssnacht",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "la-chaux-de-fonds",
+    "name": "La Chaux-de-Fonds",
+    "local_unesco": true,
+    "heritage_label": "strong",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "la-grande-beroche",
+    "name": "La Grande Béroche",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "laax",
+    "name": "Laax",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "lancy",
+    "name": "Lancy",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "langenthal",
+    "name": "Langenthal",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "langnau-im-emmental",
+    "name": "Langnau im Emmental",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "latena",
+    "name": "Laténa",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "lausanne",
+    "name": "Lausanne",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "lauterbrunnen",
+    "name": "Lauterbrunnen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "le-chenit",
+    "name": "Le Chenit",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "lenk",
+    "name": "Lenk",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "lenzburg",
+    "name": "Lenzburg",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "leukerbad",
+    "name": "Leukerbad",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "leysin",
+    "name": "Leysin",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "liestal",
+    "name": "Liestal",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "locarno",
+    "name": "Locarno",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "lugano",
+    "name": "Lugano",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "lumnezia",
+    "name": "Lumnezia",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "luzern",
+    "name": "Luzern",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "maienfeld",
+    "name": "Maienfeld",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "martigny",
+    "name": "Martigny",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "matten-bei-interlaken",
+    "name": "Matten bei Interlaken",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "meggen",
+    "name": "Meggen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "meiringen",
+    "name": "Meiringen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "mendrisio",
+    "name": "Mendrisio",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "meyrin",
+    "name": "Meyrin",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "monteceneri",
+    "name": "Monteceneri",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "montreux",
+    "name": "Montreux",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "morges",
+    "name": "Morges",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "morschach",
+    "name": "Morschach",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "moutier-be",
+    "name": "Moutier (BE)",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "muralto",
+    "name": "Muralto",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "murten",
+    "name": "Murten",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "neckertal",
+    "name": "Neckertal",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "nendaz",
+    "name": "Nendaz",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "neuchatel",
+    "name": "Neuchâtel",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "nyon",
+    "name": "Nyon",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "ollon",
+    "name": "Ollon",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "olten",
+    "name": "Olten",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "opfikon",
+    "name": "Opfikon",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "ormont-dessus",
+    "name": "Ormont-Dessus",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "orsieres",
+    "name": "Orsières",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "paradiso",
+    "name": "Paradiso",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "plaffeien",
+    "name": "Plaffeien",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "pontresina",
+    "name": "Pontresina",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "porrentruy",
+    "name": "Porrentruy",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "poschiavo",
+    "name": "Poschiavo",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "pratteln",
+    "name": "Pratteln",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "quarten",
+    "name": "Quarten",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "rapperswil-jona",
+    "name": "Rapperswil-Jona",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "reichenbach-im-kandertal",
+    "name": "Reichenbach im Kandertal",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "rheinfelden",
+    "name": "Rheinfelden",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "rheinwald",
+    "name": "Rheinwald",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "rorschacherberg",
+    "name": "Rorschacherberg",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "saanen",
+    "name": "Saanen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "saas-fee",
+    "name": "Saas-Fee",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "saas-grund",
+    "name": "Saas-Grund",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "sachseln",
+    "name": "Sachseln",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "saignelegier",
+    "name": "Saignelégier",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "saint-maurice",
+    "name": "Saint-Maurice",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "samedan",
+    "name": "Samedan",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "samnaun",
+    "name": "Samnaun",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "sarnen",
+    "name": "Sarnen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "schaffhausen",
+    "name": "Schaffhausen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "schangnau",
+    "name": "Schangnau",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "schwyz",
+    "name": "Schwyz",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "scuol",
+    "name": "Scuol",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "sempach",
+    "name": "Sempach",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "sierre",
+    "name": "Sierre",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "sigriswil",
+    "name": "Sigriswil",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "sion",
+    "name": "Sion",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "soglio",
+    "name": "Soglio",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "solothurn",
+    "name": "Solothurn",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "spiez",
+    "name": "Spiez",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "spluegen",
+    "name": "Splügen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "st-gallen",
+    "name": "St. Gallen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "st-moritz",
+    "name": "St. Moritz",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "sursee",
+    "name": "Sursee",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "surses",
+    "name": "Surses",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "teufen",
+    "name": "Teufen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "thun",
+    "name": "Thun",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "tschiertschen",
+    "name": "Tschiertschen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "tujetsch",
+    "name": "Tujetsch",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "unteraegeri",
+    "name": "Unterägeri",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "unterseen",
+    "name": "Unterseen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "uster",
+    "name": "Uster",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "uzwil",
+    "name": "Uzwil",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "val-de-bagnes",
+    "name": "Val de Bagnes",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "val-muestair",
+    "name": "Val Müstair",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "vals",
+    "name": "Vals",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "vaz-obervaz",
+    "name": "Vaz/Obervaz",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "vernier",
+    "name": "Vernier",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "vevey",
+    "name": "Vevey",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "viano",
+    "name": "Viano",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "visp",
+    "name": "Visp",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "vitznau",
+    "name": "Vitznau",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "waedenswil",
+    "name": "Wädenswil",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "walenstadt",
+    "name": "Walenstadt",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "weggis",
+    "name": "Weggis",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "wil",
+    "name": "Wil",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "wilderswil",
+    "name": "Wilderswil",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "wildhaus-alt-st-johann",
+    "name": "Wildhaus-Alt St. Johann",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "winterthur",
+    "name": "Winterthur",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "yverdon-les-bains",
+    "name": "Yverdon-les-Bains",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "zermatt",
+    "name": "Zermatt",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "zernez",
+    "name": "Zernez",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "zofingen",
+    "name": "Zofingen",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "zuerich",
+    "name": "Zürich",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "zug",
+    "name": "Zug",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  },
+  {
+    "slug": "zuoz",
+    "name": "Zuoz",
+    "local_unesco": false,
+    "heritage_label": "unknown",
+    "isos_score_placeholder": null
+  }
+]

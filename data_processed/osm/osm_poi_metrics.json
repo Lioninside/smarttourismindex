@@ -1,0 +1,1546 @@
+[
+  {
+    "slug": "aarau",
+    "name": "Aarau",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 19,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "adelboden",
+    "name": "Adelboden",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 15,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "aeschi-bei-spiez",
+    "name": "Aeschi bei Spiez",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 5,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "altstaetten",
+    "name": "Altstätten",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 18,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "amden",
+    "name": "Amden",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 2,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "andermatt",
+    "name": "Andermatt",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 19,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "anniviers",
+    "name": "Anniviers",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 2,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "appenzell",
+    "name": "Appenzell",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 3,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "arbon",
+    "name": "Arbon",
+    "museum_count_2km": 4,
+    "restaurant_count_2km": 21,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "arosa",
+    "name": "Arosa",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 26,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "ascona",
+    "name": "Ascona",
+    "museum_count_2km": 6,
+    "restaurant_count_2km": 44,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "bad-ragaz",
+    "name": "Bad Ragaz",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 18,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "baden",
+    "name": "Baden",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 51,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "basel",
+    "name": "Basel",
+    "museum_count_2km": 19,
+    "restaurant_count_2km": 238,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "beatenberg",
+    "name": "Beatenberg",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 2,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "beckenried",
+    "name": "Beckenried",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 11,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "bellinzona",
+    "name": "Bellinzona",
+    "museum_count_2km": 6,
+    "restaurant_count_2km": 36,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "berguen",
+    "name": "Bergün",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 6,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "bern",
+    "name": "Bern",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 19,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "biel-bienne",
+    "name": "Biel/Bienne",
+    "museum_count_2km": 8,
+    "restaurant_count_2km": 85,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "blonay-saint-legier",
+    "name": "Blonay - Saint-Légier",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 5,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "bourg-en-lavaux",
+    "name": "Bourg-en-Lavaux",
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 7,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "bregaglia",
+    "name": "Bregaglia",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 1,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "breil-brigels",
+    "name": "Breil/Brigels",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 5,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "brienz",
+    "name": "Brienz",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 1,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "brig-glis",
+    "name": "Brig-Glis",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 1,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "buchs",
+    "name": "Buchs",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 2,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "bulle",
+    "name": "Bulle",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 30,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "bullet",
+    "name": "Bullet",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 4,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "burgdorf",
+    "name": "Burgdorf",
+    "museum_count_2km": 5,
+    "restaurant_count_2km": 30,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "celerina-schlarigna",
+    "name": "Celerina/Schlarigna",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 4,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "champery",
+    "name": "Champéry",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 10,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "chateau-doex",
+    "name": "Château-d'Oex",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 5,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "chiasso",
+    "name": "Chiasso",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 21,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "chur",
+    "name": "Chur",
+    "museum_count_2km": 3,
+    "restaurant_count_2km": 60,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "clos-du-doubs",
+    "name": "Clos du Doubs",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 1,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "collina-doro",
+    "name": "Collina d'Oro",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 8,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "crans-montana",
+    "name": "Crans-Montana",
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 33,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "davos",
+    "name": "Davos",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 0,
+    "local_culture_presence": false,
+    "local_restaurant_presence": false
+  },
+  {
+    "slug": "delemont",
+    "name": "Delémont",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 29,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "diemtigen",
+    "name": "Diemtigen",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 1,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "duebendorf",
+    "name": "Dübendorf",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 26,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "egerkingen",
+    "name": "Egerkingen",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 8,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "einsiedeln",
+    "name": "Einsiedeln",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 37,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "emmen",
+    "name": "Emmen",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 11,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "emmetten",
+    "name": "Emmetten",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 5,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "engelberg",
+    "name": "Engelberg",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 10,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "eschenbach",
+    "name": "Eschenbach",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 5,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "evolene",
+    "name": "Evolène",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 7,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "feusisberg",
+    "name": "Feusisberg",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 8,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "flims",
+    "name": "Flims",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 21,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "flums",
+    "name": "Flums",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 5,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "frauenfeld",
+    "name": "Frauenfeld",
+    "museum_count_2km": 4,
+    "restaurant_count_2km": 44,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "freienbach",
+    "name": "Freienbach",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 4,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "fribourg",
+    "name": "Fribourg",
+    "museum_count_2km": 10,
+    "restaurant_count_2km": 91,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "gais",
+    "name": "Gais",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 5,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "geneve",
+    "name": "Genève",
+    "museum_count_2km": 8,
+    "restaurant_count_2km": 468,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "glarus-nord",
+    "name": "Glarus Nord",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 17,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "glarus-sued",
+    "name": "Glarus Süd",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 6,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "goms",
+    "name": "Goms",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 2,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "gonten",
+    "name": "Gonten",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 3,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "grenchen",
+    "name": "Grenchen",
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 17,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "grindelwald",
+    "name": "Grindelwald",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 18,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "gruyeres",
+    "name": "Gruyères",
+    "museum_count_2km": 3,
+    "restaurant_count_2km": 12,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "guarda",
+    "name": "Guarda",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 3,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "gurtnellen",
+    "name": "Gurtnellen",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 0,
+    "local_culture_presence": false,
+    "local_restaurant_presence": false
+  },
+  {
+    "slug": "hasliberg",
+    "name": "Hasliberg",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 1,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "haut-intyamon",
+    "name": "Haut-Intyamon",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 0,
+    "local_culture_presence": false,
+    "local_restaurant_presence": false
+  },
+  {
+    "slug": "heiden",
+    "name": "Heiden",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 9,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "herzogenbuchsee",
+    "name": "Herzogenbuchsee",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 11,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "horgen",
+    "name": "Horgen",
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 22,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "hundwil",
+    "name": "Hundwil",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 2,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "ilanz-glion",
+    "name": "Ilanz/Glion",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 0,
+    "local_culture_presence": false,
+    "local_restaurant_presence": false
+  },
+  {
+    "slug": "ingenbohl",
+    "name": "Ingenbohl",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 24,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "innertkirchen",
+    "name": "Innertkirchen",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 0,
+    "local_culture_presence": false,
+    "local_restaurant_presence": false
+  },
+  {
+    "slug": "interlaken",
+    "name": "Interlaken",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 68,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "kandersteg",
+    "name": "Kandersteg",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 11,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "klosters",
+    "name": "Klosters",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 8,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "kloten",
+    "name": "Kloten",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 19,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "koeniz",
+    "name": "Köniz",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 25,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "kreuzlingen",
+    "name": "Kreuzlingen",
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 24,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "kriens",
+    "name": "Kriens",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 17,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "kuessnacht",
+    "name": "Küssnacht",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 16,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "la-chaux-de-fonds",
+    "name": "La Chaux-de-Fonds",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 64,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "la-grande-beroche",
+    "name": "La Grande Béroche",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 3,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "laax",
+    "name": "Laax",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 10,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "lancy",
+    "name": "Lancy",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 57,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "langenthal",
+    "name": "Langenthal",
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 38,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "langnau-im-emmental",
+    "name": "Langnau im Emmental",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 8,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "latena",
+    "name": "Laténa",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 1,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "lausanne",
+    "name": "Lausanne",
+    "museum_count_2km": 10,
+    "restaurant_count_2km": 238,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "lauterbrunnen",
+    "name": "Lauterbrunnen",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 3,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "le-chenit",
+    "name": "Le Chenit",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 4,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "lenk",
+    "name": "Lenk",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 8,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "lenzburg",
+    "name": "Lenzburg",
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 19,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "leukerbad",
+    "name": "Leukerbad",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 21,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "leysin",
+    "name": "Leysin",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 15,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "liestal",
+    "name": "Liestal",
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 27,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "locarno",
+    "name": "Locarno",
+    "museum_count_2km": 6,
+    "restaurant_count_2km": 63,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "lugano",
+    "name": "Lugano",
+    "museum_count_2km": 3,
+    "restaurant_count_2km": 112,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "lumnezia",
+    "name": "Lumnezia",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 0,
+    "local_culture_presence": false,
+    "local_restaurant_presence": false
+  },
+  {
+    "slug": "luzern",
+    "name": "Luzern",
+    "museum_count_2km": 7,
+    "restaurant_count_2km": 182,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "maienfeld",
+    "name": "Maienfeld",
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 3,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "martigny",
+    "name": "Martigny",
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 40,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "matten-bei-interlaken",
+    "name": "Matten bei Interlaken",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 62,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "meggen",
+    "name": "Meggen",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 8,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "meiringen",
+    "name": "Meiringen",
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 12,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "mendrisio",
+    "name": "Mendrisio",
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 20,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "meyrin",
+    "name": "Meyrin",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 29,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "monteceneri",
+    "name": "Monteceneri",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 5,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "montreux",
+    "name": "Montreux",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 38,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "morges",
+    "name": "Morges",
+    "museum_count_2km": 8,
+    "restaurant_count_2km": 54,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "morschach",
+    "name": "Morschach",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 6,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "moutier-be",
+    "name": "Moutier (BE)",
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 13,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "muralto",
+    "name": "Muralto",
+    "museum_count_2km": 8,
+    "restaurant_count_2km": 68,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "murten",
+    "name": "Murten",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 28,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "neckertal",
+    "name": "Neckertal",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 0,
+    "local_culture_presence": false,
+    "local_restaurant_presence": false
+  },
+  {
+    "slug": "nendaz",
+    "name": "Nendaz",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 6,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "neuchatel",
+    "name": "Neuchâtel",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 68,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "nyon",
+    "name": "Nyon",
+    "museum_count_2km": 3,
+    "restaurant_count_2km": 43,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "ollon",
+    "name": "Ollon",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 2,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "olten",
+    "name": "Olten",
+    "museum_count_2km": 4,
+    "restaurant_count_2km": 49,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "opfikon",
+    "name": "Opfikon",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 14,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "ormont-dessus",
+    "name": "Ormont-Dessus",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 1,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "orsieres",
+    "name": "Orsières",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 4,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "paradiso",
+    "name": "Paradiso",
+    "museum_count_2km": 5,
+    "restaurant_count_2km": 26,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "plaffeien",
+    "name": "Plaffeien",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 0,
+    "local_culture_presence": false,
+    "local_restaurant_presence": false
+  },
+  {
+    "slug": "pontresina",
+    "name": "Pontresina",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 15,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "porrentruy",
+    "name": "Porrentruy",
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 15,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "poschiavo",
+    "name": "Poschiavo",
+    "museum_count_2km": 3,
+    "restaurant_count_2km": 10,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "pratteln",
+    "name": "Pratteln",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 15,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "quarten",
+    "name": "Quarten",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 3,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "rapperswil-jona",
+    "name": "Rapperswil-Jona",
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 44,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "reichenbach-im-kandertal",
+    "name": "Reichenbach im Kandertal",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 3,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "rheinfelden",
+    "name": "Rheinfelden",
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 18,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "rheinwald",
+    "name": "Rheinwald",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 5,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "rorschacherberg",
+    "name": "Rorschacherberg",
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 24,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "saanen",
+    "name": "Saanen",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 4,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "saas-fee",
+    "name": "Saas-Fee",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 22,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "saas-grund",
+    "name": "Saas-Grund",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 5,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "sachseln",
+    "name": "Sachseln",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 4,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "saignelegier",
+    "name": "Saignelégier",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 3,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "saint-maurice",
+    "name": "Saint-Maurice",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 8,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "samedan",
+    "name": "Samedan",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 10,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "samnaun",
+    "name": "Samnaun",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 5,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "sarnen",
+    "name": "Sarnen",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 17,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "schaffhausen",
+    "name": "Schaffhausen",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 8,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "schangnau",
+    "name": "Schangnau",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 1,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "schwyz",
+    "name": "Schwyz",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 13,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "scuol",
+    "name": "Scuol",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 15,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "sempach",
+    "name": "Sempach",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 3,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "sierre",
+    "name": "Sierre",
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 32,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "sigriswil",
+    "name": "Sigriswil",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 3,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "sion",
+    "name": "Sion",
+    "museum_count_2km": 7,
+    "restaurant_count_2km": 91,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "soglio",
+    "name": "Soglio",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 1,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "solothurn",
+    "name": "Solothurn",
+    "museum_count_2km": 7,
+    "restaurant_count_2km": 71,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "spiez",
+    "name": "Spiez",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 16,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "spluegen",
+    "name": "Splügen",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 5,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "st-gallen",
+    "name": "St. Gallen",
+    "museum_count_2km": 9,
+    "restaurant_count_2km": 134,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "st-moritz",
+    "name": "St. Moritz",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 17,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "sursee",
+    "name": "Sursee",
+    "museum_count_2km": 3,
+    "restaurant_count_2km": 32,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "surses",
+    "name": "Surses",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 3,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "teufen",
+    "name": "Teufen",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 6,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "thun",
+    "name": "Thun",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 11,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "tschiertschen",
+    "name": "Tschiertschen",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 4,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "tujetsch",
+    "name": "Tujetsch",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 2,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "unteraegeri",
+    "name": "Unterägeri",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 6,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "unterseen",
+    "name": "Unterseen",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 53,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "uster",
+    "name": "Uster",
+    "museum_count_2km": 3,
+    "restaurant_count_2km": 41,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "uzwil",
+    "name": "Uzwil",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 15,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "val-de-bagnes",
+    "name": "Val de Bagnes",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 1,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "val-muestair",
+    "name": "Val Müstair",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 0,
+    "local_culture_presence": false,
+    "local_restaurant_presence": false
+  },
+  {
+    "slug": "vals",
+    "name": "Vals",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 12,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "vaz-obervaz",
+    "name": "Vaz/Obervaz",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 2,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "vernier",
+    "name": "Vernier",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 9,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "vevey",
+    "name": "Vevey",
+    "museum_count_2km": 5,
+    "restaurant_count_2km": 75,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "viano",
+    "name": "Viano",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 1,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "visp",
+    "name": "Visp",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 16,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "vitznau",
+    "name": "Vitznau",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 7,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "waedenswil",
+    "name": "Wädenswil",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 21,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "walenstadt",
+    "name": "Walenstadt",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 8,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "weggis",
+    "name": "Weggis",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 6,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "wil",
+    "name": "Wil",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 3,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "wilderswil",
+    "name": "Wilderswil",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 7,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "wildhaus-alt-st-johann",
+    "name": "Wildhaus-Alt St. Johann",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 1,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "winterthur",
+    "name": "Winterthur",
+    "museum_count_2km": 12,
+    "restaurant_count_2km": 113,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "yverdon-les-bains",
+    "name": "Yverdon-les-Bains",
+    "museum_count_2km": 4,
+    "restaurant_count_2km": 46,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "zermatt",
+    "name": "Zermatt",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 69,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "zernez",
+    "name": "Zernez",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 8,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "zofingen",
+    "name": "Zofingen",
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 28,
+    "local_culture_presence": false,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "zuerich",
+    "name": "Zürich",
+    "museum_count_2km": 18,
+    "restaurant_count_2km": 440,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "zug",
+    "name": "Zug",
+    "museum_count_2km": 4,
+    "restaurant_count_2km": 63,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  },
+  {
+    "slug": "zuoz",
+    "name": "Zuoz",
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 7,
+    "local_culture_presence": true,
+    "local_restaurant_presence": true
+  }
+]

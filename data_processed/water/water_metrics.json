@@ -1,0 +1,1739 @@
+[
+  {
+    "slug": "aarau",
+    "name": "Aarau",
+    "water_features_2km": 293,
+    "water_features_10km": 4989,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "adelboden",
+    "name": "Adelboden",
+    "water_features_2km": 182,
+    "water_features_10km": 5882,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "aeschi-bei-spiez",
+    "name": "Aeschi bei Spiez",
+    "water_features_2km": 273,
+    "water_features_10km": 6070,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "altstaetten",
+    "name": "Altstätten",
+    "water_features_2km": 290,
+    "water_features_10km": 7338,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "amden",
+    "name": "Amden",
+    "water_features_2km": 348,
+    "water_features_10km": 7221,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "andermatt",
+    "name": "Andermatt",
+    "water_features_2km": 474,
+    "water_features_10km": 7601,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "anniviers",
+    "name": "Anniviers",
+    "water_features_2km": 236,
+    "water_features_10km": 6215,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "appenzell",
+    "name": "Appenzell",
+    "water_features_2km": 402,
+    "water_features_10km": 9799,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "arbon",
+    "name": "Arbon",
+    "water_features_2km": 112,
+    "water_features_10km": 4080,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "arosa",
+    "name": "Arosa",
+    "water_features_2km": 326,
+    "water_features_10km": 7455,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "ascona",
+    "name": "Ascona",
+    "water_features_2km": 109,
+    "water_features_10km": 7135,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "bad-ragaz",
+    "name": "Bad Ragaz",
+    "water_features_2km": 195,
+    "water_features_10km": 7095,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "baden",
+    "name": "Baden",
+    "water_features_2km": 233,
+    "water_features_10km": 4126,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "basel",
+    "name": "Basel",
+    "water_features_2km": 117,
+    "water_features_10km": 1616,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "beatenberg",
+    "name": "Beatenberg",
+    "water_features_2km": 233,
+    "water_features_10km": 6918,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "beckenried",
+    "name": "Beckenried",
+    "water_features_2km": 494,
+    "water_features_10km": 6574,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "bellinzona",
+    "name": "Bellinzona",
+    "water_features_2km": 295,
+    "water_features_10km": 7223,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "berguen",
+    "name": "Bergün",
+    "water_features_2km": 132,
+    "water_features_10km": 5430,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "bern",
+    "name": "Bern",
+    "water_features_2km": 46,
+    "water_features_10km": 2950,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "biel-bienne",
+    "name": "Biel/Bienne",
+    "water_features_2km": 91,
+    "water_features_10km": 2112,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "blonay-saint-legier",
+    "name": "Blonay - Saint-Légier",
+    "water_features_2km": 297,
+    "water_features_10km": 4909,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "bourg-en-lavaux",
+    "name": "Bourg-en-Lavaux",
+    "water_features_2km": 307,
+    "water_features_10km": 2994,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "bregaglia",
+    "name": "Bregaglia",
+    "water_features_2km": 282,
+    "water_features_10km": 3818,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "breil-brigels",
+    "name": "Breil/Brigels",
+    "water_features_2km": 202,
+    "water_features_10km": 5196,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "brienz",
+    "name": "Brienz",
+    "water_features_2km": 240,
+    "water_features_10km": 7171,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "brig-glis",
+    "name": "Brig-Glis",
+    "water_features_2km": 650,
+    "water_features_10km": 7645,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "buchs",
+    "name": "Buchs",
+    "water_features_2km": 185,
+    "water_features_10km": 2954,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "bulle",
+    "name": "Bulle",
+    "water_features_2km": 86,
+    "water_features_10km": 5058,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "bullet",
+    "name": "Bullet",
+    "water_features_2km": 28,
+    "water_features_10km": 1167,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "burgdorf",
+    "name": "Burgdorf",
+    "water_features_2km": 197,
+    "water_features_10km": 4008,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "celerina-schlarigna",
+    "name": "Celerina/Schlarigna",
+    "water_features_2km": 595,
+    "water_features_10km": 6211,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "champery",
+    "name": "Champéry",
+    "water_features_2km": 414,
+    "water_features_10km": 5838,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "chateau-doex",
+    "name": "Château-d'Oex",
+    "water_features_2km": 185,
+    "water_features_10km": 6802,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "chiasso",
+    "name": "Chiasso",
+    "water_features_2km": 173,
+    "water_features_10km": 2176,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "chur",
+    "name": "Chur",
+    "water_features_2km": 139,
+    "water_features_10km": 4771,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "clos-du-doubs",
+    "name": "Clos du Doubs",
+    "water_features_2km": 127,
+    "water_features_10km": 2171,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "collina-doro",
+    "name": "Collina d'Oro",
+    "water_features_2km": 228,
+    "water_features_10km": 4679,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "crans-montana",
+    "name": "Crans-Montana",
+    "water_features_2km": 393,
+    "water_features_10km": 6909,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "davos",
+    "name": "Davos",
+    "water_features_2km": 334,
+    "water_features_10km": 8463,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "delemont",
+    "name": "Delémont",
+    "water_features_2km": 174,
+    "water_features_10km": 2623,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "diemtigen",
+    "name": "Diemtigen",
+    "water_features_2km": 259,
+    "water_features_10km": 5341,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "duebendorf",
+    "name": "Dübendorf",
+    "water_features_2km": 193,
+    "water_features_10km": 4803,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "egerkingen",
+    "name": "Egerkingen",
+    "water_features_2km": 84,
+    "water_features_10km": 4043,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "einsiedeln",
+    "name": "Einsiedeln",
+    "water_features_2km": 304,
+    "water_features_10km": 10385,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "emmen",
+    "name": "Emmen",
+    "water_features_2km": 178,
+    "water_features_10km": 6606,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "emmetten",
+    "name": "Emmetten",
+    "water_features_2km": 330,
+    "water_features_10km": 7154,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "engelberg",
+    "name": "Engelberg",
+    "water_features_2km": 290,
+    "water_features_10km": 8131,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "eschenbach",
+    "name": "Eschenbach",
+    "water_features_2km": 321,
+    "water_features_10km": 8732,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "evolene",
+    "name": "Evolène",
+    "water_features_2km": 212,
+    "water_features_10km": 4459,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "feusisberg",
+    "name": "Feusisberg",
+    "water_features_2km": 295,
+    "water_features_10km": 8340,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "flims",
+    "name": "Flims",
+    "water_features_2km": 175,
+    "water_features_10km": 6330,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "flums",
+    "name": "Flums",
+    "water_features_2km": 314,
+    "water_features_10km": 6474,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "frauenfeld",
+    "name": "Frauenfeld",
+    "water_features_2km": 168,
+    "water_features_10km": 4727,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "freienbach",
+    "name": "Freienbach",
+    "water_features_2km": 156,
+    "water_features_10km": 8075,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "fribourg",
+    "name": "Fribourg",
+    "water_features_2km": 113,
+    "water_features_10km": 2567,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "gais",
+    "name": "Gais",
+    "water_features_2km": 471,
+    "water_features_10km": 9367,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "geneve",
+    "name": "Genève",
+    "water_features_2km": 49,
+    "water_features_10km": 1526,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "glarus-nord",
+    "name": "Glarus Nord",
+    "water_features_2km": 434,
+    "water_features_10km": 6926,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "glarus-sued",
+    "name": "Glarus Süd",
+    "water_features_2km": 171,
+    "water_features_10km": 6027,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "goms",
+    "name": "Goms",
+    "water_features_2km": 117,
+    "water_features_10km": 4122,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "gonten",
+    "name": "Gonten",
+    "water_features_2km": 500,
+    "water_features_10km": 9443,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "grenchen",
+    "name": "Grenchen",
+    "water_features_2km": 114,
+    "water_features_10km": 3032,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "grindelwald",
+    "name": "Grindelwald",
+    "water_features_2km": 230,
+    "water_features_10km": 4654,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "gruyeres",
+    "name": "Gruyères",
+    "water_features_2km": 209,
+    "water_features_10km": 5807,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "guarda",
+    "name": "Guarda",
+    "water_features_2km": 149,
+    "water_features_10km": 5897,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "gurtnellen",
+    "name": "Gurtnellen",
+    "water_features_2km": 324,
+    "water_features_10km": 5665,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "hasliberg",
+    "name": "Hasliberg",
+    "water_features_2km": 215,
+    "water_features_10km": 6652,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "haut-intyamon",
+    "name": "Haut-Intyamon",
+    "water_features_2km": 166,
+    "water_features_10km": 7133,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "heiden",
+    "name": "Heiden",
+    "water_features_2km": 385,
+    "water_features_10km": 6671,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "herzogenbuchsee",
+    "name": "Herzogenbuchsee",
+    "water_features_2km": 127,
+    "water_features_10km": 4108,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "horgen",
+    "name": "Horgen",
+    "water_features_2km": 313,
+    "water_features_10km": 7732,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "hundwil",
+    "name": "Hundwil",
+    "water_features_2km": 288,
+    "water_features_10km": 9503,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "ilanz-glion",
+    "name": "Ilanz/Glion",
+    "water_features_2km": 209,
+    "water_features_10km": 5377,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "ingenbohl",
+    "name": "Ingenbohl",
+    "water_features_2km": 190,
+    "water_features_10km": 7440,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "innertkirchen",
+    "name": "Innertkirchen",
+    "water_features_2km": 192,
+    "water_features_10km": 5829,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "interlaken",
+    "name": "Interlaken",
+    "water_features_2km": 136,
+    "water_features_10km": 6370,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "kandersteg",
+    "name": "Kandersteg",
+    "water_features_2km": 263,
+    "water_features_10km": 5351,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "klosters",
+    "name": "Klosters",
+    "water_features_2km": 320,
+    "water_features_10km": 6516,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "kloten",
+    "name": "Kloten",
+    "water_features_2km": 174,
+    "water_features_10km": 5083,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "koeniz",
+    "name": "Köniz",
+    "water_features_2km": 108,
+    "water_features_10km": 3638,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "kreuzlingen",
+    "name": "Kreuzlingen",
+    "water_features_2km": 312,
+    "water_features_10km": 3455,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "kriens",
+    "name": "Kriens",
+    "water_features_2km": 387,
+    "water_features_10km": 6810,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "kuessnacht",
+    "name": "Küssnacht",
+    "water_features_2km": 243,
+    "water_features_10km": 6308,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "la-chaux-de-fonds",
+    "name": "La Chaux-de-Fonds",
+    "water_features_2km": 16,
+    "water_features_10km": 703,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "la-grande-beroche",
+    "name": "La Grande Béroche",
+    "water_features_2km": 60,
+    "water_features_10km": 1500,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "laax",
+    "name": "Laax",
+    "water_features_2km": 102,
+    "water_features_10km": 5526,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "lancy",
+    "name": "Lancy",
+    "water_features_2km": 91,
+    "water_features_10km": 1375,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "langenthal",
+    "name": "Langenthal",
+    "water_features_2km": 269,
+    "water_features_10km": 4333,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "langnau-im-emmental",
+    "name": "Langnau im Emmental",
+    "water_features_2km": 217,
+    "water_features_10km": 6658,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "latena",
+    "name": "Laténa",
+    "water_features_2km": 145,
+    "water_features_10km": 2053,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "lausanne",
+    "name": "Lausanne",
+    "water_features_2km": 57,
+    "water_features_10km": 2558,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "lauterbrunnen",
+    "name": "Lauterbrunnen",
+    "water_features_2km": 368,
+    "water_features_10km": 6647,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "le-chenit",
+    "name": "Le Chenit",
+    "water_features_2km": 106,
+    "water_features_10km": 645,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "lenk",
+    "name": "Lenk",
+    "water_features_2km": 227,
+    "water_features_10km": 6160,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "lenzburg",
+    "name": "Lenzburg",
+    "water_features_2km": 195,
+    "water_features_10km": 4672,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "leukerbad",
+    "name": "Leukerbad",
+    "water_features_2km": 198,
+    "water_features_10km": 4672,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "leysin",
+    "name": "Leysin",
+    "water_features_2km": 104,
+    "water_features_10km": 6913,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "liestal",
+    "name": "Liestal",
+    "water_features_2km": 97,
+    "water_features_10km": 3135,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "locarno",
+    "name": "Locarno",
+    "water_features_2km": 233,
+    "water_features_10km": 7566,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "lugano",
+    "name": "Lugano",
+    "water_features_2km": 122,
+    "water_features_10km": 5867,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "lumnezia",
+    "name": "Lumnezia",
+    "water_features_2km": 207,
+    "water_features_10km": 5202,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "luzern",
+    "name": "Luzern",
+    "water_features_2km": 167,
+    "water_features_10km": 6800,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "maienfeld",
+    "name": "Maienfeld",
+    "water_features_2km": 102,
+    "water_features_10km": 6923,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "martigny",
+    "name": "Martigny",
+    "water_features_2km": 366,
+    "water_features_10km": 4320,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "matten-bei-interlaken",
+    "name": "Matten bei Interlaken",
+    "water_features_2km": 166,
+    "water_features_10km": 6551,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "meggen",
+    "name": "Meggen",
+    "water_features_2km": 298,
+    "water_features_10km": 5746,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "meiringen",
+    "name": "Meiringen",
+    "water_features_2km": 330,
+    "water_features_10km": 6395,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "mendrisio",
+    "name": "Mendrisio",
+    "water_features_2km": 206,
+    "water_features_10km": 3071,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "meyrin",
+    "name": "Meyrin",
+    "water_features_2km": 36,
+    "water_features_10km": 1576,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "monteceneri",
+    "name": "Monteceneri",
+    "water_features_2km": 422,
+    "water_features_10km": 8227,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "montreux",
+    "name": "Montreux",
+    "water_features_2km": 142,
+    "water_features_10km": 5165,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "morges",
+    "name": "Morges",
+    "water_features_2km": 41,
+    "water_features_10km": 1488,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "morschach",
+    "name": "Morschach",
+    "water_features_2km": 182,
+    "water_features_10km": 7234,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "moutier-be",
+    "name": "Moutier (BE)",
+    "water_features_2km": 126,
+    "water_features_10km": 2816,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "muralto",
+    "name": "Muralto",
+    "water_features_2km": 342,
+    "water_features_10km": 7746,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "murten",
+    "name": "Murten",
+    "water_features_2km": 145,
+    "water_features_10km": 2771,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "neckertal",
+    "name": "Neckertal",
+    "water_features_2km": 436,
+    "water_features_10km": 7677,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "nendaz",
+    "name": "Nendaz",
+    "water_features_2km": 321,
+    "water_features_10km": 5896,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "neuchatel",
+    "name": "Neuchâtel",
+    "water_features_2km": 57,
+    "water_features_10km": 1802,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "nyon",
+    "name": "Nyon",
+    "water_features_2km": 88,
+    "water_features_10km": 2007,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "ollon",
+    "name": "Ollon",
+    "water_features_2km": 96,
+    "water_features_10km": 4970,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "olten",
+    "name": "Olten",
+    "water_features_2km": 86,
+    "water_features_10km": 4295,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "opfikon",
+    "name": "Opfikon",
+    "water_features_2km": 128,
+    "water_features_10km": 4960,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "ormont-dessus",
+    "name": "Ormont-Dessus",
+    "water_features_2km": 490,
+    "water_features_10km": 8493,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "orsieres",
+    "name": "Orsières",
+    "water_features_2km": 141,
+    "water_features_10km": 4320,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "paradiso",
+    "name": "Paradiso",
+    "water_features_2km": 177,
+    "water_features_10km": 5465,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "plaffeien",
+    "name": "Plaffeien",
+    "water_features_2km": 494,
+    "water_features_10km": 8519,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "pontresina",
+    "name": "Pontresina",
+    "water_features_2km": 289,
+    "water_features_10km": 5833,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "porrentruy",
+    "name": "Porrentruy",
+    "water_features_2km": 83,
+    "water_features_10km": 1464,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "poschiavo",
+    "name": "Poschiavo",
+    "water_features_2km": 280,
+    "water_features_10km": 2836,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "pratteln",
+    "name": "Pratteln",
+    "water_features_2km": 98,
+    "water_features_10km": 2431,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "quarten",
+    "name": "Quarten",
+    "water_features_2km": 293,
+    "water_features_10km": 5488,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "rapperswil-jona",
+    "name": "Rapperswil-Jona",
+    "water_features_2km": 152,
+    "water_features_10km": 8238,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "reichenbach-im-kandertal",
+    "name": "Reichenbach im Kandertal",
+    "water_features_2km": 320,
+    "water_features_10km": 6485,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "rheinfelden",
+    "name": "Rheinfelden",
+    "water_features_2km": 70,
+    "water_features_10km": 1721,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "rheinwald",
+    "name": "Rheinwald",
+    "water_features_2km": 331,
+    "water_features_10km": 5227,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "rorschacherberg",
+    "name": "Rorschacherberg",
+    "water_features_2km": 312,
+    "water_features_10km": 5914,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "saanen",
+    "name": "Saanen",
+    "water_features_2km": 240,
+    "water_features_10km": 6315,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "saas-fee",
+    "name": "Saas-Fee",
+    "water_features_2km": 248,
+    "water_features_10km": 2937,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "saas-grund",
+    "name": "Saas-Grund",
+    "water_features_2km": 168,
+    "water_features_10km": 3123,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "sachseln",
+    "name": "Sachseln",
+    "water_features_2km": 157,
+    "water_features_10km": 7009,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "saignelegier",
+    "name": "Saignelégier",
+    "water_features_2km": 27,
+    "water_features_10km": 543,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "saint-maurice",
+    "name": "Saint-Maurice",
+    "water_features_2km": 116,
+    "water_features_10km": 4822,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "samedan",
+    "name": "Samedan",
+    "water_features_2km": 495,
+    "water_features_10km": 5882,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "samnaun",
+    "name": "Samnaun",
+    "water_features_2km": 244,
+    "water_features_10km": 3037,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "sarnen",
+    "name": "Sarnen",
+    "water_features_2km": 264,
+    "water_features_10km": 6987,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "schaffhausen",
+    "name": "Schaffhausen",
+    "water_features_2km": 107,
+    "water_features_10km": 1585,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "schangnau",
+    "name": "Schangnau",
+    "water_features_2km": 409,
+    "water_features_10km": 9857,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "schwyz",
+    "name": "Schwyz",
+    "water_features_2km": 185,
+    "water_features_10km": 8149,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "scuol",
+    "name": "Scuol",
+    "water_features_2km": 263,
+    "water_features_10km": 6429,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "sempach",
+    "name": "Sempach",
+    "water_features_2km": 221,
+    "water_features_10km": 5959,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "sierre",
+    "name": "Sierre",
+    "water_features_2km": 287,
+    "water_features_10km": 6101,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "sigriswil",
+    "name": "Sigriswil",
+    "water_features_2km": 292,
+    "water_features_10km": 6764,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "sion",
+    "name": "Sion",
+    "water_features_2km": 225,
+    "water_features_10km": 7188,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "soglio",
+    "name": "Soglio",
+    "water_features_2km": 282,
+    "water_features_10km": 3818,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "solothurn",
+    "name": "Solothurn",
+    "water_features_2km": 119,
+    "water_features_10km": 4055,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "spiez",
+    "name": "Spiez",
+    "water_features_2km": 91,
+    "water_features_10km": 5686,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "spluegen",
+    "name": "Splügen",
+    "water_features_2km": 331,
+    "water_features_10km": 5227,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "st-gallen",
+    "name": "St. Gallen",
+    "water_features_2km": 475,
+    "water_features_10km": 8261,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "st-moritz",
+    "name": "St. Moritz",
+    "water_features_2km": 417,
+    "water_features_10km": 6457,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "sursee",
+    "name": "Sursee",
+    "water_features_2km": 445,
+    "water_features_10km": 5258,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "surses",
+    "name": "Surses",
+    "water_features_2km": 214,
+    "water_features_10km": 5614,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "teufen",
+    "name": "Teufen",
+    "water_features_2km": 337,
+    "water_features_10km": 9307,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "thun",
+    "name": "Thun",
+    "water_features_2km": 200,
+    "water_features_10km": 5410,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "tschiertschen",
+    "name": "Tschiertschen",
+    "water_features_2km": 194,
+    "water_features_10km": 6572,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "tujetsch",
+    "name": "Tujetsch",
+    "water_features_2km": 193,
+    "water_features_10km": 6650,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "unteraegeri",
+    "name": "Unterägeri",
+    "water_features_2km": 340,
+    "water_features_10km": 8350,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "unterseen",
+    "name": "Unterseen",
+    "water_features_2km": 287,
+    "water_features_10km": 6527,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "uster",
+    "name": "Uster",
+    "water_features_2km": 181,
+    "water_features_10km": 6032,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "uzwil",
+    "name": "Uzwil",
+    "water_features_2km": 159,
+    "water_features_10km": 5256,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "val-de-bagnes",
+    "name": "Val de Bagnes",
+    "water_features_2km": 100,
+    "water_features_10km": 5036,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "val-muestair",
+    "name": "Val Müstair",
+    "water_features_2km": 293,
+    "water_features_10km": 6952,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "vals",
+    "name": "Vals",
+    "water_features_2km": 233,
+    "water_features_10km": 5890,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "vaz-obervaz",
+    "name": "Vaz/Obervaz",
+    "water_features_2km": 238,
+    "water_features_10km": 5665,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "vernier",
+    "name": "Vernier",
+    "water_features_2km": 76,
+    "water_features_10km": 1499,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "vevey",
+    "name": "Vevey",
+    "water_features_2km": 115,
+    "water_features_10km": 3925,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "viano",
+    "name": "Viano",
+    "water_features_2km": 116,
+    "water_features_10km": 922,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "visp",
+    "name": "Visp",
+    "water_features_2km": 244,
+    "water_features_10km": 6986,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "vitznau",
+    "name": "Vitznau",
+    "water_features_2km": 359,
+    "water_features_10km": 6158,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "waedenswil",
+    "name": "Wädenswil",
+    "water_features_2km": 188,
+    "water_features_10km": 8178,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "walenstadt",
+    "name": "Walenstadt",
+    "water_features_2km": 221,
+    "water_features_10km": 6413,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "weggis",
+    "name": "Weggis",
+    "water_features_2km": 170,
+    "water_features_10km": 5857,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "wil",
+    "name": "Wil",
+    "water_features_2km": 304,
+    "water_features_10km": 8419,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "wilderswil",
+    "name": "Wilderswil",
+    "water_features_2km": 142,
+    "water_features_10km": 6753,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "wildhaus-alt-st-johann",
+    "name": "Wildhaus-Alt St. Johann",
+    "water_features_2km": 202,
+    "water_features_10km": 6884,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "winterthur",
+    "name": "Winterthur",
+    "water_features_2km": 298,
+    "water_features_10km": 5764,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "yverdon-les-bains",
+    "name": "Yverdon-les-Bains",
+    "water_features_2km": 123,
+    "water_features_10km": 2134,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "zermatt",
+    "name": "Zermatt",
+    "water_features_2km": 123,
+    "water_features_10km": 3031,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "zernez",
+    "name": "Zernez",
+    "water_features_2km": 160,
+    "water_features_10km": 6040,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "zofingen",
+    "name": "Zofingen",
+    "water_features_2km": 271,
+    "water_features_10km": 4970,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "zuerich",
+    "name": "Zürich",
+    "water_features_2km": 58,
+    "water_features_10km": 5373,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "zug",
+    "name": "Zug",
+    "water_features_2km": 280,
+    "water_features_10km": 6913,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  },
+  {
+    "slug": "zuoz",
+    "name": "Zuoz",
+    "water_features_2km": 147,
+    "water_features_10km": 5234,
+    "local_water": true,
+    "reachable_water": true,
+    "water_access_label": "local"
+  }
+]
