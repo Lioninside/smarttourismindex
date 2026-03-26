@@ -1,0 +1,35 @@
+{
+  "slug": "emmetten",
+  "name": "Emmetten",
+  "canton": "NW",
+  "score_total": 57.5,
+  "subscores": {
+    "base_quality": 35.0,
+    "access_value": 45.0,
+    "practical_comfort": 65,
+    "anti_overtourism": 100.0
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water"
+  ],
+  "metrics": {
+    "overnight_stays": 46089,
+    "domestic_share_overnights": 0.5536,
+    "summer_temp_avg": 15.11,
+    "anchor_stop_name": "Emmetten (Talstation)",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1124.13,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 5
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

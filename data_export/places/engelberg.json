@@ -1,0 +1,35 @@
+{
+  "slug": "engelberg",
+  "name": "Engelberg",
+  "canton": "OW",
+  "score_total": 48.25,
+  "subscores": {
+    "base_quality": 50.0,
+    "access_value": 45.0,
+    "practical_comfort": 60,
+    "anti_overtourism": 40
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water"
+  ],
+  "metrics": {
+    "overnight_stays": 328002,
+    "domestic_share_overnights": 0.4371,
+    "summer_temp_avg": 14.52,
+    "anchor_stop_name": "Engelberg, Gemeindehaus",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 789.2,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 10
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

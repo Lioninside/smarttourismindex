@@ -1,0 +1,36 @@
+{
+  "slug": "evolene",
+  "name": "Evolène",
+  "canton": "VS",
+  "score_total": 73.0,
+  "subscores": {
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 70,
+    "anti_overtourism": 100.0
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 39284,
+    "domestic_share_overnights": 0.7273,
+    "summer_temp_avg": 14.22,
+    "anchor_stop_name": "Evolène, Village",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 797.62,
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 7
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "haut-intyamon",
+  "name": "Haut-Intyamon",
+  "canton": "FR",
+  "score_total": 52.5,
+  "subscores": {
+    "base_quality": 35.0,
+    "access_value": 45.0,
+    "practical_comfort": 40,
+    "anti_overtourism": 100.0
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water"
+  ],
+  "metrics": {
+    "overnight_stays": 3440,
+    "domestic_share_overnights": 0.548,
+    "summer_temp_avg": 16.64,
+    "anchor_stop_name": "Albeuve",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 954.9,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 0
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

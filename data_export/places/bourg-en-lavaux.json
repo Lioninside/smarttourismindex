@@ -1,0 +1,36 @@
+{
+  "slug": "bourg-en-lavaux",
+  "name": "Bourg-en-Lavaux",
+  "canton": "VD",
+  "score_total": 72.0,
+  "subscores": {
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 65,
+    "anti_overtourism": 100.0
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 32325,
+    "domestic_share_overnights": 0.5823,
+    "summer_temp_avg": 18.45,
+    "anchor_stop_name": "Grandvaux, Genevrey",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 376.85,
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 7
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

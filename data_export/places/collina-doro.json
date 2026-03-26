@@ -1,0 +1,35 @@
+{
+  "slug": "collina-doro",
+  "name": "Collina d'Oro",
+  "canton": "TI",
+  "score_total": 59.25,
+  "subscores": {
+    "base_quality": 50.0,
+    "access_value": 45.0,
+    "practical_comfort": 55,
+    "anti_overtourism": 100.0
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water"
+  ],
+  "metrics": {
+    "overnight_stays": 13969,
+    "domestic_share_overnights": 0.3404,
+    "summer_temp_avg": 20.77,
+    "anchor_stop_name": "Carabietta, Paese",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 830.21,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 8
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}
