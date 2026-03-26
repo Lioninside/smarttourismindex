@@ -1,0 +1,35 @@
+{
+  "slug": "la-grande-beroche",
+  "name": "La Grande Béroche",
+  "canton": "NE",
+  "score_total": 54.5,
+  "subscores": {
+    "base_quality": 35.0,
+    "access_value": 45.0,
+    "practical_comfort": 50,
+    "anti_overtourism": 100.0
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water"
+  ],
+  "metrics": {
+    "overnight_stays": 10221,
+    "domestic_share_overnights": 0.6971,
+    "summer_temp_avg": 18.12,
+    "anchor_stop_name": "Gorgier, Crêt-de-la-Fin",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 483.88,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 3
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "le-chenit",
+  "name": "Le Chenit",
+  "canton": "VD",
+  "score_total": 68.25,
+  "subscores": {
+    "base_quality": 50.0,
+    "access_value": 65.0,
+    "practical_comfort": 65,
+    "anti_overtourism": 100.0
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 28101,
+    "domestic_share_overnights": 0.6376,
+    "summer_temp_avg": 15.27,
+    "anchor_stop_name": "Le Brassus, gare",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 306.76,
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 4
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

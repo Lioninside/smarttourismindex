@@ -1,0 +1,35 @@
+{
+  "slug": "neckertal",
+  "name": "Neckertal",
+  "canton": "SG",
+  "score_total": 54.5,
+  "subscores": {
+    "base_quality": 35.0,
+    "access_value": 45.0,
+    "practical_comfort": 50,
+    "anti_overtourism": 100.0
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water"
+  ],
+  "metrics": {
+    "overnight_stays": 20723,
+    "domestic_share_overnights": 0.5393,
+    "summer_temp_avg": 16.26,
+    "anchor_stop_name": "Hoffeld, Säge-Waldbach",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1247.43,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 0
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

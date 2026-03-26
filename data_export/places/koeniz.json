@@ -1,0 +1,36 @@
+{
+  "slug": "koeniz",
+  "name": "Köniz",
+  "canton": "BE",
+  "score_total": 72.0,
+  "subscores": {
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 65,
+    "anti_overtourism": 100.0
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 18358,
+    "domestic_share_overnights": 0.6009,
+    "summer_temp_avg": 17.7,
+    "anchor_stop_name": "Köniz, Zentrum",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1016.48,
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 25
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

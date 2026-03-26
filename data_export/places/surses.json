@@ -1,0 +1,35 @@
+{
+  "slug": "surses",
+  "name": "Surses",
+  "canton": "GR",
+  "score_total": 56.5,
+  "subscores": {
+    "base_quality": 35.0,
+    "access_value": 45.0,
+    "practical_comfort": 70,
+    "anti_overtourism": 90
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water"
+  ],
+  "metrics": {
+    "overnight_stays": 74406,
+    "domestic_share_overnights": 0.7987,
+    "summer_temp_avg": 14.82,
+    "anchor_stop_name": "Cunter, vischnanca",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 839.17,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 3
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

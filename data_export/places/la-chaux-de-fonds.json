@@ -1,0 +1,36 @@
+{
+  "slug": "la-chaux-de-fonds",
+  "name": "La Chaux-de-Fonds",
+  "canton": "NE",
+  "score_total": 74.0,
+  "subscores": {
+    "base_quality": 85.0,
+    "access_value": 65.0,
+    "practical_comfort": 50,
+    "anti_overtourism": 100.0
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "UNESCO"
+  ],
+  "metrics": {
+    "overnight_stays": 31090,
+    "domestic_share_overnights": 0.5892,
+    "summer_temp_avg": 14.9,
+    "anchor_stop_name": "La Chaux-de-Fonds, Balancier",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 627.74,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 64
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

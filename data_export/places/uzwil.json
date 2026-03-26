@@ -1,0 +1,35 @@
+{
+  "slug": "uzwil",
+  "name": "Uzwil",
+  "canton": "SG",
+  "score_total": 63.25,
+  "subscores": {
+    "base_quality": 50.0,
+    "access_value": 45.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 100.0
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water"
+  ],
+  "metrics": {
+    "overnight_stays": 42767,
+    "domestic_share_overnights": 0.5484,
+    "summer_temp_avg": 17.46,
+    "anchor_stop_name": "Uzwil, Mühlehof",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 928.26,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 15
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

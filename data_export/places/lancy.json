@@ -1,0 +1,36 @@
+{
+  "slug": "lancy",
+  "name": "Lancy",
+  "canton": "GE",
+  "score_total": 72.0,
+  "subscores": {
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 90
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 115793,
+    "domestic_share_overnights": 0.5123,
+    "summer_temp_avg": 19.59,
+    "anchor_stop_name": "Petit-Lancy, place",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 374.39,
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 57
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

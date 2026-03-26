@@ -1,0 +1,35 @@
+{
+  "slug": "unterseen",
+  "name": "Unterseen",
+  "canton": "BE",
+  "score_total": 56.25,
+  "subscores": {
+    "base_quality": 50.0,
+    "access_value": 45.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 65
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water"
+  ],
+  "metrics": {
+    "overnight_stays": 188989,
+    "domestic_share_overnights": 0.2265,
+    "summer_temp_avg": 17.85,
+    "anchor_stop_name": "Unterseen, am Lauener",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1140.39,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 53
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

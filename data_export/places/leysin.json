@@ -1,0 +1,36 @@
+{
+  "slug": "leysin",
+  "name": "Leysin",
+  "canton": "VD",
+  "score_total": 62.0,
+  "subscores": {
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 50,
+    "anti_overtourism": 65
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 183813,
+    "domestic_share_overnights": 0.5406,
+    "summer_temp_avg": 13.86,
+    "anchor_stop_name": "Leysin, place du Marché",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 987.81,
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 15
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "sierre",
+  "name": "Sierre",
+  "canton": "VS",
+  "score_total": 74.0,
+  "subscores": {
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 100.0
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 14760,
+    "domestic_share_overnights": 0.667,
+    "summer_temp_avg": 19.52,
+    "anchor_stop_name": "Sierre, Hôtel de Ville/gare",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1385.93,
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 32
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "luzern",
+  "name": "Luzern",
+  "canton": "LU",
+  "score_total": 60.0,
+  "subscores": {
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 30
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 1484648,
+    "domestic_share_overnights": 0.2477,
+    "summer_temp_avg": 18.63,
+    "anchor_stop_name": "Luzern, Zähringerstrasse",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1143.62,
+    "museum_count_2km": 7,
+    "restaurant_count_2km": 182
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

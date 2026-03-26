@@ -1,0 +1,36 @@
+{
+  "slug": "lausanne",
+  "name": "Lausanne",
+  "canton": "VD",
+  "score_total": 62.0,
+  "subscores": {
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 85,
+    "anti_overtourism": 30
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 1012842,
+    "domestic_share_overnights": 0.4278,
+    "summer_temp_avg": 19.31,
+    "anchor_stop_name": "Lausanne, Flon",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 370.12,
+    "museum_count_2km": 10,
+    "restaurant_count_2km": 238
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

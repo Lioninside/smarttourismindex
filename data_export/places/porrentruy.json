@@ -1,0 +1,36 @@
+{
+  "slug": "porrentruy",
+  "name": "Porrentruy",
+  "canton": "JU",
+  "score_total": 74.0,
+  "subscores": {
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 100.0
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 15475,
+    "domestic_share_overnights": 0.908,
+    "summer_temp_avg": 18.17,
+    "anchor_stop_name": "Porrentruy, ville",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 519.36,
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 15
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

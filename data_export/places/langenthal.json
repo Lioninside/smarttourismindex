@@ -1,0 +1,36 @@
+{
+  "slug": "langenthal",
+  "name": "Langenthal",
+  "canton": "BE",
+  "score_total": 74.0,
+  "subscores": {
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 100.0
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 34794,
+    "domestic_share_overnights": 0.7194,
+    "summer_temp_avg": 17.97,
+    "anchor_stop_name": "Langenthal, Wiesenstrasse",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 719.36,
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 38
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

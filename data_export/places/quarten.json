@@ -1,0 +1,35 @@
+{
+  "slug": "quarten",
+  "name": "Quarten",
+  "canton": "SG",
+  "score_total": 55.5,
+  "subscores": {
+    "base_quality": 35.0,
+    "access_value": 45.0,
+    "practical_comfort": 65,
+    "anti_overtourism": 90
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water"
+  ],
+  "metrics": {
+    "overnight_stays": 58852,
+    "domestic_share_overnights": 0.7199,
+    "summer_temp_avg": 16.72,
+    "anchor_stop_name": "Quarten, Dorf",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1040.67,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 3
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

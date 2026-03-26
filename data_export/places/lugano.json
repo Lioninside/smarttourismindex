@@ -1,0 +1,36 @@
+{
+  "slug": "lugano",
+  "name": "Lugano",
+  "canton": "TI",
+  "score_total": 60.0,
+  "subscores": {
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 30
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 564862,
+    "domestic_share_overnights": 0.4033,
+    "summer_temp_avg": 21.58,
+    "anchor_stop_name": "Lugano, Via Ginevra",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1074.22,
+    "museum_count_2km": 3,
+    "restaurant_count_2km": 112
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

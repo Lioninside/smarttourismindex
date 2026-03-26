@@ -1,0 +1,35 @@
+{
+  "slug": "unteraegeri",
+  "name": "Unterägeri",
+  "canton": "ZG",
+  "score_total": 59.25,
+  "subscores": {
+    "base_quality": 50.0,
+    "access_value": 45.0,
+    "practical_comfort": 55,
+    "anti_overtourism": 100.0
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water"
+  ],
+  "metrics": {
+    "overnight_stays": 15478,
+    "domestic_share_overnights": 0.725,
+    "summer_temp_avg": 16.87,
+    "anchor_stop_name": "Unterägeri, Zentrum",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1056.45,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 6
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

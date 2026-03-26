@@ -1,0 +1,36 @@
+{
+  "slug": "lauterbrunnen",
+  "name": "Lauterbrunnen",
+  "canton": "BE",
+  "score_total": 56.25,
+  "subscores": {
+    "base_quality": 50.0,
+    "access_value": 65.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 30
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 560149,
+    "domestic_share_overnights": 0.2891,
+    "summer_temp_avg": 15.63,
+    "anchor_stop_name": "Lauterbrunnen, Dorf",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 914.39,
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 3
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}
