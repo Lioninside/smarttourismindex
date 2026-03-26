@@ -1,0 +1,3190 @@
+[
+  {
+    "slug": "bellinzona",
+    "name": "Bellinzona",
+    "canton": "TI",
+    "score_total": 80.75,
+    "subscores": {
+      "base_quality": 100.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums",
+      "UNESCO"
+    ]
+  },
+  {
+    "slug": "aarau",
+    "name": "Aarau",
+    "canton": "AG",
+    "score_total": 74.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "burgdorf",
+    "name": "Burgdorf",
+    "canton": "BE",
+    "score_total": 74.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "delemont",
+    "name": "Delémont",
+    "canton": "JU",
+    "score_total": 74.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "frauenfeld",
+    "name": "Frauenfeld",
+    "canton": "TG",
+    "score_total": 74.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "grenchen",
+    "name": "Grenchen",
+    "canton": "SO",
+    "score_total": 74.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "kreuzlingen",
+    "name": "Kreuzlingen",
+    "canton": "TG",
+    "score_total": 74.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "la-chaux-de-fonds",
+    "name": "La Chaux-de-Fonds",
+    "canton": "NE",
+    "score_total": 74.0,
+    "subscores": {
+      "base_quality": 85.0,
+      "access_value": 65.0,
+      "practical_comfort": 50,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "UNESCO"
+    ]
+  },
+  {
+    "slug": "langenthal",
+    "name": "Langenthal",
+    "canton": "BE",
+    "score_total": 74.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "liestal",
+    "name": "Liestal",
+    "canton": "BL",
+    "score_total": 74.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "murten",
+    "name": "Murten",
+    "canton": "FR",
+    "score_total": 74.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "porrentruy",
+    "name": "Porrentruy",
+    "canton": "JU",
+    "score_total": 74.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "poschiavo",
+    "name": "Poschiavo",
+    "canton": "GR",
+    "score_total": 74.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 85,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "sierre",
+    "name": "Sierre",
+    "canton": "VS",
+    "score_total": 74.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "solothurn",
+    "name": "Solothurn",
+    "canton": "SO",
+    "score_total": 74.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 85,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "sursee",
+    "name": "Sursee",
+    "canton": "LU",
+    "score_total": 74.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "vevey",
+    "name": "Vevey",
+    "canton": "VD",
+    "score_total": 74.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 85,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "evolene",
+    "name": "Evolène",
+    "canton": "VS",
+    "score_total": 73.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 70,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "arbon",
+    "name": "Arbon",
+    "canton": "TG",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "baden",
+    "name": "Baden",
+    "canton": "AG",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "biel-bienne",
+    "name": "Biel/Bienne",
+    "canton": "BE",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "bourg-en-lavaux",
+    "name": "Bourg-en-Lavaux",
+    "canton": "VD",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "chiasso",
+    "name": "Chiasso",
+    "canton": "TI",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "duebendorf",
+    "name": "Dübendorf",
+    "canton": "ZH",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "fribourg",
+    "name": "Fribourg",
+    "canton": "FR",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "glarus-nord",
+    "name": "Glarus Nord",
+    "canton": "GL",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "glarus-sued",
+    "name": "Glarus Süd",
+    "canton": "GL",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "gruyeres",
+    "name": "Gruyères",
+    "canton": "FR",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "herzogenbuchsee",
+    "name": "Herzogenbuchsee",
+    "canton": "BE",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "horgen",
+    "name": "Horgen",
+    "canton": "ZH",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "koeniz",
+    "name": "Köniz",
+    "canton": "BE",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "lancy",
+    "name": "Lancy",
+    "canton": "GE",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "lenzburg",
+    "name": "Lenzburg",
+    "canton": "AG",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "martigny",
+    "name": "Martigny",
+    "canton": "VS",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "meiringen",
+    "name": "Meiringen",
+    "canton": "BE",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "morges",
+    "name": "Morges",
+    "canton": "VD",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "moutier-be",
+    "name": "Moutier (BE)",
+    "canton": "BE",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "muralto",
+    "name": "Muralto",
+    "canton": "TI",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "nyon",
+    "name": "Nyon",
+    "canton": "VD",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "olten",
+    "name": "Olten",
+    "canton": "SO",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "rapperswil-jona",
+    "name": "Rapperswil-Jona",
+    "canton": "SG",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "rheinfelden",
+    "name": "Rheinfelden",
+    "canton": "AG",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "sion",
+    "name": "Sion",
+    "canton": "VS",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "spiez",
+    "name": "Spiez",
+    "canton": "BE",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "uster",
+    "name": "Uster",
+    "canton": "ZH",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "yverdon-les-bains",
+    "name": "Yverdon-les-Bains",
+    "canton": "VD",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "zug",
+    "name": "Zug",
+    "canton": "ZG",
+    "score_total": 72.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "bern",
+    "name": "Bern",
+    "canton": "BE",
+    "score_total": 70.75,
+    "subscores": {
+      "base_quality": 100.0,
+      "access_value": 65.0,
+      "practical_comfort": 85,
+      "anti_overtourism": 30
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums",
+      "UNESCO"
+    ]
+  },
+  {
+    "slug": "appenzell",
+    "name": "Appenzell",
+    "canton": "AI",
+    "score_total": 70.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "beckenried",
+    "name": "Beckenried",
+    "canton": "NW",
+    "score_total": 70.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "heiden",
+    "name": "Heiden",
+    "canton": "AR",
+    "score_total": 70.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "langnau-im-emmental",
+    "name": "Langnau im Emmental",
+    "canton": "BE",
+    "score_total": 70.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "mendrisio",
+    "name": "Mendrisio",
+    "canton": "TI",
+    "score_total": 70.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "rorschacherberg",
+    "name": "Rorschacherberg",
+    "canton": "SG",
+    "score_total": 70.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "sarnen",
+    "name": "Sarnen",
+    "canton": "OW",
+    "score_total": 70.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "vitznau",
+    "name": "Vitznau",
+    "canton": "LU",
+    "score_total": 70.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "walenstadt",
+    "name": "Walenstadt",
+    "canton": "SG",
+    "score_total": 70.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "andermatt",
+    "name": "Andermatt",
+    "canton": "UR",
+    "score_total": 69.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 60,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "neuchatel",
+    "name": "Neuchâtel",
+    "canton": "NE",
+    "score_total": 69.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 85,
+      "anti_overtourism": 65
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "zuoz",
+    "name": "Zuoz",
+    "canton": "GR",
+    "score_total": 69.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 50,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "le-chenit",
+    "name": "Le Chenit",
+    "canton": "VD",
+    "score_total": 68.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "maienfeld",
+    "name": "Maienfeld",
+    "canton": "GR",
+    "score_total": 68.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "wil",
+    "name": "Wil",
+    "canton": "SG",
+    "score_total": 68.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "breil-brigels",
+    "name": "Breil/Brigels",
+    "canton": "GR",
+    "score_total": 67.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 65.0,
+      "practical_comfort": 60,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "chur",
+    "name": "Chur",
+    "canton": "GR",
+    "score_total": 67.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 85,
+      "anti_overtourism": 55
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "thun",
+    "name": "Thun",
+    "canton": "BE",
+    "score_total": 67.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 65
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "winterthur",
+    "name": "Winterthur",
+    "canton": "ZH",
+    "score_total": 67.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 85,
+      "anti_overtourism": 55
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "sachseln",
+    "name": "Sachseln",
+    "canton": "OW",
+    "score_total": 66.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "crans-montana",
+    "name": "Crans-Montana",
+    "canton": "VS",
+    "score_total": 66.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 70,
+      "anti_overtourism": 65
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "anniviers",
+    "name": "Anniviers",
+    "canton": "VS",
+    "score_total": 65.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 65.0,
+      "practical_comfort": 85,
+      "anti_overtourism": 65
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "rheinwald",
+    "name": "Rheinwald",
+    "canton": "GR",
+    "score_total": 65.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 65.0,
+      "practical_comfort": 50,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "klosters",
+    "name": "Klosters",
+    "canton": "GR",
+    "score_total": 64.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 60,
+      "anti_overtourism": 65
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "leukerbad",
+    "name": "Leukerbad",
+    "canton": "VS",
+    "score_total": 64.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 70,
+      "anti_overtourism": 55
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "guarda",
+    "name": "Guarda",
+    "canton": "GR",
+    "score_total": 63.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 65.0,
+      "practical_comfort": 40,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "schaffhausen",
+    "name": "Schaffhausen",
+    "canton": "SH",
+    "score_total": 63.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 85,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "spluegen",
+    "name": "Splügen",
+    "canton": "GR",
+    "score_total": 63.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 65.0,
+      "practical_comfort": 40,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "uzwil",
+    "name": "Uzwil",
+    "canton": "SG",
+    "score_total": 63.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "visp",
+    "name": "Visp",
+    "canton": "VS",
+    "score_total": 63.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "laax",
+    "name": "Laax",
+    "canton": "GR",
+    "score_total": 63.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 55
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "paradiso",
+    "name": "Paradiso",
+    "canton": "TI",
+    "score_total": 63.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 55
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "wildhaus-alt-st-johann",
+    "name": "Wildhaus-Alt St. Johann",
+    "canton": "SG",
+    "score_total": 62.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 65.0,
+      "practical_comfort": 45,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "adelboden",
+    "name": "Adelboden",
+    "canton": "BE",
+    "score_total": 62.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 60,
+      "anti_overtourism": 55
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "ascona",
+    "name": "Ascona",
+    "canton": "TI",
+    "score_total": 62.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 40
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "basel",
+    "name": "Basel",
+    "canton": "BS",
+    "score_total": 62.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 85,
+      "anti_overtourism": 30
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "geneve",
+    "name": "Genève",
+    "canton": "GE",
+    "score_total": 62.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 85,
+      "anti_overtourism": 30
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "lausanne",
+    "name": "Lausanne",
+    "canton": "VD",
+    "score_total": 62.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 85,
+      "anti_overtourism": 30
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "leysin",
+    "name": "Leysin",
+    "canton": "VD",
+    "score_total": 62.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 50,
+      "anti_overtourism": 65
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "locarno",
+    "name": "Locarno",
+    "canton": "TI",
+    "score_total": 62.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 40
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "meyrin",
+    "name": "Meyrin",
+    "canton": "GE",
+    "score_total": 62.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 85,
+      "anti_overtourism": 30
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "montreux",
+    "name": "Montreux",
+    "canton": "VD",
+    "score_total": 62.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 40
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "st-gallen",
+    "name": "St. Gallen",
+    "canton": "SG",
+    "score_total": 62.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 40
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "egerkingen",
+    "name": "Egerkingen",
+    "canton": "SO",
+    "score_total": 61.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "emmen",
+    "name": "Emmen",
+    "canton": "LU",
+    "score_total": 61.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "kuessnacht",
+    "name": "Küssnacht",
+    "canton": "SZ",
+    "score_total": 61.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "pratteln",
+    "name": "Pratteln",
+    "canton": "BL",
+    "score_total": 61.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "saint-maurice",
+    "name": "Saint-Maurice",
+    "canton": "VS",
+    "score_total": 61.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "schwyz",
+    "name": "Schwyz",
+    "canton": "SZ",
+    "score_total": 61.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "vaz-obervaz",
+    "name": "Vaz/Obervaz",
+    "canton": "GR",
+    "score_total": 61.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 55
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "zofingen",
+    "name": "Zofingen",
+    "canton": "AG",
+    "score_total": 61.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "samnaun",
+    "name": "Samnaun",
+    "canton": "GR",
+    "score_total": 60.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 65.0,
+      "practical_comfort": 60,
+      "anti_overtourism": 65
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "zernez",
+    "name": "Zernez",
+    "canton": "GR",
+    "score_total": 60.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 70,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "kloten",
+    "name": "Kloten",
+    "canton": "ZH",
+    "score_total": 60.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 30
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "lugano",
+    "name": "Lugano",
+    "canton": "TI",
+    "score_total": 60.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 30
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "luzern",
+    "name": "Luzern",
+    "canton": "LU",
+    "score_total": 60.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 30
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "zuerich",
+    "name": "Zürich",
+    "canton": "ZH",
+    "score_total": 60.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 30
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "latena",
+    "name": "Laténa",
+    "canton": "NE",
+    "score_total": 59.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "orsieres",
+    "name": "Orsières",
+    "canton": "VS",
+    "score_total": 59.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 85,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "altstaetten",
+    "name": "Altstätten",
+    "canton": "SG",
+    "score_total": 59.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "bulle",
+    "name": "Bulle",
+    "canton": "FR",
+    "score_total": 59.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "collina-doro",
+    "name": "Collina d'Oro",
+    "canton": "TI",
+    "score_total": 59.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "einsiedeln",
+    "name": "Einsiedeln",
+    "canton": "SZ",
+    "score_total": 59.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "feusisberg",
+    "name": "Feusisberg",
+    "canton": "SZ",
+    "score_total": 59.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "ingenbohl",
+    "name": "Ingenbohl",
+    "canton": "SZ",
+    "score_total": 59.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "kriens",
+    "name": "Kriens",
+    "canton": "LU",
+    "score_total": 59.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "matten-bei-interlaken",
+    "name": "Matten bei Interlaken",
+    "canton": "BE",
+    "score_total": 59.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "meggen",
+    "name": "Meggen",
+    "canton": "LU",
+    "score_total": 59.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "teufen",
+    "name": "Teufen",
+    "canton": "AR",
+    "score_total": 59.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "unteraegeri",
+    "name": "Unterägeri",
+    "canton": "ZG",
+    "score_total": 59.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "wilderswil",
+    "name": "Wilderswil",
+    "canton": "BE",
+    "score_total": 59.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "waedenswil",
+    "name": "Wädenswil",
+    "canton": "ZH",
+    "score_total": 59.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "st-moritz",
+    "name": "St. Moritz",
+    "canton": "GR",
+    "score_total": 59.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 70,
+      "anti_overtourism": 30
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "zermatt",
+    "name": "Zermatt",
+    "canton": "VS",
+    "score_total": 59.0,
+    "subscores": {
+      "base_quality": 65.0,
+      "access_value": 65.0,
+      "practical_comfort": 70,
+      "anti_overtourism": 30
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "berguen",
+    "name": "Bergün",
+    "canton": "GR",
+    "score_total": 58.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 50,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "champery",
+    "name": "Champéry",
+    "canton": "VS",
+    "score_total": 58.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 60,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "kandersteg",
+    "name": "Kandersteg",
+    "canton": "BE",
+    "score_total": 58.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 60,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "lenk",
+    "name": "Lenk",
+    "canton": "BE",
+    "score_total": 58.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 60,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "samedan",
+    "name": "Samedan",
+    "canton": "GR",
+    "score_total": 58.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 60,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "vals",
+    "name": "Vals",
+    "canton": "GR",
+    "score_total": 58.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 60,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "amden",
+    "name": "Amden",
+    "canton": "SG",
+    "score_total": 57.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "beatenberg",
+    "name": "Beatenberg",
+    "canton": "BE",
+    "score_total": 57.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "blonay-saint-legier",
+    "name": "Blonay - Saint-Légier",
+    "canton": "VD",
+    "score_total": 57.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "bregaglia",
+    "name": "Bregaglia",
+    "canton": "GR",
+    "score_total": 57.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "brienz",
+    "name": "Brienz",
+    "canton": "BE",
+    "score_total": 57.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "clos-du-doubs",
+    "name": "Clos du Doubs",
+    "canton": "JU",
+    "score_total": 57.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "diemtigen",
+    "name": "Diemtigen",
+    "canton": "BE",
+    "score_total": 57.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "emmetten",
+    "name": "Emmetten",
+    "canton": "NW",
+    "score_total": 57.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "gais",
+    "name": "Gais",
+    "canton": "AR",
+    "score_total": 57.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "hasliberg",
+    "name": "Hasliberg",
+    "canton": "BE",
+    "score_total": 57.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "innertkirchen",
+    "name": "Innertkirchen",
+    "canton": "BE",
+    "score_total": 57.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "lumnezia",
+    "name": "Lumnezia",
+    "canton": "GR",
+    "score_total": 57.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "ollon",
+    "name": "Ollon",
+    "canton": "VD",
+    "score_total": 57.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "plaffeien",
+    "name": "Plaffeien",
+    "canton": "FR",
+    "score_total": 57.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "reichenbach-im-kandertal",
+    "name": "Reichenbach im Kandertal",
+    "canton": "BE",
+    "score_total": 57.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "saignelegier",
+    "name": "Saignelégier",
+    "canton": "JU",
+    "score_total": 57.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "nendaz",
+    "name": "Nendaz",
+    "canton": "VS",
+    "score_total": 57.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 45,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "buchs",
+    "name": "Buchs",
+    "canton": "BE",
+    "score_total": 56.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 60,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "surses",
+    "name": "Surses",
+    "canton": "GR",
+    "score_total": 56.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 70,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "val-muestair",
+    "name": "Val Müstair",
+    "canton": "GR",
+    "score_total": 56.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 70,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "bad-ragaz",
+    "name": "Bad Ragaz",
+    "canton": "SG",
+    "score_total": 56.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 65
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "flims",
+    "name": "Flims",
+    "canton": "GR",
+    "score_total": 56.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 65
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "lauterbrunnen",
+    "name": "Lauterbrunnen",
+    "canton": "BE",
+    "score_total": 56.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 65.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 30
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "unterseen",
+    "name": "Unterseen",
+    "canton": "BE",
+    "score_total": 56.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 65
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "weggis",
+    "name": "Weggis",
+    "canton": "LU",
+    "score_total": 56.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 65
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "aeschi-bei-spiez",
+    "name": "Aeschi bei Spiez",
+    "canton": "BE",
+    "score_total": 55.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "eschenbach",
+    "name": "Eschenbach",
+    "canton": "SG",
+    "score_total": 55.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "flums",
+    "name": "Flums",
+    "canton": "SG",
+    "score_total": 55.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "freienbach",
+    "name": "Freienbach",
+    "canton": "SZ",
+    "score_total": 55.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "monteceneri",
+    "name": "Monteceneri",
+    "canton": "TI",
+    "score_total": 55.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "quarten",
+    "name": "Quarten",
+    "canton": "SG",
+    "score_total": 55.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "schangnau",
+    "name": "Schangnau",
+    "canton": "BE",
+    "score_total": 55.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "sempach",
+    "name": "Sempach",
+    "canton": "LU",
+    "score_total": 55.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "sigriswil",
+    "name": "Sigriswil",
+    "canton": "BE",
+    "score_total": 55.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "soglio",
+    "name": "Soglio",
+    "canton": "GR",
+    "score_total": 55.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "saanen",
+    "name": "Saanen",
+    "canton": "BE",
+    "score_total": 55.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 65.0,
+      "practical_comfort": 60,
+      "anti_overtourism": 40
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "celerina-schlarigna",
+    "name": "Celerina/Schlarigna",
+    "canton": "GR",
+    "score_total": 54.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 60,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "ilanz-glion",
+    "name": "Ilanz/Glion",
+    "canton": "GR",
+    "score_total": 54.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 50,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "la-grande-beroche",
+    "name": "La Grande Béroche",
+    "canton": "NE",
+    "score_total": 54.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 50,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "neckertal",
+    "name": "Neckertal",
+    "canton": "SG",
+    "score_total": 54.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 50,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "saas-grund",
+    "name": "Saas-Grund",
+    "canton": "VS",
+    "score_total": 54.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 60,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "tujetsch",
+    "name": "Tujetsch",
+    "canton": "GR",
+    "score_total": 54.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 50,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "viano",
+    "name": "Viano",
+    "canton": "GR",
+    "score_total": 54.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 50,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "goms",
+    "name": "Goms",
+    "canton": "VS",
+    "score_total": 53.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "saas-fee",
+    "name": "Saas-Fee",
+    "canton": "VS",
+    "score_total": 53.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 70,
+      "anti_overtourism": 55
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "scuol",
+    "name": "Scuol",
+    "canton": "GR",
+    "score_total": 53.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 70,
+      "anti_overtourism": 55
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "brig-glis",
+    "name": "Brig-Glis",
+    "canton": "VS",
+    "score_total": 52.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 85,
+      "anti_overtourism": 55
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "chateau-doex",
+    "name": "Château-d'Oex",
+    "canton": "VD",
+    "score_total": 52.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 40,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "gonten",
+    "name": "Gonten",
+    "canton": "AI",
+    "score_total": 52.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 40,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "gurtnellen",
+    "name": "Gurtnellen",
+    "canton": "UR",
+    "score_total": 52.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 40,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "haut-intyamon",
+    "name": "Haut-Intyamon",
+    "canton": "FR",
+    "score_total": 52.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 40,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "hundwil",
+    "name": "Hundwil",
+    "canton": "AR",
+    "score_total": 52.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 40,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "morschach",
+    "name": "Morschach",
+    "canton": "SZ",
+    "score_total": 52.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 65,
+      "anti_overtourism": 55
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "opfikon",
+    "name": "Opfikon",
+    "canton": "ZH",
+    "score_total": 51.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 85,
+      "anti_overtourism": 30
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "vernier",
+    "name": "Vernier",
+    "canton": "GE",
+    "score_total": 51.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 40
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "pontresina",
+    "name": "Pontresina",
+    "canton": "GR",
+    "score_total": 50.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 70,
+      "anti_overtourism": 40
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "bullet",
+    "name": "Bullet",
+    "canton": "VD",
+    "score_total": 49.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 25,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "ormont-dessus",
+    "name": "Ormont-Dessus",
+    "canton": "VD",
+    "score_total": 49.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 35,
+      "anti_overtourism": 90
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "tschiertschen",
+    "name": "Tschiertschen",
+    "canton": "GR",
+    "score_total": 49.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 25,
+      "anti_overtourism": 100.0
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "interlaken",
+    "name": "Interlaken",
+    "canton": "BE",
+    "score_total": 49.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 75,
+      "anti_overtourism": 30
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "val-de-bagnes",
+    "name": "Val de Bagnes",
+    "canton": "VS",
+    "score_total": 48.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 55,
+      "anti_overtourism": 65
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "arosa",
+    "name": "Arosa",
+    "canton": "GR",
+    "score_total": 48.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 60,
+      "anti_overtourism": 40
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "engelberg",
+    "name": "Engelberg",
+    "canton": "OW",
+    "score_total": 48.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 60,
+      "anti_overtourism": 40
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "grindelwald",
+    "name": "Grindelwald",
+    "canton": "BE",
+    "score_total": 46.25,
+    "subscores": {
+      "base_quality": 50.0,
+      "access_value": 45.0,
+      "practical_comfort": 60,
+      "anti_overtourism": 30
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  },
+  {
+    "slug": "davos",
+    "name": "Davos",
+    "canton": "GR",
+    "score_total": 42.5,
+    "subscores": {
+      "base_quality": 35.0,
+      "access_value": 45.0,
+      "practical_comfort": 60,
+      "anti_overtourism": 30
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water"
+    ]
+  }
+]
