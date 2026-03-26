@@ -1,0 +1,36 @@
+{
+  "slug": "zermatt",
+  "name": "Zermatt",
+  "canton": "VS",
+  "score_total": 59.0,
+  "subscores": {
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 70,
+    "anti_overtourism": 30
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 1700264,
+    "domestic_share_overnights": 0.3437,
+    "summer_temp_avg": 11.72,
+    "anchor_stop_name": "Zermatt, Kirchbrücke",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 562.2,
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 69
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

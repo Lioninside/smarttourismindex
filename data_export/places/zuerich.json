@@ -1,0 +1,36 @@
+{
+  "slug": "zuerich",
+  "name": "Zürich",
+  "canton": "ZH",
+  "score_total": 60.0,
+  "subscores": {
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 30
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 4179908,
+    "domestic_share_overnights": 0.3004,
+    "summer_temp_avg": 18.86,
+    "anchor_stop_name": "Zürich, Rathaus",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 768.34,
+    "museum_count_2km": 18,
+    "restaurant_count_2km": 440
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

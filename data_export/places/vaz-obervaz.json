@@ -1,0 +1,36 @@
+{
+  "slug": "vaz-obervaz",
+  "name": "Vaz/Obervaz",
+  "canton": "GR",
+  "score_total": 61.25,
+  "subscores": {
+    "base_quality": 50.0,
+    "access_value": 65.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 55
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 248878,
+    "domestic_share_overnights": 0.8236,
+    "summer_temp_avg": 15.28,
+    "anchor_stop_name": "Vaz/Obervaz, Zorten",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1239.08,
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 2
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

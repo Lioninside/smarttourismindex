@@ -1,0 +1,35 @@
+{
+  "slug": "vernier",
+  "name": "Vernier",
+  "canton": "GE",
+  "score_total": 51.25,
+  "subscores": {
+    "base_quality": 50.0,
+    "access_value": 45.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 40
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water"
+  ],
+  "metrics": {
+    "overnight_stays": 361098,
+    "domestic_share_overnights": 0.4084,
+    "summer_temp_avg": 19.86,
+    "anchor_stop_name": "Vernier, village",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 378.96,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 9
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

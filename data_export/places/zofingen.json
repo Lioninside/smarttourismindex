@@ -1,0 +1,35 @@
+{
+  "slug": "zofingen",
+  "name": "Zofingen",
+  "canton": "AG",
+  "score_total": 61.25,
+  "subscores": {
+    "base_quality": 50.0,
+    "access_value": 45.0,
+    "practical_comfort": 65,
+    "anti_overtourism": 100.0
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water"
+  ],
+  "metrics": {
+    "overnight_stays": 24397,
+    "domestic_share_overnights": 0.4551,
+    "summer_temp_avg": 18.27,
+    "anchor_stop_name": "Zofingen, Oberer Stadteingang",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 667.78,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 28
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}
