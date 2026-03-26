@@ -1,0 +1,194 @@
+slug,name,canton,tourism_region,lat,lon,center_lat,center_lon,main_station_name,place_type,active
+aarau,Aarau,AG,Aargau,47.400588,8.060699,47.400588,8.060699,Aarau,city,true
+baden,Baden,AG,Aargau,47.474085,8.300145,47.474085,8.300145,Baden,city,true
+lenzburg,Lenzburg,AG,Aargau,47.3879,8.176359,47.3879,8.176359,Lenzburg,town,true
+rheinfelden,Rheinfelden,AG,Aargau,47.551678,7.792223,47.551678,7.792223,Rheinfelden,town,true
+zofingen,Zofingen,AG,Aargau,47.286295,7.946293,47.286295,7.946293,Zofingen,town,true
+appenzell,Appenzell,AI,Appenzell Innerrhoden,47.331281,9.405773,47.331281,9.405773,"Appenzell, Hirschberg Station",town,true
+gonten,Gonten,AI,Appenzell Innerrhoden,47.327706,9.345392,47.327706,9.345392,Gonten,town,true
+gais,Gais,AR,Appenzell Ausserrhoden,47.362735,9.456313,47.362735,9.456313,Gais,town,true
+heiden,Heiden,AR,Appenzell Ausserrhoden,47.442595,9.532641,47.442595,9.532641,Heiden,town,true
+hundwil,Hundwil,AR,Appenzell Ausserrhoden,47.357837,9.318546,47.357837,9.318546,"Hundwil, Dorf",town,true
+teufen,Teufen,AR,Appenzell Ausserrhoden,47.39214,9.366141,47.39214,9.366141,"Teufen AR, Bahnhof",town,true
+adelboden,Adelboden,BE,Bern,46.491043,7.563025,46.491043,7.563025,Adelboden Oey (Sillerenbahn),resort,true
+aeschi-bei-spiez,Aeschi bei Spiez,BE,Bern,46.655296,7.700065,46.655296,7.700065,Spiez Schiffstation,town,true
+beatenberg,Beatenberg,BE,Bern,46.696756,7.796675,46.696756,7.796675,Beatenberg,resort,true
+bern,Bern,BE,Bern,46.972014,7.445886,46.972014,7.445886,Bern,city,true
+biel-bienne,Biel/Bienne,BE,Bern,47.142049,7.248082,47.142049,7.248082,Biel/Bienne,city,true
+brienz,Brienz,BE,Bern,46.737079,7.961096,46.737079,7.961096,Brienz,town,true
+buchs,Buchs,BE,Bern,47.035006,7.456524,47.035006,7.456524,"Kirchberg-Alchenflüh, Bahnhof",town,true
+burgdorf,Burgdorf,BE,Bern,47.057389,7.619755,47.057389,7.619755,Burgdorf,city,true
+diemtigen,Diemtigen,BE,Bern,46.648967,7.56511,46.648967,7.56511,"Diemtigen, Katzenlochbrücke",town,true
+grindelwald,Grindelwald,BE,Bern,46.626377,8.031125,46.626377,8.031125,Grindelwald,resort,true
+hasliberg,Hasliberg,BE,Bern,46.749729,8.175997,46.749729,8.175997,Hasliberg Twing (Gondelbahn),town,true
+herzogenbuchsee,Herzogenbuchsee,BE,Bern,47.189041,7.7064,47.189041,7.7064,Herzogenbuchsee,town,true
+innertkirchen,Innertkirchen,BE,Bern,46.703717,8.234644,46.703717,8.234644,Innertkirchen Kraftwerk (Bahn),town,true
+interlaken,Interlaken,BE,Bern,46.684719,7.860083,46.684719,7.860083,Interlaken (Heimwehfluhbahn),resort,true
+kandersteg,Kandersteg,BE,Bern,46.494493,7.674022,46.494493,7.674022,Kandersteg,town,true
+koeniz,Köniz,BE,Bern,46.922727,7.41458,46.922727,7.41458,Köniz,town,true
+langenthal,Langenthal,BE,Bern,47.212507,7.784611,47.212507,7.784611,Langenthal,town,true
+langnau-im-emmental,Langnau im Emmental,BE,Bern,46.940735,7.786411,46.940735,7.786411,Marbach (Talstation),town,true
+lauterbrunnen,Lauterbrunnen,BE,Bern,46.59486,7.908855,46.59486,7.908855,Lauterbrunnen,town,true
+lenk,Lenk,BE,Bern,46.454714,7.445305,46.454714,7.445305,Lenk (Talstation Leiterli),town,true
+matten-bei-interlaken,Matten bei Interlaken,BE,Bern,46.679604,7.866461,46.679604,7.866461,Interlaken (Heimwehfluhbahn),town,true
+meiringen,Meiringen,BE,Bern,46.728581,8.181373,46.728581,8.181373,Meiringen,town,true
+moutier-be,Moutier (BE),BE,Bern,47.277359,7.369148,47.277359,7.369148,Moutier,town,true
+reichenbach-im-kandertal,Reichenbach im Kandertal,BE,Bern,46.621397,7.689848,46.621397,7.689848,Reichenbach im Kandertal,town,true
+saanen,Saanen,BE,Bern,46.4891,7.261852,46.4891,7.261852,Saanen,resort,true
+schangnau,Schangnau,BE,Bern,46.820397,7.87506,46.820397,7.87506,"Schangnau, Stein",town,true
+sigriswil,Sigriswil,BE,Bern,46.716439,7.718841,46.716439,7.718841,"Sigriswil, Endorf",town,true
+spiez,Spiez,BE,Bern,46.685867,7.677481,46.685867,7.677481,Spiez,town,true
+thun,Thun,BE,Bern,46.740612,7.619927,46.740612,7.619927,Thun,city,true
+unterseen,Unterseen,BE,Bern,46.685376,7.842638,46.685376,7.842638,"Unterseen, am Lauener",town,true
+wilderswil,Wilderswil,BE,Bern,46.663637,7.863826,46.663637,7.863826,Wilderswil,town,true
+liestal,Liestal,BL,Basel-Landschaft,47.483584,7.734733,47.483584,7.734733,Liestal,town,true
+pratteln,Pratteln,BL,Basel-Landschaft,47.519951,7.694931,47.519951,7.694931,Pratteln,town,true
+basel,Basel,BS,Basel-Stadt,47.556219,7.588965,47.556219,7.588965,Basel SBB,city,true
+bulle,Bulle,FR,Fribourg,46.620551,7.056652,46.620551,7.056652,Bulle,city,true
+fribourg,Fribourg,FR,Fribourg,46.80514,7.155297,46.80514,7.155297,Fribourg/Freiburg,city,true
+gruyeres,Gruyères,FR,Fribourg,46.582788,7.081708,46.582788,7.081708,Gruyères,town,true
+haut-intyamon,Haut-Intyamon,FR,Fribourg,46.516167,7.054654,46.516167,7.054654,St-Légier-Gare,town,true
+murten,Murten,FR,Fribourg,46.926161,7.120111,46.926161,7.120111,Murten/Morat,city,true
+plaffeien,Plaffeien,FR,Fribourg,46.735043,7.289864,46.735043,7.289864,"Plaffeien, Telmoos",town,true
+geneve,Genève,GE,Genève,46.209806,6.143926,46.209806,6.143926,Genève,city,true
+lancy,Lancy,GE,Genève,46.191594,6.117375,46.191594,6.117375,Lancy-Pont-Rouge,town,true
+meyrin,Meyrin,GE,Genève,46.230262,6.077167,46.230262,6.077167,Meyrin,town,true
+vernier,Vernier,GE,Genève,46.213064,6.080527,46.213064,6.080527,Vernier,town,true
+glarus-nord,Glarus Nord,GL,Glarus,47.098335,9.059024,47.098335,9.059024,Kies (Talstation),town,true
+glarus-sued,Glarus Süd,GL,Glarus,47.011277,9.079571,47.011277,9.079571,Kies (Talstation),town,true
+arosa,Arosa,GR,Graubünden,46.7805,9.676924,46.7805,9.676924,Arosa,resort,true
+berguen,Bergün,GR,Graubünden,46.628665,9.75126,46.628665,9.75126,Bergün/Bravuogn,village,true
+bregaglia,Bregaglia,GR,Graubünden,46.342146,9.539355,46.342146,9.539355,"Soglio, Villaggio",town,true
+breil-brigels,Breil/Brigels,GR,Graubünden,46.770307,9.061732,46.770307,9.061732,"Breil/Brigels, Pundual",town,true
+celerina-schlarigna,Celerina/Schlarigna,GR,Graubünden,46.512331,9.857862,46.512331,9.857862,Celerina,town,true
+chur,Chur,GR,Graubünden,46.856573,9.529349,46.856573,9.529349,Chur,city,true
+davos,Davos,GR,Graubünden,46.757618,9.829391,46.757618,9.829391,"Davos Platz, Bahnhof",resort,true
+flims,Flims,GR,Graubünden,46.837136,9.285988,46.837136,9.285988,Flims Dorf (Talstation Foppa),resort,true
+guarda,Guarda,GR,Graubünden,46.775494,10.15325,46.775494,10.15325,Guarda,village,true
+ilanz-glion,Ilanz/Glion,GR,Graubünden,46.730564,9.220978,46.730564,9.220978,Obersaxen Valata (Talstation),town,true
+klosters,Klosters,GR,Graubünden,46.868223,9.889748,46.868223,9.889748,"Klosters Platz, Bahnhof",town,true
+laax,Laax,GR,Graubünden,46.80889,9.264906,46.80889,9.264906,Laax Murschetg (Talstation),town,true
+lumnezia,Lumnezia,GR,Graubünden,46.719999,9.196176,46.719999,9.196176,Obersaxen Valata (Talstation),town,true
+maienfeld,Maienfeld,GR,Graubünden,47.007385,9.533372,47.007385,9.533372,Maienfeld,town,true
+pontresina,Pontresina,GR,Graubünden,46.493697,9.901154,46.493697,9.901154,Pontresina,resort,true
+poschiavo,Poschiavo,GR,Graubünden,46.325338,10.057308,46.325338,10.057308,Poschiavo,town,true
+rheinwald,Rheinwald,GR,Graubünden,46.552452,9.322493,46.552452,9.322493,"Medels im Rheinwald, Abzw.",town,true
+samedan,Samedan,GR,Graubünden,46.534296,9.87152,46.534296,9.87152,Samedan,town,true
+samnaun,Samnaun,GR,Graubünden,46.959995,10.399355,46.959995,10.399355,Samnaun-Ravaisch (Bergbahn),town,true
+scuol,Scuol,GR,Graubünden,46.79743,10.299567,46.79743,10.299567,Scuol (pendicularas),resort,true
+soglio,Soglio,GR,Graubünden,46.342146,9.539355,46.342146,9.539355,"Soglio, Villaggio",village,true
+spluegen,Splügen,GR,Graubünden,46.552452,9.322493,46.552452,9.322493,"Splügen, Dorf",village,true
+st-moritz,St. Moritz,GR,Graubünden,46.485533,9.833532,46.485533,9.833532,St. Moritz,resort,true
+surses,Surses,GR,Graubünden,46.607659,9.59219,46.607659,9.59219,Savognin (Talstation),town,true
+tschiertschen,Tschiertschen,GR,Graubünden,46.815333,9.605163,46.815333,9.605163,"Tschiertschen, Dorf",village,true
+tujetsch,Tujetsch,GR,Graubünden,46.679999,8.764142,46.679999,8.764142,"Tujetsch, Zarcuns",town,true
+val-muestair,Val Müstair,GR,Graubünden,46.627584,10.336447,46.627584,10.336447,"Sta. Maria Val Müstair, scoula",town,true
+vals,Vals,GR,Graubünden,46.616176,9.179011,46.616176,9.179011,Vals (Talstation),town,true
+vaz-obervaz,Vaz/Obervaz,GR,Graubünden,46.696603,9.531417,46.696603,9.531417,"Vaz/Obervaz, Zorten",town,true
+viano,Viano,GR,Graubünden,46.252816,10.144551,46.252816,10.144551,"Viano, Paese",village,true
+zernez,Zernez,GR,Graubünden,46.699551,10.093357,46.699551,10.093357,Zernez,town,true
+zuoz,Zuoz,GR,Graubünden,46.601381,9.95837,46.601381,9.95837,Zuoz,village,true
+clos-du-doubs,Clos du Doubs,JU,Jura,47.351082,7.148427,47.351082,7.148427,"St-Ursanne, gare",town,true
+delemont,Delémont,JU,Jura,47.366235,7.347491,47.366235,7.347491,Delémont,city,true
+porrentruy,Porrentruy,JU,Jura,47.415792,7.074079,47.415792,7.074079,Porrentruy,town,true
+saignelegier,Saignelégier,JU,Jura,47.256838,6.996348,47.256838,6.996348,Saignelégier,town,true
+emmen,Emmen,LU,Luzern,47.084463,8.299218,47.084463,8.299218,"Emmen, Emmenfeld",town,true
+kriens,Kriens,LU,Luzern,47.032354,8.281883,47.032354,8.281883,"Kriens, Kirchbühl",town,true
+luzern,Luzern,LU,Luzern,47.04826,8.301111,47.04826,8.301111,Luzern,city,true
+meggen,Meggen,LU,Luzern,47.04821,8.371863,47.04821,8.371863,Meggen,town,true
+sempach,Sempach,LU,Luzern,47.116363,8.19667,47.116363,8.19667,Sempach-Neuenkirch,village,true
+sursee,Sursee,LU,Luzern,47.171687,8.109101,47.171687,8.109101,Sursee,town,true
+vitznau,Vitznau,LU,Luzern,47.012791,8.482883,47.012791,8.482883,Vitznau,resort,true
+weggis,Weggis,LU,Luzern,47.033017,8.433924,47.033017,8.433924,Weggis,resort,true
+la-chaux-de-fonds,La Chaux-de-Fonds,NE,Neuchâtel,47.100976,6.826334,47.100976,6.826334,La Chaux-de-Fonds,city,true
+la-grande-beroche,La Grande Béroche,NE,Neuchâtel,46.905929,6.777856,46.905929,6.777856,"Gorgier-St-Aubin, gare",town,true
+latena,Laténa,NE,Neuchâtel,47.024247,7.020396,47.024247,7.020396,Neuchâtel-gare (FUNI),town,true
+neuchatel,Neuchâtel,NE,Neuchâtel,46.994355,6.927116,46.994355,6.927116,Neuchâtel,city,true
+beckenried,Beckenried,NW,Nidwalden,46.965755,8.46959,46.965755,8.46959,Beckenried (Klewenalpbahn),town,true
+emmetten,Emmetten,NW,Nidwalden,46.954835,8.513565,46.954835,8.513565,Emmetten (Talstation),town,true
+engelberg,Engelberg,OW,Obwalden,46.820688,8.408613,46.820688,8.408613,Engelberg,resort,true
+sachseln,Sachseln,OW,Obwalden,46.865271,8.235052,46.865271,8.235052,Sachseln,town,true
+sarnen,Sarnen,OW,Obwalden,46.895682,8.245896,46.895682,8.245896,Sarnen,town,true
+altstaetten,Altstätten,SG,St. Gallen,47.377237,9.544563,47.377237,9.544563,"Altstätten SG, Eichbergerstr.",town,true
+amden,Amden,SG,St. Gallen,47.149409,9.152753,47.149409,9.152753,Amden (Talstat. Niederschlag),town,true
+bad-ragaz,Bad Ragaz,SG,St. Gallen,47.006993,9.501391,47.006993,9.501391,Bad Ragaz,town,true
+eschenbach,Eschenbach,SG,St. Gallen,47.241655,8.921216,47.241655,8.921216,"Eschenbach SG, Post",town,true
+flums,Flums,SG,St. Gallen,47.092771,9.343089,47.092771,9.343089,Flums,town,true
+neckertal,Neckertal,SG,St. Gallen,47.358797,9.172091,47.358797,9.172091,"Brunnadern-Neckertal, Bahnhof",town,true
+quarten,Quarten,SG,St. Gallen,47.106674,9.239187,47.106674,9.239187,"Quarten, Dorf",town,true
+rapperswil-jona,Rapperswil-Jona,SG,St. Gallen,47.228209,8.823366,47.228209,8.823366,Rapperswil SG,town,true
+rorschacherberg,Rorschacherberg,SG,St. Gallen,47.471101,9.504478,47.471101,9.504478,"Rorschacherberg, Sonnenhof/MZH",town,true
+st-gallen,St. Gallen,SG,St. Gallen,47.423428,9.372802,47.423428,9.372802,St. Gallen,city,true
+uzwil,Uzwil,SG,St. Gallen,47.436866,9.133424,47.436866,9.133424,Uzwil,town,true
+walenstadt,Walenstadt,SG,St. Gallen,47.123793,9.315257,47.123793,9.315257,Walenstadt,town,true
+wil,Wil,SG,St. Gallen,47.359563,9.072129,47.359563,9.072129,"Wil SG, Bahnhof Süd",town,true
+wildhaus-alt-st-johann,Wildhaus-Alt St. Johann,SG,St. Gallen,47.190306,9.273152,47.190306,9.273152,Wildhaus Thur (Talstation),town,true
+schaffhausen,Schaffhausen,SH,Schaffhausen,47.722581,8.659868,47.722581,8.659868,Schaffhausen,city,true
+egerkingen,Egerkingen,SO,Solothurn,47.321542,7.795582,47.321542,7.795582,Egerkingen,town,true
+grenchen,Grenchen,SO,Solothurn,47.194315,7.394184,47.194315,7.394184,"Grenchen, Bahnhof Nord Eterna",town,true
+olten,Olten,SO,Solothurn,47.348877,7.906403,47.348877,7.906403,Olten,town,true
+solothurn,Solothurn,SO,Solothurn,47.209983,7.532267,47.209983,7.532267,Solothurn,city,true
+einsiedeln,Einsiedeln,SZ,Schwyz,47.130307,8.746316,47.130307,8.746316,Einsiedeln,town,true
+feusisberg,Feusisberg,SZ,Schwyz,47.185587,8.747113,47.185587,8.747113,"Feusisberg, Gemeindehaus",town,true
+freienbach,Freienbach,SZ,Schwyz,47.204739,8.755872,47.204739,8.755872,"Freienbach, Bahnhof SOB",town,true
+ingenbohl,Ingenbohl,SZ,Schwyz,46.99978,8.607234,46.99978,8.607234,"Ingenbohl, Klosterstrasse",town,true
+kuessnacht,Küssnacht,SZ,Schwyz,47.08215,8.438274,47.08215,8.438274,Küssnacht am Rigi (Talstation),town,true
+morschach,Morschach,SZ,Schwyz,46.981981,8.620018,46.981981,8.620018,Morschach Talstat. (Luftseilb),town,true
+schwyz,Schwyz,SZ,Schwyz,47.024168,8.65398,47.024168,8.65398,Schwyz,town,true
+arbon,Arbon,TG,Thurgau,47.513454,9.42508,47.513454,9.42508,Arbon,town,true
+frauenfeld,Frauenfeld,TG,Thurgau,47.555906,8.89843,47.555906,8.89843,Frauenfeld,town,true
+kreuzlingen,Kreuzlingen,TG,Thurgau,47.644901,9.173753,47.644901,9.173753,Kreuzlingen,town,true
+ascona,Ascona,TI,Ticino,46.156081,8.773413,46.156081,8.773413,Ascona (lago),resort,true
+bellinzona,Bellinzona,TI,Ticino,46.193885,9.025395,46.193885,9.025395,Bellinzona,city,true
+chiasso,Chiasso,TI,Ticino,45.835088,9.026827,45.835088,9.026827,Chiasso,town,true
+collina-doro,Collina d'Oro,TI,Ticino,45.968584,8.899717,45.968584,8.899717,Lugano Stazione (funicolare),town,true
+locarno,Locarno,TI,Ticino,46.168041,8.792858,46.168041,8.792858,Locarno,city,true
+lugano,Lugano,TI,Ticino,46.008492,8.952366,46.008492,8.952366,Lugano,city,true
+mendrisio,Mendrisio,TI,Ticino,45.870772,8.984199,45.870772,8.984199,Mendrisio,town,true
+monteceneri,Monteceneri,TI,Ticino,46.12081,8.921429,46.12081,8.921429,Lugano Stazione (funicolare),town,true
+muralto,Muralto,TI,Ticino,46.174215,8.804576,46.174215,8.804576,"Muralto, Al Parco",resort,true
+paradiso,Paradiso,TI,Ticino,45.989443,8.945127,45.989443,8.945127,Paradiso,town,true
+andermatt,Andermatt,UR,Uri,46.63553,8.596354,46.63553,8.596354,Andermatt,resort,true
+gurtnellen,Gurtnellen,UR,Uri,46.73752,8.626415,46.73752,8.626415,"Gurtnellen, Fellital",town,true
+blonay-saint-legier,Blonay - Saint-Légier,VD,Vaud,46.466521,6.894627,46.466521,6.894627,Blonay,town,true
+bourg-en-lavaux,Bourg-en-Lavaux,VD,Vaud,46.499852,6.720381,46.499852,6.720381,Grandvaux,town,true
+bullet,Bullet,VD,Vaud,46.831505,6.554121,46.831505,6.554121,"Bullet, village",town,true
+chateau-doex,Château-d'Oex,VD,Vaud,46.475016,7.136248,46.475016,7.136248,Château-d'Oex,town,true
+lausanne,Lausanne,VD,Vaud,46.520577,6.63189,46.520577,6.63189,Lausanne,city,true
+le-chenit,Le Chenit,VD,Vaud,46.585188,6.209346,46.585188,6.209346,Le Brassus,town,true
+leysin,Leysin,VD,Vaud,46.344673,7.014407,46.344673,7.014407,Leysin (station aval),town,true
+montreux,Montreux,VD,Vaud,46.434843,6.912927,46.434843,6.912927,Montreux,city,true
+morges,Morges,VD,Vaud,46.513374,6.495735,46.513374,6.495735,Morges,town,true
+nyon,Nyon,VD,Vaud,46.385086,6.232215,46.385086,6.232215,Nyon,city,true
+ollon,Ollon,VD,Vaud,46.293439,6.995004,46.293439,6.995004,"Ollon VD, gare",town,true
+ormont-dessus,Ormont-Dessus,VD,Vaud,46.357052,7.121797,46.357052,7.121797,Leysin (station aval),town,true
+vevey,Vevey,VD,Vaud,46.462975,6.847603,46.462975,6.847603,Vevey,city,true
+yverdon-les-bains,Yverdon-les-Bains,VD,Vaud,46.778058,6.640482,46.778058,6.640482,Yverdon-les-Bains,city,true
+anniviers,Anniviers,VS,Valais,46.271543,7.55185,46.271543,7.55185,"Vercorin, Rte d'Anniviers",town,true
+brig-glis,Brig-Glis,VS,Valais,46.304498,7.95353,46.304498,7.95353,Brig Bahnhofplatz,town,true
+champery,Champéry,VS,Valais,46.175753,6.868336,46.175753,6.868336,Champéry,resort,true
+crans-montana,Crans-Montana,VS,Valais,46.310865,7.484377,46.310865,7.484377,Crans-Montana gare,resort,true
+evolene,Evolène,VS,Valais,46.113947,7.494433,46.113947,7.494433,"Evolène, Village",town,true
+goms,Goms,VS,Valais,46.486791,8.264346,46.486791,8.264346,Biel (Goms),town,true
+leukerbad,Leukerbad,VS,Valais,46.379686,7.628228,46.379686,7.628228,Leukerbad (Talstation Gemmi),resort,true
+martigny,Martigny,VS,Valais,46.102927,7.074925,46.102927,7.074925,Martigny,town,true
+nendaz,Nendaz,VS,Valais,46.187234,7.344007,46.187234,7.344007,"Haute-Nendaz, station/poste",town,true
+orsieres,Orsières,VS,Valais,46.029276,7.144226,46.029276,7.144226,Orsières,town,true
+saas-fee,Saas-Fee,VS,Valais,46.109798,7.928143,46.109798,7.928143,Saas-Fee (Hannig),resort,true
+saas-grund,Saas-Grund,VS,Valais,46.126595,7.938074,46.126595,7.938074,Saas-Grund (Hohsaas Talst.),town,true
+saint-maurice,Saint-Maurice,VS,Valais,46.206152,7.006355,46.206152,7.006355,St-Triphon-Gare,town,true
+sierre,Sierre,VS,Valais,46.292242,7.531935,46.292242,7.531935,"Sierre, Hôtel de Ville/gare",town,true
+sion,Sion,VS,Valais,46.231422,7.358421,46.231422,7.358421,Sion,city,true
+val-de-bagnes,Val de Bagnes,VS,Valais,46.088049,7.126247,46.088049,7.126247,"Sembrancher, gare",town,true
+visp,Visp,VS,Valais,46.293144,7.881463,46.293144,7.881463,Visp,town,true
+zermatt,Zermatt,VS,Valais,46.018858,7.748781,46.018858,7.748781,Zermatt,town,true
+unteraegeri,Unterägeri,ZG,Zug,47.136004,8.580519,47.136004,8.580519,Unterägeri (See),town,true
+zug,Zug,ZG,Zug,47.170798,8.517283,47.170798,8.517283,Zug,city,true
+duebendorf,Dübendorf,ZH,Zürich,47.397189,8.620653,47.397189,8.620653,Dübendorf,town,true
+horgen,Horgen,ZH,Zürich,47.255147,8.60077,47.255147,8.60077,Horgen,town,true
+kloten,Kloten,ZH,Zürich,47.454029,8.584027,47.454029,8.584027,Kloten,town,true
+opfikon,Opfikon,ZH,Zürich,47.428053,8.577503,47.428053,8.577503,Opfikon,town,true
+uster,Uster,ZH,Zürich,47.348565,8.718168,47.348565,8.718168,Uster,town,true
+winterthur,Winterthur,ZH,Zürich,47.50076,8.725972,47.50076,8.725972,Winterthur,city,true
+waedenswil,Wädenswil,ZH,Zürich,47.226101,8.668265,47.226101,8.668265,Wädenswil,town,true
+zuerich,Zürich,ZH,Zürich,47.372309,8.542454,47.372309,8.542454,Zürich HB,city,true
