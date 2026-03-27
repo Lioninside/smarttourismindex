@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Smart Tourism Index</title>
+  <meta name="description" content="How SmartTourismIndex works — methodology, data sources, and the story behind the project. An independent, data-driven ranking of 193 Swiss destinations.">
+  <meta name="keywords" content="overtourism Switzerland, sustainable travel Switzerland, Swiss tourism data, destination ranking methodology">
+  <meta property="og:title" content="About — Smart Tourism Index">
+  <meta property="og:description" content="An independent, data-driven project ranking 193 Swiss destinations by access potential, base quality, and visitor pressure.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo">STI</a>
+      <nav class="site-nav">
+        <a href="index.html">Ranking</a>
+        <a href="about.html" class="active">About</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <span class="section-label">About</span>
+    <h1>About SmartTourismIndex</h1>
+    <p class="hero-subline">SmartTourismIndex is an independent, data-driven project. It evaluates 193 Swiss destinations as bases for exploration — scoring each by access potential, base quality, practical comfort, and visitor pressure.</p>
+  </div>
+</section>
+
+<!-- INTRO -->
+<section class="content-section">
+  <div class="container">
+    <div class="content-block">
+      <p>The goal is to make smarter travel choices visible and to support a more balanced distribution of tourism demand across Switzerland.</p>
+      <p>The index is built entirely on publicly available Swiss federal and geospatial data. It has no affiliation with any tourism board, hospitality group, or government body.</p>
+    </div>
+  </div>
+</section>
+
+<!-- THE PROBLEM -->
+<section class="content-section bg-light">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <span class="section-label">The Problem</span>
+        <h2>Overtourism is a distribution problem.</h2>
+      </div>
+      <div>
+        <p>Switzerland's most famous destinations — Zermatt, Lucerne, Interlaken — absorb a disproportionate share of visitor demand. The result is overcrowding, environmental pressure, and a diminished experience for tourists who followed the recommendation of an algorithm or a travel magazine.</p>
+        <p>The problem is not too many tourists. It is that too many tourists go to the same places. This is a data problem. And data can help solve it.</p>
+        <p>SmartTourismIndex was built to surface the alternatives — locations with equal or greater access potential, lower visitor pressure, and real capacity to host demand. Not hidden in the sense of remote or difficult, but overlooked in the sense of underrepresented in conventional recommendation systems.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- METHODOLOGY -->
+<section class="content-section" id="methodology">
+  <div class="container">
+    <span class="section-label">Methodology</span>
+    <h2>How STI measures destination value.</h2>
+    <p class="section-intro">STI calculates a score for each of the 193 Swiss locations based on four dimensions. Each dimension is weighted and derived from real data rather than editorial judgment.</p>
+
+    <div class="methodology-grid">
+      <div class="method-card">
+        <div class="method-weight">35%</div>
+        <h3>Access</h3>
+        <p>What can be reached from a location within one hour by public transport. This includes nature, lakes, hiking networks, cultural sites, scenic transport, and local hospitality — evaluated by both range and diversity.</p>
+      </div>
+      <div class="method-card">
+        <div class="method-weight">25%</div>
+        <h3>Base</h3>
+        <p>How suitable the location is as a place to stay. Heritage, walkability, local restaurants, and proximity to water are used as objective indicators of overall base quality.</p>
+      </div>
+      <div class="method-card">
+        <div class="method-weight">20%</div>
+        <h3>Comfort</h3>
+        <p>How easy it is to stay and move around without a car. Public transport frequency, summer climate, and accommodation availability define the practical conditions of a stay.</p>
+      </div>
+      <div class="method-card">
+        <div class="method-weight">20%</div>
+        <h3>OT↓</h3>
+        <p>How saturated a location already is with visitors. High quality combined with lower visitor pressure represents a strategic advantage for more balanced travel.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DATA SOURCES -->
+<section class="content-section bg-light">
+  <div class="container">
+    <span class="section-label">Data Sources</span>
+    <h2>Built on Swiss public data.</h2>
+    <p class="section-intro">Every indicator in the index is derived from publicly available, official Swiss data. No editorial scoring, no surveys, no opinion.</p>
+
+    <div class="sources-list">
+      <div class="source-item">
+        <strong>Swiss Federal Statistical Office (BFS)</strong>
+        <p>Tourism arrivals, overnight stays, accommodation supply, occupancy rates, and domestic/international visitor split — the primary source for tourism pressure indicators.</p>
+      </div>
+      <div class="source-item">
+        <strong>MeteoSwiss</strong>
+        <p>Summer climate normals — average temperature, precipitation, and sunshine hours for June, July, and August. Used to assess seasonal comfort for visitors.</p>
+      </div>
+      <div class="source-item">
+        <strong>Swiss GTFS</strong>
+        <p>The national public transport feed — stop locations, route frequency, and connection richness. Used to score PT strength and anchor stop quality per destination.</p>
+      </div>
+      <div class="source-item">
+        <strong>swissTLM3D</strong>
+        <p>The national topographic landscape model — hiking trail networks, water features, and terrain data. Used to assess trail access and natural amenity within a 15 km radius.</p>
+      </div>
+      <div class="source-item">
+        <strong>OpenStreetMap</strong>
+        <p>Points of interest including museums and restaurants within a 2 km radius of each location. Used to assess base quality and local cultural presence.</p>
+      </div>
+      <div class="source-item">
+        <strong>UNESCO</strong>
+        <p>World Heritage Site designations as an input to heritage and cultural asset scoring within the reachable range of each destination.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT CLEMENS -->
+<section class="content-section">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <span class="section-label">Who built this</span>
+        <h2>An independent project.</h2>
+      </div>
+      <div>
+        <p>SmartTourismIndex was created by <strong>Clemens Bartlome</strong>, a Swiss tourism professional with more than fifteen years of experience across destination management, international sales, and digital strategy. He currently leads global FIT sales at Switzerland Travel Centre and previously worked as Country Manager in London.</p>
+        <p>SmartTourismIndex is an independent side project, developed in his own time and shaped by a strong interest in how data can support smarter travel decisions and a more balanced distribution of tourism value.</p>
+        <p>The index has no affiliation with any tourism board, hospitality group, or government body. All data used is publicly available.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <p>Smart Tourism Index — An independent, data-driven project by <a href="about.html">Clemens Bartlome</a>.</p>
+      <p class="footer-note">Data: Swiss Federal Statistical Office (BFS) · MeteoSwiss · Swiss GTFS · swissTLM3D · OpenStreetMap · UNESCO. Not affiliated with any tourism board or government body.</p>
+      <nav class="footer-nav">
+        <a href="index.html">Ranking</a>
+        <a href="about.html">About &amp; Methodology</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Tourism Index — Switzerland</title>
+  <meta name="description" content="A data-driven ranking of 193 Swiss destinations by their value as a base for exploration. Facts and figures, not destination marketing.">
+  <meta name="keywords" content="Switzerland tourism, overtourism, Swiss destinations, travel ranking, sustainable travel, public transport Switzerland">
+  <meta property="og:title" content="Smart Tourism Index — Switzerland">
+  <meta property="og:description" content="193 Swiss destinations ranked by access potential, base quality, and visitor pressure. A fact-based alternative to popularity-driven travel.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo">STI</a>
+      <nav class="site-nav">
+        <a href="index.html" class="active">Ranking</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-layout">
+      <div class="hero-left">
+        <span class="section-label">Smart Tourism Index</span>
+        <h1 class="hero-title">Smart Tourism Index</h1>
+        <p class="hero-subline">A data-driven ranking of Swiss destinations by their value as a base for exploration.</p>
+        <p class="hero-body">SmartTourismIndex evaluates destinations as bases for exploration, not as endpoints. The central question is not how prominent a place is — but what it enables from there.</p>
+        <p class="hero-body">The index measures access to nature, lakes, cultural assets, and infrastructure, combined with the quality of the location and its current visitor pressure. This makes it possible to identify not only the strongest bases, but also those with real capacity to absorb demand.</p>
+        <blockquote class="pull-quote">The best base for exploration is not the most famous one. It is the smartest one.</blockquote>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">193</span>
+            <span class="stat-label">Destinations</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">4</span>
+            <span class="stat-label">Dimensions</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">CH</span>
+            <span class="stat-label">Switzerland</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="leaderboard">
+          <span class="section-label">Top 10</span>
+          <div id="leaderboard-list"></div>
+          <a href="#ranking" class="view-all-link">View full ranking ↓</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT IS THE INDEX -->
+<section class="what-is-index">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <span class="section-label">What is the Index</span>
+        <h2>A ranking built on access, not attention.</h2>
+      </div>
+      <div>
+        <p>Overtourism is, at its core, a distribution challenge. Better data enables better decisions.</p>
+        <p>SmartTourismIndex evaluates 193 Swiss locations using a wide range of data, including geospatial, climatic, infrastructural, transport, and tourism pressure indicators. These inputs are translated into a single, comparable score.</p>
+        <p>Each location is assessed by its value as a base and what it enables — not by how prominent it is. The result is a ranking that reflects real access potential, base quality, and visitor pressure, offering a more informed and evidence-based alternative to popularity-driven decision making.</p>
+        <p><a href="about.html" style="color:var(--black);font-weight:600;">Read the full methodology →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RANKING -->
+<section id="ranking" class="ranking-section">
+  <div class="container">
+    <span class="section-label">The Ranking</span>
+    <h2>193 Swiss destinations.<br>Ranked by smart staying value.</h2>
+    <p class="section-intro">Every location is evaluated by access potential, base quality, practical comfort, and visitor pressure. Each score is built from hundreds of data points — transport networks, geospatial data, climate, and tourism statistics.</p>
+
+    <div class="ranking-controls">
+      <div class="tab-bar">
+        <button class="tab-btn active" data-tab="list">Ranking</button>
+        <button class="tab-btn" data-tab="map">Map</button>
+      </div>
+      <div class="filters">
+        <input type="search" id="search-input" placeholder="Search destination…" autocomplete="off" spellcheck="false">
+        <select id="canton-filter">
+          <option value="">All cantons</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- LIST TAB -->
+    <div id="tab-list" class="tab-content active">
+      <div id="places-list">
+        <p class="no-results">Loading…</p>
+      </div>
+    </div>
+
+    <!-- MAP TAB -->
+    <div id="tab-map" class="tab-content">
+      <div id="map"></div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <p>Smart Tourism Index — An independent, data-driven project by <a href="about.html">Clemens Bartlome</a>.</p>
+      <p class="footer-note">Data: Swiss Federal Statistical Office (BFS) · MeteoSwiss · Swiss GTFS · swissTLM3D · OpenStreetMap · UNESCO. Not affiliated with any tourism board or government body.</p>
+      <nav class="footer-nav">
+        <a href="index.html">Ranking</a>
+        <a href="about.html">About &amp; Methodology</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
