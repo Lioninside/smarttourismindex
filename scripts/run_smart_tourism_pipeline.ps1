@@ -8,6 +8,7 @@ $scripts = @(
     "scripts\pipeline\03_bfs_supply_demand.py",
     "scripts\pipeline\04_bfs_merge.py",
     "scripts\pipeline\05_climate.py",
+    "scripts\pipeline\05b_tourism_intensity_seasonality.py",
     "scripts\pipeline\06_gtfs_access.py",
     "scripts\pipeline\07_hiking.py",
     "scripts\pipeline\08_water.py",
