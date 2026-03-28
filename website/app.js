@@ -50,7 +50,6 @@ function renderLeaderboard() {
 }
 
 function jumpToPlace(slug) {
-  // clear filters, switch to list tab, expand card
   currentSearch = '';
   currentCanton = '';
   const si = document.getElementById('search-input');
@@ -104,7 +103,6 @@ function renderList() {
     return renderCard(place, rank, expandedSlug === place.slug);
   }).join('');
 
-  // If a card is expanded, load its detail
   if (expandedSlug) {
     const place = allPlaces.find(p => p.slug === expandedSlug);
     if (place && getFiltered().includes(place)) {
@@ -161,7 +159,6 @@ function bar(label, value) {
 // ── Card expand/collapse ─────────────────────────────────────────────────────
 
 async function toggleCard(slug) {
-  // destroy existing mini map
   if (miniMapInstance) {
     miniMapInstance.remove();
     miniMapInstance = null;
@@ -176,7 +173,6 @@ async function toggleCard(slug) {
   expandedSlug = slug;
   renderList();
 
-  // scroll card into view
   setTimeout(() => {
     const card = document.querySelector(`[data-slug="${slug}"]`);
     if (card) card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
@@ -208,12 +204,12 @@ function renderDetail(slug, detail, container) {
   const hotelUrl = `https://www.swisshotels.com/en/results/?q=${encodeURIComponent(detail.name)}`;
 
   const metrics = [
-    m.overnight_stays          && { label: 'Overnight stays',     value: Number(m.overnight_stays).toLocaleString('en-CH') },
-    m.hiking_length_15km_km    && { label: 'Hiking within 15 km', value: Math.round(m.hiking_length_15km_km) + ' km' },
-    m.summer_temp_avg          && { label: 'Summer temperature',  value: m.summer_temp_avg.toFixed(1) + '°C' },
-    m.restaurant_count_2km     && { label: 'Restaurants',         value: m.restaurant_count_2km },
-    m.museum_count_2km         && { label: 'Museums',             value: m.museum_count_2km },
-    m.domestic_share_overnights && { label: 'Domestic visitors',  value: Math.round(m.domestic_share_overnights * 100) + '%' }
+    m.overnight_stays           && { label: 'Overnight stays',     value: Number(m.overnight_stays).toLocaleString('en-CH') },
+    m.hiking_length_15km_km     && { label: 'Hiking within 15 km', value: Math.round(m.hiking_length_15km_km) + ' km' },
+    m.summer_temp_avg           && { label: 'Summer temperature',  value: m.summer_temp_avg.toFixed(1) + '°C' },
+    m.restaurant_count_2km      && { label: 'Restaurants',         value: m.restaurant_count_2km },
+    m.museum_count_2km          && { label: 'Museums',             value: m.museum_count_2km },
+    m.domestic_share_overnights && { label: 'Domestic visitors',   value: Math.round(m.domestic_share_overnights * 100) + '%' }
   ].filter(Boolean);
 
   const metricsHtml = metrics.map(({ label, value }) => `
@@ -239,6 +235,7 @@ function renderDetail(slug, detail, container) {
       <div class="detail-info-col">
         <div class="detail-metrics">${metricsHtml}</div>
         ${tagsHtml}
+        ${renderSeasonality(detail.seasonality)}
         <div class="detail-actions">
           <a href="${hotelUrl}" target="_blank" rel="noopener noreferrer" class="btn-primary">Find a hotel ↗</a>
           <a href="${gmUrl}"    target="_blank" rel="noopener noreferrer" class="btn-secondary">Google Maps ↗</a>
@@ -251,6 +248,49 @@ function renderDetail(slug, detail, container) {
     setTimeout(() => initMiniMap(slug, coord), 80);
   }
 }
+
+// ── Seasonality widget ───────────────────────────────────────────────────────
+
+function renderSeasonality(seasonality) {
+  if (!seasonality || !Array.isArray(seasonality.monthly_index) || seasonality.monthly_index.length !== 12) {
+    return '';
+  }
+
+  const { volatility_label, peak_month, trough_month, monthly_index } = seasonality;
+
+  // Season colours: Dec/Jan/Feb winter, Mar/Apr/May spring, Jun/Jul/Aug summer, Sep/Oct/Nov autumn
+  const colors = [
+    '#93b8d8', '#93b8d8',                   // Jan, Feb  — winter
+    '#82c97a', '#82c97a', '#82c97a',         // Mar–May   — spring
+    '#f5a623', '#f5a623', '#f5a623',         // Jun–Aug   — summer
+    '#d4824a', '#d4824a', '#d4824a',         // Sep–Nov   — autumn
+    '#93b8d8'                                // Dec       — winter
+  ];
+
+  const maxVal = Math.max(...monthly_index, 100);
+  // Position of the avg=100 reference line as % of chart height (bars grow from bottom)
+  const refPct = (100 / maxVal * 100).toFixed(1);
+
+  const bars = monthly_index.map((val, i) => {
+    const h = (val / maxVal * 100).toFixed(1);
+    return `<div class="sbar-b" style="height:${h}%;background:${colors[i]}"></div>`;
+  }).join('');
+
+  const months = 'JFMAMJJASOND'.split('').map(l => `<span>${l}</span>`).join('');
+
+  return `
+    <div class="seasonality-widget">
+      <div class="sbar-chart">
+        <div class="sbar-ref" style="bottom:${refPct}%"></div>
+        ${bars}
+      </div>
+      <div class="sbar-months">${months}</div>
+      <div class="sbar-caption">${volatility_label} · Busiest: ${peak_month.toUpperCase()} · Quietest: ${trough_month.toUpperCase()}</div>
+    </div>
+  `;
+}
+
+// ── Mini map ─────────────────────────────────────────────────────────────────
 
 function initMiniMap(slug, coord) {
   const el = document.getElementById(`mini-map-${slug}`);
