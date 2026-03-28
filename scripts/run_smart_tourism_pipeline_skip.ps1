@@ -8,6 +8,7 @@ $steps = @(
     @{ script = "scripts\pipeline\03_bfs_supply_demand.py"; output = "data_processed\bfs\bfs_supply_demand_2025.json" },
     @{ script = "scripts\pipeline\04_bfs_merge.py"; output = "data_processed\bfs\bfs_place_metrics_2025.json" },
     @{ script = "scripts\pipeline\05_climate.py"; output = "data_processed\climate\climate_metrics_jja.json" },
+    @{ script = "scripts\pipeline\05b_tourism_intensity_seasonality.py"; output = "data_processed\tourism_intensity_seasonality.csv" },
     @{ script = "scripts\pipeline\06_gtfs_access.py"; output = "data_processed\gtfs\gtfs_access_metrics.json" },
     @{ script = "scripts\pipeline\07_hiking.py"; output = "data_processed\hiking\hiking_metrics.json" },
     @{ script = "scripts\pipeline\08_water.py"; output = "data_processed\water\water_metrics.json" },
