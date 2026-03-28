@@ -6,7 +6,7 @@ Merges processed source outputs into one place-level score file.
 
 Inputs:
   - metadata/places_master.csv
-  - data_processed JSON files from BFS, climate, GTFS, hiking, water, heritage, OSM
+  - data_processed JSON files from BFS, climate, GTFS, hiking, water, OSM
   - data_processed/tourism_intensity_seasonality.csv  (from 05b)
 
 Output:
@@ -32,7 +32,6 @@ CLIMATE_JSON  = Path("data_processed/climate/climate_metrics_jja.json")
 GTFS_JSON     = Path("data_processed/gtfs/gtfs_access_metrics.json")
 HIKING_JSON   = Path("data_processed/hiking/hiking_metrics.json")
 WATER_JSON    = Path("data_processed/water/water_metrics.json")
-HERITAGE_JSON = Path("data_processed/heritage/heritage_metrics.json")
 OSM_JSON      = Path("data_processed/osm/osm_poi_metrics.json")
 INTENSITY_CSV = Path("data_processed/tourism_intensity_seasonality.csv")
 OUTPUT_JSON   = Path("data_processed/final/place_scores.json")
@@ -121,32 +120,38 @@ def load_intensity_scores(path: Path, places: List[Dict[str, Any]]) -> Dict[str,
 def main() -> None:
     places = read_places(PLACES_CSV)
 
-    bfs      = index_by_slug(load_json(BFS_JSON))
-    climate  = index_by_slug(load_json(CLIMATE_JSON))
-    gtfs     = index_by_slug(load_json(GTFS_JSON))
-    hiking   = index_by_slug(load_json(HIKING_JSON))
-    water    = index_by_slug(load_json(WATER_JSON))
-    heritage = index_by_slug(load_json(HERITAGE_JSON))
-    osm      = index_by_slug(load_json(OSM_JSON))
+    bfs     = index_by_slug(load_json(BFS_JSON))
+    climate = index_by_slug(load_json(CLIMATE_JSON))
+    gtfs    = index_by_slug(load_json(GTFS_JSON))
+    hiking  = index_by_slug(load_json(HIKING_JSON))
+    water   = index_by_slug(load_json(WATER_JSON))
+    osm     = index_by_slug(load_json(OSM_JSON))
 
     intensity_scores = load_intensity_scores(INTENSITY_CSV, places)
+
+    # Pre-compute max historic_feature_count for min-max normalisation (min assumed 0)
+    hf_max = max((v.get("historic_feature_count", 0) for v in osm.values()), default=1)
+    if hf_max == 0:
+        hf_max = 1  # guard against all-zero edge case
 
     rows: List[Dict[str, Any]] = []
 
     for place in places:
         slug = place["slug"]
-        b  = bfs.get(slug, {})
-        c  = climate.get(slug, {})
-        g  = gtfs.get(slug, {})
-        h  = hiking.get(slug, {})
-        w  = water.get(slug, {})
-        he = heritage.get(slug, {})
-        o  = osm.get(slug, {})
+        b = bfs.get(slug, {})
+        c = climate.get(slug, {})
+        g = gtfs.get(slug, {})
+        h = hiking.get(slug, {})
+        w = water.get(slug, {})
+        o = osm.get(slug, {})
 
         # ── Base quality (25%) ────────────────────────────────────────────
-        base = 0.0
-        if he.get("local_unesco"):
-            base += 35
+        # Heritage sub-score: min-max normalised historic_feature_count (0-35)
+        # castle/monastery/ruins/fort/archaeological within 2km (source: OSM gis_osm_pois_free)
+        hf_count = o.get("historic_feature_count", 0)
+        heritage_score = (hf_count / hf_max) * 35.0
+
+        base = heritage_score
         if o.get("museum_count_2km", 0) > 0:
             base += 15
         if o.get("restaurant_count_2km", 0) > 5:
@@ -165,13 +170,13 @@ def main() -> None:
             access += 25
         if w.get("reachable_water"):
             access += 15
-        if o.get("museum_count_2km", 0) > 0 or he.get("local_unesco"):
+        if o.get("museum_count_2km", 0) > 0:
             access += 15
         diversity = sum([
             1 if h.get("hiking_reachable") else 0,
             1 if w.get("reachable_water") else 0,
             1 if g.get("anchor_route_count", 0) >= 3 else 0,
-            1 if (o.get("museum_count_2km", 0) > 0 or he.get("local_unesco")) else 0,
+            1 if o.get("museum_count_2km", 0) > 0 else 0,
         ])
         access += 10 if diversity >= 3 else 5 if diversity == 2 else 0
 
@@ -230,8 +235,8 @@ def main() -> None:
             reachable_tags.append("Scenic transport")
         if o.get("museum_count_2km", 0) > 0:
             reachable_tags.append("Museums")
-        if he.get("local_unesco"):
-            reachable_tags.append("UNESCO")
+        if hf_count > 0:
+            reachable_tags.append("Historic sites")
 
         rows.append({
             "slug":   slug,
@@ -254,15 +259,15 @@ def main() -> None:
                 "hiking_length_15km_km":     h.get("hiking_length_15km_km"),
                 "museum_count_2km":          o.get("museum_count_2km"),
                 "restaurant_count_2km":      o.get("restaurant_count_2km"),
+                "historic_feature_count":    hf_count,
             },
             "data_status": {
-                "bfs":      bool(b),
-                "climate":  bool(c),
-                "gtfs":     bool(g),
-                "hiking":   bool(h),
-                "water":    bool(w),
-                "heritage": bool(he),
-                "osm":      bool(o),
+                "bfs":     bool(b),
+                "climate": bool(c),
+                "gtfs":    bool(g),
+                "hiking":  bool(h),
+                "water":   bool(w),
+                "osm":     bool(o),
             },
         })
 

@@ -2,7 +2,7 @@
 """
 10_osm_pois.py
 
-Reads an OSM GeoPackage extract and exports basic museum/restaurant presence metrics.
+Reads an OSM GeoPackage extract and exports museum/restaurant/historic presence metrics.
 
 Expected input:
   - places_master.csv
@@ -17,6 +17,7 @@ MVP logic:
 - use gis_osm_pois_free
 - count museum POIs within 2 km
 - count restaurant POIs within 2 km
+- count historic feature POIs within 2 km (castle, monastery, ruins, fort, archaeological)
 - create simple local presence labels
 """
 
@@ -36,6 +37,8 @@ OSM_GPKG_B = Path("data_raw/osm/switzerland-latest-free.gpkg")
 OUTPUT_JSON = Path("data_processed/osm/osm_poi_metrics.json")
 
 POI_LAYER = "gis_osm_pois_free"
+
+HISTORIC_FCLASSES = {"castle", "monastery", "ruins", "fort", "archaeological"}
 
 
 def read_places(path: Path) -> List[Dict[str, Any]]:
@@ -82,8 +85,10 @@ def main() -> None:
     if "fclass" not in pois.columns:
         raise ValueError(f"Expected 'fclass' column in {POI_LAYER}, found: {list(pois.columns)}")
 
-    museums = pois[pois["fclass"].astype(str).str.lower() == "museum"]
-    restaurants = pois[pois["fclass"].astype(str).str.lower() == "restaurant"]
+    fclass_lower = pois["fclass"].astype(str).str.lower()
+    museums = pois[fclass_lower == "museum"]
+    restaurants = pois[fclass_lower == "restaurant"]
+    historic = pois[fclass_lower.isin(HISTORIC_FCLASSES)]
 
     rows: List[Dict[str, Any]] = []
     for place in places:
@@ -92,6 +97,7 @@ def main() -> None:
 
         museum_count = int(len(museums[museums.intersects(buf2)]))
         restaurant_count = int(len(restaurants[restaurants.intersects(buf2)]))
+        historic_count = int(len(historic[historic.intersects(buf2)]))
 
         rows.append(
             {
@@ -99,6 +105,7 @@ def main() -> None:
                 "name": place["name"],
                 "museum_count_2km": museum_count,
                 "restaurant_count_2km": restaurant_count,
+                "historic_feature_count": historic_count,
                 "local_culture_presence": museum_count > 0,
                 "local_restaurant_presence": restaurant_count > 0,
             }
