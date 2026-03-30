@@ -15,7 +15,7 @@ Inputs:
   - data_processed/tourism_intensity_seasonality.csv     (tourism_intensity)
   - data_processed/scenic_access_metrics.json            (scenic_score, access_hiking_score)
   - data_processed/destination_pull_metrics.json         (destination_pull_score)
-  - data_processed/cultural_access_metrics.json          (cultural_access_score)
+  - data_processed/cultural_access_metrics.csv           (cultural_access_score)
 
 Output:
   - data_processed/final/place_scores.json
@@ -57,7 +57,7 @@ WALKABILITY_JSON   = Path("data_processed/walkability_metrics.json")
 INTENSITY_CSV      = Path("data_processed/tourism_intensity_seasonality.csv")
 SCENIC_JSON        = Path("data_processed/scenic_access_metrics.json")
 DEST_PULL_JSON     = Path("data_processed/destination_pull_metrics.json")
-CULTURAL_JSON      = Path("data_processed/cultural_access_metrics.json")
+CULTURAL_CSV       = Path("data_processed/cultural_access_metrics.csv")
 OUTPUT_JSON        = Path("data_processed/final/place_scores.json")
 
 # Clip tourism_intensity at this percentile to contain extreme outliers
@@ -70,6 +70,14 @@ def load_json(path: Path) -> List[Dict[str, Any]]:
         return []
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def load_csv_metrics(path: Path) -> List[Dict[str, Any]]:
+    if not path.exists():
+        print(f"  WARNING: {path} not found — will use median fallback for missing values")
+        return []
+    with path.open("r", encoding="utf-8", newline="") as f:
+        return list(csv.DictReader(f))
 
 
 def read_places(path: Path) -> List[Dict[str, Any]]:
@@ -218,7 +226,7 @@ def main() -> None:
     walk      = index_by_slug(load_json(WALKABILITY_JSON))
     scenic    = index_by_slug(load_json(SCENIC_JSON))
     dest_pull = index_by_slug(load_json(DEST_PULL_JSON))
-    cultural  = index_by_slug(load_json(CULTURAL_JSON))
+    cultural  = index_by_slug(load_csv_metrics(CULTURAL_CSV))
 
     intensity_map = load_tourism_intensity(INTENSITY_CSV, places)
 
@@ -242,7 +250,7 @@ def main() -> None:
     dp_scores        = {r["slug"]: float(r["destination_pull_score"])
                         for r in load_json(DEST_PULL_JSON) if "destination_pull_score" in r}
     cult_scores      = {r["slug"]: float(r["cultural_access_score"])
-                        for r in load_json(CULTURAL_JSON) if "cultural_access_score" in r}
+                        for r in load_csv_metrics(CULTURAL_CSV) if "cultural_access_score" in r}
     acc_hike_scores  = {r["slug"]: float(r["access_hiking_score"])
                         for r in load_json(SCENIC_JSON) if "access_hiking_score" in r}
 

@@ -2,7 +2,7 @@
 """
 10b_cultural_access.py
 
-Score each place on named museums accessible within its reachable commune set.
+Score each place on named museums reachable within 1 hour by PT.
 
 Inputs:
   - metadata/places_master.csv
@@ -10,22 +10,27 @@ Inputs:
   - data_raw/osm/osm_switzerland.gpkg  (layer: gis_osm_pois_free)
 
 Output:
-  - data_processed/cultural_access_metrics.json
+  - data_processed/cultural_access_metrics.csv
 
 Columns:
-  slug, reachable_named_museums, cultural_access_score (0-1 normalised)
+  slug, reachable_named_museums (capped at 20), cultural_access_score (0-1)
 
 Method:
   - Filter OSM POIs to fclass='museum' AND name not null/empty
-  - For each base place: union of 3km buffers around reachable commune anchors
-  - Count named museums intersecting union, capped at 20
-  - Min-max normalise the capped count
+  - For each base place:
+      a. Get reachable commune slugs from gtfs_reachability.json
+      b. Build union of 3km buffers around all reachable commune anchor points
+         (reproject WGS84 -> EPSG:2056 for accurate metre-based buffers)
+      c. Count named museums within union, capped at 20
+  - Fallback: if place has no reachability entry, use a 40km geographic buffer
+  - Min-max normalise capped counts across all 193 places
 """
 
 from __future__ import annotations
 
 import csv
 import json
+import math
 from pathlib import Path
 from typing import Any, Dict, List
 
@@ -37,9 +42,10 @@ PLACES_CSV        = Path("metadata/places_master.csv")
 REACHABILITY_JSON = Path("data_processed/gtfs/gtfs_reachability.json")
 OSM_GPKG          = Path("data_raw/osm/osm_switzerland.gpkg")
 POI_LAYER         = "gis_osm_pois_free"
-OUTPUT_JSON       = Path("data_processed/cultural_access_metrics.json")
+OUTPUT_CSV        = Path("data_processed/cultural_access_metrics.csv")
 
-COMMUNE_BUFFER_M  = 3_000   # 3 km around each reachable commune anchor
+COMMUNE_BUFFER_M  = 3_000    # 3 km around each reachable commune anchor
+FALLBACK_BUFFER_M = 40_000   # 40 km fallback when no reachability entry
 MUSEUM_CAP        = 20
 
 
@@ -58,6 +64,10 @@ def read_places(path: Path) -> List[Dict[str, Any]]:
         ]
 
 
+def to_lv95_point(lon: float, lat: float) -> Any:
+    return gpd.GeoSeries([Point(lon, lat)], crs=4326).to_crs(2056).iloc[0]
+
+
 def minmax_normalise(values: List[float]) -> List[float]:
     v_min = min(values)
     v_max = max(values)
@@ -72,51 +82,63 @@ def main() -> None:
 
     places = read_places(PLACES_CSV)
     slug_to_place = {p["slug"]: p for p in places}
-    reachability: Dict[str, List[str]] = json.loads(REACHABILITY_JSON.read_text(encoding="utf-8"))
+    reachability: Dict[str, List[str]] = json.loads(
+        REACHABILITY_JSON.read_text(encoding="utf-8")
+    )
 
     print("Loading OSM POIs...")
     pois = gpd.read_file(OSM_GPKG, layer=POI_LAYER).to_crs(2056)
+    print(f"  POI columns: {list(pois.columns)}")
 
-    # Filter to named museums only
+    # Filter to museums with a non-empty name
     fclass_lower = pois["fclass"].astype(str).str.lower()
-    name_col = pois.get("name", pois.get("osm_name", None))
+    is_museum = fclass_lower == "museum"
+
+    # Locate name column (Geofabrik schema uses 'name')
+    name_col = None
+    for candidate in ("name", "osm_name", "NAME"):
+        if candidate in pois.columns:
+            name_col = pois[candidate]
+            break
     if name_col is None:
-        # Try to find any name-like column
+        # Fall back to first column containing "name" in its label
         for col in pois.columns:
             if "name" in col.lower():
                 name_col = pois[col]
                 break
 
     if name_col is not None:
-        museums = pois[
-            (fclass_lower == "museum") &
-            name_col.notna() &
-            (name_col.astype(str).str.strip() != "")
-        ]
+        has_name = name_col.notna() & (name_col.astype(str).str.strip() != "")
+        museums = pois[is_museum & has_name]
     else:
-        museums = pois[fclass_lower == "museum"]
-        print("  WARNING: no name column found — using all museums without name filter")
+        museums = pois[is_museum]
+        print("  WARNING: no name column found — counting all museums without name filter")
 
     print(f"  Named museums: {len(museums)}")
 
     rows: List[Dict[str, Any]] = []
+    fallback_count = 0
+
     for place in places:
         slug = place["slug"]
-        reachable_slugs = reachability.get(slug, [])
+        reachable_slugs = reachability.get(slug)
 
-        # Union of 3km buffers around reachable commune anchors + base place
-        buffers = []
-        for rslt in [slug] + reachable_slugs:
-            rp = slug_to_place.get(rslt)
-            if rp is None:
-                continue
-            pt = gpd.GeoSeries([Point(rp["lon"], rp["lat"])], crs=4326).to_crs(2056).iloc[0]
-            buffers.append(pt.buffer(COMMUNE_BUFFER_M))
+        if reachable_slugs is not None:
+            # Build union of 3km buffers around reachable communes + base place
+            buffers = []
+            for rslt in [slug] + reachable_slugs:
+                rp = slug_to_place.get(rslt)
+                if rp is None:
+                    continue
+                buffers.append(to_lv95_point(rp["lon"], rp["lat"]).buffer(COMMUNE_BUFFER_M))
+            union_geom = unary_union(buffers) if buffers else \
+                to_lv95_point(place["lon"], place["lat"]).buffer(COMMUNE_BUFFER_M)
+        else:
+            # Fallback: 40km buffer around anchor
+            union_geom = to_lv95_point(place["lon"], place["lat"]).buffer(FALLBACK_BUFFER_M)
+            fallback_count += 1
 
-        union_geom = unary_union(buffers) if buffers else \
-            gpd.GeoSeries([Point(place["lon"], place["lat"])], crs=4326).to_crs(2056).iloc[0].buffer(COMMUNE_BUFFER_M)
-
-        count = int(len(museums[museums.intersects(union_geom)]))
+        count  = int(len(museums[museums.intersects(union_geom)]))
         capped = min(count, MUSEUM_CAP)
 
         rows.append({
@@ -125,6 +147,9 @@ def main() -> None:
             "reachable_named_museums": capped,
         })
 
+    if fallback_count:
+        print(f"  Fallback (40km buffer) used for {fallback_count} places")
+
     # Min-max normalise
     norm = minmax_normalise([r["reachable_named_museums"] for r in rows])
     for i, row in enumerate(rows):
@@ -132,12 +157,15 @@ def main() -> None:
 
     rows.sort(key=lambda x: x["slug"])
 
-    OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    with OUTPUT_JSON.open("w", encoding="utf-8") as f:
-        json.dump(rows, f, ensure_ascii=False, indent=2)
+    OUTPUT_CSV.parent.mkdir(parents=True, exist_ok=True)
+    with OUTPUT_CSV.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=["slug", "name", "reachable_named_museums", "cultural_access_score"])
+        writer.writeheader()
+        writer.writerows(rows)
 
-    print(f"Wrote {OUTPUT_JSON} with {len(rows)} rows")
-    print(f"  cultural_access_score range: {min(r['cultural_access_score'] for r in rows):.3f}–{max(r['cultural_access_score'] for r in rows):.3f}")
+    print(f"Wrote {OUTPUT_CSV} with {len(rows)} rows")
+    scores = [r["cultural_access_score"] for r in rows]
+    print(f"  cultural_access_score range: {min(scores):.3f}–{max(scores):.3f}")
 
 
 if __name__ == "__main__":

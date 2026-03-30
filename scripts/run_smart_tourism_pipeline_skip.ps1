@@ -18,7 +18,7 @@ $steps = @(
     @{ script = "scripts\pipeline\08_water.py";                          output = "data_processed\water\water_metrics.json" },
     @{ script = "scripts\pipeline\09_heritage.py";                       output = "data_processed\heritage\heritage_metrics.json" },
     @{ script = "scripts\pipeline\10_osm_pois.py";                       output = "data_processed\osm\osm_poi_metrics.json" },
-    @{ script = "scripts\pipeline\10b_cultural_access.py";               output = "data_processed\cultural_access_metrics.json" },
+    @{ script = "scripts\pipeline\10b_cultural_access.py";               output = "data_processed\cultural_access_metrics.csv" },
     @{ script = "scripts\pipeline\11_merge_score.py";                    output = "data_processed\final\place_scores.json" },
     @{ script = "scripts\pipeline\12_export_site_data.py";               output = "data_export\places-index.json" }
 )
