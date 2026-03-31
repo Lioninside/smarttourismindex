@@ -302,7 +302,7 @@ def main() -> None:
             reachable_tags.append("Water")
         if scenic.get(slug, {}).get("scenic_transport_count", 0) > 0:
             reachable_tags.append("Scenic transport")
-        if cultural.get(slug, {}).get("reachable_named_museums", 0) > 0:
+        if int(cultural.get(slug, {}).get("reachable_named_museums", 0) or 0) > 0:
             reachable_tags.append("Museums")
         if he.get("isos_name"):
             reachable_tags.append("Historic town")
