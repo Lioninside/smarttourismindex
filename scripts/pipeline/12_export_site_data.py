@@ -2,15 +2,17 @@
 """
 12_export_site_data.py
 
-Exports final processed place data into website-ready JSON files.
+Exports final scored place data into website-ready JSON files.
 
 Inputs:
   - data_processed/final/place_scores.json
-  - data_processed/tourism_intensity_seasonality.csv  (from 05b)
+  - data_processed/tourism_intensity_seasonality.csv  (seasonality + tourism_intensity)
+  - data_processed/osm/osm_poi_metrics.json           (restaurant_count)
+  - data_processed/heritage/heritage_metrics.json     (isos_name)
 
 Outputs:
-  - data_export/places-index.json          (lightweight index, no seasonality)
-  - data_export/places/<slug>.json         (full detail + seasonality + tourism_intensity)
+  - data_export/places-index.json          (lightweight index for list view)
+  - data_export/places/<slug>.json         (full detail per place)
   - data_export/version.json
 """
 
@@ -22,39 +24,42 @@ from datetime import date
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
-INPUT_JSON    = Path("data_processed/final/place_scores.json")
-INTENSITY_CSV = Path("data_processed/tourism_intensity_seasonality.csv")
-EXPORT_DIR    = Path("data_export")
-INDEX_JSON    = EXPORT_DIR / "places-index.json"
-PLACES_DIR    = EXPORT_DIR / "places"
-VERSION_JSON  = EXPORT_DIR / "version.json"
+INPUT_JSON     = Path("data_processed/final/place_scores.json")
+INTENSITY_CSV  = Path("data_processed/tourism_intensity_seasonality.csv")
+OSM_JSON       = Path("data_processed/osm/osm_poi_metrics.json")
+HERITAGE_JSON  = Path("data_processed/heritage/heritage_metrics.json")
+EXPORT_DIR     = Path("data_export")
+INDEX_JSON     = EXPORT_DIR / "places-index.json"
+PLACES_DIR     = EXPORT_DIR / "places"
+VERSION_JSON   = EXPORT_DIR / "version.json"
 
 MONTH_COLS = ["jan", "feb", "mar", "apr", "may", "jun",
               "jul", "aug", "sep", "oct", "nov", "dec"]
 
 
-def load_json(path: Path) -> List[Dict[str, Any]]:
+def load_json(path: Path) -> Any:
+    if not path.exists():
+        print(f"  WARNING: {path} not found")
+        return []
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def index_by_slug(rows: List[Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
+    return {r["slug"]: r for r in rows if r.get("slug")}
 
 
 def load_seasonality(
     path: Path,
     name_to_slug: Dict[str, str],
 ) -> Tuple[Dict[str, Dict[str, Any]], Dict[str, float]]:
-    """
-    Load tourism_intensity_seasonality.csv.
-
-    Returns:
-      seasonality_by_slug  – slug -> seasonality object for place JSON
-      intensity_by_slug    – slug -> tourism_intensity float
-    """
+    """Return (seasonality_by_slug, intensity_by_slug)."""
     if not path.exists():
-        print(f"WARNING: {path} not found — seasonality fields will be omitted from export")
+        print(f"  WARNING: {path} not found — seasonality omitted")
         return {}, {}
 
     seasonality: Dict[str, Dict[str, Any]] = {}
-    intensity: Dict[str, float] = {}
+    intensity:   Dict[str, float] = {}
 
     with path.open("r", encoding="utf-8", newline="") as f:
         reader = csv.DictReader(f)
@@ -64,7 +69,6 @@ def load_seasonality(
             if slug is None:
                 continue
 
-            # Monthly index: 12 integers (Jan-Dec), avg month = 100
             try:
                 monthly_index = [round(float(row[f"idx_{m}"])) for m in MONTH_COLS]
             except (KeyError, ValueError):
@@ -85,60 +89,83 @@ def load_seasonality(
                 except ValueError:
                     pass
 
-    print(f"  Seasonality data: {len(seasonality)} communes matched to slugs")
+    print(f"  Seasonality: {len(seasonality)} communes matched")
     return seasonality, intensity
 
 
 def main() -> None:
     if not INPUT_JSON.exists():
-        raise FileNotFoundError(f"Missing input file: {INPUT_JSON}")
+        raise FileNotFoundError(f"Missing: {INPUT_JSON}")
 
     rows = load_json(INPUT_JSON)
 
-    # Build name -> slug from the scores data for joining the intensity CSV
-    name_to_slug: Dict[str, str] = {row["name"]: row["slug"] for row in rows}
-
+    # Lookup tables
+    name_to_slug: Dict[str, str] = {r["name"]: r["slug"] for r in rows}
+    osm_by_slug     = index_by_slug(load_json(OSM_JSON))
+    heritage_by_slug = index_by_slug(load_json(HERITAGE_JSON))
     seasonality_data, intensity_data = load_seasonality(INTENSITY_CSV, name_to_slug)
 
     EXPORT_DIR.mkdir(parents=True, exist_ok=True)
     PLACES_DIR.mkdir(parents=True, exist_ok=True)
 
-    # ── Lightweight index (no seasonality — keeps index.json small) ────────
-    index_rows = [
-        {
-            "slug":          row["slug"],
+    # ── Lightweight index ────────────────────────────────────────────────
+    index_rows = []
+    for row in rows:
+        slug = row["slug"]
+        index_rows.append({
+            "slug":          slug,
             "name":          row["name"],
             "canton":        row.get("canton", ""),
+            "rank":          row.get("rank"),
             "score_total":   row["score_total"],
-            "subscores":     row["subscores"],
-            "reachable_tags": row["reachable_tags"],
-        }
-        for row in rows
-    ]
+            "scores":        row.get("scores", {}),
+            "subscores":     row.get("subscores", {}),
+            "reachable_tags": row.get("reachable_tags", []),
+        })
 
     with INDEX_JSON.open("w", encoding="utf-8") as f:
         json.dump(index_rows, f, ensure_ascii=False, indent=2)
 
-    # ── Full place detail files ────────────────────────────────────────────
+    # ── Full place detail files ──────────────────────────────────────────
     for row in rows:
-        slug = row["slug"]
-        detail = dict(row)  # shallow copy
+        slug   = row["slug"]
+        detail = dict(row)   # shallow copy — already has scores, metrics, etc.
 
+        # Seasonality (from 05b CSV)
         if slug in seasonality_data:
             detail["seasonality"] = seasonality_data[slug]
+
+        # Tourism intensity raw value
         if slug in intensity_data:
             detail["tourism_intensity"] = intensity_data[slug]
+
+        # Restaurant count from OSM (info only, not scored)
+        osm = osm_by_slug.get(slug, {})
+        detail["restaurant_count"] = osm.get("restaurant_count_2km", 0)
+
+        # ISOS name from heritage metrics
+        he = heritage_by_slug.get(slug, {})
+        detail["isos_name"] = he.get("isos_name", "")
+
+        # Ensure scores object uses new structure if present
+        # (already written by 11_merge_score.py — pass through unchanged)
+
+        # Remove any legacy UNESCO fields that may exist in old place files
+        detail.pop("local_unesco", None)
+        detail.pop("heritage_label", None)
+        detail.pop("isos_score_placeholder", None)
 
         with (PLACES_DIR / f"{slug}.json").open("w", encoding="utf-8") as f:
             json.dump(detail, f, ensure_ascii=False, indent=2)
 
-    # ── Version file ───────────────────────────────────────────────────────
+    # ── Version file ─────────────────────────────────────────────────────
     with VERSION_JSON.open("w", encoding="utf-8") as f:
         json.dump(
             {
-                "site_data_version": f"{date.today().isoformat()}-mvp",
+                "site_data_version": f"{date.today().isoformat()}-v2",
                 "updated_at":        date.today().isoformat(),
                 "place_count":       len(rows),
+                "model_version":     "2.0",
             },
             f,
             ensure_ascii=False,

@@ -2,21 +2,22 @@
 """
 07_hiking.py
 
-Reads swissTLM3D from the File Geodatabase and exports place-level hiking access metrics.
+Reads swissTLM hiking trails and exports per-place hiking metrics at two radii.
 
 Input:
-  - places_master.csv
-  - data_raw/swisstopo/swissTLM3D_2026_LV95_LN02.gdb
+  - metadata/places_master.csv
+  - data_raw/tlm/tlm_hiking.gpkg   (EPSG:2056, marked WANDERWEGE paths)
 
 Output:
   - data_processed/hiking/hiking_metrics.json
 
-MVP logic:
-- use TLM_STRASSE
-- use WANDERWEGE field when available
-- count hiking segments within 5 km and 15 km
-- compute total hiking length proxy within 15 km
-- create simple hiking access labels
+Columns:
+  local_hiking_m      — trail metres within  4 km (used in Base quality)
+  regional_hiking_m   — trail metres within 20 km (used in Access — scenic_access.py)
+  hiking_reachable    — bool, any trail within 4 km
+
+Note: prior script read from swissTLM3D GDB. This version reads the pre-exported
+tlm_hiking.gpkg which contains only WANDERWEGE-marked paths.
 """
 
 from __future__ import annotations
@@ -29,11 +30,9 @@ from typing import Any, Dict, List
 import geopandas as gpd
 from shapely.geometry import Point
 
-PLACES_CSV = Path("metadata/places_master.csv")
-GDB_PATH = Path("data_raw/swisstopo/swissTLM3D_2026_LV95_LN02.gdb")
+PLACES_CSV  = Path("metadata/places_master.csv")
+HIKING_GPKG = Path("data_raw/tlm/tlm_hiking.gpkg")
 OUTPUT_JSON = Path("data_processed/hiking/hiking_metrics.json")
-
-HIKING_LAYER = "TLM_STRASSE"
 
 
 def read_places(path: Path) -> List[Dict[str, Any]]:
@@ -43,82 +42,51 @@ def read_places(path: Path) -> List[Dict[str, Any]]:
         for row in reader:
             if str(row.get("active", "")).strip().lower() != "true":
                 continue
-            rows.append(
-                {
-                    "slug": row["slug"].strip(),
-                    "name": row["name"].strip(),
-                    "lat": float(row["lat"]),
-                    "lon": float(row["lon"]),
-                }
-            )
+            rows.append({
+                "slug": row["slug"].strip(),
+                "name": row["name"].strip(),
+                "lat":  float(row["lat"]),
+                "lon":  float(row["lon"]),
+            })
         return rows
 
 
 def read_hiking() -> gpd.GeoDataFrame:
-    if not GDB_PATH.exists():
-        raise FileNotFoundError(f"Missing GDB: {GDB_PATH}")
-
-    gdf = gpd.read_file(GDB_PATH, layer=HIKING_LAYER)
-
+    if not HIKING_GPKG.exists():
+        raise FileNotFoundError(f"Missing hiking GeoPackage: {HIKING_GPKG}")
+    gdf = gpd.read_file(HIKING_GPKG)
     if gdf.crs is None:
-        raise ValueError("Hiking layer has no CRS")
-
-    gdf = gdf.to_crs(2056)
-
-    # Keep only records with hiking classification if field exists
-    if "WANDERWEGE" in gdf.columns:
-        gdf = gdf[gdf["WANDERWEGE"].notna()]
-        # keep all coded hiking trail types (0,1,2) and any string values if present
-        allowed_numeric = {0, 1, 2}
-        def is_hiking(v: Any) -> bool:
-            try:
-                return int(v) in allowed_numeric
-            except Exception:
-                return str(v).strip() != ""
-        gdf = gdf[gdf["WANDERWEGE"].apply(is_hiking)]
-
-    return gdf
-
-
-def label_from_length(length_km_15: float) -> str:
-    if length_km_15 >= 150:
-        return "excellent"
-    if length_km_15 >= 60:
-        return "strong"
-    if length_km_15 >= 20:
-        return "good"
-    return "basic"
+        raise ValueError("tlm_hiking.gpkg has no CRS")
+    return gdf.to_crs(2056)
 
 
 def main() -> None:
     if not PLACES_CSV.exists():
-        raise FileNotFoundError(f"Missing places file: {PLACES_CSV}")
+        raise FileNotFoundError(f"Missing: {PLACES_CSV}")
 
     places = read_places(PLACES_CSV)
     hiking = read_hiking()
 
     rows: List[Dict[str, Any]] = []
     for place in places:
+        # Reproject anchor point to LV95 for metre-accurate buffering
         point = gpd.GeoSeries([Point(place["lon"], place["lat"])], crs=4326).to_crs(2056).iloc[0]
-        buf5 = point.buffer(5000)
-        buf15 = point.buffer(15000)
+        buf4  = point.buffer(4_000)
+        buf20 = point.buffer(20_000)
 
-        seg5 = hiking[hiking.intersects(buf5)]
-        seg15 = hiking[hiking.intersects(buf15)]
+        seg4  = hiking[hiking.intersects(buf4)]
+        seg20 = hiking[hiking.intersects(buf20)]
 
-        length_15_km = round(float(seg15.geometry.length.sum()) / 1000.0, 2)
+        local_m    = round(float(seg4.geometry.length.sum()), 1)
+        regional_m = round(float(seg20.geometry.length.sum()), 1)
 
-        rows.append(
-            {
-                "slug": place["slug"],
-                "name": place["name"],
-                "hiking_segments_5km": int(len(seg5)),
-                "hiking_segments_15km": int(len(seg15)),
-                "hiking_length_15km_km": length_15_km,
-                "hiking_access_label": label_from_length(length_15_km),
-                "hiking_reachable": bool(len(seg5) > 0),
-            }
-        )
+        rows.append({
+            "slug":              place["slug"],
+            "name":              place["name"],
+            "local_hiking_m":    local_m,
+            "regional_hiking_m": regional_m,
+            "hiking_reachable":  bool(len(seg4) > 0),
+        })
 
     rows.sort(key=lambda x: x["slug"])
 
