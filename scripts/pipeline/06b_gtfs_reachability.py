@@ -89,7 +89,7 @@ def load_gtfs(zip_path: Path) -> Tuple[
     # stop_id -> list of (dep_min, arr_min, next_stop_id)
     Dict[str, List[Tuple[int, int, str]]],
 ]:
-    """Load stops and Tuesday stop_times edges. Returns stops, parent_map, edges."""
+    """Load stops and daytime stop_times edges. Returns stops, parent_map, edges."""
     with zipfile.ZipFile(zip_path, "r") as zf:
         stops_raw   = read_gtfs_csv(zf, "stops.txt")
         trips_raw   = read_gtfs_csv(zf, "trips.txt")
@@ -102,9 +102,13 @@ def load_gtfs(zip_path: Path) -> Tuple[
     for row in calendar:
         if row.get("tuesday", "0") == "1":
             tuesday_services.add(row["service_id"])
-    # If no calendar.txt, use all services (common in some GTFS)
-    if not tuesday_services and not calendar:
+
+    # Fall back to all services if Tuesday filtering yields nothing.
+    # Swiss GTFS often uses calendar_dates.txt exclusively or has no active
+    # Tuesday services in calendar.txt — time-window filter is the real constraint.
+    if not tuesday_services:
         tuesday_services = {r["service_id"] for r in trips_raw if r.get("service_id")}
+        print(f"  No Tuesday services in calendar.txt — using all {len(tuesday_services)} services")
 
     tuesday_trips: Set[str] = {
         r["trip_id"] for r in trips_raw
@@ -156,6 +160,11 @@ def load_gtfs(zip_path: Path) -> Tuple[
             # Only include edges where departure is in the travel window
             if WINDOW_START <= dep_a <= WINDOW_END:
                 edges[sid_a].append((dep_a, arr_b, sid_b))
+                # Also index by parent station so anchor stop lookups work
+                # regardless of whether anchor is child or parent stop ID
+                parent_a = parent_map.get(sid_a)
+                if parent_a:
+                    edges[parent_a].append((dep_a, arr_b, sid_b))
 
     return stop_pos, parent_map, dict(edges)
 
