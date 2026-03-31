@@ -6,7 +6,7 @@ Match each place to the ISOS national heritage inventory.
 
 Input:
   - metadata/places_master.csv
-  - data_raw/isos/isos_national.geojson  (WGS84 points, ~1255 features)
+  - data_raw/isos/isos_national.geojson  (EPSG:2056 LV95 points, ~1255 features)
 
 Output:
   - data_processed/heritage/heritage_metrics.json
@@ -27,6 +27,11 @@ import json
 import math
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
+
+from pyproj import Transformer
+
+# ISOS GeoJSON coordinates are in LV95 (EPSG:2056) — reproject to WGS84
+_LV95_TO_WGS84 = Transformer.from_crs("EPSG:2056", "EPSG:4326", always_xy=True)
 
 PLACES_CSV   = Path("metadata/places_master.csv")
 ISOS_GEOJSON = Path("data_raw/isos/isos_national.geojson")
@@ -86,7 +91,8 @@ def load_isos(path: Path) -> List[Dict[str, Any]]:
         if geom.get("type") != "Point":
             continue
 
-        lon, lat = geom["coordinates"][0], geom["coordinates"][1]
+        # Coordinates are LV95 (E, N) — convert to WGS84 (lon, lat)
+        lon, lat = _LV95_TO_WGS84.transform(geom["coordinates"][0], geom["coordinates"][1])
 
         # Try common field names for settlement category
         kategorie = (
