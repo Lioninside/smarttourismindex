@@ -297,6 +297,13 @@ def main() -> None:
         if start_stop and edges.get(canonical_stop(start_stop, parent_map)):
             reachable_stops = bfs_reachability(start_stop, stop_pos, parent_map, edges)
             communes = stops_to_communes(reachable_stops, stop_pos, places, slug)
+            if slug == "aarau":
+                print(f"  DIAG aarau: {len(reachable_stops)} reachable stops → {len(communes)} communes")
+                # Show a sample of reachable stops with their positions
+                sample = list(reachable_stops)[:8]
+                for s in sample:
+                    pos = stop_pos.get(s)
+                    print(f"    stop {s!r}: pos={pos}")
             if not communes:
                 communes = fallback_communes(place, places)
             mode = "gtfs"
