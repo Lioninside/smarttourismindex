@@ -2,35 +2,79 @@
   "slug": "nyon",
   "name": "Nyon",
   "canton": "VD",
-  "score_total": 72.0,
+  "score_total": 43.84,
+  "scores": {
+    "total": 43.84,
+    "base": 39.7,
+    "access": 50.03,
+    "sub": {
+      "anti_overtourism": 98.55,
+      "walkability": 16.8,
+      "local_hiking": 0.0,
+      "water": 11.36,
+      "heritage": 0.0,
+      "climate": 100.0,
+      "scenic_transport": 1.32,
+      "destination_pull": 82.09,
+      "cultural_access": 100.0,
+      "access_hiking": 0.08
+    }
+  },
   "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 75,
-    "anti_overtourism": 90
+    "base_quality": 39.7,
+    "access_value": 50.03,
+    "anti_overtourism": 98.55
   },
   "reachable_tags": [
-    "Hiking",
     "Water",
+    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 81314,
     "domestic_share_overnights": 0.4555,
     "summer_temp_avg": 19.57,
-    "anchor_stop_name": "Nyon, ch. Monastier",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 251.76,
-    "museum_count_2km": 3,
-    "restaurant_count_2km": 43
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 0.0,
+    "walkability_path_m": 2590.3,
+    "scenic_transport_count": 4,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 125,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "jun",
+    "trough_month": "jan",
+    "peak_trough_ratio": 2.37,
+    "monthly_index": [
+      58,
+      78,
+      86,
+      120,
+      128,
+      136,
+      129,
+      115,
+      115,
+      93,
+      72,
+      70
+    ]
+  },
+  "tourism_intensity": 3.5,
+  "restaurant_count": 43,
+  "isos_name": ""
 }

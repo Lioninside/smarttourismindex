@@ -2,35 +2,80 @@
   "slug": "muralto",
   "name": "Muralto",
   "canton": "TI",
-  "score_total": 72.0,
+  "score_total": 43.44,
+  "scores": {
+    "total": 43.44,
+    "base": 42.15,
+    "access": 45.37,
+    "sub": {
+      "anti_overtourism": 75.45,
+      "walkability": 8.64,
+      "local_hiking": 44.2,
+      "water": 51.42,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 2.64,
+      "destination_pull": 52.52,
+      "cultural_access": 100.0,
+      "access_hiking": 25.49
+    }
+  },
   "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 75,
-    "anti_overtourism": 90
+    "base_quality": 42.15,
+    "access_value": 45.37,
+    "anti_overtourism": 75.45
   },
   "reachable_tags": [
     "Hiking",
     "Water",
+    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 140214,
     "domestic_share_overnights": 0.7448,
     "summer_temp_avg": 22.11,
-    "anchor_stop_name": "Muralto, Al Parco",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 1093.07,
-    "museum_count_2km": 8,
-    "restaurant_count_2km": 68
+    "local_hiking_m": 76354.1,
+    "regional_hiking_m": 1696469.4,
+    "walkability_path_m": 1331.8,
+    "scenic_transport_count": 7,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 131,
+  "seasonality": {
+    "volatility_label": "Strongly seasonal",
+    "peak_month": "jul",
+    "trough_month": "jan",
+    "peak_trough_ratio": 5.51,
+    "monthly_index": [
+      28,
+      41,
+      84,
+      125,
+      125,
+      134,
+      152,
+      150,
+      142,
+      121,
+      54,
+      45
+    ]
+  },
+  "tourism_intensity": 53.0,
+  "restaurant_count": 68,
+  "isos_name": ""
 }

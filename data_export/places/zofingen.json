@@ -2,34 +2,79 @@
   "slug": "zofingen",
   "name": "Zofingen",
   "canton": "AG",
-  "score_total": 61.25,
+  "score_total": 44.56,
+  "scores": {
+    "total": 44.56,
+    "base": 43.99,
+    "access": 45.41,
+    "sub": {
+      "anti_overtourism": 99.35,
+      "walkability": 15.58,
+      "local_hiking": 0.0,
+      "water": 40.22,
+      "heritage": 0.0,
+      "climate": 100.0,
+      "scenic_transport": 3.08,
+      "destination_pull": 62.58,
+      "cultural_access": 100.0,
+      "access_hiking": 4.76
+    }
+  },
   "subscores": {
-    "base_quality": 50.0,
-    "access_value": 45.0,
-    "practical_comfort": 65,
-    "anti_overtourism": 100.0
+    "base_quality": 43.99,
+    "access_value": 45.41,
+    "anti_overtourism": 99.35
   },
   "reachable_tags": [
-    "Hiking",
-    "Water"
+    "Water",
+    "Scenic transport",
+    "Museums"
   ],
   "metrics": {
     "overnight_stays": 24397,
     "domestic_share_overnights": 0.4551,
     "summer_temp_avg": 18.27,
-    "anchor_stop_name": "Zofingen, Oberer Stadteingang",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 667.78,
-    "museum_count_2km": 0,
-    "restaurant_count_2km": 28
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 8399.3,
+    "walkability_path_m": 2402.2,
+    "scenic_transport_count": 7,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 115,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "sep",
+    "trough_month": "jan",
+    "peak_trough_ratio": 2.07,
+    "monthly_index": [
+      65,
+      77,
+      76,
+      84,
+      110,
+      120,
+      97,
+      133,
+      134,
+      99,
+      129,
+      75
+    ]
+  },
+  "tourism_intensity": 1.8,
+  "restaurant_count": 28,
+  "isos_name": ""
 }

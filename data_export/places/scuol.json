@@ -2,34 +2,80 @@
   "slug": "scuol",
   "name": "Scuol",
   "canton": "GR",
-  "score_total": 53.25,
+  "score_total": 39.45,
+  "scores": {
+    "total": 39.45,
+    "base": 47.07,
+    "access": 28.01,
+    "sub": {
+      "anti_overtourism": 73.5,
+      "walkability": 7.91,
+      "local_hiking": 81.37,
+      "water": 38.96,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 27.31,
+      "destination_pull": 45.81,
+      "cultural_access": 11.76,
+      "access_hiking": 20.9
+    }
+  },
   "subscores": {
-    "base_quality": 50.0,
-    "access_value": 45.0,
-    "practical_comfort": 70,
-    "anti_overtourism": 55
+    "base_quality": 47.07,
+    "access_value": 28.01,
+    "anti_overtourism": 73.5
   },
   "reachable_tags": [
     "Hiking",
-    "Water"
+    "Water",
+    "Scenic transport",
+    "Museums"
   ],
   "metrics": {
     "overnight_stays": 266633,
     "domestic_share_overnights": 0.7881,
     "summer_temp_avg": 14.88,
-    "anchor_stop_name": "Scuol, Belvédère",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 752.78,
-    "museum_count_2km": 0,
-    "restaurant_count_2km": 15
+    "local_hiking_m": 140557.2,
+    "regional_hiking_m": 1089771.2,
+    "walkability_path_m": 1219.2,
+    "scenic_transport_count": 63,
+    "reachable_named_museums": "5",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 169,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "feb",
+    "trough_month": "apr",
+    "peak_trough_ratio": 8.42,
+    "monthly_index": [
+      138,
+      173,
+      111,
+      20,
+      30,
+      98,
+      133,
+      140,
+      104,
+      122,
+      48,
+      83
+    ]
+  },
+  "tourism_intensity": 57.2,
+  "restaurant_count": 15,
+  "isos_name": ""
 }

@@ -2,35 +2,79 @@
   "slug": "zuerich",
   "name": "Zürich",
   "canton": "ZH",
-  "score_total": 60.0,
+  "score_total": 40.99,
+  "scores": {
+    "total": 40.99,
+    "base": 33.51,
+    "access": 52.19,
+    "sub": {
+      "anti_overtourism": 95.85,
+      "walkability": 17.79,
+      "local_hiking": 0.0,
+      "water": 6.62,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 16.3,
+      "destination_pull": 66.79,
+      "cultural_access": 100.0,
+      "access_hiking": 15.11
+    }
+  },
   "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 75,
-    "anti_overtourism": 30
+    "base_quality": 33.51,
+    "access_value": 52.19,
+    "anti_overtourism": 95.85
   },
   "reachable_tags": [
-    "Hiking",
     "Water",
+    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 4179908,
     "domestic_share_overnights": 0.3004,
     "summer_temp_avg": 18.86,
-    "anchor_stop_name": "Zürich, Rathaus",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 768.34,
-    "museum_count_2km": 18,
-    "restaurant_count_2km": 440
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 7481.8,
+    "walkability_path_m": 2743.5,
+    "scenic_transport_count": 36,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 161,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "jul",
+    "trough_month": "feb",
+    "peak_trough_ratio": 1.83,
+    "monthly_index": [
+      72,
+      68,
+      85,
+      92,
+      108,
+      120,
+      124,
+      120,
+      111,
+      101,
+      89,
+      110
+    ]
+  },
+  "tourism_intensity": 9.3,
+  "restaurant_count": 440,
+  "isos_name": ""
 }

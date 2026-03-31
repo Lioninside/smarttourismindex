@@ -2,34 +2,80 @@
   "slug": "ormont-dessus",
   "name": "Ormont-Dessus",
   "canton": "VD",
-  "score_total": 49.5,
+  "score_total": 53.55,
+  "scores": {
+    "total": 53.55,
+    "base": 35.97,
+    "access": 79.92,
+    "sub": {
+      "anti_overtourism": 83.39,
+      "walkability": 0.0,
+      "local_hiking": 19.56,
+      "water": 74.76,
+      "heritage": 0.0,
+      "climate": 0.0,
+      "scenic_transport": 90.31,
+      "destination_pull": 69.63,
+      "cultural_access": 100.0,
+      "access_hiking": 46.23
+    }
+  },
   "subscores": {
-    "base_quality": 35.0,
-    "access_value": 45.0,
-    "practical_comfort": 35,
-    "anti_overtourism": 90
+    "base_quality": 35.97,
+    "access_value": 79.92,
+    "anti_overtourism": 83.39
   },
   "reachable_tags": [
     "Hiking",
-    "Water"
+    "Water",
+    "Scenic transport",
+    "Museums"
   ],
   "metrics": {
     "overnight_stays": 55008,
     "domestic_share_overnights": 0.7665,
     "summer_temp_avg": 13.4,
-    "anchor_stop_name": "Les Nicolets",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 998.31,
-    "museum_count_2km": 0,
-    "restaurant_count_2km": 1
+    "local_hiking_m": 33778.9,
+    "regional_hiking_m": 958104.2,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 206,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 26,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "feb",
+    "trough_month": "nov",
+    "peak_trough_ratio": 8.6,
+    "monthly_index": [
+      130,
+      165,
+      106,
+      36,
+      104,
+      155,
+      162,
+      143,
+      64,
+      20,
+      19,
+      95
+    ]
+  },
+  "tourism_intensity": 36.0,
+  "restaurant_count": 1,
+  "isos_name": ""
 }

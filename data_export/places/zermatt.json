@@ -2,35 +2,80 @@
   "slug": "zermatt",
   "name": "Zermatt",
   "canton": "VS",
-  "score_total": 59.0,
+  "score_total": 30.31,
+  "scores": {
+    "total": 30.31,
+    "base": 18.43,
+    "access": 48.13,
+    "sub": {
+      "anti_overtourism": 0.0,
+      "walkability": 0.0,
+      "local_hiking": 54.49,
+      "water": 16.88,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 48.02,
+      "destination_pull": 43.02,
+      "cultural_access": 70.59,
+      "access_hiking": 21.13
+    }
+  },
   "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 70,
-    "anti_overtourism": 30
+    "base_quality": 18.43,
+    "access_value": 48.13,
+    "anti_overtourism": 0.0
   },
   "reachable_tags": [
     "Hiking",
     "Water",
+    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 1700264,
     "domestic_share_overnights": 0.3437,
     "summer_temp_avg": 11.72,
-    "anchor_stop_name": "Zermatt, Kirchbrücke",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 562.2,
-    "museum_count_2km": 1,
-    "restaurant_count_2km": 69
+    "local_hiking_m": 94119.0,
+    "regional_hiking_m": 615349.0,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 110,
+    "reachable_named_museums": "15",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 191,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "feb",
+    "trough_month": "nov",
+    "peak_trough_ratio": 4.04,
+    "monthly_index": [
+      130,
+      142,
+      138,
+      80,
+      58,
+      92,
+      118,
+      126,
+      104,
+      60,
+      35,
+      118
+    ]
+  },
+  "tourism_intensity": 268.9,
+  "restaurant_count": 69,
+  "isos_name": ""
 }

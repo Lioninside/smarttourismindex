@@ -2,34 +2,80 @@
   "slug": "ollon",
   "name": "Ollon",
   "canton": "VD",
-  "score_total": 57.5,
+  "score_total": 51.28,
+  "scores": {
+    "total": 51.28,
+    "base": 36.31,
+    "access": 73.74,
+    "sub": {
+      "anti_overtourism": 94.21,
+      "walkability": 0.0,
+      "local_hiking": 4.3,
+      "water": 12.62,
+      "heritage": 0.0,
+      "climate": 100.0,
+      "scenic_transport": 72.69,
+      "destination_pull": 72.15,
+      "cultural_access": 100.0,
+      "access_hiking": 35.23
+    }
+  },
   "subscores": {
-    "base_quality": 35.0,
-    "access_value": 45.0,
-    "practical_comfort": 75,
-    "anti_overtourism": 90
+    "base_quality": 36.31,
+    "access_value": 73.74,
+    "anti_overtourism": 94.21
   },
   "reachable_tags": [
     "Hiking",
-    "Water"
+    "Water",
+    "Scenic transport",
+    "Museums"
   ],
   "metrics": {
     "overnight_stays": 119617,
     "domestic_share_overnights": 0.6129,
     "summer_temp_avg": 18.6,
-    "anchor_stop_name": "Les Arnoux",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 1185.69,
-    "museum_count_2km": 0,
-    "restaurant_count_2km": 2
+    "local_hiking_m": 7419.7,
+    "regional_hiking_m": 790191.8,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 166,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 51,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "feb",
+    "trough_month": "nov",
+    "peak_trough_ratio": 18.19,
+    "monthly_index": [
+      175,
+      206,
+      112,
+      16,
+      42,
+      134,
+      143,
+      142,
+      76,
+      24,
+      11,
+      118
+    ]
+  },
+  "tourism_intensity": 12.8,
+  "restaurant_count": 2,
+  "isos_name": ""
 }

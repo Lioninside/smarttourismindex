@@ -2,34 +2,80 @@
   "slug": "samedan",
   "name": "Samedan",
   "canton": "GR",
-  "score_total": 58.25,
+  "score_total": 55.49,
+  "scores": {
+    "total": 55.49,
+    "base": 54.06,
+    "access": 57.64,
+    "sub": {
+      "anti_overtourism": 93.28,
+      "walkability": 8.16,
+      "local_hiking": 63.87,
+      "water": 75.55,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 48.46,
+      "destination_pull": 72.6,
+      "cultural_access": 47.06,
+      "access_hiking": 63.72
+    }
+  },
   "subscores": {
-    "base_quality": 50.0,
-    "access_value": 45.0,
-    "practical_comfort": 60,
-    "anti_overtourism": 90
+    "base_quality": 54.06,
+    "access_value": 57.64,
+    "anti_overtourism": 93.28
   },
   "reachable_tags": [
     "Hiking",
-    "Water"
+    "Water",
+    "Scenic transport",
+    "Museums"
   ],
   "metrics": {
     "overnight_stays": 52632,
     "domestic_share_overnights": 0.5854,
     "summer_temp_avg": 11.27,
-    "anchor_stop_name": "Samedan, Plazzet",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 862.31,
-    "museum_count_2km": 0,
-    "restaurant_count_2km": 10
+    "local_hiking_m": 110326.5,
+    "regional_hiking_m": 1420393.2,
+    "walkability_path_m": 1257.9,
+    "scenic_transport_count": 111,
+    "reachable_named_museums": "11",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 13,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "feb",
+    "trough_month": "may",
+    "peak_trough_ratio": 9.03,
+    "monthly_index": [
+      131,
+      170,
+      111,
+      75,
+      19,
+      79,
+      156,
+      132,
+      88,
+      93,
+      44,
+      103
+    ]
+  },
+  "tourism_intensity": 14.8,
+  "restaurant_count": 10,
+  "isos_name": ""
 }

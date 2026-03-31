@@ -2,34 +2,59 @@
   "slug": "viano",
   "name": "Viano",
   "canton": "GR",
-  "score_total": 54.5,
+  "score_total": 36.94,
+  "scores": {
+    "total": 36.94,
+    "base": 45.8,
+    "access": 23.66,
+    "sub": {
+      "anti_overtourism": 96.15,
+      "walkability": 0.0,
+      "local_hiking": 46.98,
+      "water": 15.77,
+      "heritage": 0.0,
+      "climate": 100.0,
+      "scenic_transport": 12.78,
+      "destination_pull": 48.57,
+      "cultural_access": 11.76,
+      "access_hiking": 15.44
+    }
+  },
   "subscores": {
-    "base_quality": 35.0,
-    "access_value": 45.0,
-    "practical_comfort": 50,
-    "anti_overtourism": 100.0
+    "base_quality": 45.8,
+    "access_value": 23.66,
+    "anti_overtourism": 96.15
   },
   "reachable_tags": [
     "Hiking",
-    "Water"
+    "Water",
+    "Scenic transport",
+    "Museums"
   ],
   "metrics": {
     "overnight_stays": null,
     "domestic_share_overnights": null,
     "summer_temp_avg": 15.54,
-    "anchor_stop_name": "Viano, Paese",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 321.51,
-    "museum_count_2km": 0,
-    "restaurant_count_2km": 1
+    "local_hiking_m": 81148.8,
+    "regional_hiking_m": 369407.2,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 30,
+    "reachable_named_museums": "5",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": false,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 181,
+  "restaurant_count": 1,
+  "isos_name": ""
 }

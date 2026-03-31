@@ -2,35 +2,79 @@
   "slug": "morges",
   "name": "Morges",
   "canton": "VD",
-  "score_total": 72.0,
+  "score_total": 41.02,
+  "scores": {
+    "total": 41.02,
+    "base": 38.15,
+    "access": 45.33,
+    "sub": {
+      "anti_overtourism": 98.46,
+      "walkability": 14.72,
+      "local_hiking": 0.0,
+      "water": 3.94,
+      "heritage": 0.0,
+      "climate": 100.0,
+      "scenic_transport": 10.57,
+      "destination_pull": 55.81,
+      "cultural_access": 100.0,
+      "access_hiking": 2.75
+    }
+  },
   "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 75,
-    "anti_overtourism": 90
+    "base_quality": 38.15,
+    "access_value": 45.33,
+    "anti_overtourism": 98.46
   },
   "reachable_tags": [
-    "Hiking",
     "Water",
+    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 60769,
     "domestic_share_overnights": 0.5707,
     "summer_temp_avg": 19.84,
-    "anchor_stop_name": "Morges, Banc-Vert",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 244.5,
-    "museum_count_2km": 8,
-    "restaurant_count_2km": 54
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 0.0,
+    "walkability_path_m": 2269.5,
+    "scenic_transport_count": 25,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 159,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "may",
+    "trough_month": "dec",
+    "peak_trough_ratio": 2.21,
+    "monthly_index": [
+      70,
+      88,
+      104,
+      105,
+      128,
+      128,
+      107,
+      107,
+      124,
+      102,
+      79,
+      58
+    ]
+  },
+  "tourism_intensity": 3.7,
+  "restaurant_count": 54,
+  "isos_name": ""
 }

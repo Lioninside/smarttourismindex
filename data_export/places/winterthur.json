@@ -2,35 +2,79 @@
   "slug": "winterthur",
   "name": "Winterthur",
   "canton": "ZH",
-  "score_total": 67.0,
+  "score_total": 50.05,
+  "scores": {
+    "total": 50.05,
+    "base": 47.35,
+    "access": 54.1,
+    "sub": {
+      "anti_overtourism": 99.35,
+      "walkability": 29.23,
+      "local_hiking": 0.0,
+      "water": 44.48,
+      "heritage": 0.0,
+      "climate": 100.0,
+      "scenic_transport": 4.41,
+      "destination_pull": 90.29,
+      "cultural_access": 100.0,
+      "access_hiking": 4.6
+    }
+  },
   "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 85,
-    "anti_overtourism": 55
+    "base_quality": 47.35,
+    "access_value": 54.1,
+    "anti_overtourism": 99.35
   },
   "reachable_tags": [
-    "Hiking",
     "Water",
+    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 224226,
     "domestic_share_overnights": 0.5749,
     "summer_temp_avg": 18.45,
-    "anchor_stop_name": "Winterthur, Museumstrasse/HB",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 835.78,
-    "museum_count_2km": 12,
-    "restaurant_count_2km": 113
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 2145.5,
+    "walkability_path_m": 4507.6,
+    "scenic_transport_count": 10,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 70,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "jun",
+    "trough_month": "feb",
+    "peak_trough_ratio": 1.81,
+    "monthly_index": [
+      74,
+      73,
+      80,
+      90,
+      109,
+      133,
+      115,
+      117,
+      123,
+      108,
+      95,
+      83
+    ]
+  },
+  "tourism_intensity": 1.8,
+  "restaurant_count": 113,
+  "isos_name": ""
 }

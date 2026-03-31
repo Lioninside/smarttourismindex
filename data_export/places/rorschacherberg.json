@@ -2,35 +2,79 @@
   "slug": "rorschacherberg",
   "name": "Rorschacherberg",
   "canton": "SG",
-  "score_total": 70.0,
+  "score_total": 37.79,
+  "scores": {
+    "total": 37.79,
+    "base": 37.31,
+    "access": 38.52,
+    "sub": {
+      "anti_overtourism": 98.41,
+      "walkability": 3.52,
+      "local_hiking": 0.0,
+      "water": 46.69,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 11.89,
+      "destination_pull": 29.0,
+      "cultural_access": 100.0,
+      "access_hiking": 8.35
+    }
+  },
   "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 55,
-    "anti_overtourism": 100.0
+    "base_quality": 37.31,
+    "access_value": 38.52,
+    "anti_overtourism": 98.41
   },
   "reachable_tags": [
-    "Hiking",
     "Water",
+    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 30145,
     "domestic_share_overnights": 0.6952,
     "summer_temp_avg": 18.01,
-    "anchor_stop_name": "Rorschacherberg, Sonnenhof/MZH",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 1004.13,
-    "museum_count_2km": 2,
-    "restaurant_count_2km": 24
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 35571.5,
+    "walkability_path_m": 542.1,
+    "scenic_transport_count": 28,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 177,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "aug",
+    "trough_month": "dec",
+    "peak_trough_ratio": 3.74,
+    "monthly_index": [
+      48,
+      59,
+      91,
+      100,
+      116,
+      120,
+      140,
+      160,
+      129,
+      110,
+      85,
+      43
+    ]
+  },
+  "tourism_intensity": 3.8,
+  "restaurant_count": 24,
+  "isos_name": ""
 }

@@ -2,34 +2,80 @@
   "slug": "lumnezia",
   "name": "Lumnezia",
   "canton": "GR",
-  "score_total": 57.5,
+  "score_total": 53.44,
+  "scores": {
+    "total": 53.44,
+    "base": 53.1,
+    "access": 53.96,
+    "sub": {
+      "anti_overtourism": 97.43,
+      "walkability": 2.11,
+      "local_hiking": 69.01,
+      "water": 30.13,
+      "heritage": 0.0,
+      "climate": 100.0,
+      "scenic_transport": 48.9,
+      "destination_pull": 56.67,
+      "cultural_access": 47.06,
+      "access_hiking": 70.14
+    }
+  },
   "subscores": {
-    "base_quality": 35.0,
-    "access_value": 45.0,
-    "practical_comfort": 65,
-    "anti_overtourism": 100.0
+    "base_quality": 53.1,
+    "access_value": 53.96,
+    "anti_overtourism": 97.43
   },
   "reachable_tags": [
     "Hiking",
-    "Water"
+    "Water",
+    "Scenic transport",
+    "Museums"
   ],
   "metrics": {
     "overnight_stays": 9463,
     "domestic_share_overnights": 0.9267,
     "summer_temp_avg": 16.28,
-    "anchor_stop_name": "Peiden, vitg",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 988.68,
-    "museum_count_2km": 0,
-    "restaurant_count_2km": 0
+    "local_hiking_m": 119203.9,
+    "regional_hiking_m": 1969246.7,
+    "walkability_path_m": 324.9,
+    "scenic_transport_count": 112,
+    "reachable_named_museums": "11",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 28,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "jul",
+    "trough_month": "nov",
+    "peak_trough_ratio": 114.26,
+    "monthly_index": [
+      161,
+      175,
+      120,
+      5,
+      23,
+      79,
+      217,
+      164,
+      84,
+      68,
+      2,
+      103
+    ]
+  },
+  "tourism_intensity": 5.9,
+  "restaurant_count": 0,
+  "isos_name": ""
 }

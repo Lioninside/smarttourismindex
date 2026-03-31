@@ -2,35 +2,80 @@
   "slug": "maienfeld",
   "name": "Maienfeld",
   "canton": "GR",
-  "score_total": 68.25,
+  "score_total": 51.64,
+  "scores": {
+    "total": 51.64,
+    "base": 38.85,
+    "access": 70.82,
+    "sub": {
+      "anti_overtourism": 94.73,
+      "walkability": 3.45,
+      "local_hiking": 37.24,
+      "water": 13.56,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 65.64,
+      "destination_pull": 69.79,
+      "cultural_access": 76.47,
+      "access_hiking": 73.85
+    }
+  },
   "subscores": {
-    "base_quality": 50.0,
-    "access_value": 65.0,
-    "practical_comfort": 65,
-    "anti_overtourism": 100.0
+    "base_quality": 38.85,
+    "access_value": 70.82,
+    "anti_overtourism": 94.73
   },
   "reachable_tags": [
     "Hiking",
     "Water",
+    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 37671,
     "domestic_share_overnights": 0.7535,
     "summer_temp_avg": 18.2,
-    "anchor_stop_name": "Maienfeld, Post",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 1280.26,
-    "museum_count_2km": 2,
-    "restaurant_count_2km": 3
+    "local_hiking_m": 64319.9,
+    "regional_hiking_m": 1581187.8,
+    "walkability_path_m": 532.2,
+    "scenic_transport_count": 150,
+    "reachable_named_museums": "16",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 45,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "aug",
+    "trough_month": "nov",
+    "peak_trough_ratio": 1.94,
+    "monthly_index": [
+      74,
+      78,
+      80,
+      85,
+      110,
+      115,
+      132,
+      138,
+      126,
+      110,
+      71,
+      81
+    ]
+  },
+  "tourism_intensity": 11.7,
+  "restaurant_count": 3,
+  "isos_name": ""
 }

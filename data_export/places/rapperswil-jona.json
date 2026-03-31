@@ -2,35 +2,79 @@
   "slug": "rapperswil-jona",
   "name": "Rapperswil-Jona",
   "canton": "SG",
-  "score_total": 72.0,
+  "score_total": 49.83,
+  "scores": {
+    "total": 49.83,
+    "base": 34.58,
+    "access": 72.71,
+    "sub": {
+      "anti_overtourism": 99.53,
+      "walkability": 7.38,
+      "local_hiking": 0.0,
+      "water": 21.45,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 46.04,
+      "destination_pull": 94.47,
+      "cultural_access": 100.0,
+      "access_hiking": 37.04
+    }
+  },
   "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 65,
-    "anti_overtourism": 100.0
+    "base_quality": 34.58,
+    "access_value": 72.71,
+    "anti_overtourism": 99.53
   },
   "reachable_tags": [
-    "Hiking",
     "Water",
+    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 40357,
     "domestic_share_overnights": 0.3827,
     "summer_temp_avg": 18.77,
-    "anchor_stop_name": "Rapperswil SG, Kreuzliplatz",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 944.23,
-    "museum_count_2km": 2,
-    "restaurant_count_2km": 44
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 237020.7,
+    "walkability_path_m": 1137.7,
+    "scenic_transport_count": 104,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 74,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "jun",
+    "trough_month": "dec",
+    "peak_trough_ratio": 1.92,
+    "monthly_index": [
+      79,
+      77,
+      84,
+      84,
+      107,
+      140,
+      111,
+      124,
+      130,
+      106,
+      86,
+      73
+    ]
+  },
+  "tourism_intensity": 1.4,
+  "restaurant_count": 44,
+  "isos_name": ""
 }
