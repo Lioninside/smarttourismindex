@@ -112,10 +112,6 @@ function renderList() {
 }
 
 function renderCard(place, rank, isExpanded) {
-  const s = place.subscores;
-  const tags = (place.reachable_tags || [])
-    .map(t => `<span class="tag">${t}</span>`).join('');
-
   return `
     <div class="place-card${isExpanded ? ' expanded' : ''}" data-slug="${place.slug}">
       <div class="card-header" onclick="toggleCard('${place.slug}')">
@@ -131,13 +127,6 @@ function renderCard(place, rank, isExpanded) {
           <span class="expand-icon">${isExpanded ? '−' : '+'}</span>
         </div>
       </div>
-      <div class="card-bars">
-        ${bar('Base',    s.base_quality)}
-        ${bar('Access',  s.access_value)}
-        ${bar('Comfort', s.practical_comfort)}
-        ${bar('OT↓',     s.anti_overtourism)}
-      </div>
-      ${tags ? `<div class="card-tags">${tags}</div>` : ''}
       ${isExpanded ? `<div class="card-detail" id="detail-${place.slug}">
         <div class="detail-loading">Loading…</div>
       </div>` : ''}
@@ -194,7 +183,8 @@ async function loadAndRenderDetail(slug) {
 }
 
 function renderDetail(slug, detail, container) {
-  const m = detail.metrics || {};
+  const s = detail.scores || {};
+  const sub = s.sub || {};
   const coord = coordinates[slug];
 
   const gmUrl = coord
@@ -203,29 +193,35 @@ function renderDetail(slug, detail, container) {
 
   const hotelUrl = `https://www.swisshotels.com/en/results/?q=${encodeURIComponent(detail.name)}`;
 
-  const metrics = [
-    m.overnight_stays           && { label: 'Overnight stays',     value: Number(m.overnight_stays).toLocaleString('en-CH') },
-    m.hiking_length_15km_km     && { label: 'Hiking within 15 km', value: Math.round(m.hiking_length_15km_km) + ' km' },
-    m.summer_temp_avg           && { label: 'Summer temperature',  value: m.summer_temp_avg.toFixed(1) + '°C' },
-    m.restaurant_count_2km      && { label: 'Restaurants',         value: m.restaurant_count_2km },
-    m.museum_count_2km          && { label: 'Museums',             value: m.museum_count_2km },
-    m.domestic_share_overnights && { label: 'Domestic visitors',   value: Math.round(m.domestic_share_overnights * 100) + '%' }
-  ].filter(Boolean);
+  const ti = detail.tourism_intensity;
+  const intensityLabel = ti == null ? '—' : ti < 10 ? 'Low' : ti <= 50 ? 'Medium' : 'High';
+  const historicTown = detail.isos_name ? '✓' : '—';
+  const restCount = detail.restaurant_count != null ? `~${detail.restaurant_count}` : '—';
+  const destPull = sub.destination_pull != null ? Math.round(sub.destination_pull) : '—';
+  const mtAccess = sub.scenic_transport != null ? Math.round(sub.scenic_transport) : '—';
 
-  const metricsHtml = metrics.map(({ label, value }) => `
+  const metricsHtml = `
     <div class="metric-item">
-      <span class="metric-label">${label}</span>
-      <span class="metric-value">${value}</span>
+      <span class="metric-label">Tourism intensity</span>
+      <span class="metric-value">${intensityLabel}</span>
     </div>
-  `).join('');
-
-  const tags = (detail.reachable_tags || []);
-  const tagsHtml = tags.length
-    ? `<div class="detail-reach">
-         <span class="detail-reach-label">Reachable within 1h</span>
-         <div class="detail-tags">${tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>
-       </div>`
-    : '';
+    <div class="metric-item">
+      <span class="metric-label">Historic town</span>
+      <span class="metric-value">${historicTown}</span>
+    </div>
+    <div class="metric-item">
+      <span class="metric-label">Restaurants</span>
+      <span class="metric-value">${restCount}</span>
+    </div>
+    <div class="metric-item">
+      <span class="metric-label">Day trip reach</span>
+      <span class="metric-value">${destPull}</span>
+    </div>
+    <div class="metric-item">
+      <span class="metric-label">Mountain access</span>
+      <span class="metric-value">${mtAccess}</span>
+    </div>
+  `;
 
   container.innerHTML = `
     <div class="detail-grid">
@@ -233,8 +229,11 @@ function renderDetail(slug, detail, container) {
         <div id="mini-map-${slug}" class="mini-map"></div>
       </div>
       <div class="detail-info-col">
+        <div class="detail-bars">
+          ${bar('BASE',   s.base   != null ? s.base   : 0)}
+          ${bar('ACCESS', s.access != null ? s.access : 0)}
+        </div>
         <div class="detail-metrics">${metricsHtml}</div>
-        ${tagsHtml}
         ${renderSeasonality(detail.seasonality)}
         <div class="detail-actions">
           <a href="${hotelUrl}" target="_blank" rel="noopener noreferrer" class="btn-primary">Find a hotel ↗</a>
@@ -285,7 +284,7 @@ function renderSeasonality(seasonality) {
         ${bars}
       </div>
       <div class="sbar-months">${months}</div>
-      <div class="sbar-caption">${volatility_label} · Busiest: ${peak_month.toUpperCase()} · Quietest: ${trough_month.toUpperCase()}</div>
+      <div class="sbar-caption">${volatility_label} · Peak: ${peak_month.toUpperCase()} · Quietest: ${trough_month.toUpperCase()}</div>
     </div>
   `;
 }

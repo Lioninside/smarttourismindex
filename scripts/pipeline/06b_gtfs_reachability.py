@@ -286,6 +286,21 @@ def main() -> None:
 
     result: Dict[str, List[str]] = {}
 
+    # ── DIAGNOSTIC: print info for first place to diagnose fallback root cause ──
+    first = places[0]
+    _slug = first["slug"]
+    _anchor = anchor_stop.get(_slug)
+    _canon = canonical_stop(_anchor, parent_map) if _anchor else None
+    print(f"  DIAG {_slug}: anchor_id={_anchor!r}  canonical={_canon!r}")
+    print(f"  DIAG   anchor in stop_pos: {_anchor in stop_pos if _anchor else 'n/a'}")
+    print(f"  DIAG   canon  in stop_pos: {_canon  in stop_pos if _canon  else 'n/a'}")
+    print(f"  DIAG   canon  in edges:    {_canon  in edges    if _canon  else 'n/a'}  (len={len(edges.get(_canon, []))})")
+    _sample_parent_keys = [k for k in list(edges.keys())[:5000] if 'arent' in k or 'ARENT' in k][:5]
+    print(f"  DIAG   sample 'Parent*' keys in edges: {_sample_parent_keys}")
+    _sample_stop_keys = list(edges.keys())[:5]
+    print(f"  DIAG   sample edge keys: {_sample_stop_keys}")
+    # ── END DIAGNOSTIC ──────────────────────────────────────────────────────────
+
     for place in places:
         slug = place["slug"]
         start_stop = anchor_stop.get(slug)
