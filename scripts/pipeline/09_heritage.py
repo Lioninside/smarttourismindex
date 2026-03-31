@@ -98,9 +98,9 @@ def load_isos(path: Path) -> List[Dict[str, Any]]:
         ).strip()
 
         name = (
-            props.get("ortsname")
-            or props.get("name")
+            props.get("name")
             or props.get("NAME")
+            or props.get("ortsname")
             or ""
         ).strip()
 

@@ -93,9 +93,9 @@ def main() -> None:
     print("Loading boats layer...")
     boats_gdf  = gpd.read_file(BOATS_GPKG).to_crs(2056)
 
-    # Unique identifier column for deduplication — prefer NAME, fall back to index
+    # Unique identifier column for deduplication — prefer UUID (stable), then NAME
     def unique_ids(gdf: gpd.GeoDataFrame) -> set:
-        for col in ("NAME", "name", "UUID", "uuid", "id", "ID"):
+        for col in ("UUID", "uuid", "NAME", "name", "id", "ID"):
             if col in gdf.columns:
                 return set(gdf[col].dropna().astype(str).unique())
         return set(range(len(gdf)))
