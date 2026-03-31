@@ -2,34 +2,58 @@
   "slug": "buchs",
   "name": "Buchs",
   "canton": "BE",
-  "score_total": 56.5,
+  "score_total": 40.73,
+  "scores": {
+    "total": 40.73,
+    "base": 38.3,
+    "access": 44.36,
+    "sub": {
+      "anti_overtourism": 96.15,
+      "walkability": 1.32,
+      "local_hiking": 0.0,
+      "water": 26.66,
+      "heritage": 0.0,
+      "climate": 100.0,
+      "scenic_transport": 5.95,
+      "destination_pull": 55.92,
+      "cultural_access": 100.0,
+      "access_hiking": 5.35
+    }
+  },
   "subscores": {
-    "base_quality": 35.0,
-    "access_value": 45.0,
-    "practical_comfort": 60,
-    "anti_overtourism": 100.0
+    "base_quality": 38.3,
+    "access_value": 44.36,
+    "anti_overtourism": 96.15
   },
   "reachable_tags": [
-    "Hiking",
-    "Water"
+    "Water",
+    "Scenic transport",
+    "Museums"
   ],
   "metrics": {
     "overnight_stays": 39313,
     "domestic_share_overnights": 0.4172,
     "summer_temp_avg": 17.98,
-    "anchor_stop_name": "Münchenbuchsee, Sagi",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 840.85,
-    "museum_count_2km": 0,
-    "restaurant_count_2km": 2
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 0.0,
+    "walkability_path_m": 204.2,
+    "scenic_transport_count": 12,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 162,
+  "restaurant_count": 2,
+  "isos_name": ""
 }

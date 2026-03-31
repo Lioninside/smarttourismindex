@@ -2,35 +2,79 @@
   "slug": "grenchen",
   "name": "Grenchen",
   "canton": "SO",
-  "score_total": 74.0,
+  "score_total": 42.91,
+  "scores": {
+    "total": 42.91,
+    "base": 43.42,
+    "access": 42.15,
+    "sub": {
+      "anti_overtourism": 99.72,
+      "walkability": 30.86,
+      "local_hiking": 0.0,
+      "water": 15.46,
+      "heritage": 0.0,
+      "climate": 100.0,
+      "scenic_transport": 4.19,
+      "destination_pull": 52.77,
+      "cultural_access": 100.0,
+      "access_hiking": 0.39
+    }
+  },
   "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 75,
-    "anti_overtourism": 100.0
+    "base_quality": 43.42,
+    "access_value": 42.15,
+    "anti_overtourism": 99.72
   },
   "reachable_tags": [
-    "Hiking",
     "Water",
+    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 24573,
     "domestic_share_overnights": 0.7831,
     "summer_temp_avg": 18.09,
-    "anchor_stop_name": "Grenchen, Kirchstrasse",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 860.85,
-    "museum_count_2km": 2,
-    "restaurant_count_2km": 17
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 14036.8,
+    "walkability_path_m": 4758.9,
+    "scenic_transport_count": 8,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 138,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "aug",
+    "trough_month": "jan",
+    "peak_trough_ratio": 1.81,
+    "monthly_index": [
+      76,
+      80,
+      86,
+      85,
+      98,
+      115,
+      122,
+      138,
+      99,
+      90,
+      126,
+      86
+    ]
+  },
+  "tourism_intensity": 1.0,
+  "restaurant_count": 17,
+  "isos_name": ""
 }

@@ -2,34 +2,79 @@
   "slug": "hundwil",
   "name": "Hundwil",
   "canton": "AR",
-  "score_total": 52.5,
+  "score_total": 38.85,
+  "scores": {
+    "total": 38.85,
+    "base": 33.6,
+    "access": 46.73,
+    "sub": {
+      "anti_overtourism": 88.66,
+      "walkability": 0.0,
+      "local_hiking": 0.0,
+      "water": 42.9,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 24.23,
+      "destination_pull": 37.02,
+      "cultural_access": 100.0,
+      "access_hiking": 22.34
+    }
+  },
   "subscores": {
-    "base_quality": 35.0,
-    "access_value": 45.0,
-    "practical_comfort": 40,
-    "anti_overtourism": 100.0
+    "base_quality": 33.6,
+    "access_value": 46.73,
+    "anti_overtourism": 88.66
   },
   "reachable_tags": [
-    "Hiking",
-    "Water"
+    "Water",
+    "Scenic transport",
+    "Museums"
   ],
   "metrics": {
     "overnight_stays": 24077,
     "domestic_share_overnights": 0.8548,
     "summer_temp_avg": 15.75,
-    "anchor_stop_name": "Hundwil, Dorf",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 1460.01,
-    "museum_count_2km": 0,
-    "restaurant_count_2km": 2
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 307365.3,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 56,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 174,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "aug",
+    "trough_month": "apr",
+    "peak_trough_ratio": 1.79,
+    "monthly_index": [
+      90,
+      91,
+      86,
+      71,
+      100,
+      104,
+      98,
+      128,
+      101,
+      117,
+      107,
+      108
+    ]
+  },
+  "tourism_intensity": 24.7,
+  "restaurant_count": 2,
+  "isos_name": ""
 }

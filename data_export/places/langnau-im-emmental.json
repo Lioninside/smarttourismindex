@@ -2,35 +2,79 @@
   "slug": "langnau-im-emmental",
   "name": "Langnau im Emmental",
   "canton": "BE",
-  "score_total": 70.0,
+  "score_total": 49.46,
+  "scores": {
+    "total": 49.46,
+    "base": 36.29,
+    "access": 69.2,
+    "sub": {
+      "anti_overtourism": 99.67,
+      "walkability": 8.09,
+      "local_hiking": 0.0,
+      "water": 31.7,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 36.78,
+      "destination_pull": 84.7,
+      "cultural_access": 100.0,
+      "access_hiking": 51.73
+    }
+  },
   "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 55,
-    "anti_overtourism": 100.0
+    "base_quality": 36.29,
+    "access_value": 69.2,
+    "anti_overtourism": 99.67
   },
   "reachable_tags": [
-    "Hiking",
     "Water",
+    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 11115,
     "domestic_share_overnights": 0.8329,
     "summer_temp_avg": 16.68,
-    "anchor_stop_name": "Langnau i.E., Hirschenplatz",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 709.16,
-    "museum_count_2km": 1,
-    "restaurant_count_2km": 8
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 192127.4,
+    "walkability_path_m": 1247.0,
+    "scenic_transport_count": 82,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 76,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "aug",
+    "trough_month": "jan",
+    "peak_trough_ratio": 2.51,
+    "monthly_index": [
+      56,
+      89,
+      82,
+      73,
+      102,
+      132,
+      139,
+      140,
+      120,
+      102,
+      96,
+      69
+    ]
+  },
+  "tourism_intensity": 1.1,
+  "restaurant_count": 8,
+  "isos_name": ""
 }

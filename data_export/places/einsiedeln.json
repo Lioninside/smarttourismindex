@@ -2,34 +2,80 @@
   "slug": "einsiedeln",
   "name": "Einsiedeln",
   "canton": "SZ",
-  "score_total": 59.25,
+  "score_total": 52.6,
+  "scores": {
+    "total": 52.6,
+    "base": 38.52,
+    "access": 73.73,
+    "sub": {
+      "anti_overtourism": 98.51,
+      "walkability": 8.13,
+      "local_hiking": 2.26,
+      "water": 45.43,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 42.29,
+      "destination_pull": 98.93,
+      "cultural_access": 100.0,
+      "access_hiking": 42.44
+    }
+  },
   "subscores": {
-    "base_quality": 50.0,
-    "access_value": 45.0,
-    "practical_comfort": 65,
-    "anti_overtourism": 90
+    "base_quality": 38.52,
+    "access_value": 73.73,
+    "anti_overtourism": 98.51
   },
   "reachable_tags": [
     "Hiking",
-    "Water"
+    "Water",
+    "Scenic transport",
+    "Museums"
   ],
   "metrics": {
     "overnight_stays": 56057,
     "domestic_share_overnights": 0.7204,
     "summer_temp_avg": 15.59,
-    "anchor_stop_name": "Einsiedeln, Heidenbühl",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 951.32,
-    "museum_count_2km": 0,
-    "restaurant_count_2km": 37
+    "local_hiking_m": 3901.9,
+    "regional_hiking_m": 481309.5,
+    "walkability_path_m": 1253.4,
+    "scenic_transport_count": 95,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 37,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "jul",
+    "trough_month": "jan",
+    "peak_trough_ratio": 3.23,
+    "monthly_index": [
+      48,
+      59,
+      93,
+      81,
+      117,
+      134,
+      156,
+      148,
+      120,
+      88,
+      71,
+      84
+    ]
+  },
+  "tourism_intensity": 3.6,
+  "restaurant_count": 37,
+  "isos_name": ""
 }

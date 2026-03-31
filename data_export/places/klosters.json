@@ -2,35 +2,80 @@
   "slug": "klosters",
   "name": "Klosters",
   "canton": "GR",
-  "score_total": 64.0,
+  "score_total": 50.63,
+  "scores": {
+    "total": 50.63,
+    "base": 42.43,
+    "access": 62.94,
+    "sub": {
+      "anti_overtourism": 84.46,
+      "walkability": 0.0,
+      "local_hiking": 70.59,
+      "water": 47.95,
+      "heritage": 0.0,
+      "climate": 0.0,
+      "scenic_transport": 52.86,
+      "destination_pull": 65.13,
+      "cultural_access": 70.59,
+      "access_hiking": 65.97
+    }
+  },
   "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 60,
-    "anti_overtourism": 65
+    "base_quality": 42.43,
+    "access_value": 62.94,
+    "anti_overtourism": 84.46
   },
   "reachable_tags": [
     "Hiking",
     "Water",
+    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 169081,
     "domestic_share_overnights": 0.5812,
     "summer_temp_avg": 14.6,
-    "anchor_stop_name": "Klosters, Höfji",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 976.69,
-    "museum_count_2km": 1,
-    "restaurant_count_2km": 8
+    "local_hiking_m": 121929.1,
+    "regional_hiking_m": 1542169.7,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 121,
+    "reachable_named_museums": "15",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 63,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "feb",
+    "trough_month": "apr",
+    "peak_trough_ratio": 14.43,
+    "monthly_index": [
+      171,
+      199,
+      154,
+      14,
+      26,
+      72,
+      120,
+      141,
+      92,
+      65,
+      15,
+      131
+    ]
+  },
+  "tourism_intensity": 33.7,
+  "restaurant_count": 8,
+  "isos_name": ""
 }

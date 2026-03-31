@@ -2,34 +2,79 @@
   "slug": "kriens",
   "name": "Kriens",
   "canton": "LU",
-  "score_total": 59.25,
+  "score_total": 51.49,
+  "scores": {
+    "total": 51.49,
+    "base": 39.7,
+    "access": 69.18,
+    "sub": {
+      "anti_overtourism": 98.04,
+      "walkability": 7.06,
+      "local_hiking": 0.0,
+      "water": 58.52,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 49.34,
+      "destination_pull": 72.45,
+      "cultural_access": 100.0,
+      "access_hiking": 50.94
+    }
+  },
   "subscores": {
-    "base_quality": 50.0,
-    "access_value": 45.0,
-    "practical_comfort": 65,
-    "anti_overtourism": 90
+    "base_quality": 39.7,
+    "access_value": 69.18,
+    "anti_overtourism": 98.04
   },
   "reachable_tags": [
-    "Hiking",
-    "Water"
+    "Water",
+    "Scenic transport",
+    "Museums"
   ],
   "metrics": {
     "overnight_stays": 136580,
     "domestic_share_overnights": 0.2848,
     "summer_temp_avg": 18.54,
-    "anchor_stop_name": "Kriens, Krauerhalle",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 1204.91,
-    "museum_count_2km": 0,
-    "restaurant_count_2km": 17
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 611146.4,
+    "walkability_path_m": 1088.1,
+    "scenic_transport_count": 111,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 46,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "jul",
+    "trough_month": "jan",
+    "peak_trough_ratio": 2.66,
+    "monthly_index": [
+      53,
+      68,
+      74,
+      92,
+      120,
+      123,
+      141,
+      138,
+      114,
+      108,
+      81,
+      88
+    ]
+  },
+  "tourism_intensity": 4.6,
+  "restaurant_count": 17,
+  "isos_name": ""
 }

@@ -2,35 +2,80 @@
   "slug": "leysin",
   "name": "Leysin",
   "canton": "VD",
-  "score_total": 62.0,
+  "score_total": 46.71,
+  "scores": {
+    "total": 46.71,
+    "base": 28.85,
+    "access": 73.51,
+    "sub": {
+      "anti_overtourism": 76.57,
+      "walkability": 1.7,
+      "local_hiking": 36.44,
+      "water": 13.88,
+      "heritage": 0.0,
+      "climate": 0.0,
+      "scenic_transport": 72.69,
+      "destination_pull": 71.43,
+      "cultural_access": 100.0,
+      "access_hiking": 35.13
+    }
+  },
   "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 50,
-    "anti_overtourism": 65
+    "base_quality": 28.85,
+    "access_value": 73.51,
+    "anti_overtourism": 76.57
   },
   "reachable_tags": [
     "Hiking",
     "Water",
+    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 183813,
     "domestic_share_overnights": 0.5406,
     "summer_temp_avg": 13.86,
-    "anchor_stop_name": "Leysin, place du Marché",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 987.81,
-    "museum_count_2km": 1,
-    "restaurant_count_2km": 15
+    "local_hiking_m": 62947.9,
+    "regional_hiking_m": 828334.5,
+    "walkability_path_m": 261.9,
+    "scenic_transport_count": 166,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 93,
+  "seasonality": {
+    "volatility_label": "Strongly seasonal",
+    "peak_month": "feb",
+    "trough_month": "apr",
+    "peak_trough_ratio": 5.05,
+    "monthly_index": [
+      134,
+      164,
+      125,
+      32,
+      55,
+      106,
+      163,
+      151,
+      81,
+      64,
+      43,
+      82
+    ]
+  },
+  "tourism_intensity": 50.6,
+  "restaurant_count": 15,
+  "isos_name": ""
 }

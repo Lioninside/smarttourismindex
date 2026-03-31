@@ -2,35 +2,59 @@
   "slug": "guarda",
   "name": "Guarda",
   "canton": "GR",
-  "score_total": 63.25,
+  "score_total": 46.28,
+  "scores": {
+    "total": 46.28,
+    "base": 45.72,
+    "access": 47.12,
+    "sub": {
+      "anti_overtourism": 96.15,
+      "walkability": 4.11,
+      "local_hiking": 88.56,
+      "water": 20.98,
+      "heritage": 0.0,
+      "climate": 0.0,
+      "scenic_transport": 46.26,
+      "destination_pull": 65.06,
+      "cultural_access": 29.41,
+      "access_hiking": 42.48
+    }
+  },
   "subscores": {
-    "base_quality": 50.0,
-    "access_value": 65.0,
-    "practical_comfort": 40,
-    "anti_overtourism": 100.0
+    "base_quality": 45.72,
+    "access_value": 47.12,
+    "anti_overtourism": 96.15
   },
   "reachable_tags": [
     "Hiking",
     "Water",
+    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": null,
     "domestic_share_overnights": null,
     "summer_temp_avg": 11.87,
-    "anchor_stop_name": "Guarda, cumün",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 730.46,
-    "museum_count_2km": 1,
-    "restaurant_count_2km": 3
+    "local_hiking_m": 152964.2,
+    "regional_hiking_m": 1127362.0,
+    "walkability_path_m": 633.1,
+    "scenic_transport_count": 106,
+    "reachable_named_museums": "8",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": false,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 96,
+  "restaurant_count": 3,
+  "isos_name": ""
 }

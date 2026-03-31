@@ -2,35 +2,80 @@
   "slug": "evolene",
   "name": "Evolène",
   "canton": "VS",
-  "score_total": 73.0,
+  "score_total": 50.77,
+  "scores": {
+    "total": 50.77,
+    "base": 35.24,
+    "access": 74.06,
+    "sub": {
+      "anti_overtourism": 89.22,
+      "walkability": 9.15,
+      "local_hiking": 7.32,
+      "water": 30.91,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 73.57,
+      "destination_pull": 72.68,
+      "cultural_access": 100.0,
+      "access_hiking": 34.59
+    }
+  },
   "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 70,
-    "anti_overtourism": 100.0
+    "base_quality": 35.24,
+    "access_value": 74.06,
+    "anti_overtourism": 89.22
   },
   "reachable_tags": [
     "Hiking",
     "Water",
+    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 39284,
     "domestic_share_overnights": 0.7273,
     "summer_temp_avg": 14.22,
-    "anchor_stop_name": "Evolène, Village",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 797.62,
-    "museum_count_2km": 1,
-    "restaurant_count_2km": 7
+    "local_hiking_m": 12648.7,
+    "regional_hiking_m": 653426.5,
+    "walkability_path_m": 1410.7,
+    "scenic_transport_count": 168,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 61,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "aug",
+    "trough_month": "nov",
+    "peak_trough_ratio": 23.33,
+    "monthly_index": [
+      106,
+      163,
+      136,
+      111,
+      15,
+      70,
+      158,
+      184,
+      93,
+      60,
+      8,
+      96
+    ]
+  },
+  "tourism_intensity": 23.5,
+  "restaurant_count": 7,
+  "isos_name": ""
 }

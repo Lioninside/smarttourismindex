@@ -2,34 +2,80 @@
   "slug": "innertkirchen",
   "name": "Innertkirchen",
   "canton": "BE",
-  "score_total": 57.5,
+  "score_total": 53.84,
+  "scores": {
+    "total": 53.84,
+    "base": 37.03,
+    "access": 79.07,
+    "sub": {
+      "anti_overtourism": 88.33,
+      "walkability": 10.51,
+      "local_hiking": 18.39,
+      "water": 27.76,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 63.88,
+      "destination_pull": 87.88,
+      "cultural_access": 94.12,
+      "access_hiking": 66.75
+    }
+  },
   "subscores": {
-    "base_quality": 35.0,
-    "access_value": 45.0,
-    "practical_comfort": 65,
-    "anti_overtourism": 100.0
+    "base_quality": 37.03,
+    "access_value": 79.07,
+    "anti_overtourism": 88.33
   },
   "reachable_tags": [
     "Hiking",
-    "Water"
+    "Water",
+    "Scenic transport",
+    "Museums"
   ],
   "metrics": {
     "overnight_stays": 27732,
     "domestic_share_overnights": 0.6614,
     "summer_temp_avg": 16.82,
-    "anchor_stop_name": "Innertkirchen Kraftwerk (Bahn)",
-    "anchor_route_count": 0,
-    "hiking_length_15km_km": 779.84,
-    "museum_count_2km": 0,
-    "restaurant_count_2km": 0
+    "local_hiking_m": 31761.2,
+    "regional_hiking_m": 1102901.2,
+    "walkability_path_m": 1621.5,
+    "scenic_transport_count": 145,
+    "reachable_named_museums": "19",
+    "isos_name": "",
+    "isos_kategorie": ""
   },
   "data_status": {
     "bfs": true,
     "climate": true,
-    "gtfs": true,
-    "hiking": true,
     "water": true,
     "heritage": true,
-    "osm": true
-  }
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 21,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "aug",
+    "trough_month": "nov",
+    "peak_trough_ratio": 17.68,
+    "monthly_index": [
+      21,
+      20,
+      39,
+      19,
+      73,
+      169,
+      288,
+      290,
+      176,
+      60,
+      16,
+      29
+    ]
+  },
+  "tourism_intensity": 25.4,
+  "restaurant_count": 0,
+  "isos_name": ""
 }
