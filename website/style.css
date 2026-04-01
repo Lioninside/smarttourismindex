@@ -413,6 +413,14 @@ body {
   line-height: 1;
 }
 
+/* === COLLAPSED CARD BARS === */
+.card-bars {
+  padding: 0 0 14px 48px;
+  display: grid;
+  gap: 7px;
+  cursor: pointer;
+}
+
 /* === SCORE BARS === */
 .detail-bars {
   margin-bottom: 16px;
@@ -476,10 +484,15 @@ body {
 .detail-grid {
   display: grid;
   grid-template-columns: 260px 1fr;
+  align-items: stretch;
 }
 
-.detail-map-col { border-right: 1px solid var(--gray-200); }
-.mini-map { height: 240px; width: 100%; }
+.detail-map-col {
+  border-right: 1px solid var(--gray-200);
+  display: flex;
+  flex-direction: column;
+}
+.mini-map { flex: 1; min-height: 240px; width: 100%; }
 
 .detail-info-col { padding: 24px 28px; }
 
