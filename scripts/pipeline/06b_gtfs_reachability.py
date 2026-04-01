@@ -39,7 +39,8 @@ GTFS_ZIP     = Path("data_raw/gtfs/gtfs_fp2025_20251211.zip")
 OUTPUT_JSON  = Path("data_processed/gtfs/gtfs_reachability.json")
 
 MAX_TRAVEL_MIN  = 60
-MIN_TRANSFER_MIN = 3
+MIN_TRANSFER_MIN = 0   # 0 = board any train departing at or after arrival;
+                       # handles through-services (dep == arr at intermediate stops)
 MAX_REACH_COMMUNES = 30
 FALLBACK_KM     = 40.0
 STOP_COMMUNE_KM = 2.0
@@ -86,8 +87,8 @@ def read_gtfs_csv(zf: zipfile.ZipFile, name: str) -> List[Dict[str, str]]:
 def load_gtfs(zip_path: Path) -> Tuple[
     Dict[str, Tuple[float, float]],  # stop_id -> (lat, lon)
     Dict[str, str],                   # stop_id -> parent_stop_id
-    # stop_id -> list of (dep_min, arr_min, next_stop_id, trip_id)
-    Dict[str, List[Tuple[int, int, str, str]]],
+    # stop_id -> list of (dep_min, arr_min, next_stop_id)
+    Dict[str, List[Tuple[int, int, str]]],
 ]:
     """Load stops and daytime stop_times edges. Returns stops, parent_map, edges."""
     with zipfile.ZipFile(zip_path, "r") as zf:
@@ -151,7 +152,7 @@ def load_gtfs(zip_path: Path) -> Tuple[
             continue
         trip_stops[trip_id].append((seq, dep, arr, stop_id))
 
-    edges: Dict[str, List[Tuple[int, int, str, str]]] = defaultdict(list)
+    edges: Dict[str, List[Tuple[int, int, str]]] = defaultdict(list)
     for trip_id, stops_in_trip in trip_stops.items():
         stops_in_trip.sort(key=lambda x: x[0])
         for i in range(len(stops_in_trip) - 1):
@@ -159,12 +160,12 @@ def load_gtfs(zip_path: Path) -> Tuple[
             seq_b, _, arr_b, sid_b = stops_in_trip[i + 1]
             # Only include edges where departure is in the travel window
             if WINDOW_START <= dep_a <= WINDOW_END:
-                edges[sid_a].append((dep_a, arr_b, sid_b, trip_id))
+                edges[sid_a].append((dep_a, arr_b, sid_b))
                 # Also index by parent station so anchor stop lookups work
                 # regardless of whether anchor is child or parent stop ID
                 parent_a = parent_map.get(sid_a)
                 if parent_a:
-                    edges[parent_a].append((dep_a, arr_b, sid_b, trip_id))
+                    edges[parent_a].append((dep_a, arr_b, sid_b))
 
     return stop_pos, parent_map, dict(edges)
 
@@ -178,25 +179,22 @@ def bfs_reachability(
     start_stop: str,
     stop_pos: Dict[str, Tuple[float, float]],
     parent_map: Dict[str, str],
-    edges: Dict[str, List[Tuple[int, int, str, str]]],
+    edges: Dict[str, List[Tuple[int, int, str]]],
 ) -> Set[str]:
     """
     BFS from start_stop. Returns set of reachable stop_ids within MAX_TRAVEL_MIN.
 
-    State: (stop_id, arrival_time, trip_id_of_last_leg)
-    Same-trip continuations (through-services) require no transfer time.
-    Changing to a different trip requires MIN_TRANSFER_MIN.
+    With MIN_TRANSFER_MIN = 0, any departure at or after arrival is valid.
+    This correctly handles through-services where dep == arr at intermediate stops.
     """
     start = canonical_stop(start_stop, parent_map)
 
-    # best_arrival[stop_id] = earliest minute we can be at that stop
     best_arrival: Dict[str, int] = {start: WINDOW_START}
-    # State: (stop_id, arrival_min, trip_id)  — empty string = starting point
-    queue: deque[Tuple[str, int, str]] = deque([(start, WINDOW_START, "")])
+    queue: deque[Tuple[str, int]] = deque([(start, WINDOW_START)])
     reachable: Set[str] = {start}
 
     while queue:
-        cur_stop, cur_arr, cur_trip = queue.popleft()
+        cur_stop, cur_arr = queue.popleft()
 
         candidate_stops = {cur_stop}
         parent = parent_map.get(cur_stop)
@@ -204,26 +202,17 @@ def bfs_reachability(
             candidate_stops.add(parent)
 
         for from_stop in candidate_stops:
-            for dep_min, arr_min, next_stop, trip_id in edges.get(from_stop, []):
-                # Same trip (through-service): already on board, just need
-                # departure to be at or after current arrival.
-                # Different trip / start: require MIN_TRANSFER_MIN gap.
-                if trip_id == cur_trip:
-                    if dep_min < cur_arr:
-                        continue
-                else:
-                    if dep_min < cur_arr + MIN_TRANSFER_MIN:
-                        continue
-
+            for dep_min, arr_min, next_stop in edges.get(from_stop, []):
+                if dep_min < cur_arr + MIN_TRANSFER_MIN:
+                    continue
                 elapsed = arr_min - WINDOW_START
                 if elapsed > MAX_TRAVEL_MIN:
                     continue
-
                 next_canon = canonical_stop(next_stop, parent_map)
                 if next_canon not in best_arrival or arr_min < best_arrival[next_canon]:
                     best_arrival[next_canon] = arr_min
                     reachable.add(next_canon)
-                    queue.append((next_canon, arr_min, trip_id))
+                    queue.append((next_canon, arr_min))
 
     return reachable
 
@@ -297,13 +286,6 @@ def main() -> None:
         if start_stop and edges.get(canonical_stop(start_stop, parent_map)):
             reachable_stops = bfs_reachability(start_stop, stop_pos, parent_map, edges)
             communes = stops_to_communes(reachable_stops, stop_pos, places, slug)
-            if slug == "aarau":
-                print(f"  DIAG aarau: {len(reachable_stops)} reachable stops → {len(communes)} communes")
-                # Show a sample of reachable stops with their positions
-                sample = list(reachable_stops)[:8]
-                for s in sample:
-                    pos = stop_pos.get(s)
-                    print(f"    stop {s!r}: pos={pos}")
             if not communes:
                 communes = fallback_communes(place, places)
             mode = "gtfs"
