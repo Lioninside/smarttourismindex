@@ -112,6 +112,7 @@ function renderList() {
 }
 
 function renderCard(place, rank, isExpanded) {
+  const s = place.scores || {};
   return `
     <div class="place-card${isExpanded ? ' expanded' : ''}" data-slug="${place.slug}">
       <div class="card-header" onclick="toggleCard('${place.slug}')">
@@ -126,6 +127,10 @@ function renderCard(place, rank, isExpanded) {
           <span class="total-score">${Math.round(place.score_total)}</span>
           <span class="expand-icon">${isExpanded ? '−' : '+'}</span>
         </div>
+      </div>
+      <div class="card-bars" onclick="toggleCard('${place.slug}')">
+        ${bar('BASE',   s.base   != null ? s.base   : 0)}
+        ${bar('ACCESS', s.access != null ? s.access : 0)}
       </div>
       ${isExpanded ? `<div class="card-detail" id="detail-${place.slug}">
         <div class="detail-loading">Loading…</div>
@@ -191,7 +196,7 @@ function renderDetail(slug, detail, container) {
     ? `https://www.google.com/maps/search/?api=1&query=${coord.lat},${coord.lon}`
     : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(detail.name + ' Switzerland')}`;
 
-  const hotelUrl = `https://www.swisshotels.com/en/results/?q=${encodeURIComponent(detail.name)}`;
+  const hotelUrl = 'https://www.swisshotels.com';
 
   const ti = detail.tourism_intensity;
   const intensityLabel = ti == null ? '—' : ti < 10 ? 'Low' : ti <= 50 ? 'Medium' : 'High';
