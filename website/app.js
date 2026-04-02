@@ -234,10 +234,6 @@ function renderDetail(slug, detail, container) {
         <div id="mini-map-${slug}" class="mini-map"></div>
       </div>
       <div class="detail-info-col">
-        <div class="detail-bars">
-          ${bar('BASE',   s.base   != null ? s.base   : 0)}
-          ${bar('ACCESS', s.access != null ? s.access : 0)}
-        </div>
         <div class="detail-metrics">${metricsHtml}</div>
         ${renderSeasonality(detail.seasonality)}
         <div class="detail-actions">
