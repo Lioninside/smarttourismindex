@@ -41,14 +41,17 @@ BUFFER_M = 2000  # 2 km exact in metres (Euclidean in LV95)
 
 # Graded scores per siedlungskategorie (case-insensitive key lookup)
 ISOS_SCORES: Dict[str, float] = {
-    "stadt":              1.0,
-    "kleinstadt/flecken": 1.0,
-    "dorf":               0.7,
-    "spezialfall":        0.4,
-    "cas particulier":    0.4,
-    "villaggio":          0.7,
-    "village":            0.7,
-    "sonderfall":         0.4,
+    "stadt":               1.0,
+    "kleinstadt/flecken":  1.0,
+    "städtische gemeinde": 1.0,
+    "dorf":                0.7,
+    "verstädtertes dorf":  0.7,
+    "villaggio":           0.7,
+    "village":             0.7,
+    "spezialfall":         0.4,
+    "cas particulier":     0.4,
+    "sonderfall":          0.4,
+    "agglomeration":       0.4,
 }
 ISOS_DEFAULT_SCORE = 0.5  # any unrecognised category
 
@@ -75,7 +78,7 @@ def read_places(path: Path) -> List[Dict[str, Any]]:
 
 def load_isos(path: Path) -> List[Dict[str, Any]]:
     """Load ISOS GeoJSON. Coordinates are LV95 (E, N) — keep as-is, no reprojection."""
-    with path.open("r", encoding="utf-8") as f:
+    with path.open("r", encoding="utf-8-sig") as f:   # utf-8-sig strips BOM if present
         fc = json.load(f)
 
     entries = []

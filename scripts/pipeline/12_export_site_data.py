@@ -64,9 +64,8 @@ def load_seasonality(
     with path.open("r", encoding="utf-8", newline="") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            gemeinde = row.get("gemeinde", "").strip()
-            slug = name_to_slug.get(gemeinde)
-            if slug is None:
+            slug = row.get("slug", "").strip() or name_to_slug.get(row.get("gemeinde", "").strip())
+            if not slug:
                 continue
 
             try:
@@ -93,11 +92,26 @@ def load_seasonality(
     return seasonality, intensity
 
 
+EXCLUDE_JSON   = Path("metadata/exclude.json")
+
+
+def load_exclude() -> set:
+    if not EXCLUDE_JSON.exists():
+        return set()
+    with EXCLUDE_JSON.open(encoding="utf-8") as f:
+        return set(json.load(f))
+
+
 def main() -> None:
     if not INPUT_JSON.exists():
         raise FileNotFoundError(f"Missing: {INPUT_JSON}")
 
     rows = load_json(INPUT_JSON)
+    exclude = load_exclude()
+    if exclude:
+        before = len(rows)
+        rows = [r for r in rows if r.get("slug") not in exclude]
+        print(f"Excluded {before - len(rows)} places: {sorted(exclude)}")
 
     # Lookup tables
     name_to_slug: Dict[str, str] = {r["name"]: r["slug"] for r in rows}

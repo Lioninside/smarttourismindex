@@ -45,16 +45,15 @@ def read_places(path: Path) -> List[Dict[str, Any]]:
 
 
 def load_overnights(path: Path, places: List[Dict[str, Any]]) -> Dict[str, float]:
-    """Return slug -> annual_overnights mapping. Join on name -> slug."""
+    """Return slug -> annual_overnights mapping. Uses slug column if present, else name lookup."""
     name_to_slug = {p["name"]: p["slug"] for p in places}
 
     overnights: Dict[str, float] = {}
     with path.open("r", encoding="utf-8", newline="") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            gemeinde = row.get("gemeinde", "").strip()
-            slug = name_to_slug.get(gemeinde)
-            if slug is None:
+            slug = row.get("slug", "").strip() or name_to_slug.get(row.get("gemeinde", "").strip())
+            if not slug:
                 continue
             raw = row.get("annual_overnights", "").strip()
             if raw and raw not in ("None", "nan", ""):

@@ -27,6 +27,7 @@ Columns in output:
   peak_month, trough_month, peak_trough_ratio, volatility_label
 """
 
+import json
 import re
 import pandas as pd
 import numpy as np
@@ -37,8 +38,9 @@ RAW_BFS   = Path("data_raw/bfs")
 PROCESSED = Path("data_processed")
 PROCESSED.mkdir(exist_ok=True)
 
-FILE_101  = next(RAW_BFS.glob("px-x-1003020000_101_*.csv"))
-FILE_POP  = next(RAW_BFS.glob("px-x-0102010000_101_*.csv"))
+FILE_101    = next(RAW_BFS.glob("px-x-1003020000_101_*.csv"))
+FILE_POP    = next(RAW_BFS.glob("px-x-0102010000_101_*.csv"))
+MAPPING_JSON = Path("metadata/place_mapping.json")
 
 print(f"Using 101 file : {FILE_101.name}")
 print(f"Using POP file : {FILE_POP.name}")
@@ -60,6 +62,15 @@ MONTH_INDEX = {
     "June":5, "Juli":6, "July":6,
     "August":7, "September":8, "October":9, "November":10, "December":11,
 }
+
+# ── Load place mapping — BFS commune name → slug ────────────────────────────
+_commune_to_slug: dict = {}
+if MAPPING_JSON.exists():
+    _raw_mapping = json.loads(MAPPING_JSON.read_text(encoding="utf-8"))
+    _commune_to_slug = {bfs_name: v["slug"] for bfs_name, v in _raw_mapping.items() if "slug" in v}
+    print(f"Loaded {len(_commune_to_slug)} commune→slug entries from {MAPPING_JSON.name}")
+else:
+    print(f"WARNING: {MAPPING_JSON} not found — slug column will be empty")
 
 # ── Manual commune name overrides ───────────────────────────────────────────
 # These 3 communes appear differently in the two source files
@@ -162,6 +173,7 @@ for commune in communes:
         label = "Highly seasonal"
 
     record = {
+        "slug":              _commune_to_slug.get(commune, ""),
         "gemeinde":          commune,
         "population":        population,
         "annual_overnights": int(annual),
