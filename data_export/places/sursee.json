@@ -1,0 +1,80 @@
+{
+  "slug": "sursee",
+  "name": "Sursee",
+  "canton": "LU",
+  "score_total": 53.77,
+  "scores": {
+    "total": 53.77,
+    "base": 48.02,
+    "access": 62.4,
+    "sub": {
+      "anti_overtourism": 98.27,
+      "walkability": 16.53,
+      "local_hiking": 0.0,
+      "water": 67.67,
+      "heritage": 0.0,
+      "climate": 100.0,
+      "scenic_transport": 17.84,
+      "destination_pull": 93.1,
+      "cultural_access": 100.0,
+      "access_hiking": 27.45
+    }
+  },
+  "subscores": {
+    "base_quality": 48.02,
+    "access_value": 62.4,
+    "anti_overtourism": 98.27
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 45307,
+    "domestic_share_overnights": 0.484,
+    "summer_temp_avg": 18.11,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 109.8,
+    "walkability_path_m": 2549.3,
+    "scenic_transport_count": 40,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 22,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "jun",
+    "trough_month": "dec",
+    "peak_trough_ratio": 2.14,
+    "monthly_index": [
+      72,
+      78,
+      79,
+      87,
+      121,
+      130,
+      129,
+      128,
+      113,
+      109,
+      92,
+      60
+    ]
+  },
+  "tourism_intensity": 4.1,
+  "restaurant_count": 32,
+  "isos_name": ""
+}

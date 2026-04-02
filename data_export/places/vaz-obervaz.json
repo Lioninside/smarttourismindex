@@ -1,0 +1,81 @@
+{
+  "slug": "vaz-obervaz",
+  "name": "Vaz/Obervaz",
+  "canton": "GR",
+  "score_total": 53.69,
+  "scores": {
+    "total": 53.69,
+    "base": 36.81,
+    "access": 79.01,
+    "sub": {
+      "anti_overtourism": 55.16,
+      "walkability": 4.86,
+      "local_hiking": 58.98,
+      "water": 35.02,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 72.25,
+      "destination_pull": 77.4,
+      "cultural_access": 76.47,
+      "access_hiking": 100.0
+    }
+  },
+  "subscores": {
+    "base_quality": 36.81,
+    "access_value": 79.01,
+    "anti_overtourism": 55.16
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 248878,
+    "domestic_share_overnights": 0.8236,
+    "summer_temp_avg": 15.28,
+    "local_hiking_m": 101877.8,
+    "regional_hiking_m": 2351311.3,
+    "walkability_path_m": 750.0,
+    "scenic_transport_count": 165,
+    "reachable_named_museums": "16",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 25,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "feb",
+    "trough_month": "apr",
+    "peak_trough_ratio": 14.55,
+    "monthly_index": [
+      176,
+      198,
+      141,
+      14,
+      30,
+      67,
+      114,
+      123,
+      90,
+      83,
+      33,
+      132
+    ]
+  },
+  "tourism_intensity": 96.5,
+  "restaurant_count": 2,
+  "isos_name": ""
+}

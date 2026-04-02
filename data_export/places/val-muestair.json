@@ -1,0 +1,81 @@
+{
+  "slug": "val-muestair",
+  "name": "Val Müstair",
+  "canton": "GR",
+  "score_total": 38.73,
+  "scores": {
+    "total": 38.73,
+    "base": 43.07,
+    "access": 32.22,
+    "sub": {
+      "anti_overtourism": 82.5,
+      "walkability": 0.41,
+      "local_hiking": 54.02,
+      "water": 43.69,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 23.35,
+      "destination_pull": 42.21,
+      "cultural_access": 35.29,
+      "access_hiking": 24.88
+    }
+  },
+  "subscores": {
+    "base_quality": 43.07,
+    "access_value": 32.22,
+    "anti_overtourism": 82.5
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 56076,
+    "domestic_share_overnights": 0.8776,
+    "summer_temp_avg": 11.8,
+    "local_hiking_m": 93313.7,
+    "regional_hiking_m": 690792.2,
+    "walkability_path_m": 63.3,
+    "scenic_transport_count": 54,
+    "reachable_named_museums": "9",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 176,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "aug",
+    "trough_month": "nov",
+    "peak_trough_ratio": 13.19,
+    "monthly_index": [
+      72,
+      113,
+      59,
+      22,
+      54,
+      130,
+      198,
+      210,
+      154,
+      121,
+      16,
+      51
+    ]
+  },
+  "tourism_intensity": 37.9,
+  "restaurant_count": 0,
+  "isos_name": ""
+}

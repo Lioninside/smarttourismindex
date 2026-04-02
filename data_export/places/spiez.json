@@ -1,0 +1,81 @@
+{
+  "slug": "spiez",
+  "name": "Spiez",
+  "canton": "BE",
+  "score_total": 51.4,
+  "scores": {
+    "total": 51.4,
+    "base": 32.61,
+    "access": 79.58,
+    "sub": {
+      "anti_overtourism": 95.01,
+      "walkability": 7.17,
+      "local_hiking": 3.23,
+      "water": 11.83,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 66.96,
+      "destination_pull": 86.94,
+      "cultural_access": 100.0,
+      "access_hiking": 56.08
+    }
+  },
+  "subscores": {
+    "base_quality": 32.61,
+    "access_value": 79.58,
+    "anti_overtourism": 95.01
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 145111,
+    "domestic_share_overnights": 0.5435,
+    "summer_temp_avg": 17.55,
+    "local_hiking_m": 5572.1,
+    "regional_hiking_m": 919821.6,
+    "walkability_path_m": 1105.3,
+    "scenic_transport_count": 151,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 47,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "jul",
+    "trough_month": "feb",
+    "peak_trough_ratio": 3.84,
+    "monthly_index": [
+      55,
+      43,
+      58,
+      80,
+      126,
+      139,
+      166,
+      158,
+      135,
+      107,
+      66,
+      66
+    ]
+  },
+  "tourism_intensity": 11.1,
+  "restaurant_count": 16,
+  "isos_name": ""
+}

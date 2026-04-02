@@ -1,0 +1,80 @@
+{
+  "slug": "zug",
+  "name": "Zug",
+  "canton": "ZG",
+  "score_total": 51.76,
+  "scores": {
+    "total": 51.76,
+    "base": 40.35,
+    "access": 68.89,
+    "sub": {
+      "anti_overtourism": 98.55,
+      "walkability": 22.32,
+      "local_hiking": 0.0,
+      "water": 41.64,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 29.52,
+      "destination_pull": 98.87,
+      "cultural_access": 100.0,
+      "access_hiking": 35.79
+    }
+  },
+  "subscores": {
+    "base_quality": 40.35,
+    "access_value": 68.89,
+    "anti_overtourism": 98.55
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 139860,
+    "domestic_share_overnights": 0.3581,
+    "summer_temp_avg": 18.75,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 181105.5,
+    "walkability_path_m": 3442.9,
+    "scenic_transport_count": 66,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 44,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "sep",
+    "trough_month": "feb",
+    "peak_trough_ratio": 1.54,
+    "monthly_index": [
+      90,
+      83,
+      84,
+      88,
+      99,
+      126,
+      110,
+      107,
+      128,
+      88,
+      101,
+      96
+    ]
+  },
+  "tourism_intensity": 3.5,
+  "restaurant_count": 63,
+  "isos_name": ""
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "saignelegier",
+  "name": "Saignelégier",
+  "canton": "JU",
+  "score_total": 31.24,
+  "scores": {
+    "total": 31.24,
+    "base": 31.95,
+    "access": 30.17,
+    "sub": {
+      "anti_overtourism": 96.13,
+      "walkability": 12.47,
+      "local_hiking": 0.84,
+      "water": 1.74,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 1.76,
+      "destination_pull": 15.25,
+      "cultural_access": 100.0,
+      "access_hiking": 0.44
+    }
+  },
+  "subscores": {
+    "base_quality": 31.95,
+    "access_value": 30.17,
+    "anti_overtourism": 96.13
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 20655,
+    "domestic_share_overnights": 0.925,
+    "summer_temp_avg": 15.0,
+    "local_hiking_m": 1442.4,
+    "regional_hiking_m": 19320.7,
+    "walkability_path_m": 1922.9,
+    "scenic_transport_count": 4,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 190,
+  "seasonality": {
+    "volatility_label": "Strongly seasonal",
+    "peak_month": "jul",
+    "trough_month": "jan",
+    "peak_trough_ratio": 5.26,
+    "monthly_index": [
+      35,
+      54,
+      52,
+      91,
+      121,
+      127,
+      186,
+      160,
+      133,
+      123,
+      63,
+      55
+    ]
+  },
+  "tourism_intensity": 8.7,
+  "restaurant_count": 3,
+  "isos_name": ""
+}

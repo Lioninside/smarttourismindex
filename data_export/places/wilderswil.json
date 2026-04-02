@@ -1,0 +1,81 @@
+{
+  "slug": "wilderswil",
+  "name": "Wilderswil",
+  "canton": "BE",
+  "score_total": 51.2,
+  "scores": {
+    "total": 51.2,
+    "base": 36.71,
+    "access": 72.94,
+    "sub": {
+      "anti_overtourism": 79.14,
+      "walkability": 12.74,
+      "local_hiking": 31.96,
+      "water": 19.87,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 58.37,
+      "destination_pull": 79.5,
+      "cultural_access": 88.24,
+      "access_hiking": 63.46
+    }
+  },
+  "subscores": {
+    "base_quality": 36.71,
+    "access_value": 72.94,
+    "anti_overtourism": 79.14
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 123048,
+    "domestic_share_overnights": 0.3805,
+    "summer_temp_avg": 17.81,
+    "local_hiking_m": 55198.2,
+    "regional_hiking_m": 1064314.2,
+    "walkability_path_m": 1964.9,
+    "scenic_transport_count": 133,
+    "reachable_named_museums": "18",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 52,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "jul",
+    "trough_month": "dec",
+    "peak_trough_ratio": 2.91,
+    "monthly_index": [
+      63,
+      84,
+      78,
+      94,
+      113,
+      128,
+      153,
+      150,
+      121,
+      99,
+      63,
+      52
+    ]
+  },
+  "tourism_intensity": 45.1,
+  "restaurant_count": 7,
+  "isos_name": ""
+}

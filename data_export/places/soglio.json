@@ -1,0 +1,60 @@
+{
+  "slug": "soglio",
+  "name": "Soglio",
+  "canton": "GR",
+  "score_total": 41.05,
+  "scores": {
+    "total": 41.05,
+    "base": 43.58,
+    "access": 37.25,
+    "sub": {
+      "anti_overtourism": 96.15,
+      "walkability": 0.0,
+      "local_hiking": 41.25,
+      "water": 41.96,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 24.23,
+      "destination_pull": 55.81,
+      "cultural_access": 29.41,
+      "access_hiking": 39.22
+    }
+  },
+  "subscores": {
+    "base_quality": 43.58,
+    "access_value": 37.25,
+    "anti_overtourism": 96.15
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": null,
+    "domestic_share_overnights": null,
+    "summer_temp_avg": 15.85,
+    "local_hiking_m": 71248.7,
+    "regional_hiking_m": 557580.7,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 56,
+    "reachable_named_museums": "8",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": false,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 158,
+  "restaurant_count": 1,
+  "isos_name": ""
+}

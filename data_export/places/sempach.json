@@ -1,0 +1,59 @@
+{
+  "slug": "sempach",
+  "name": "Sempach",
+  "canton": "LU",
+  "score_total": 50.82,
+  "scores": {
+    "total": 50.82,
+    "base": 37.14,
+    "access": 71.34,
+    "sub": {
+      "anti_overtourism": 96.15,
+      "walkability": 16.28,
+      "local_hiking": 0.0,
+      "water": 32.33,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 39.21,
+      "destination_pull": 95.44,
+      "cultural_access": 100.0,
+      "access_hiking": 39.65
+    }
+  },
+  "subscores": {
+    "base_quality": 37.14,
+    "access_value": 71.34,
+    "anti_overtourism": 96.15
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": null,
+    "domestic_share_overnights": null,
+    "summer_temp_avg": 18.22,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 176511.3,
+    "walkability_path_m": 2510.0,
+    "scenic_transport_count": 88,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": false,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 57,
+  "restaurant_count": 3,
+  "isos_name": ""
+}
