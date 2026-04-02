@@ -1,0 +1,37 @@
+{
+  "slug": "bellinzona",
+  "name": "Bellinzona",
+  "canton": "TI",
+  "score_total": 80.75,
+  "subscores": {
+    "base_quality": 100.0,
+    "access_value": 65.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 90
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Museums",
+    "UNESCO"
+  ],
+  "metrics": {
+    "overnight_stays": 87045,
+    "domestic_share_overnights": 0.5587,
+    "summer_temp_avg": 20.89,
+    "anchor_stop_name": "Bellinzona, Via Pellandini",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 943.67,
+    "museum_count_2km": 6,
+    "restaurant_count_2km": 36
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "celerina-schlarigna",
+  "name": "Celerina/Schlarigna",
+  "canton": "GR",
+  "score_total": 56.1,
+  "scores": {
+    "total": 56.1,
+    "base": 55.21,
+    "access": 57.44,
+    "sub": {
+      "anti_overtourism": 60.94,
+      "walkability": 6.37,
+      "local_hiking": 100.0,
+      "water": 91.32,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 48.46,
+      "destination_pull": 71.94,
+      "cultural_access": 47.06,
+      "access_hiking": 63.71
+    }
+  },
+  "subscores": {
+    "base_quality": 55.21,
+    "access_value": 57.44,
+    "anti_overtourism": 60.94
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 119197,
+    "domestic_share_overnights": 0.672,
+    "summer_temp_avg": 11.17,
+    "local_hiking_m": 172728.2,
+    "regional_hiking_m": 1424218.2,
+    "walkability_path_m": 982.0,
+    "scenic_transport_count": 111,
+    "reachable_named_museums": "11",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 11,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "feb",
+    "trough_month": "may",
+    "peak_trough_ratio": 4.67,
+    "monthly_index": [
+      148,
+      180,
+      140,
+      44,
+      39,
+      61,
+      123,
+      132,
+      84,
+      90,
+      44,
+      115
+    ]
+  },
+  "tourism_intensity": 84.1,
+  "restaurant_count": 4,
+  "isos_name": ""
+}

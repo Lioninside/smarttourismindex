@@ -1,0 +1,35 @@
+{
+  "slug": "aeschi-bei-spiez",
+  "name": "Aeschi bei Spiez",
+  "canton": "BE",
+  "score_total": 55.5,
+  "subscores": {
+    "base_quality": 35.0,
+    "access_value": 45.0,
+    "practical_comfort": 55,
+    "anti_overtourism": 100.0
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water"
+  ],
+  "metrics": {
+    "overnight_stays": 30608,
+    "domestic_share_overnights": 0.5658,
+    "summer_temp_avg": 16.41,
+    "anchor_stop_name": "Aeschi b. Spiez, Mustermattli",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1173.02,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 5
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "gtfs": true,
+    "hiking": true,
+    "water": true,
+    "heritage": true,
+    "osm": true
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "flims",
+  "name": "Flims",
+  "canton": "GR",
+  "score_total": 50.8,
+  "scores": {
+    "total": 50.8,
+    "base": 39.08,
+    "access": 68.38,
+    "sub": {
+      "anti_overtourism": 68.97,
+      "walkability": 18.99,
+      "local_hiking": 46.39,
+      "water": 25.08,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 58.15,
+      "destination_pull": 58.02,
+      "cultural_access": 82.35,
+      "access_hiking": 86.3
+    }
+  },
+  "subscores": {
+    "base_quality": 39.08,
+    "access_value": 68.38,
+    "anti_overtourism": 68.97
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 194963,
+    "domestic_share_overnights": 0.5475,
+    "summer_temp_avg": 15.2,
+    "local_hiking_m": 80130.3,
+    "regional_hiking_m": 1969327.2,
+    "walkability_path_m": 2929.4,
+    "scenic_transport_count": 133,
+    "reachable_named_museums": "17",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 58,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "feb",
+    "trough_month": "nov",
+    "peak_trough_ratio": 12.58,
+    "monthly_index": [
+      156,
+      195,
+      126,
+      27,
+      38,
+      87,
+      135,
+      151,
+      100,
+      67,
+      16,
+      103
+    ]
+  },
+  "tourism_intensity": 66.9,
+  "restaurant_count": 21,
+  "isos_name": ""
+}

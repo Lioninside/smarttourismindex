@@ -1,0 +1,80 @@
+{
+  "slug": "geneve",
+  "name": "Genève",
+  "canton": "GE",
+  "score_total": 40.34,
+  "scores": {
+    "total": 40.34,
+    "base": 41.61,
+    "access": 38.45,
+    "sub": {
+      "anti_overtourism": 94.96,
+      "walkability": 35.44,
+      "local_hiking": 0.0,
+      "water": 5.21,
+      "heritage": 0.0,
+      "climate": 100.0,
+      "scenic_transport": 0.0,
+      "destination_pull": 44.82,
+      "cultural_access": 100.0,
+      "access_hiking": 0.0
+    }
+  },
+  "subscores": {
+    "base_quality": 41.61,
+    "access_value": 38.45,
+    "anti_overtourism": 94.96
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 2371458,
+    "domestic_share_overnights": 0.2132,
+    "summer_temp_avg": 19.86,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 0.0,
+    "walkability_path_m": 5465.2,
+    "scenic_transport_count": 1,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 163,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "jul",
+    "trough_month": "jan",
+    "peak_trough_ratio": 1.52,
+    "monthly_index": [
+      78,
+      79,
+      90,
+      89,
+      109,
+      118,
+      118,
+      115,
+      110,
+      102,
+      93,
+      100
+    ]
+  },
+  "tourism_intensity": 11.2,
+  "restaurant_count": 468,
+  "isos_name": ""
+}

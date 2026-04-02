@@ -1,0 +1,80 @@
+{
+  "slug": "clos-du-doubs",
+  "name": "Clos du Doubs",
+  "canton": "JU",
+  "score_total": 33.32,
+  "scores": {
+    "total": 33.32,
+    "base": 36.48,
+    "access": 28.59,
+    "sub": {
+      "anti_overtourism": 95.43,
+      "walkability": 0.0,
+      "local_hiking": 0.0,
+      "water": 17.51,
+      "heritage": 0.0,
+      "climate": 100.0,
+      "scenic_transport": 2.2,
+      "destination_pull": 9.54,
+      "cultural_access": 100.0,
+      "access_hiking": 0.43
+    }
+  },
+  "subscores": {
+    "base_quality": 36.48,
+    "access_value": 28.59,
+    "anti_overtourism": 95.43
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 11806,
+    "domestic_share_overnights": 0.9495,
+    "summer_temp_avg": 17.19,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 2528.2,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 5,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 186,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "aug",
+    "trough_month": "jan",
+    "peak_trough_ratio": 22.62,
+    "monthly_index": [
+      9,
+      16,
+      32,
+      83,
+      142,
+      144,
+      174,
+      206,
+      179,
+      114,
+      52,
+      48
+    ]
+  },
+  "tourism_intensity": 10.2,
+  "restaurant_count": 1,
+  "isos_name": ""
+}
