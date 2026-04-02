@@ -649,8 +649,8 @@
     "active": true
   },
   "Bregaglia": {
-    "slug": "bregaglia",
-    "name": "Bregaglia",
+    "slug": "soglio",
+    "name": "Soglio",
     "canton": "GR",
     "tourism_region": "Graubünden",
     "main_station_name": "Soglio, Villaggio",
@@ -803,8 +803,8 @@
     "active": true
   },
   "Rheinwald": {
-    "slug": "rheinwald",
-    "name": "Rheinwald",
+    "slug": "spluegen",
+    "name": "Splügen",
     "canton": "GR",
     "tourism_region": "Graubünden",
     "main_station_name": "Medels im Rheinwald, Abzw.",
@@ -2188,15 +2188,15 @@
     "lon": "9.072129",
     "active": true
   },
-"Moutier (JU)": {
-  "slug": "moutier-ju",
-  "name": "Moutier",
-  "canton": "JU",
-  "tourism_region": "",
-  "main_station_name": "Moutier",
-  "place_type": "",
-  "lat": "...",
-  "lon": "...",
-  "active": true
-}
+  "Moutier (JU)": {
+    "slug": "moutier-ju",
+    "name": "Moutier",
+    "canton": "JU",
+    "tourism_region": "",
+    "main_station_name": "Moutier",
+    "place_type": "",
+    "lat": "...",
+    "lon": "...",
+    "active": true
+  }
 }

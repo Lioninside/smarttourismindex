@@ -101,9 +101,8 @@ def load_tourism_intensity(
     result: Dict[str, Optional[float]] = {}
     with path.open("r", encoding="utf-8", newline="") as f:
         for row in csv.DictReader(f):
-            gemeinde = row.get("gemeinde", "").strip()
-            slug = name_to_slug.get(gemeinde)
-            if slug is None:
+            slug = row.get("slug", "").strip() or name_to_slug.get(row.get("gemeinde", "").strip())
+            if not slug:
                 continue
             raw = row.get("tourism_intensity", "").strip()
             if raw and raw not in ("None", "nan"):
@@ -362,6 +361,14 @@ def main() -> None:
         })
 
     rows.sort(key=lambda x: (-x["score_total"], x["name"]))
+
+    # Exclude places listed in metadata/exclude.json
+    exclude_path = Path("metadata/exclude.json")
+    if exclude_path.exists():
+        exclude = json.load(exclude_path.open(encoding="utf-8"))
+        before = len(rows)
+        rows = [r for r in rows if r["slug"] not in exclude]
+        print(f"Excluded {before - len(rows)} places: {exclude}")
 
     # Add rank
     for i, row in enumerate(rows):
