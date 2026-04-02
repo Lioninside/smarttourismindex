@@ -29,7 +29,7 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 PLACES_CSV       = Path("metadata/places_master.csv")
-REACHABILITY_JSON = Path("data_processed/gtfs/gtfs_reachability.json")
+REACHABILITY_JSON = Path("data_processed/sbbapi/sbbAPI_reachability.json")
 INTENSITY_CSV    = Path("data_processed/tourism_intensity_seasonality.csv")
 OUTPUT_JSON      = Path("data_processed/destination_pull_metrics.json")
 

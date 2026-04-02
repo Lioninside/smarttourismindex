@@ -88,6 +88,19 @@ def main() -> None:
             "hiking_reachable":  bool(len(seg4) > 0),
         })
 
+    # Min-max normalise both hiking metrics
+    def minmax(vals: list) -> list:
+        v_min = min(vals)
+        v_max = max(vals)
+        v_range = v_max - v_min if v_max > v_min else 1.0
+        return [round((v - v_min) / v_range, 4) for v in vals]
+
+    local_norm    = minmax([r["local_hiking_m"]    for r in rows])
+    regional_norm = minmax([r["regional_hiking_m"] for r in rows])
+    for i, row in enumerate(rows):
+        row["local_hiking_score"]    = local_norm[i]
+        row["regional_hiking_score"] = regional_norm[i]
+
     rows.sort(key=lambda x: x["slug"])
 
     OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
