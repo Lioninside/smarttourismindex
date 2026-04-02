@@ -30,8 +30,10 @@ PLACE_MAPPING = Path("metadata/place_mapping.json")
 OUTPUT_JSON = Path("data_processed/bfs/bfs_supply_demand_2025.json")
 
 CSV_ENCODING = "ISO-8859-1"
-TARGET_YEAR = "2025"
-TARGET_MONTH = "Total of the year"
+TARGET_YEAR  = "2025"
+# No TARGET_MONTH — file has only individual months (German names); we sum/average per commune.
+# Column names are German: Jahr, Monat, Gemeinde, Betriebe, Zimmer, Betten,
+#   Ankünfte, Logiernächte, Zimmernächte, Zimmerauslastung in %, Bettenauslastung in %
 
 
 def load_place_mapping(path: Path) -> Dict[str, Dict[str, Any]]:
@@ -55,54 +57,65 @@ def to_float(value: str) -> float:
     return round(float(cleaned), 2)
 
 
-def normalize_row(row: Dict[str, str], mapping: Dict[str, Dict[str, Any]]) -> Dict[str, Any] | None:
-    if row.get("Year") != TARGET_YEAR:
-        return None
-    if row.get("Month") != TARGET_MONTH:
-        return None
-
-    commune_bfs = (row.get("Commune") or "").strip()
-    if not commune_bfs:
-        return None
-
-    place = mapping.get(commune_bfs)
-    if not place or not place.get("active", False):
-        return None
-
-    return {
-        "slug": place["slug"],
-        "commune_bfs": commune_bfs,
-        "year": int(TARGET_YEAR),
-        "establishments": to_int(row.get("Establishments", "0")),
-        "rooms": to_int(row.get("Rooms", "0")),
-        "beds": to_int(row.get("Beds", "0")),
-        "arrivals": to_int(row.get("Arrivals", "0")),
-        "overnight_stays": to_int(row.get("Overnight stays", "0")),
-        "room_nights": to_int(row.get("Room nights", "0")),
-        "room_occupancy": to_float(row.get("Room occupancy", "0")),
-        "bed_occupancy": to_float(row.get("Bed occupancy", "0")),
-    }
-
-
 def main() -> None:
     if not PLACE_MAPPING.exists():
         raise FileNotFoundError(f"Missing place mapping file: {PLACE_MAPPING}")
 
     mapping = load_place_mapping(PLACE_MAPPING)
 
-    normalized: List[Dict[str, Any]] = []
-    unmapped_communes = set()
+    # Accumulate annual totals per commune across all monthly rows.
+    # Flow metrics (arrivals, overnights, room nights): sum.
+    # Stock metrics (establishments, rooms, beds): average across months.
+    # Occupancy %: average across months.
+    totals: Dict[str, Dict[str, Any]] = {}
+    unmapped_communes: set = set()
 
     with RAW_CSV.open("r", encoding=CSV_ENCODING, newline="") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            commune_bfs = (row.get("Commune") or "").strip()
-            if commune_bfs and commune_bfs not in mapping:
-                unmapped_communes.add(commune_bfs)
+        for row in csv.DictReader(f):
+            if row.get("Jahr") != TARGET_YEAR:
+                continue
+            commune = (row.get("Gemeinde") or "").strip()
+            if not commune:
+                continue
+            if commune not in mapping:
+                unmapped_communes.add(commune)
+                continue
+            if commune not in totals:
+                totals[commune] = {
+                    "establishments_sum": 0, "rooms_sum": 0, "beds_sum": 0,
+                    "arrivals": 0, "overnight_stays": 0, "room_nights": 0,
+                    "room_occ_sum": 0.0, "bed_occ_sum": 0.0, "n_months": 0,
+                }
+            t = totals[commune]
+            t["n_months"]          += 1
+            t["establishments_sum"] += to_int(row.get("Betriebe", "0"))
+            t["rooms_sum"]          += to_int(row.get("Zimmer", "0"))
+            t["beds_sum"]           += to_int(row.get("Betten", "0"))
+            t["arrivals"]           += to_int(row.get("Ankünfte", "0"))
+            t["overnight_stays"]    += to_int(row.get("Logiernächte", "0"))
+            t["room_nights"]        += to_int(row.get("Zimmernächte", "0"))
+            t["room_occ_sum"]       += to_float(row.get("Zimmerauslastung in %", "0"))
+            t["bed_occ_sum"]        += to_float(row.get("Bettenauslastung in %", "0"))
 
-            normalized_row = normalize_row(row, mapping)
-            if normalized_row:
-                normalized.append(normalized_row)
+    normalized: List[Dict[str, Any]] = []
+    for commune, t in totals.items():
+        place = mapping.get(commune)
+        if not place or not place.get("active", False):
+            continue
+        n = t["n_months"] if t["n_months"] > 0 else 1
+        normalized.append({
+            "slug":           place["slug"],
+            "commune_bfs":    commune,
+            "year":           int(TARGET_YEAR),
+            "establishments": round(t["establishments_sum"] / n),
+            "rooms":          round(t["rooms_sum"] / n),
+            "beds":           round(t["beds_sum"] / n),
+            "arrivals":       t["arrivals"],
+            "overnight_stays": t["overnight_stays"],
+            "room_nights":    t["room_nights"],
+            "room_occupancy": round(t["room_occ_sum"] / n, 1),
+            "bed_occupancy":  round(t["bed_occ_sum"] / n, 1),
+        })
 
     normalized.sort(key=lambda x: x["slug"])
 
