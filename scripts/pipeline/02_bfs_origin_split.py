@@ -6,8 +6,8 @@ Reads the BFS commune-level guest-origin CSV and exports a normalized JSON file
 with domestic vs international demand metrics per place.
 
 Input:
-  - data_raw/bfs/px-x-1003020000_101_20260312-180020.csv
-  - place_mapping.json
+  - data_raw/bfs/px-x-1003020000_101_*.csv  (overnights/arrivals by origin)
+  - metadata/place_mapping.json
 
 Output:
   - data_processed/bfs/bfs_origin_split_2025.json
@@ -20,7 +20,12 @@ import json
 from pathlib import Path
 from typing import Any, Dict, List
 
-RAW_CSV = Path("data_raw/bfs/px-x-1003020000_101_20260312-180020.csv")
+_BFS_DIR = Path("data_raw/bfs")
+_matches = sorted(_BFS_DIR.glob("px-x-1003020000_101_*.csv"))
+if not _matches:
+    raise FileNotFoundError("No px-x-1003020000_101_*.csv found in data_raw/bfs/")
+RAW_CSV = _matches[-1]
+print(f"  Using: {RAW_CSV.name}")
 PLACE_MAPPING = Path("metadata/place_mapping.json")
 OUTPUT_JSON = Path("data_processed/bfs/bfs_origin_split_2025.json")
 
@@ -88,8 +93,6 @@ def normalize_row(row: Dict[str, str], mapping: Dict[str, Dict[str, Any]]) -> Di
 
 
 def main() -> None:
-    if not RAW_CSV.exists():
-        raise FileNotFoundError(f"Missing input CSV: {RAW_CSV}")
     if not PLACE_MAPPING.exists():
         raise FileNotFoundError(f"Missing place mapping file: {PLACE_MAPPING}")
 
