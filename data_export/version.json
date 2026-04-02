@@ -1,5 +1,6 @@
 {
-  "site_data_version": "2026-03-25-mvp",
-  "updated_at": "2026-03-25",
-  "place_count": 193
+  "site_data_version": "2026-04-02-v2",
+  "updated_at": "2026-04-02",
+  "place_count": 184,
+  "model_version": "2.0"
 }
