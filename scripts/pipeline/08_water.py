@@ -2,11 +2,14 @@
 """
 08_water.py
 
-Reads the swissTLM3D File Geodatabase and exports place-level water metrics.
+Reads pre-extracted water GeoPackages and exports place-level water metrics.
 
 Expected input:
-  - places_master.csv
-  - data_raw/swisstopo/swissTLM3D_2026_LV95_LN02.gdb
+  - metadata/places_master.csv
+  - data_raw/tlm/tlm_rivers.gpkg   (TLM_FLIESSGEWAESSER, EPSG:2056)
+  - data_raw/tlm/tlm_lakes.gpkg    (TLM_STEHENDES_GEWAESSER, EPSG:2056)
+
+Run scripts/tools/ExtractTLM.py first if the GeoPackages don't exist yet.
 
 Output:
   - data_processed/water/water_metrics.json
@@ -23,12 +26,10 @@ import geopandas as gpd
 import pandas as pd
 from shapely.geometry import Point
 
-PLACES_CSV = Path("metadata/places_master.csv")
-GDB_PATH = Path("data_raw/swisstopo/swissTLM3D_2026_LV95_LN02.gdb")
-OUTPUT_JSON = Path("data_processed/water/water_metrics.json")
-
-FLOWING_LAYER = "TLM_FLIESSGEWAESSER"
-STANDING_LAYER = "TLM_STEHENDES_GEWAESSER"
+PLACES_CSV   = Path("metadata/places_master.csv")
+RIVERS_GPKG  = Path("data_raw/tlm/tlm_rivers.gpkg")
+LAKES_GPKG   = Path("data_raw/tlm/tlm_lakes.gpkg")
+OUTPUT_JSON  = Path("data_processed/water/water_metrics.json")
 
 
 def read_places(path: Path) -> List[Dict[str, Any]]:
@@ -50,16 +51,19 @@ def read_places(path: Path) -> List[Dict[str, Any]]:
 
 
 def read_water() -> gpd.GeoDataFrame:
-    if not GDB_PATH.exists():
-        raise FileNotFoundError(f"Missing GDB: {GDB_PATH}")
+    for p in (RIVERS_GPKG, LAKES_GPKG):
+        if not p.exists():
+            raise FileNotFoundError(
+                f"Missing: {p}\nRun scripts/tools/ExtractTLM.py first."
+            )
 
-    flowing = gpd.read_file(GDB_PATH, layer=FLOWING_LAYER)
-    standing = gpd.read_file(GDB_PATH, layer=STANDING_LAYER)
+    flowing  = gpd.read_file(RIVERS_GPKG)
+    standing = gpd.read_file(LAKES_GPKG)
 
     if flowing.crs is None or standing.crs is None:
-        raise ValueError("One of the water layers has no CRS")
+        raise ValueError("One of the water GeoPackages has no CRS")
 
-    flowing = flowing.to_crs(2056)
+    flowing  = flowing.to_crs(2056)
     standing = standing.to_crs(2056)
 
     flowing["water_type"] = "flowing"

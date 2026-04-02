@@ -9,8 +9,8 @@
     "arrivals": 17623,
     "overnight_stays": 35593,
     "room_nights": 28569,
-    "room_occupancy": 59.23,
-    "bed_occupancy": 45.83
+    "room_occupancy": 59.2,
+    "bed_occupancy": 45.8
   },
   {
     "slug": "adelboden",
@@ -22,73 +22,73 @@
     "arrivals": 91460,
     "overnight_stays": 210465,
     "room_nights": 116989,
-    "room_occupancy": 49.68,
-    "bed_occupancy": 43.28
+    "room_occupancy": 47.8,
+    "bed_occupancy": 41.7
   },
   {
     "slug": "aeschi-bei-spiez",
     "commune_bfs": "Aeschi bei Spiez",
     "year": 2025,
-    "establishments": 5,
+    "establishments": 6,
     "rooms": 96,
     "beds": 192,
     "arrivals": 19011,
     "overnight_stays": 30608,
     "room_nights": 16862,
-    "room_occupancy": 49.89,
-    "bed_occupancy": 45.14
+    "room_occupancy": 48.6,
+    "bed_occupancy": 44.3
   },
   {
     "slug": "altstaetten",
     "commune_bfs": "Altstätten",
     "year": 2025,
-    "establishments": 4,
+    "establishments": 5,
     "rooms": 96,
     "beds": 176,
     "arrivals": 8210,
     "overnight_stays": 14020,
     "room_nights": 10981,
-    "room_occupancy": 32.24,
-    "bed_occupancy": 22.43
+    "room_occupancy": 31.9,
+    "bed_occupancy": 22.1
   },
   {
     "slug": "amden",
     "commune_bfs": "Amden",
     "year": 2025,
-    "establishments": 7,
+    "establishments": 8,
     "rooms": 98,
     "beds": 217,
     "arrivals": 11325,
     "overnight_stays": 19925,
     "room_nights": 11689,
-    "room_occupancy": 38.14,
-    "bed_occupancy": 29.46
+    "room_occupancy": 37.3,
+    "bed_occupancy": 28.7
   },
   {
     "slug": "andermatt",
     "commune_bfs": "Andermatt",
     "year": 2025,
     "establishments": 12,
-    "rooms": 471,
-    "beds": 1065,
+    "rooms": 472,
+    "beds": 1066,
     "arrivals": 70344,
     "overnight_stays": 144668,
     "room_nights": 79337,
-    "room_occupancy": 47.47,
-    "bed_occupancy": 38.4
+    "room_occupancy": 46.5,
+    "bed_occupancy": 37.8
   },
   {
     "slug": "anniviers",
     "commune_bfs": "Anniviers",
     "year": 2025,
     "establishments": 21,
-    "rooms": 485,
-    "beds": 1239,
+    "rooms": 486,
+    "beds": 1240,
     "arrivals": 60455,
     "overnight_stays": 164678,
     "room_nights": 82200,
-    "room_occupancy": 53.43,
-    "bed_occupancy": 41.72
+    "room_occupancy": 48.8,
+    "bed_occupancy": 38.2
   },
   {
     "slug": "appenzell",
@@ -100,72 +100,72 @@
     "arrivals": 30575,
     "overnight_stays": 48011,
     "room_nights": 29327,
-    "room_occupancy": 42.57,
-    "bed_occupancy": 32.68
+    "room_occupancy": 39.8,
+    "bed_occupancy": 30.5
   },
   {
     "slug": "arbon",
     "commune_bfs": "Arbon",
     "year": 2025,
     "establishments": 6,
-    "rooms": 157,
+    "rooms": 158,
     "beds": 318,
     "arrivals": 23901,
     "overnight_stays": 41453,
     "room_nights": 29667,
-    "room_occupancy": 51.94,
-    "bed_occupancy": 35.88
+    "room_occupancy": 51.2,
+    "bed_occupancy": 35.3
   },
   {
     "slug": "arosa",
     "commune_bfs": "Arosa",
     "year": 2025,
     "establishments": 35,
-    "rooms": 1449,
-    "beds": 2964,
+    "rooms": 1452,
+    "beds": 2968,
     "arrivals": 139807,
     "overnight_stays": 418711,
     "room_nights": 217354,
-    "room_occupancy": 47.6,
-    "bed_occupancy": 44.52
+    "room_occupancy": 40.5,
+    "bed_occupancy": 37.8
   },
   {
     "slug": "ascona",
     "commune_bfs": "Ascona",
     "year": 2025,
     "establishments": 30,
-    "rooms": 1144,
-    "beds": 2298,
+    "rooms": 1142,
+    "beds": 2293,
     "arrivals": 151440,
     "overnight_stays": 421815,
     "room_nights": 231466,
-    "room_occupancy": 58.83,
-    "bed_occupancy": 53.58
+    "room_occupancy": 51.9,
+    "bed_occupancy": 47.0
   },
   {
     "slug": "bad-ragaz",
     "commune_bfs": "Bad Ragaz",
     "year": 2025,
-    "establishments": 12,
+    "establishments": 13,
     "rooms": 508,
     "beds": 1047,
     "arrivals": 64991,
     "overnight_stays": 152288,
     "room_nights": 97804,
-    "room_occupancy": 53.83,
-    "bed_occupancy": 40.84
+    "room_occupancy": 53.9,
+    "bed_occupancy": 40.8
   },
   {
     "slug": "baden",
     "commune_bfs": "Baden",
     "year": 2025,
-    "establishments": 8,
+    "establishments": 9,
     "rooms": 462,
-    "beds": 807,
+    "beds": 808,
     "arrivals": 56396,
     "overnight_stays": 123561,
     "room_nights": 98247,
-    "room_occupancy": 58.22,
+    "room_occupancy": 58.3,
     "bed_occupancy": 41.9
   },
   {
@@ -173,26 +173,26 @@
     "commune_bfs": "Basel",
     "year": 2025,
     "establishments": 57,
-    "rooms": 4603,
+    "rooms": 4604,
     "beds": 9265,
     "arrivals": 898548,
     "overnight_stays": 1670768,
     "room_nights": 1102460,
-    "room_occupancy": 65.91,
-    "bed_occupancy": 49.61
+    "room_occupancy": 65.8,
+    "bed_occupancy": 49.5
   },
   {
     "slug": "beatenberg",
     "commune_bfs": "Beatenberg",
     "year": 2025,
-    "establishments": 10,
+    "establishments": 11,
     "rooms": 319,
     "beds": 753,
     "arrivals": 53049,
     "overnight_stays": 123488,
     "room_nights": 63877,
-    "room_occupancy": 57.65,
-    "bed_occupancy": 47.09
+    "room_occupancy": 56.3,
+    "bed_occupancy": 45.8
   },
   {
     "slug": "beckenried",
@@ -204,34 +204,34 @@
     "arrivals": 24791,
     "overnight_stays": 41316,
     "room_nights": 22902,
-    "room_occupancy": 68.93,
-    "bed_occupancy": 58.33
+    "room_occupancy": 68.7,
+    "bed_occupancy": 58.0
   },
   {
     "slug": "bellinzona",
     "commune_bfs": "Bellinzona",
     "year": 2025,
-    "establishments": 15,
-    "rooms": 399,
-    "beds": 829,
+    "establishments": 16,
+    "rooms": 400,
+    "beds": 830,
     "arrivals": 58876,
     "overnight_stays": 87045,
     "room_nights": 58761,
-    "room_occupancy": 40.57,
-    "bed_occupancy": 28.97
+    "room_occupancy": 40.2,
+    "bed_occupancy": 28.7
   },
   {
     "slug": "bern",
     "commune_bfs": "Bern",
     "year": 2025,
-    "establishments": 41,
-    "rooms": 2882,
+    "establishments": 42,
+    "rooms": 2883,
     "beds": 5565,
     "arrivals": 626336,
     "overnight_stays": 1080646,
     "room_nights": 685106,
-    "room_occupancy": 65.35,
-    "bed_occupancy": 53.41
+    "room_occupancy": 65.2,
+    "bed_occupancy": 53.2
   },
   {
     "slug": "biel-bienne",
@@ -243,8 +243,8 @@
     "arrivals": 77639,
     "overnight_stays": 125051,
     "room_nights": 90819,
-    "room_occupancy": 59.02,
-    "bed_occupancy": 47.7
+    "room_occupancy": 59.1,
+    "bed_occupancy": 47.6
   },
   {
     "slug": "blonay-saint-legier",
@@ -256,8 +256,8 @@
     "arrivals": 28230,
     "overnight_stays": 41982,
     "room_nights": 26609,
-    "room_occupancy": 48.98,
-    "bed_occupancy": 38.13
+    "room_occupancy": 49.0,
+    "bed_occupancy": 38.1
   },
   {
     "slug": "bourg-en-lavaux",
@@ -269,8 +269,8 @@
     "arrivals": 19895,
     "overnight_stays": 32325,
     "room_nights": 21733,
-    "room_occupancy": 69.41,
-    "bed_occupancy": 56.47
+    "room_occupancy": 68.8,
+    "bed_occupancy": 55.8
   },
   {
     "slug": "bregaglia",
@@ -282,47 +282,47 @@
     "arrivals": 23809,
     "overnight_stays": 55546,
     "room_nights": 30442,
-    "room_occupancy": 37.08,
-    "bed_occupancy": 29.7
+    "room_occupancy": 34.2,
+    "bed_occupancy": 27.0
   },
   {
     "slug": "breil-brigels",
     "commune_bfs": "Breil/Brigels",
     "year": 2025,
     "establishments": 10,
-    "rooms": 188,
+    "rooms": 189,
     "beds": 406,
     "arrivals": 16973,
     "overnight_stays": 44028,
     "room_nights": 24370,
-    "room_occupancy": 37.82,
-    "bed_occupancy": 31.74
+    "room_occupancy": 36.4,
+    "bed_occupancy": 30.6
   },
   {
     "slug": "brienz",
     "commune_bfs": "Brienz (BE)",
     "year": 2025,
     "establishments": 12,
-    "rooms": 298,
+    "rooms": 299,
     "beds": 643,
     "arrivals": 63336,
     "overnight_stays": 114423,
     "room_nights": 59440,
-    "room_occupancy": 57.17,
-    "bed_occupancy": 51.03
+    "room_occupancy": 54.7,
+    "bed_occupancy": 48.1
   },
   {
     "slug": "brig-glis",
     "commune_bfs": "Brig-Glis",
     "year": 2025,
     "establishments": 13,
-    "rooms": 515,
+    "rooms": 516,
     "beds": 1118,
     "arrivals": 97438,
     "overnight_stays": 203884,
     "room_nights": 122802,
-    "room_occupancy": 65.54,
-    "bed_occupancy": 50.15
+    "room_occupancy": 65.2,
+    "bed_occupancy": 50.0
   },
   {
     "slug": "buchs",
@@ -334,34 +334,34 @@
     "arrivals": 19554,
     "overnight_stays": 39313,
     "room_nights": 29031,
-    "room_occupancy": 49.08,
-    "bed_occupancy": 36.21
+    "room_occupancy": 48.8,
+    "bed_occupancy": 35.9
   },
   {
     "slug": "bulle",
     "commune_bfs": "Bulle",
     "year": 2025,
     "establishments": 5,
-    "rooms": 256,
+    "rooms": 257,
     "beds": 491,
     "arrivals": 50518,
     "overnight_stays": 79700,
     "room_nights": 55354,
-    "room_occupancy": 59.38,
-    "bed_occupancy": 44.66
+    "room_occupancy": 59.1,
+    "bed_occupancy": 44.4
   },
   {
     "slug": "bullet",
     "commune_bfs": "Bullet",
     "year": 2025,
-    "establishments": 4,
+    "establishments": 5,
     "rooms": 92,
     "beds": 198,
     "arrivals": 10080,
     "overnight_stays": 20447,
     "room_nights": 13003,
-    "room_occupancy": 41.26,
-    "bed_occupancy": 30.75
+    "room_occupancy": 41.2,
+    "bed_occupancy": 30.5
   },
   {
     "slug": "burgdorf",
@@ -373,8 +373,8 @@
     "arrivals": 23206,
     "overnight_stays": 34882,
     "room_nights": 20598,
-    "room_occupancy": 57.95,
-    "bed_occupancy": 40.66
+    "room_occupancy": 57.6,
+    "bed_occupancy": 40.2
   },
   {
     "slug": "celerina-schlarigna",
@@ -386,34 +386,34 @@
     "arrivals": 42389,
     "overnight_stays": 119197,
     "room_nights": 69299,
-    "room_occupancy": 48.45,
-    "bed_occupancy": 42.27
+    "room_occupancy": 48.3,
+    "bed_occupancy": 42.1
   },
   {
     "slug": "champery",
     "commune_bfs": "Champéry",
     "year": 2025,
-    "establishments": 11,
-    "rooms": 305,
-    "beds": 685,
+    "establishments": 12,
+    "rooms": 306,
+    "beds": 686,
     "arrivals": 32889,
     "overnight_stays": 73353,
     "room_nights": 42436,
-    "room_occupancy": 41.09,
-    "bed_occupancy": 32.05
+    "room_occupancy": 39.4,
+    "bed_occupancy": 30.9
   },
   {
     "slug": "chateau-doex",
     "commune_bfs": "Château-d'Oex",
     "year": 2025,
-    "establishments": 4,
+    "establishments": 5,
     "rooms": 98,
-    "beds": 184,
+    "beds": 185,
     "arrivals": 10521,
     "overnight_stays": 24679,
     "room_nights": 17507,
-    "room_occupancy": 49.08,
-    "bed_occupancy": 36.83
+    "room_occupancy": 49.0,
+    "bed_occupancy": 36.5
   },
   {
     "slug": "chiasso",
@@ -425,8 +425,8 @@
     "arrivals": 21283,
     "overnight_stays": 29981,
     "room_nights": 20948,
-    "room_occupancy": 45.55,
-    "bed_occupancy": 30.54
+    "room_occupancy": 45.4,
+    "bed_occupancy": 30.7
   },
   {
     "slug": "chur",
@@ -438,73 +438,73 @@
     "arrivals": 163824,
     "overnight_stays": 256175,
     "room_nights": 158297,
-    "room_occupancy": 72.53,
-    "bed_occupancy": 61.11
+    "room_occupancy": 72.5,
+    "bed_occupancy": 61.2
   },
   {
     "slug": "clos-du-doubs",
     "commune_bfs": "Clos du Doubs",
     "year": 2025,
     "establishments": 6,
-    "rooms": 58,
-    "beds": 131,
+    "rooms": 59,
+    "beds": 132,
     "arrivals": 7615,
     "overnight_stays": 11806,
     "room_nights": 6495,
-    "room_occupancy": 34.85,
-    "bed_occupancy": 28.0
+    "room_occupancy": 30.8,
+    "bed_occupancy": 24.7
   },
   {
     "slug": "collina-doro",
     "commune_bfs": "Collina d'Oro",
     "year": 2025,
-    "establishments": 3,
+    "establishments": 4,
     "rooms": 82,
-    "beds": 168,
+    "beds": 169,
     "arrivals": 5673,
     "overnight_stays": 13969,
     "room_nights": 7626,
-    "room_occupancy": 25.64,
-    "bed_occupancy": 22.94
+    "room_occupancy": 25.1,
+    "bed_occupancy": 22.5
   },
   {
     "slug": "crans-montana",
     "commune_bfs": "Crans-Montana",
     "year": 2025,
     "establishments": 22,
-    "rooms": 794,
-    "beds": 1724,
+    "rooms": 796,
+    "beds": 1726,
     "arrivals": 82267,
     "overnight_stays": 196927,
     "room_nights": 115783,
-    "room_occupancy": 44.72,
-    "bed_occupancy": 35.07
+    "room_occupancy": 40.9,
+    "bed_occupancy": 31.9
   },
   {
     "slug": "davos",
     "commune_bfs": "Davos",
     "year": 2025,
-    "establishments": 46,
-    "rooms": 2984,
-    "beds": 5818,
+    "establishments": 47,
+    "rooms": 2986,
+    "beds": 5822,
     "arrivals": 321179,
     "overnight_stays": 811462,
     "room_nights": 483080,
-    "room_occupancy": 49.47,
-    "bed_occupancy": 42.61
+    "room_occupancy": 46.8,
+    "bed_occupancy": 40.2
   },
   {
     "slug": "delemont",
     "commune_bfs": "Delémont",
     "year": 2025,
-    "establishments": 8,
+    "establishments": 9,
     "rooms": 221,
-    "beds": 437,
+    "beds": 438,
     "arrivals": 22489,
     "overnight_stays": 39762,
     "room_nights": 30840,
-    "room_occupancy": 38.34,
-    "bed_occupancy": 25.01
+    "room_occupancy": 38.2,
+    "bed_occupancy": 25.0
   },
   {
     "slug": "diemtigen",
@@ -516,8 +516,8 @@
     "arrivals": 4187,
     "overnight_stays": 12183,
     "room_nights": 6467,
-    "room_occupancy": 26.05,
-    "bed_occupancy": 19.43
+    "room_occupancy": 24.8,
+    "bed_occupancy": 18.6
   },
   {
     "slug": "duebendorf",
@@ -529,8 +529,8 @@
     "arrivals": 28311,
     "overnight_stays": 49995,
     "room_nights": 37385,
-    "room_occupancy": 60.75,
-    "bed_occupancy": 51.33
+    "room_occupancy": 60.7,
+    "bed_occupancy": 51.2
   },
   {
     "slug": "egerkingen",
@@ -542,8 +542,8 @@
     "arrivals": 51126,
     "overnight_stays": 80761,
     "room_nights": 51021,
-    "room_occupancy": 64.43,
-    "bed_occupancy": 55.33
+    "room_occupancy": 64.3,
+    "bed_occupancy": 55.1
   },
   {
     "slug": "einsiedeln",
@@ -555,8 +555,8 @@
     "arrivals": 31356,
     "overnight_stays": 56057,
     "room_nights": 35630,
-    "room_occupancy": 47.82,
-    "bed_occupancy": 34.1
+    "room_occupancy": 47.6,
+    "bed_occupancy": 33.9
   },
   {
     "slug": "emmen",
@@ -568,34 +568,34 @@
     "arrivals": 18558,
     "overnight_stays": 35968,
     "room_nights": 28511,
-    "room_occupancy": 31.24,
-    "bed_occupancy": 28.81
+    "room_occupancy": 31.1,
+    "bed_occupancy": 28.8
   },
   {
     "slug": "emmetten",
     "commune_bfs": "Emmetten",
     "year": 2025,
-    "establishments": 4,
-    "rooms": 161,
-    "beds": 355,
+    "establishments": 5,
+    "rooms": 162,
+    "beds": 356,
     "arrivals": 27859,
     "overnight_stays": 46089,
     "room_nights": 26988,
-    "room_occupancy": 47.66,
-    "bed_occupancy": 37.68
+    "room_occupancy": 47.4,
+    "bed_occupancy": 37.5
   },
   {
     "slug": "engelberg",
     "commune_bfs": "Engelberg",
     "year": 2025,
-    "establishments": 25,
-    "rooms": 946,
-    "beds": 1966,
+    "establishments": 26,
+    "rooms": 947,
+    "beds": 1967,
     "arrivals": 156024,
     "overnight_stays": 328002,
     "room_nights": 168860,
-    "room_occupancy": 49.94,
-    "bed_occupancy": 46.75
+    "room_occupancy": 49.4,
+    "bed_occupancy": 46.2
   },
   {
     "slug": "eschenbach",
@@ -603,25 +603,25 @@
     "year": 2025,
     "establishments": 3,
     "rooms": 17,
-    "beds": 32,
+    "beds": 33,
     "arrivals": 1263,
     "overnight_stays": 2070,
     "room_nights": 1386,
-    "room_occupancy": 23.78,
-    "bed_occupancy": 18.74
+    "room_occupancy": 23.8,
+    "bed_occupancy": 18.8
   },
   {
     "slug": "evolene",
     "commune_bfs": "Evolène",
     "year": 2025,
     "establishments": 11,
-    "rooms": 171,
+    "rooms": 172,
     "beds": 365,
     "arrivals": 23286,
     "overnight_stays": 39284,
     "room_nights": 21053,
-    "room_occupancy": 39.19,
-    "bed_occupancy": 34.24
+    "room_occupancy": 36.7,
+    "bed_occupancy": 32.2
   },
   {
     "slug": "feusisberg",
@@ -633,34 +633,34 @@
     "arrivals": 33868,
     "overnight_stays": 57697,
     "room_nights": 42939,
-    "room_occupancy": 54.46,
-    "bed_occupancy": 37.55
+    "room_occupancy": 54.4,
+    "bed_occupancy": 37.6
   },
   {
     "slug": "flims",
     "commune_bfs": "Flims",
     "year": 2025,
-    "establishments": 16,
+    "establishments": 17,
     "rooms": 609,
     "beds": 1330,
     "arrivals": 72906,
     "overnight_stays": 194963,
     "room_nights": 111417,
-    "room_occupancy": 57.89,
-    "bed_occupancy": 45.97
+    "room_occupancy": 54.2,
+    "bed_occupancy": 42.8
   },
   {
     "slug": "flums",
     "commune_bfs": "Flums",
     "year": 2025,
     "establishments": 5,
-    "rooms": 96,
+    "rooms": 97,
     "beds": 190,
     "arrivals": 10732,
     "overnight_stays": 21792,
     "room_nights": 12576,
-    "room_occupancy": 39.99,
-    "bed_occupancy": 35.28
+    "room_occupancy": 36.8,
+    "bed_occupancy": 32.3
   },
   {
     "slug": "frauenfeld",
@@ -672,8 +672,8 @@
     "arrivals": 13955,
     "overnight_stays": 32775,
     "room_nights": 27637,
-    "room_occupancy": 46.34,
-    "bed_occupancy": 28.41
+    "room_occupancy": 46.2,
+    "bed_occupancy": 28.6
   },
   {
     "slug": "freienbach",
@@ -685,99 +685,99 @@
     "arrivals": 30731,
     "overnight_stays": 50165,
     "room_nights": 35741,
-    "room_occupancy": 48.35,
-    "bed_occupancy": 41.49
+    "room_occupancy": 48.4,
+    "bed_occupancy": 41.6
   },
   {
     "slug": "fribourg",
     "commune_bfs": "Fribourg",
     "year": 2025,
-    "establishments": 6,
+    "establishments": 7,
     "rooms": 233,
     "beds": 468,
     "arrivals": 46546,
     "overnight_stays": 75133,
     "room_nights": 58899,
-    "room_occupancy": 69.6,
-    "bed_occupancy": 44.27
+    "room_occupancy": 69.7,
+    "bed_occupancy": 44.1
   },
   {
     "slug": "gais",
     "commune_bfs": "Gais",
     "year": 2025,
-    "establishments": 4,
+    "establishments": 5,
     "rooms": 183,
-    "beds": 271,
+    "beds": 272,
     "arrivals": 5831,
     "overnight_stays": 11504,
     "room_nights": 8916,
-    "room_occupancy": 13.42,
-    "bed_occupancy": 11.69
+    "room_occupancy": 13.4,
+    "bed_occupancy": 11.7
   },
   {
     "slug": "geneve",
     "commune_bfs": "Genève",
     "year": 2025,
-    "establishments": 88,
-    "rooms": 6664,
-    "beds": 12086,
+    "establishments": 89,
+    "rooms": 6665,
+    "beds": 12087,
     "arrivals": 1099521,
     "overnight_stays": 2371458,
     "room_nights": 1634598,
-    "room_occupancy": 67.31,
-    "bed_occupancy": 53.84
+    "room_occupancy": 67.4,
+    "bed_occupancy": 53.9
   },
   {
     "slug": "glarus-nord",
     "commune_bfs": "Glarus Nord",
     "year": 2025,
     "establishments": 11,
-    "rooms": 300,
+    "rooms": 301,
     "beds": 685,
     "arrivals": 31613,
     "overnight_stays": 69871,
     "room_nights": 41498,
-    "room_occupancy": 38.43,
-    "bed_occupancy": 28.4
+    "room_occupancy": 38.0,
+    "bed_occupancy": 28.2
   },
   {
     "slug": "glarus-sued",
     "commune_bfs": "Glarus Süd",
     "year": 2025,
     "establishments": 21,
-    "rooms": 265,
+    "rooms": 266,
     "beds": 612,
     "arrivals": 29436,
     "overnight_stays": 68041,
     "room_nights": 30109,
-    "room_occupancy": 35.27,
-    "bed_occupancy": 34.61
+    "room_occupancy": 33.2,
+    "bed_occupancy": 32.7
   },
   {
     "slug": "goms",
     "commune_bfs": "Goms",
     "year": 2025,
-    "establishments": 10,
+    "establishments": 11,
     "rooms": 185,
     "beds": 370,
     "arrivals": 24602,
     "overnight_stays": 52438,
     "room_nights": 31373,
-    "room_occupancy": 50.5,
-    "bed_occupancy": 42.33
+    "room_occupancy": 45.2,
+    "bed_occupancy": 38.0
   },
   {
     "slug": "gonten",
     "commune_bfs": "Gonten",
     "year": 2025,
-    "establishments": 4,
+    "establishments": 5,
     "rooms": 85,
-    "beds": 192,
+    "beds": 193,
     "arrivals": 6777,
     "overnight_stays": 22426,
     "room_nights": 16185,
-    "room_occupancy": 52.82,
-    "bed_occupancy": 32.72
+    "room_occupancy": 52.5,
+    "bed_occupancy": 33.0
   },
   {
     "slug": "grenchen",
@@ -789,34 +789,34 @@
     "arrivals": 10700,
     "overnight_stays": 24573,
     "room_nights": 17454,
-    "room_occupancy": 42.06,
-    "bed_occupancy": 30.18
+    "room_occupancy": 42.2,
+    "bed_occupancy": 30.2
   },
   {
     "slug": "grindelwald",
     "commune_bfs": "Grindelwald",
     "year": 2025,
-    "establishments": 43,
+    "establishments": 44,
     "rooms": 1509,
-    "beds": 3280,
+    "beds": 3278,
     "arrivals": 342751,
     "overnight_stays": 762611,
     "room_nights": 374662,
-    "room_occupancy": 72.21,
-    "bed_occupancy": 67.98
+    "room_occupancy": 70.4,
+    "bed_occupancy": 66.2
   },
   {
     "slug": "gruyeres",
     "commune_bfs": "Gruyères",
     "year": 2025,
-    "establishments": 5,
-    "rooms": 94,
+    "establishments": 6,
+    "rooms": 95,
     "beds": 252,
     "arrivals": 20572,
     "overnight_stays": 27078,
     "room_nights": 14399,
-    "room_occupancy": 46.92,
-    "bed_occupancy": 35.32
+    "room_occupancy": 46.5,
+    "bed_occupancy": 34.9
   },
   {
     "slug": "gurtnellen",
@@ -828,21 +828,21 @@
     "arrivals": 6037,
     "overnight_stays": 6256,
     "room_nights": 3330,
-    "room_occupancy": 29.81,
-    "bed_occupancy": 17.16
+    "room_occupancy": 28.5,
+    "bed_occupancy": 16.2
   },
   {
     "slug": "hasliberg",
     "commune_bfs": "Hasliberg",
     "year": 2025,
-    "establishments": 11,
-    "rooms": 305,
-    "beds": 691,
+    "establishments": 12,
+    "rooms": 306,
+    "beds": 692,
     "arrivals": 36088,
     "overnight_stays": 82725,
     "room_nights": 45504,
-    "room_occupancy": 43.77,
-    "bed_occupancy": 34.98
+    "room_occupancy": 42.1,
+    "bed_occupancy": 33.8
   },
   {
     "slug": "haut-intyamon",
@@ -854,21 +854,21 @@
     "arrivals": 2207,
     "overnight_stays": 3440,
     "room_nights": 2041,
-    "room_occupancy": 20.28,
-    "bed_occupancy": 16.44
+    "room_occupancy": 20.0,
+    "bed_occupancy": 16.1
   },
   {
     "slug": "heiden",
     "commune_bfs": "Heiden",
     "year": 2025,
-    "establishments": 4,
+    "establishments": 5,
     "rooms": 97,
-    "beds": 188,
+    "beds": 189,
     "arrivals": 13270,
     "overnight_stays": 28898,
     "room_nights": 18313,
-    "room_occupancy": 52.44,
-    "bed_occupancy": 42.63
+    "room_occupancy": 52.3,
+    "bed_occupancy": 42.5
   },
   {
     "slug": "herzogenbuchsee",
@@ -880,8 +880,8 @@
     "arrivals": 3693,
     "overnight_stays": 5933,
     "room_nights": 4187,
-    "room_occupancy": 28.41,
-    "bed_occupancy": 22.04
+    "room_occupancy": 28.1,
+    "bed_occupancy": 21.8
   },
   {
     "slug": "horgen",
@@ -893,99 +893,99 @@
     "arrivals": 22622,
     "overnight_stays": 40931,
     "room_nights": 29269,
-    "room_occupancy": 49.84,
-    "bed_occupancy": 39.37
+    "room_occupancy": 50.2,
+    "bed_occupancy": 39.3
   },
   {
     "slug": "hundwil",
     "commune_bfs": "Hundwil",
     "year": 2025,
-    "establishments": 3,
-    "rooms": 78,
-    "beds": 186,
+    "establishments": 4,
+    "rooms": 79,
+    "beds": 187,
     "arrivals": 17846,
     "overnight_stays": 24077,
     "room_nights": 14812,
-    "room_occupancy": 52.41,
-    "bed_occupancy": 36.12
+    "room_occupancy": 52.4,
+    "bed_occupancy": 36.2
   },
   {
     "slug": "ilanz-glion",
     "commune_bfs": "Ilanz/Glion",
     "year": 2025,
-    "establishments": 4,
+    "establishments": 5,
     "rooms": 100,
     "beds": 176,
     "arrivals": 13887,
     "overnight_stays": 25881,
     "room_nights": 19142,
-    "room_occupancy": 52.46,
-    "bed_occupancy": 40.62
+    "room_occupancy": 52.6,
+    "bed_occupancy": 40.6
   },
   {
     "slug": "ingenbohl",
     "commune_bfs": "Ingenbohl",
     "year": 2025,
-    "establishments": 5,
-    "rooms": 211,
+    "establishments": 6,
+    "rooms": 212,
     "beds": 394,
     "arrivals": 29957,
     "overnight_stays": 52516,
     "room_nights": 34468,
-    "room_occupancy": 45.24,
-    "bed_occupancy": 36.99
+    "room_occupancy": 45.4,
+    "bed_occupancy": 37.4
   },
   {
     "slug": "innertkirchen",
     "commune_bfs": "Innertkirchen",
     "year": 2025,
-    "establishments": 7,
-    "rooms": 145,
-    "beds": 311,
+    "establishments": 8,
+    "rooms": 146,
+    "beds": 310,
     "arrivals": 17650,
     "overnight_stays": 27732,
     "room_nights": 16307,
-    "room_occupancy": 37.84,
-    "bed_occupancy": 30.64
+    "room_occupancy": 31.1,
+    "bed_occupancy": 25.1
   },
   {
     "slug": "interlaken",
     "commune_bfs": "Interlaken",
     "year": 2025,
-    "establishments": 29,
-    "rooms": 1746,
-    "beds": 3796,
+    "establishments": 30,
+    "rooms": 1745,
+    "beds": 3795,
     "arrivals": 424377,
     "overnight_stays": 882850,
     "room_nights": 449318,
-    "room_occupancy": 71.0,
-    "bed_occupancy": 64.15
+    "room_occupancy": 70.3,
+    "bed_occupancy": 63.4
   },
   {
     "slug": "kandersteg",
     "commune_bfs": "Kandersteg",
     "year": 2025,
-    "establishments": 13,
+    "establishments": 14,
     "rooms": 322,
     "beds": 650,
     "arrivals": 64254,
     "overnight_stays": 121421,
     "room_nights": 68172,
-    "room_occupancy": 60.11,
-    "bed_occupancy": 52.84
+    "room_occupancy": 58.0,
+    "bed_occupancy": 50.8
   },
   {
     "slug": "klosters",
     "commune_bfs": "Klosters",
     "year": 2025,
     "establishments": 19,
-    "rooms": 543,
+    "rooms": 544,
     "beds": 1175,
     "arrivals": 58794,
     "overnight_stays": 169081,
     "room_nights": 90208,
-    "room_occupancy": 51.15,
-    "bed_occupancy": 44.13
+    "room_occupancy": 46.6,
+    "bed_occupancy": 40.2
   },
   {
     "slug": "kloten",
@@ -997,8 +997,8 @@
     "arrivals": 362728,
     "overnight_stays": 503416,
     "room_nights": 366360,
-    "room_occupancy": 67.96,
-    "bed_occupancy": 49.63
+    "room_occupancy": 68.0,
+    "bed_occupancy": 49.7
   },
   {
     "slug": "koeniz",
@@ -1010,8 +1010,8 @@
     "arrivals": 7893,
     "overnight_stays": 18358,
     "room_nights": 12912,
-    "room_occupancy": 56.48,
-    "bed_occupancy": 34.83
+    "room_occupancy": 56.5,
+    "bed_occupancy": 34.6
   },
   {
     "slug": "kreuzlingen",
@@ -1023,8 +1023,8 @@
     "arrivals": 22935,
     "overnight_stays": 40377,
     "room_nights": 27544,
-    "room_occupancy": 52.14,
-    "bed_occupancy": 38.93
+    "room_occupancy": 51.8,
+    "bed_occupancy": 38.7
   },
   {
     "slug": "kriens",
@@ -1036,21 +1036,21 @@
     "arrivals": 80052,
     "overnight_stays": 136580,
     "room_nights": 72542,
-    "room_occupancy": 69.49,
-    "bed_occupancy": 61.34
+    "room_occupancy": 69.4,
+    "bed_occupancy": 61.2
   },
   {
     "slug": "kuessnacht",
     "commune_bfs": "Küssnacht (SZ)",
     "year": 2025,
     "establishments": 5,
-    "rooms": 138,
+    "rooms": 139,
     "beds": 254,
     "arrivals": 22036,
     "overnight_stays": 39759,
     "room_nights": 27826,
-    "room_occupancy": 56.03,
-    "bed_occupancy": 43.65
+    "room_occupancy": 55.2,
+    "bed_occupancy": 42.4
   },
   {
     "slug": "la-chaux-de-fonds",
@@ -1062,21 +1062,21 @@
     "arrivals": 18357,
     "overnight_stays": 31090,
     "room_nights": 23803,
-    "room_occupancy": 30.46,
-    "bed_occupancy": 21.93
+    "room_occupancy": 30.4,
+    "bed_occupancy": 21.9
   },
   {
     "slug": "la-grande-beroche",
     "commune_bfs": "La Grande Béroche",
     "year": 2025,
-    "establishments": 3,
-    "rooms": 46,
-    "beds": 90,
+    "establishments": 4,
+    "rooms": 47,
+    "beds": 91,
     "arrivals": 5857,
     "overnight_stays": 10221,
     "room_nights": 7156,
-    "room_occupancy": 41.73,
-    "bed_occupancy": 30.78
+    "room_occupancy": 38.8,
+    "bed_occupancy": 28.5
   },
   {
     "slug": "laax",
@@ -1088,8 +1088,8 @@
     "arrivals": 68381,
     "overnight_stays": 275818,
     "room_nights": 118698,
-    "room_occupancy": 57.39,
-    "bed_occupancy": 35.07
+    "room_occupancy": 55.5,
+    "bed_occupancy": 33.9
   },
   {
     "slug": "lancy",
@@ -1101,8 +1101,8 @@
     "arrivals": 62566,
     "overnight_stays": 115793,
     "room_nights": 76695,
-    "room_occupancy": 62.91,
-    "bed_occupancy": 45.38
+    "room_occupancy": 62.9,
+    "bed_occupancy": 45.4
   },
   {
     "slug": "langenthal",
@@ -1114,21 +1114,21 @@
     "arrivals": 22401,
     "overnight_stays": 34794,
     "room_nights": 27428,
-    "room_occupancy": 51.37,
-    "bed_occupancy": 33.47
+    "room_occupancy": 51.2,
+    "bed_occupancy": 33.5
   },
   {
     "slug": "langnau-im-emmental",
     "commune_bfs": "Langnau im Emmental",
     "year": 2025,
     "establishments": 4,
-    "rooms": 47,
-    "beds": 93,
+    "rooms": 48,
+    "beds": 94,
     "arrivals": 7944,
     "overnight_stays": 11115,
     "room_nights": 7818,
-    "room_occupancy": 45.41,
-    "bed_occupancy": 32.95
+    "room_occupancy": 45.2,
+    "bed_occupancy": 32.7
   },
   {
     "slug": "latena",
@@ -1140,8 +1140,8 @@
     "arrivals": 16972,
     "overnight_stays": 30796,
     "room_nights": 20883,
-    "room_occupancy": 45.41,
-    "bed_occupancy": 30.79
+    "room_occupancy": 45.3,
+    "bed_occupancy": 30.8
   },
   {
     "slug": "lausanne",
@@ -1149,25 +1149,25 @@
     "year": 2025,
     "establishments": 34,
     "rooms": 3134,
-    "beds": 5749,
+    "beds": 5750,
     "arrivals": 518161,
     "overnight_stays": 1012842,
     "room_nights": 696169,
-    "room_occupancy": 61.5,
-    "bed_occupancy": 48.71
+    "room_occupancy": 61.2,
+    "bed_occupancy": 48.7
   },
   {
     "slug": "lauterbrunnen",
     "commune_bfs": "Lauterbrunnen",
     "year": 2025,
-    "establishments": 40,
-    "rooms": 1335,
-    "beds": 2934,
+    "establishments": 41,
+    "rooms": 1334,
+    "beds": 2932,
     "arrivals": 225218,
     "overnight_stays": 560149,
     "room_nights": 289333,
-    "room_occupancy": 63.97,
-    "bed_occupancy": 56.43
+    "room_occupancy": 60.2,
+    "bed_occupancy": 53.0
   },
   {
     "slug": "le-chenit",
@@ -1179,8 +1179,8 @@
     "arrivals": 18086,
     "overnight_stays": 28101,
     "room_nights": 20191,
-    "room_occupancy": 42.12,
-    "bed_occupancy": 27.33
+    "room_occupancy": 41.9,
+    "bed_occupancy": 27.2
   },
   {
     "slug": "lenk",
@@ -1192,8 +1192,8 @@
     "arrivals": 56487,
     "overnight_stays": 118037,
     "room_nights": 68009,
-    "room_occupancy": 48.46,
-    "bed_occupancy": 43.48
+    "room_occupancy": 46.5,
+    "bed_occupancy": 41.8
   },
   {
     "slug": "lenzburg",
@@ -1205,21 +1205,21 @@
     "arrivals": 18324,
     "overnight_stays": 32269,
     "room_nights": 26427,
-    "room_occupancy": 66.17,
-    "bed_occupancy": 48.33
+    "room_occupancy": 65.9,
+    "bed_occupancy": 48.1
   },
   {
     "slug": "leukerbad",
     "commune_bfs": "Leukerbad",
     "year": 2025,
-    "establishments": 24,
-    "rooms": 769,
-    "beds": 1524,
+    "establishments": 25,
+    "rooms": 770,
+    "beds": 1525,
     "arrivals": 107317,
     "overnight_stays": 212755,
     "room_nights": 113727,
-    "room_occupancy": 44.38,
-    "bed_occupancy": 42.08
+    "room_occupancy": 43.7,
+    "bed_occupancy": 41.4
   },
   {
     "slug": "leysin",
@@ -1231,60 +1231,60 @@
     "arrivals": 69814,
     "overnight_stays": 183813,
     "room_nights": 80832,
-    "room_occupancy": 59.51,
-    "bed_occupancy": 39.11
+    "room_occupancy": 57.9,
+    "bed_occupancy": 38.4
   },
   {
     "slug": "liestal",
     "commune_bfs": "Liestal",
     "year": 2025,
-    "establishments": 4,
-    "rooms": 159,
-    "beds": 292,
+    "establishments": 5,
+    "rooms": 160,
+    "beds": 293,
     "arrivals": 14495,
     "overnight_stays": 24054,
     "room_nights": 18715,
-    "room_occupancy": 32.67,
-    "bed_occupancy": 22.93
+    "room_occupancy": 32.7,
+    "bed_occupancy": 22.9
   },
   {
     "slug": "locarno",
     "commune_bfs": "Locarno",
     "year": 2025,
     "establishments": 28,
-    "rooms": 826,
-    "beds": 1694,
+    "rooms": 825,
+    "beds": 1692,
     "arrivals": 149054,
     "overnight_stays": 314193,
     "room_nights": 176771,
-    "room_occupancy": 59.76,
-    "bed_occupancy": 51.76
+    "room_occupancy": 57.7,
+    "bed_occupancy": 49.3
   },
   {
     "slug": "lugano",
     "commune_bfs": "Lugano",
     "year": 2025,
     "establishments": 38,
-    "rooms": 1589,
-    "beds": 2990,
+    "rooms": 1588,
+    "beds": 2988,
     "arrivals": 294061,
     "overnight_stays": 564862,
     "room_nights": 331023,
-    "room_occupancy": 58.16,
-    "bed_occupancy": 52.8
+    "room_occupancy": 56.9,
+    "bed_occupancy": 51.3
   },
   {
     "slug": "lumnezia",
     "commune_bfs": "Lumnezia",
     "year": 2025,
-    "establishments": 5,
-    "rooms": 48,
+    "establishments": 6,
+    "rooms": 49,
     "beds": 114,
     "arrivals": 4386,
     "overnight_stays": 9463,
     "room_nights": 5560,
-    "room_occupancy": 36.44,
-    "bed_occupancy": 26.52
+    "room_occupancy": 32.7,
+    "bed_occupancy": 23.8
   },
   {
     "slug": "luzern",
@@ -1296,8 +1296,8 @@
     "arrivals": 824833,
     "overnight_stays": 1484648,
     "room_nights": 835049,
-    "room_occupancy": 69.77,
-    "bed_occupancy": 62.32
+    "room_occupancy": 69.3,
+    "bed_occupancy": 62.0
   },
   {
     "slug": "maienfeld",
@@ -1309,34 +1309,34 @@
     "arrivals": 23552,
     "overnight_stays": 37671,
     "room_nights": 25571,
-    "room_occupancy": 57.13,
-    "bed_occupancy": 43.1
+    "room_occupancy": 57.1,
+    "bed_occupancy": 43.0
   },
   {
     "slug": "martigny",
     "commune_bfs": "Martigny",
     "year": 2025,
-    "establishments": 7,
-    "rooms": 379,
+    "establishments": 8,
+    "rooms": 380,
     "beds": 694,
     "arrivals": 63073,
     "overnight_stays": 101682,
     "room_nights": 70617,
-    "room_occupancy": 50.98,
-    "bed_occupancy": 40.17
+    "room_occupancy": 50.6,
+    "bed_occupancy": 39.8
   },
   {
     "slug": "matten-bei-interlaken",
     "commune_bfs": "Matten bei Interlaken",
     "year": 2025,
-    "establishments": 5,
-    "rooms": 191,
+    "establishments": 6,
+    "rooms": 192,
     "beds": 379,
     "arrivals": 28905,
     "overnight_stays": 60667,
     "room_nights": 35052,
-    "room_occupancy": 52.06,
-    "bed_occupancy": 45.93
+    "room_occupancy": 50.2,
+    "bed_occupancy": 44.0
   },
   {
     "slug": "meggen",
@@ -1348,34 +1348,34 @@
     "arrivals": 8910,
     "overnight_stays": 16297,
     "room_nights": 8134,
-    "room_occupancy": 70.67,
-    "bed_occupancy": 70.79
+    "room_occupancy": 69.5,
+    "bed_occupancy": 68.7
   },
   {
     "slug": "meiringen",
     "commune_bfs": "Meiringen",
     "year": 2025,
-    "establishments": 10,
-    "rooms": 310,
+    "establishments": 11,
+    "rooms": 311,
     "beds": 689,
     "arrivals": 54464,
     "overnight_stays": 86332,
     "room_nights": 51660,
-    "room_occupancy": 47.44,
-    "bed_occupancy": 35.96
+    "room_occupancy": 46.6,
+    "bed_occupancy": 35.1
   },
   {
     "slug": "mendrisio",
     "commune_bfs": "Mendrisio",
     "year": 2025,
     "establishments": 9,
-    "rooms": 201,
-    "beds": 420,
+    "rooms": 202,
+    "beds": 421,
     "arrivals": 34143,
     "overnight_stays": 50652,
     "room_nights": 34956,
-    "room_occupancy": 47.54,
-    "bed_occupancy": 33.06
+    "room_occupancy": 47.1,
+    "bed_occupancy": 32.8
   },
   {
     "slug": "meyrin",
@@ -1387,8 +1387,8 @@
     "arrivals": 465731,
     "overnight_stays": 703536,
     "room_nights": 493883,
-    "room_occupancy": 69.78,
-    "bed_occupancy": 62.48
+    "room_occupancy": 69.8,
+    "bed_occupancy": 62.3
   },
   {
     "slug": "monteceneri",
@@ -1400,21 +1400,21 @@
     "arrivals": 1323,
     "overnight_stays": 2893,
     "room_nights": 1815,
-    "room_occupancy": 13.09,
-    "bed_occupancy": 11.16
+    "room_occupancy": 13.1,
+    "bed_occupancy": 11.2
   },
   {
     "slug": "montreux",
     "commune_bfs": "Montreux",
     "year": 2025,
-    "establishments": 18,
-    "rooms": 1382,
-    "beds": 2544,
+    "establishments": 19,
+    "rooms": 1383,
+    "beds": 2543,
     "arrivals": 277752,
     "overnight_stays": 496571,
     "room_nights": 286660,
-    "room_occupancy": 57.18,
-    "bed_occupancy": 53.86
+    "room_occupancy": 56.8,
+    "bed_occupancy": 53.5
   },
   {
     "slug": "morges",
@@ -1426,8 +1426,8 @@
     "arrivals": 32423,
     "overnight_stays": 60769,
     "room_nights": 41003,
-    "room_occupancy": 53.47,
-    "bed_occupancy": 35.73
+    "room_occupancy": 53.3,
+    "bed_occupancy": 35.6
   },
   {
     "slug": "morschach",
@@ -1435,12 +1435,12 @@
     "year": 2025,
     "establishments": 8,
     "rooms": 474,
-    "beds": 1352,
+    "beds": 1353,
     "arrivals": 123054,
     "overnight_stays": 277256,
     "room_nights": 111271,
-    "room_occupancy": 64.98,
-    "bed_occupancy": 56.79
+    "room_occupancy": 64.8,
+    "bed_occupancy": 57.1
   },
   {
     "slug": "moutier-be",
@@ -1452,8 +1452,8 @@
     "arrivals": 1770,
     "overnight_stays": 2946,
     "room_nights": 2390,
-    "room_occupancy": 19.89,
-    "bed_occupancy": 12.63
+    "room_occupancy": 19.8,
+    "bed_occupancy": 12.5
   },
   {
     "slug": "moutier-ju",
@@ -1478,8 +1478,8 @@
     "arrivals": 65576,
     "overnight_stays": 140214,
     "room_nights": 81148,
-    "room_occupancy": 57.86,
-    "bed_occupancy": 51.56
+    "room_occupancy": 54.9,
+    "bed_occupancy": 48.5
   },
   {
     "slug": "murten",
@@ -1487,12 +1487,12 @@
     "year": 2025,
     "establishments": 9,
     "rooms": 154,
-    "beds": 271,
+    "beds": 272,
     "arrivals": 18621,
     "overnight_stays": 31402,
     "room_nights": 20770,
-    "room_occupancy": 39.75,
-    "bed_occupancy": 34.13
+    "room_occupancy": 39.8,
+    "bed_occupancy": 34.2
   },
   {
     "slug": "neckertal",
@@ -1504,73 +1504,73 @@
     "arrivals": 8122,
     "overnight_stays": 20723,
     "room_nights": 12578,
-    "room_occupancy": 31.2,
-    "bed_occupancy": 28.38
+    "room_occupancy": 30.4,
+    "bed_occupancy": 27.8
   },
   {
     "slug": "nendaz",
     "commune_bfs": "Nendaz",
     "year": 2025,
-    "establishments": 6,
+    "establishments": 7,
     "rooms": 152,
     "beds": 300,
     "arrivals": 22790,
     "overnight_stays": 40655,
     "room_nights": 21843,
-    "room_occupancy": 41.19,
-    "bed_occupancy": 38.82
+    "room_occupancy": 40.2,
+    "bed_occupancy": 38.2
   },
   {
     "slug": "neuchatel",
     "commune_bfs": "Neuchâtel",
     "year": 2025,
-    "establishments": 15,
+    "establishments": 16,
     "rooms": 581,
-    "beds": 1055,
+    "beds": 1056,
     "arrivals": 98109,
     "overnight_stays": 170168,
     "room_nights": 118225,
-    "room_occupancy": 56.32,
-    "bed_occupancy": 44.63
+    "room_occupancy": 56.0,
+    "bed_occupancy": 44.3
   },
   {
     "slug": "nyon",
     "commune_bfs": "Nyon",
     "year": 2025,
     "establishments": 7,
-    "rooms": 311,
+    "rooms": 312,
     "beds": 655,
     "arrivals": 38663,
     "overnight_stays": 81314,
     "room_nights": 65038,
-    "room_occupancy": 57.46,
-    "bed_occupancy": 34.17
+    "room_occupancy": 57.2,
+    "bed_occupancy": 33.9
   },
   {
     "slug": "ollon",
     "commune_bfs": "Ollon",
     "year": 2025,
-    "establishments": 8,
+    "establishments": 9,
     "rooms": 473,
     "beds": 1008,
     "arrivals": 53319,
     "overnight_stays": 119617,
     "room_nights": 66371,
-    "room_occupancy": 39.69,
-    "bed_occupancy": 34.04
+    "room_occupancy": 37.7,
+    "bed_occupancy": 32.1
   },
   {
     "slug": "olten",
     "commune_bfs": "Olten",
     "year": 2025,
-    "establishments": 7,
-    "rooms": 293,
-    "beds": 520,
+    "establishments": 8,
+    "rooms": 294,
+    "beds": 521,
     "arrivals": 47546,
     "overnight_stays": 79629,
     "room_nights": 61005,
-    "room_occupancy": 57.14,
-    "bed_occupancy": 42.01
+    "room_occupancy": 57.2,
+    "bed_occupancy": 41.9
   },
   {
     "slug": "opfikon",
@@ -1582,47 +1582,47 @@
     "arrivals": 560378,
     "overnight_stays": 848207,
     "room_nights": 561520,
-    "room_occupancy": 67.62,
-    "bed_occupancy": 48.73
+    "room_occupancy": 67.5,
+    "bed_occupancy": 48.4
   },
   {
     "slug": "ormont-dessus",
     "commune_bfs": "Ormont-Dessus",
     "year": 2025,
-    "establishments": 4,
+    "establishments": 5,
     "rooms": 203,
     "beds": 408,
     "arrivals": 20704,
     "overnight_stays": 55008,
     "room_nights": 33479,
-    "room_occupancy": 48.76,
-    "bed_occupancy": 39.83
+    "room_occupancy": 47.0,
+    "bed_occupancy": 38.3
   },
   {
     "slug": "orsieres",
     "commune_bfs": "Orsières",
     "year": 2025,
-    "establishments": 13,
+    "establishments": 14,
     "rooms": 209,
-    "beds": 511,
+    "beds": 512,
     "arrivals": 44571,
     "overnight_stays": 55811,
     "room_nights": 27017,
-    "room_occupancy": 37.9,
-    "bed_occupancy": 32.02
+    "room_occupancy": 33.3,
+    "bed_occupancy": 27.3
   },
   {
     "slug": "paradiso",
     "commune_bfs": "Paradiso",
     "year": 2025,
-    "establishments": 8,
-    "rooms": 508,
-    "beds": 1105,
+    "establishments": 9,
+    "rooms": 509,
+    "beds": 1106,
     "arrivals": 123367,
     "overnight_stays": 205383,
     "room_nights": 118909,
-    "room_occupancy": 64.02,
-    "bed_occupancy": 50.88
+    "room_occupancy": 63.6,
+    "bed_occupancy": 50.4
   },
   {
     "slug": "plaffeien",
@@ -1634,8 +1634,8 @@
     "arrivals": 14116,
     "overnight_stays": 26107,
     "room_nights": 14870,
-    "room_occupancy": 41.17,
-    "bed_occupancy": 28.06
+    "room_occupancy": 41.2,
+    "bed_occupancy": 28.0
   },
   {
     "slug": "pontresina",
@@ -1643,25 +1643,25 @@
     "year": 2025,
     "establishments": 19,
     "rooms": 1039,
-    "beds": 2182,
+    "beds": 2183,
     "arrivals": 132853,
     "overnight_stays": 403332,
     "room_nights": 230558,
-    "room_occupancy": 67.2,
-    "bed_occupancy": 55.94
+    "room_occupancy": 61.2,
+    "bed_occupancy": 50.6
   },
   {
     "slug": "porrentruy",
     "commune_bfs": "Porrentruy",
     "year": 2025,
     "establishments": 10,
-    "rooms": 93,
+    "rooms": 94,
     "beds": 181,
     "arrivals": 9884,
     "overnight_stays": 15475,
     "room_nights": 10158,
-    "room_occupancy": 30.98,
-    "bed_occupancy": 24.29
+    "room_occupancy": 31.3,
+    "bed_occupancy": 24.7
   },
   {
     "slug": "poschiavo",
@@ -1673,8 +1673,8 @@
     "arrivals": 38631,
     "overnight_stays": 77245,
     "room_nights": 46716,
-    "room_occupancy": 41.92,
-    "bed_occupancy": 32.79
+    "room_occupancy": 40.6,
+    "bed_occupancy": 31.7
   },
   {
     "slug": "pratteln",
@@ -1686,21 +1686,21 @@
     "arrivals": 54355,
     "overnight_stays": 87371,
     "room_nights": 60866,
-    "room_occupancy": 58.59,
-    "bed_occupancy": 37.23
+    "room_occupancy": 58.5,
+    "bed_occupancy": 37.3
   },
   {
     "slug": "quarten",
     "commune_bfs": "Quarten",
     "year": 2025,
     "establishments": 9,
-    "rooms": 213,
+    "rooms": 214,
     "beds": 542,
     "arrivals": 31060,
     "overnight_stays": 58852,
     "room_nights": 31127,
-    "room_occupancy": 41.75,
-    "bed_occupancy": 31.21
+    "room_occupancy": 40.9,
+    "bed_occupancy": 30.2
   },
   {
     "slug": "rapperswil-jona",
@@ -1712,21 +1712,21 @@
     "arrivals": 21828,
     "overnight_stays": 40357,
     "room_nights": 37491,
-    "room_occupancy": 54.3,
-    "bed_occupancy": 31.26
+    "room_occupancy": 53.9,
+    "bed_occupancy": 31.0
   },
   {
     "slug": "reichenbach-im-kandertal",
     "commune_bfs": "Reichenbach im Kandertal",
     "year": 2025,
-    "establishments": 7,
+    "establishments": 8,
     "rooms": 151,
-    "beds": 385,
+    "beds": 386,
     "arrivals": 18333,
     "overnight_stays": 36057,
     "room_nights": 20646,
-    "room_occupancy": 38.99,
-    "bed_occupancy": 26.7
+    "room_occupancy": 38.2,
+    "bed_occupancy": 26.4
   },
   {
     "slug": "rheinfelden",
@@ -1738,21 +1738,21 @@
     "arrivals": 14140,
     "overnight_stays": 32993,
     "room_nights": 21807,
-    "room_occupancy": 53.82,
-    "bed_occupancy": 51.65
+    "room_occupancy": 54.0,
+    "bed_occupancy": 51.7
   },
   {
     "slug": "rheinwald",
     "commune_bfs": "Rheinwald",
     "year": 2025,
-    "establishments": 5,
+    "establishments": 6,
     "rooms": 89,
     "beds": 202,
     "arrivals": 11698,
     "overnight_stays": 17413,
     "room_nights": 10073,
-    "room_occupancy": 31.22,
-    "bed_occupancy": 23.79
+    "room_occupancy": 30.0,
+    "bed_occupancy": 22.8
   },
   {
     "slug": "rorschacherberg",
@@ -1764,34 +1764,34 @@
     "arrivals": 18593,
     "overnight_stays": 30145,
     "room_nights": 19609,
-    "room_occupancy": 53.02,
-    "bed_occupancy": 45.04
+    "room_occupancy": 52.5,
+    "bed_occupancy": 44.6
   },
   {
     "slug": "saanen",
     "commune_bfs": "Saanen",
     "year": 2025,
-    "establishments": 26,
+    "establishments": 27,
     "rooms": 964,
-    "beds": 1950,
+    "beds": 1949,
     "arrivals": 140545,
     "overnight_stays": 347550,
     "room_nights": 192281,
-    "room_occupancy": 60.27,
-    "bed_occupancy": 54.41
+    "room_occupancy": 57.2,
+    "bed_occupancy": 51.6
   },
   {
     "slug": "saas-fee",
     "commune_bfs": "Saas-Fee",
     "year": 2025,
     "establishments": 26,
-    "rooms": 712,
-    "beds": 1627,
+    "rooms": 713,
+    "beds": 1628,
     "arrivals": 97248,
     "overnight_stays": 271313,
     "room_nights": 141700,
-    "room_occupancy": 57.76,
-    "bed_occupancy": 48.55
+    "room_occupancy": 54.8,
+    "bed_occupancy": 46.3
   },
   {
     "slug": "saas-grund",
@@ -1803,34 +1803,34 @@
     "arrivals": 18427,
     "overnight_stays": 52690,
     "room_nights": 31582,
-    "room_occupancy": 46.89,
-    "bed_occupancy": 37.33
+    "room_occupancy": 44.5,
+    "bed_occupancy": 35.4
   },
   {
     "slug": "sachseln",
     "commune_bfs": "Sachseln",
     "year": 2025,
     "establishments": 9,
-    "rooms": 261,
-    "beds": 493,
+    "rooms": 262,
+    "beds": 494,
     "arrivals": 32788,
     "overnight_stays": 63762,
     "room_nights": 39603,
-    "room_occupancy": 42.72,
-    "bed_occupancy": 36.4
+    "room_occupancy": 41.1,
+    "bed_occupancy": 35.0
   },
   {
     "slug": "saignelegier",
     "commune_bfs": "Saignelégier",
     "year": 2025,
-    "establishments": 6,
+    "establishments": 7,
     "rooms": 96,
-    "beds": 207,
+    "beds": 208,
     "arrivals": 12865,
     "overnight_stays": 20655,
     "room_nights": 13218,
-    "room_occupancy": 39.82,
-    "bed_occupancy": 29.03
+    "room_occupancy": 39.2,
+    "bed_occupancy": 28.3
   },
   {
     "slug": "saint-maurice",
@@ -1842,8 +1842,8 @@
     "arrivals": 11267,
     "overnight_stays": 21857,
     "room_nights": 17441,
-    "room_occupancy": 55.21,
-    "bed_occupancy": 39.79
+    "room_occupancy": 55.1,
+    "bed_occupancy": 39.4
   },
   {
     "slug": "samedan",
@@ -1851,25 +1851,25 @@
     "year": 2025,
     "establishments": 8,
     "rooms": 154,
-    "beds": 374,
+    "beds": 375,
     "arrivals": 25210,
     "overnight_stays": 52632,
     "room_nights": 30651,
-    "room_occupancy": 54.82,
-    "bed_occupancy": 38.73
+    "room_occupancy": 53.7,
+    "bed_occupancy": 38.3
   },
   {
     "slug": "samnaun",
     "commune_bfs": "Samnaun",
     "year": 2025,
-    "establishments": 23,
-    "rooms": 527,
-    "beds": 1104,
+    "establishments": 24,
+    "rooms": 528,
+    "beds": 1105,
     "arrivals": 46352,
     "overnight_stays": 158348,
     "room_nights": 86559,
-    "room_occupancy": 53.32,
-    "bed_occupancy": 46.98
+    "room_occupancy": 45.0,
+    "bed_occupancy": 39.4
   },
   {
     "slug": "sarnen",
@@ -1881,8 +1881,8 @@
     "arrivals": 29173,
     "overnight_stays": 63024,
     "room_nights": 44871,
-    "room_occupancy": 56.39,
-    "bed_occupancy": 45.78
+    "room_occupancy": 55.2,
+    "bed_occupancy": 44.8
   },
   {
     "slug": "schaffhausen",
@@ -1894,34 +1894,34 @@
     "arrivals": 68875,
     "overnight_stays": 111908,
     "room_nights": 77745,
-    "room_occupancy": 60.57,
-    "bed_occupancy": 44.92
+    "room_occupancy": 60.6,
+    "bed_occupancy": 44.8
   },
   {
     "slug": "schangnau",
     "commune_bfs": "Schangnau",
     "year": 2025,
-    "establishments": 3,
+    "establishments": 4,
     "rooms": 55,
-    "beds": 110,
+    "beds": 111,
     "arrivals": 11644,
     "overnight_stays": 15604,
     "room_nights": 8989,
-    "room_occupancy": 47.58,
-    "bed_occupancy": 41.4
+    "room_occupancy": 45.3,
+    "bed_occupancy": 39.2
   },
   {
     "slug": "schwyz",
     "commune_bfs": "Schwyz",
     "year": 2025,
     "establishments": 9,
-    "rooms": 120,
+    "rooms": 121,
     "beds": 292,
     "arrivals": 10003,
     "overnight_stays": 17242,
     "room_nights": 9752,
-    "room_occupancy": 23.94,
-    "bed_occupancy": 18.21
+    "room_occupancy": 24.2,
+    "bed_occupancy": 18.4
   },
   {
     "slug": "scuol",
@@ -1933,47 +1933,47 @@
     "arrivals": 95599,
     "overnight_stays": 266633,
     "room_nights": 145506,
-    "room_occupancy": 52.64,
-    "bed_occupancy": 45.07
+    "room_occupancy": 50.2,
+    "bed_occupancy": 42.9
   },
   {
     "slug": "sierre",
     "commune_bfs": "Sierre",
     "year": 2025,
-    "establishments": 3,
-    "rooms": 124,
-    "beds": 245,
+    "establishments": 4,
+    "rooms": 125,
+    "beds": 246,
     "arrivals": 8608,
     "overnight_stays": 14760,
     "room_nights": 10522,
-    "room_occupancy": 23.11,
-    "bed_occupancy": 16.47
+    "room_occupancy": 23.2,
+    "bed_occupancy": 16.3
   },
   {
     "slug": "sigriswil",
     "commune_bfs": "Sigriswil",
     "year": 2025,
-    "establishments": 7,
+    "establishments": 8,
     "rooms": 260,
     "beds": 490,
     "arrivals": 46072,
     "overnight_stays": 103124,
     "room_nights": 57545,
-    "room_occupancy": 61.69,
-    "bed_occupancy": 58.73
+    "room_occupancy": 61.3,
+    "bed_occupancy": 58.2
   },
   {
     "slug": "sion",
     "commune_bfs": "Sion",
     "year": 2025,
-    "establishments": 4,
+    "establishments": 5,
     "rooms": 314,
-    "beds": 608,
+    "beds": 607,
     "arrivals": 64702,
     "overnight_stays": 106886,
     "room_nights": 74127,
-    "room_occupancy": 64.86,
-    "bed_occupancy": 48.34
+    "room_occupancy": 65.4,
+    "bed_occupancy": 48.2
   },
   {
     "slug": "solothurn",
@@ -1985,21 +1985,21 @@
     "arrivals": 57729,
     "overnight_stays": 90793,
     "room_nights": 64185,
-    "room_occupancy": 56.01,
+    "room_occupancy": 55.9,
     "bed_occupancy": 41.6
   },
   {
     "slug": "spiez",
     "commune_bfs": "Spiez",
     "year": 2025,
-    "establishments": 11,
+    "establishments": 12,
     "rooms": 398,
     "beds": 725,
     "arrivals": 76385,
     "overnight_stays": 145111,
     "room_nights": 85044,
-    "room_occupancy": 58.55,
-    "bed_occupancy": 54.84
+    "room_occupancy": 58.2,
+    "bed_occupancy": 54.2
   },
   {
     "slug": "st-gallen",
@@ -2007,51 +2007,51 @@
     "year": 2025,
     "establishments": 21,
     "rooms": 1090,
-    "beds": 2043,
+    "beds": 2044,
     "arrivals": 164156,
     "overnight_stays": 310568,
     "room_nights": 222060,
-    "room_occupancy": 56.12,
-    "bed_occupancy": 41.85
+    "room_occupancy": 56.1,
+    "bed_occupancy": 41.8
   },
   {
     "slug": "st-moritz",
     "commune_bfs": "St. Moritz",
     "year": 2025,
     "establishments": 29,
-    "rooms": 2074,
-    "beds": 4004,
+    "rooms": 2076,
+    "beds": 4006,
     "arrivals": 314780,
     "overnight_stays": 799655,
     "room_nights": 437383,
-    "room_occupancy": 61.05,
-    "bed_occupancy": 57.85
+    "room_occupancy": 56.7,
+    "bed_occupancy": 53.6
   },
   {
     "slug": "sursee",
     "commune_bfs": "Sursee",
     "year": 2025,
-    "establishments": 4,
+    "establishments": 5,
     "rooms": 137,
-    "beds": 236,
+    "beds": 237,
     "arrivals": 27912,
     "overnight_stays": 45307,
     "room_nights": 31113,
-    "room_occupancy": 62.44,
-    "bed_occupancy": 52.73
+    "room_occupancy": 62.3,
+    "bed_occupancy": 52.6
   },
   {
     "slug": "surses",
     "commune_bfs": "Surses",
     "year": 2025,
     "establishments": 13,
-    "rooms": 277,
+    "rooms": 278,
     "beds": 665,
     "arrivals": 35417,
     "overnight_stays": 74406,
     "room_nights": 39418,
-    "room_occupancy": 43.85,
-    "bed_occupancy": 34.83
+    "room_occupancy": 38.7,
+    "bed_occupancy": 30.6
   },
   {
     "slug": "teufen",
@@ -2063,21 +2063,21 @@
     "arrivals": 4544,
     "overnight_stays": 8008,
     "room_nights": 5589,
-    "room_occupancy": 35.27,
-    "bed_occupancy": 27.99
+    "room_occupancy": 35.2,
+    "bed_occupancy": 27.9
   },
   {
     "slug": "thun",
     "commune_bfs": "Thun",
     "year": 2025,
-    "establishments": 15,
-    "rooms": 471,
+    "establishments": 16,
+    "rooms": 472,
     "beds": 799,
     "arrivals": 96826,
     "overnight_stays": 169409,
     "room_nights": 109557,
-    "room_occupancy": 64.13,
-    "bed_occupancy": 58.61
+    "room_occupancy": 63.5,
+    "bed_occupancy": 57.9
   },
   {
     "slug": "tujetsch",
@@ -2089,34 +2089,34 @@
     "arrivals": 17571,
     "overnight_stays": 42718,
     "room_nights": 23731,
-    "room_occupancy": 47.93,
-    "bed_occupancy": 29.67
+    "room_occupancy": 42.7,
+    "bed_occupancy": 26.4
   },
   {
     "slug": "unteraegeri",
     "commune_bfs": "Unterägeri",
     "year": 2025,
     "establishments": 3,
-    "rooms": 102,
+    "rooms": 103,
     "beds": 181,
     "arrivals": 8322,
     "overnight_stays": 15478,
     "room_nights": 11717,
-    "room_occupancy": 31.28,
-    "bed_occupancy": 23.39
+    "room_occupancy": 31.5,
+    "bed_occupancy": 23.7
   },
   {
     "slug": "unterseen",
     "commune_bfs": "Unterseen",
     "year": 2025,
     "establishments": 11,
-    "rooms": 344,
+    "rooms": 345,
     "beds": 788,
     "arrivals": 82839,
     "overnight_stays": 188989,
     "room_nights": 89244,
-    "room_occupancy": 73.39,
-    "bed_occupancy": 68.13
+    "room_occupancy": 71.7,
+    "bed_occupancy": 66.2
   },
   {
     "slug": "uster",
@@ -2128,47 +2128,47 @@
     "arrivals": 15471,
     "overnight_stays": 42590,
     "room_nights": 30986,
-    "room_occupancy": 50.03,
-    "bed_occupancy": 37.69
+    "room_occupancy": 50.0,
+    "bed_occupancy": 37.7
   },
   {
     "slug": "uzwil",
     "commune_bfs": "Uzwil",
     "year": 2025,
-    "establishments": 6,
-    "rooms": 148,
+    "establishments": 7,
+    "rooms": 149,
     "beds": 243,
     "arrivals": 12324,
     "overnight_stays": 42767,
     "room_nights": 32732,
-    "room_occupancy": 60.26,
-    "bed_occupancy": 48.16
+    "room_occupancy": 60.3,
+    "bed_occupancy": 48.2
   },
   {
     "slug": "val-de-bagnes",
     "commune_bfs": "Val de Bagnes",
     "year": 2025,
-    "establishments": 19,
-    "rooms": 540,
-    "beds": 1182,
+    "establishments": 20,
+    "rooms": 541,
+    "beds": 1184,
     "arrivals": 62737,
     "overnight_stays": 168053,
     "room_nights": 93825,
-    "room_occupancy": 52.94,
-    "bed_occupancy": 43.46
+    "room_occupancy": 46.8,
+    "bed_occupancy": 38.2
   },
   {
     "slug": "val-muestair",
     "commune_bfs": "Val Müstair",
     "year": 2025,
-    "establishments": 13,
+    "establishments": 14,
     "rooms": 203,
     "beds": 433,
     "arrivals": 24272,
     "overnight_stays": 56076,
     "room_nights": 33048,
-    "room_occupancy": 50.31,
-    "bed_occupancy": 40.05
+    "room_occupancy": 45.2,
+    "bed_occupancy": 36.4
   },
   {
     "slug": "vals",
@@ -2176,25 +2176,25 @@
     "year": 2025,
     "establishments": 11,
     "rooms": 238,
-    "beds": 483,
+    "beds": 484,
     "arrivals": 31611,
     "overnight_stays": 64148,
     "room_nights": 36394,
-    "room_occupancy": 43.9,
-    "bed_occupancy": 38.24
+    "room_occupancy": 43.2,
+    "bed_occupancy": 37.8
   },
   {
     "slug": "vaz-obervaz",
     "commune_bfs": "Vaz/Obervaz",
     "year": 2025,
     "establishments": 14,
-    "rooms": 753,
+    "rooms": 754,
     "beds": 1511,
     "arrivals": 98066,
     "overnight_stays": 248878,
     "room_nights": 129172,
-    "room_occupancy": 51.43,
-    "bed_occupancy": 49.34
+    "room_occupancy": 47.8,
+    "bed_occupancy": 45.8
   },
   {
     "slug": "vernier",
@@ -2206,21 +2206,21 @@
     "arrivals": 195348,
     "overnight_stays": 361098,
     "room_nights": 251165,
-    "room_occupancy": 68.52,
-    "bed_occupancy": 58.8
+    "room_occupancy": 68.5,
+    "bed_occupancy": 58.7
   },
   {
     "slug": "vevey",
     "commune_bfs": "Vevey",
     "year": 2025,
-    "establishments": 10,
+    "establishments": 11,
     "rooms": 391,
-    "beds": 639,
+    "beds": 640,
     "arrivals": 55075,
     "overnight_stays": 105747,
     "room_nights": 70785,
-    "room_occupancy": 49.75,
-    "bed_occupancy": 45.47
+    "room_occupancy": 49.5,
+    "bed_occupancy": 45.4
   },
   {
     "slug": "visp",
@@ -2232,21 +2232,21 @@
     "arrivals": 27121,
     "overnight_stays": 45543,
     "room_nights": 34086,
-    "room_occupancy": 71.32,
-    "bed_occupancy": 48.65
+    "room_occupancy": 71.2,
+    "bed_occupancy": 48.5
   },
   {
     "slug": "vitznau",
     "commune_bfs": "Vitznau",
     "year": 2025,
-    "establishments": 6,
+    "establishments": 7,
     "rooms": 276,
     "beds": 590,
     "arrivals": 41869,
     "overnight_stays": 86841,
     "room_nights": 49936,
-    "room_occupancy": 51.02,
-    "bed_occupancy": 41.25
+    "room_occupancy": 49.0,
+    "bed_occupancy": 39.6
   },
   {
     "slug": "waedenswil",
@@ -2258,21 +2258,21 @@
     "arrivals": 5511,
     "overnight_stays": 7901,
     "room_nights": 5216,
-    "room_occupancy": 40.29,
-    "bed_occupancy": 32.5
+    "room_occupancy": 40.2,
+    "bed_occupancy": 32.3
   },
   {
     "slug": "walenstadt",
     "commune_bfs": "Walenstadt",
     "year": 2025,
     "establishments": 4,
-    "rooms": 61,
+    "rooms": 62,
     "beds": 120,
     "arrivals": 6240,
     "overnight_stays": 10186,
     "room_nights": 6442,
-    "room_occupancy": 30.65,
-    "bed_occupancy": 24.92
+    "room_occupancy": 30.6,
+    "bed_occupancy": 25.0
   },
   {
     "slug": "weggis",
@@ -2280,12 +2280,12 @@
     "year": 2025,
     "establishments": 18,
     "rooms": 712,
-    "beds": 1307,
+    "beds": 1308,
     "arrivals": 92166,
     "overnight_stays": 198583,
     "room_nights": 124308,
-    "room_occupancy": 48.69,
-    "bed_occupancy": 42.42
+    "room_occupancy": 48.0,
+    "bed_occupancy": 41.9
   },
   {
     "slug": "wil",
@@ -2297,8 +2297,8 @@
     "arrivals": 19935,
     "overnight_stays": 35802,
     "room_nights": 27517,
-    "room_occupancy": 58.68,
-    "bed_occupancy": 38.89
+    "room_occupancy": 58.7,
+    "bed_occupancy": 39.1
   },
   {
     "slug": "wilderswil",
@@ -2310,8 +2310,8 @@
     "arrivals": 57724,
     "overnight_stays": 123048,
     "room_nights": 68005,
-    "room_occupancy": 59.65,
-    "bed_occupancy": 52.14
+    "room_occupancy": 59.2,
+    "bed_occupancy": 51.7
   },
   {
     "slug": "wildhaus-alt-st-johann",
@@ -2319,25 +2319,25 @@
     "year": 2025,
     "establishments": 19,
     "rooms": 457,
-    "beds": 1020,
+    "beds": 1019,
     "arrivals": 41721,
     "overnight_stays": 89077,
     "room_nights": 53114,
-    "room_occupancy": 34.6,
-    "bed_occupancy": 26.22
+    "room_occupancy": 33.8,
+    "bed_occupancy": 25.6
   },
   {
     "slug": "winterthur",
     "commune_bfs": "Winterthur",
     "year": 2025,
-    "establishments": 17,
-    "rooms": 743,
-    "beds": 1465,
+    "establishments": 18,
+    "rooms": 744,
+    "beds": 1466,
     "arrivals": 118762,
     "overnight_stays": 224226,
     "room_nights": 160734,
-    "room_occupancy": 59.98,
-    "bed_occupancy": 42.39
+    "room_occupancy": 59.9,
+    "bed_occupancy": 42.3
   },
   {
     "slug": "yverdon-les-bains",
@@ -2349,21 +2349,21 @@
     "arrivals": 39721,
     "overnight_stays": 67054,
     "room_nights": 48277,
-    "room_occupancy": 44.07,
-    "bed_occupancy": 30.66
+    "room_occupancy": 43.9,
+    "bed_occupancy": 30.6
   },
   {
     "slug": "zermatt",
     "commune_bfs": "Zermatt",
     "year": 2025,
-    "establishments": 97,
-    "rooms": 3340,
-    "beds": 7020,
+    "establishments": 98,
+    "rooms": 3341,
+    "beds": 7022,
     "arrivals": 703162,
     "overnight_stays": 1700264,
     "room_nights": 857343,
-    "room_occupancy": 77.07,
-    "bed_occupancy": 72.45
+    "room_occupancy": 75.1,
+    "bed_occupancy": 70.2
   },
   {
     "slug": "zernez",
@@ -2375,8 +2375,8 @@
     "arrivals": 37410,
     "overnight_stays": 74289,
     "room_nights": 43615,
-    "room_occupancy": 44.56,
-    "bed_occupancy": 36.76
+    "room_occupancy": 40.9,
+    "bed_occupancy": 33.7
   },
   {
     "slug": "zofingen",
@@ -2388,8 +2388,8 @@
     "arrivals": 11659,
     "overnight_stays": 24397,
     "room_nights": 19824,
-    "room_occupancy": 56.98,
-    "bed_occupancy": 42.46
+    "room_occupancy": 56.5,
+    "bed_occupancy": 42.2
   },
   {
     "slug": "zuerich",
@@ -2397,12 +2397,12 @@
     "year": 2025,
     "establishments": 127,
     "rooms": 9509,
-    "beds": 18752,
+    "beds": 18750,
     "arrivals": 2281079,
     "overnight_stays": 4179908,
     "room_nights": 2638017,
-    "room_occupancy": 76.27,
-    "bed_occupancy": 61.31
+    "room_occupancy": 76.1,
+    "bed_occupancy": 61.2
   },
   {
     "slug": "zug",
@@ -2414,7 +2414,7 @@
     "arrivals": 45851,
     "overnight_stays": 139860,
     "room_nights": 107152,
-    "room_occupancy": 64.81,
-    "bed_occupancy": 47.16
+    "room_occupancy": 64.7,
+    "bed_occupancy": 47.1
   }
 ]
