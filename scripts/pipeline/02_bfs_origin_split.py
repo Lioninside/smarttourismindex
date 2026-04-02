@@ -25,10 +25,10 @@ _matches = sorted(_BFS_DIR.glob("px-x-1003020000_101_*.csv"))
 if not _matches:
     raise FileNotFoundError("No px-x-1003020000_101_*.csv found in data_raw/bfs/")
 RAW_CSV = _matches[-1]
-print(f"  Using: {RAW_CSV.name}")
 PLACE_MAPPING = Path("metadata/place_mapping.json")
-OUTPUT_JSON = Path("data_processed/bfs/bfs_origin_split_2025.json")
+OUTPUT_JSON   = Path("data_processed/bfs/bfs_origin_split_2025.json")
 
+VERSION      = "2.0.0"   # monthly aggregation, no TARGET_MONTH filter
 CSV_ENCODING = "ISO-8859-1"
 TARGET_YEAR  = "2025"
 # No TARGET_MONTH — file has only individual months; we sum all 12 per commune.
@@ -54,19 +54,26 @@ def safe_share(part: int, total: int) -> float:
 
 
 def main() -> None:
+    print(f"  02_bfs_origin_split v{VERSION}  file={RAW_CSV.name}  year={TARGET_YEAR}")
+
     if not PLACE_MAPPING.exists():
         raise FileNotFoundError(f"Missing place mapping file: {PLACE_MAPPING}")
 
     mapping = load_place_mapping(PLACE_MAPPING)
+    print(f"  Mapping: {len(mapping)} communes loaded")
 
     # Accumulate annual totals per commune across all monthly rows
     totals: Dict[str, Dict[str, int]] = {}
     unmapped_communes: set = set()
+    rows_read = 0
+    rows_year_match = 0
 
     with RAW_CSV.open("r", encoding=CSV_ENCODING, newline="") as f:
         for row in csv.DictReader(f):
+            rows_read += 1
             if row.get("Year") != TARGET_YEAR:
                 continue
+            rows_year_match += 1
             commune = (row.get("Commune") or "").strip()
             if not commune:
                 continue
@@ -83,6 +90,8 @@ def main() -> None:
             t["total_overnight_stays"]   += to_int(row.get("Visitors' country of residence - total Overnight stays", "0"))
             t["domestic_arrivals"]       += to_int(row.get("Switzerland Arrivals", "0"))
             t["domestic_overnight_stays"] += to_int(row.get("Switzerland Overnight stays", "0"))
+
+    print(f"  Rows read: {rows_read}  matched year={TARGET_YEAR}: {rows_year_match}  communes accumulated: {len(totals)}")
 
     normalized: List[Dict[str, Any]] = []
     for commune, t in totals.items():
