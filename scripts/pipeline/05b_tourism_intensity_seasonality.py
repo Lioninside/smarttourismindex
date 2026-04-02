@@ -32,15 +32,13 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-# ── Paths ──────────────────────────────────────────────────────────────────
-BASE       = Path(__file__).parent
-RAW_BFS    = BASE / "data_raw" / "bfs"
-PROCESSED  = BASE / "data_processed"
+# ── Paths (relative to project root — script must be run from project root) ──
+RAW_BFS   = Path("data_raw/bfs")
+PROCESSED = Path("data_processed")
 PROCESSED.mkdir(exist_ok=True)
 
-FILE_101    = next(RAW_BFS.glob("px-x-1003020000_101_*.csv"))
-FILE_POP    = next(RAW_BFS.glob("px-x-0102010000_101_*.csv"))
-SLUG_MAP    = BASE / "place_mapping.json"
+FILE_101  = next(RAW_BFS.glob("px-x-1003020000_101_*.csv"))
+FILE_POP  = next(RAW_BFS.glob("px-x-0102010000_101_*.csv"))
 
 print(f"Using 101 file : {FILE_101.name}")
 print(f"Using POP file : {FILE_POP.name}")

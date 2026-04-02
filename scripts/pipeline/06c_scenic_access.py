@@ -2,44 +2,39 @@
 """
 06c_scenic_access.py
 
-Score each place on scenic transport and major hiking accessible within its
-GTFS-reachable commune set.
+Score each place on scenic transport and boat services within a 14km radius.
 
 Inputs:
   - metadata/places_master.csv
-  - data_processed/gtfs/gtfs_reachability.json
   - data_raw/tlm/tlm_scenic_transport.gpkg  (EPSG:2056)
   - data_raw/tlm/tlm_boats.gpkg             (EPSG:2056)
-  - data_processed/hiking/hiking_metrics.json
 
 Output:
   - data_processed/scenic_access_metrics.json
 
 Columns:
-  slug, scenic_transport_count, boat_count,
-  scenic_score (0-1 normalised),
-  access_hiking_m, access_hiking_score (0-1 normalised)
+  slug, scenic_transport_count, boat_count, scenic_score (0-1 normalised)
 """
 
 from __future__ import annotations
 
+import csv
 import json
 from pathlib import Path
 from typing import Any, Dict, List
 
 import geopandas as gpd
-from shapely.ops import unary_union
+from pyproj import Transformer
 from shapely.geometry import Point
 
-PLACES_CSV       = Path("metadata/places_master.csv")
-REACHABILITY_JSON = Path("data_processed/gtfs/gtfs_reachability.json")
-SCENIC_GPKG      = Path("data_raw/tlm/tlm_scenic_transport.gpkg")
-BOATS_GPKG       = Path("data_raw/tlm/tlm_boats.gpkg")
-HIKING_JSON      = Path("data_processed/hiking/hiking_metrics.json")
-OUTPUT_JSON      = Path("data_processed/scenic_access_metrics.json")
+PLACES_CSV  = Path("metadata/places_master.csv")
+SCENIC_GPKG = Path("data_raw/tlm/tlm_scenic_transport.gpkg")
+BOATS_GPKG  = Path("data_raw/tlm/tlm_boats.gpkg")
+OUTPUT_JSON = Path("data_processed/scenic_access_metrics.json")
 
-COMMUNE_BUFFER_M = 5_000  # 5 km around each reachable commune anchor
-import csv
+RADIUS_M = 14_000  # 14 km
+
+_WGS84_TO_LV95 = Transformer.from_crs("EPSG:4326", "EPSG:2056", always_xy=True)
 
 
 def read_places(path: Path) -> List[Dict[str, Any]]:
@@ -57,11 +52,6 @@ def read_places(path: Path) -> List[Dict[str, Any]]:
         ]
 
 
-def load_json(path: Path) -> Any:
-    with path.open("r", encoding="utf-8") as f:
-        return json.load(f)
-
-
 def minmax_normalise(values: List[float]) -> List[float]:
     v_min = min(values)
     v_max = max(values)
@@ -69,24 +59,12 @@ def minmax_normalise(values: List[float]) -> List[float]:
     return [round((v - v_min) / v_range, 4) for v in values]
 
 
-def reproject_place(lat: float, lon: float) -> Any:
-    return gpd.GeoSeries([Point(lon, lat)], crs=4326).to_crs(2056).iloc[0]
-
-
 def main() -> None:
-    for p in [PLACES_CSV, REACHABILITY_JSON, SCENIC_GPKG, BOATS_GPKG, HIKING_JSON]:
+    for p in [PLACES_CSV, SCENIC_GPKG, BOATS_GPKG]:
         if not p.exists():
             raise FileNotFoundError(f"Missing: {p}")
 
-    places     = read_places(PLACES_CSV)
-    slug_to_place = {p["slug"]: p for p in places}
-
-    reachability: Dict[str, List[str]] = load_json(REACHABILITY_JSON)
-    hiking_rows: List[Dict[str, Any]]  = load_json(HIKING_JSON)
-    regional_hiking: Dict[str, float]  = {
-        r["slug"]: float(r.get("regional_hiking_m", 0))
-        for r in hiking_rows
-    }
+    places = read_places(PLACES_CSV)
 
     print("Loading scenic transport layer...")
     scenic_gdf = gpd.read_file(SCENIC_GPKG).to_crs(2056)
@@ -94,66 +72,39 @@ def main() -> None:
     boats_gdf  = gpd.read_file(BOATS_GPKG).to_crs(2056)
 
     # Unique identifier column for deduplication — prefer UUID (stable), then NAME
-    def unique_ids(gdf: gpd.GeoDataFrame) -> set:
+    def unique_count(gdf: gpd.GeoDataFrame) -> int:
         for col in ("UUID", "uuid", "NAME", "name", "id", "ID"):
             if col in gdf.columns:
-                return set(gdf[col].dropna().astype(str).unique())
-        return set(range(len(gdf)))
+                return int(gdf[col].dropna().astype(str).nunique())
+        return len(gdf)
 
     rows: List[Dict[str, Any]] = []
 
     for place in places:
-        slug = place["slug"]
-        reachable_slugs = reachability.get(slug, [])
+        e, n = _WGS84_TO_LV95.transform(place["lon"], place["lat"])
+        place_buffer = Point(e, n).buffer(RADIUS_M)
 
-        # Build union geometry of 5km buffers around reachable commune anchors
-        buffers = []
-        for rslt in reachable_slugs:
-            rp = slug_to_place.get(rslt)
-            if rp is None:
-                continue
-            pt = reproject_place(rp["lat"], rp["lon"])
-            buffers.append(pt.buffer(COMMUNE_BUFFER_M))
-        # Also include the base place itself
-        base_pt = reproject_place(place["lat"], place["lon"])
-        buffers.append(base_pt.buffer(COMMUNE_BUFFER_M))
+        scenic_hits = scenic_gdf[scenic_gdf.intersects(place_buffer)]
+        boat_hits   = boats_gdf[boats_gdf.intersects(place_buffer)]
 
-        if not buffers:
-            union_geom = base_pt.buffer(COMMUNE_BUFFER_M)
-        else:
-            union_geom = unary_union(buffers)
+        scenic_count = unique_count(scenic_hits)
+        boat_count   = unique_count(boat_hits)
 
-        # Count unique scenic transport lines intersecting the union
-        scenic_hits = scenic_gdf[scenic_gdf.intersects(union_geom)]
-        boat_hits   = boats_gdf[boats_gdf.intersects(union_geom)]
-
-        scenic_count = len(unique_ids(scenic_hits))
-        boat_count   = len(unique_ids(boat_hits))
-
-        # Weighted score: boats count 0.5x
+        # Boats weighted 0.5x
         weighted_scenic = scenic_count + boat_count * 0.5
 
-        # Access hiking: sum regional_hiking_m for all reachable communes
-        access_hiking_m = sum(
-            regional_hiking.get(rslt, 0.0) for rslt in reachable_slugs
-        )
-
         rows.append({
-            "slug":                  slug,
-            "name":                  place["name"],
+            "slug":                   place["slug"],
+            "name":                   place["name"],
             "scenic_transport_count": scenic_count,
-            "boat_count":            boat_count,
-            "_weighted_scenic":      weighted_scenic,   # temp for normalisation
-            "access_hiking_m":       round(access_hiking_m, 1),
+            "boat_count":             boat_count,
+            "_weighted_scenic":       weighted_scenic,
         })
 
-    # Min-max normalise scenic and access hiking
-    scenic_norm  = minmax_normalise([r["_weighted_scenic"] for r in rows])
-    hiking_norm  = minmax_normalise([r["access_hiking_m"]  for r in rows])
-
+    # Min-max normalise
+    scenic_norm = minmax_normalise([r["_weighted_scenic"] for r in rows])
     for i, row in enumerate(rows):
-        row["scenic_score"]        = scenic_norm[i]
-        row["access_hiking_score"] = hiking_norm[i]
+        row["scenic_score"] = scenic_norm[i]
         del row["_weighted_scenic"]
 
     rows.sort(key=lambda x: x["slug"])

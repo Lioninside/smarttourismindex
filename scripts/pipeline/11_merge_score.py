@@ -230,7 +230,7 @@ def main() -> None:
 
     intensity_map = load_tourism_intensity(INTENSITY_CSV, places)
 
-    # Pre-compute normalised sub-scores across all 193 places
+    # Pre-compute normalised sub-scores across all 185 places
     ot_scores       = build_ot_scores(intensity_map, all_slugs)
     walk_scores     = {r["slug"]: float(r["walkability_score"])
                        for r in load_json(WALKABILITY_JSON) if "walkability_score" in r}
@@ -251,8 +251,8 @@ def main() -> None:
                         for r in load_json(DEST_PULL_JSON) if "destination_pull_score" in r}
     cult_scores      = {r["slug"]: float(r["cultural_access_score"])
                         for r in load_csv_metrics(CULTURAL_CSV) if "cultural_access_score" in r}
-    acc_hike_scores  = {r["slug"]: float(r["access_hiking_score"])
-                        for r in load_json(SCENIC_JSON) if "access_hiking_score" in r}
+    acc_hike_scores  = {r["slug"]: float(r["regional_hiking_score"])
+                        for r in load_json(HIKING_JSON) if "regional_hiking_score" in r}
 
     rows: List[Dict[str, Any]] = []
 
