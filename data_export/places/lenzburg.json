@@ -1,0 +1,80 @@
+{
+  "slug": "lenzburg",
+  "name": "Lenzburg",
+  "canton": "AG",
+  "score_total": 47.63,
+  "scores": {
+    "total": 47.63,
+    "base": 41.71,
+    "access": 56.51,
+    "sub": {
+      "anti_overtourism": 98.97,
+      "walkability": 13.67,
+      "local_hiking": 0.0,
+      "water": 28.23,
+      "heritage": 0.0,
+      "climate": 100.0,
+      "scenic_transport": 6.39,
+      "destination_pull": 96.13,
+      "cultural_access": 100.0,
+      "access_hiking": 5.05
+    }
+  },
+  "subscores": {
+    "base_quality": 41.71,
+    "access_value": 56.51,
+    "anti_overtourism": 98.97
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 32269,
+    "domestic_share_overnights": 0.4316,
+    "summer_temp_avg": 18.55,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 8227.1,
+    "walkability_path_m": 2107.7,
+    "scenic_transport_count": 14,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 89,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "jun",
+    "trough_month": "dec",
+    "peak_trough_ratio": 2.08,
+    "monthly_index": [
+      76,
+      82,
+      85,
+      106,
+      121,
+      134,
+      85,
+      102,
+      123,
+      120,
+      102,
+      64
+    ]
+  },
+  "tourism_intensity": 2.6,
+  "restaurant_count": 19,
+  "isos_name": ""
+}

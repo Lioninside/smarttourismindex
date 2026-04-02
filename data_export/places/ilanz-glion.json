@@ -1,0 +1,81 @@
+{
+  "slug": "ilanz-glion",
+  "name": "Ilanz/Glion",
+  "canton": "GR",
+  "score_total": 53.9,
+  "scores": {
+    "total": 53.9,
+    "base": 50.28,
+    "access": 59.34,
+    "sub": {
+      "anti_overtourism": 98.09,
+      "walkability": 0.0,
+      "local_hiking": 55.94,
+      "water": 30.44,
+      "heritage": 0.0,
+      "climate": 100.0,
+      "scenic_transport": 49.78,
+      "destination_pull": 57.08,
+      "cultural_access": 64.71,
+      "access_hiking": 74.05
+    }
+  },
+  "subscores": {
+    "base_quality": 50.28,
+    "access_value": 59.34,
+    "anti_overtourism": 98.09
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 25881,
+    "domestic_share_overnights": 0.6585,
+    "summer_temp_avg": 15.74,
+    "local_hiking_m": 96619.6,
+    "regional_hiking_m": 2011980.9,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 114,
+    "reachable_named_museums": "14",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 20,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "jul",
+    "trough_month": "nov",
+    "peak_trough_ratio": 2.52,
+    "monthly_index": [
+      88,
+      119,
+      74,
+      62,
+      93,
+      110,
+      153,
+      148,
+      103,
+      77,
+      61,
+      113
+    ]
+  },
+  "tourism_intensity": 4.5,
+  "restaurant_count": 0,
+  "isos_name": ""
+}

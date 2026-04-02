@@ -1,0 +1,81 @@
+{
+  "slug": "ingenbohl",
+  "name": "Ingenbohl",
+  "canton": "SZ",
+  "score_total": 51.39,
+  "scores": {
+    "total": 51.39,
+    "base": 38.4,
+    "access": 70.87,
+    "sub": {
+      "anti_overtourism": 97.34,
+      "walkability": 5.48,
+      "local_hiking": 19.27,
+      "water": 27.44,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 52.42,
+      "destination_pull": 73.48,
+      "cultural_access": 100.0,
+      "access_hiking": 54.01
+    }
+  },
+  "subscores": {
+    "base_quality": 38.4,
+    "access_value": 70.87,
+    "anti_overtourism": 97.34
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 52516,
+    "domestic_share_overnights": 0.5898,
+    "summer_temp_avg": 17.95,
+    "local_hiking_m": 33286.4,
+    "regional_hiking_m": 1127745.5,
+    "walkability_path_m": 844.9,
+    "scenic_transport_count": 118,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 48,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "aug",
+    "trough_month": "dec",
+    "peak_trough_ratio": 3.83,
+    "monthly_index": [
+      47,
+      49,
+      76,
+      86,
+      126,
+      139,
+      164,
+      170,
+      129,
+      92,
+      76,
+      44
+    ]
+  },
+  "tourism_intensity": 6.1,
+  "restaurant_count": 24,
+  "isos_name": ""
+}

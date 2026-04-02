@@ -1,0 +1,81 @@
+{
+  "slug": "hasliberg",
+  "name": "Hasliberg",
+  "canton": "BE",
+  "score_total": 51.33,
+  "scores": {
+    "total": 51.33,
+    "base": 30.32,
+    "access": 82.85,
+    "sub": {
+      "anti_overtourism": 63.51,
+      "walkability": 0.0,
+      "local_hiking": 23.69,
+      "water": 31.39,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 66.08,
+      "destination_pull": 88.85,
+      "cultural_access": 100.0,
+      "access_hiking": 75.79
+    }
+  },
+  "subscores": {
+    "base_quality": 30.32,
+    "access_value": 82.85,
+    "anti_overtourism": 63.51
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 82725,
+    "domestic_share_overnights": 0.7691,
+    "summer_temp_avg": 15.1,
+    "local_hiking_m": 40926.7,
+    "regional_hiking_m": 1200334.2,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 150,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 49,
+  "seasonality": {
+    "volatility_label": "Strongly seasonal",
+    "peak_month": "aug",
+    "trough_month": "nov",
+    "peak_trough_ratio": 7.74,
+    "monthly_index": [
+      143,
+      158,
+      83,
+      40,
+      73,
+      99,
+      171,
+      172,
+      96,
+      77,
+      22,
+      65
+    ]
+  },
+  "tourism_intensity": 78.6,
+  "restaurant_count": 1,
+  "isos_name": ""
+}

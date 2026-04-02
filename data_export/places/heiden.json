@@ -1,0 +1,80 @@
+{
+  "slug": "heiden",
+  "name": "Heiden",
+  "canton": "AR",
+  "score_total": 41.81,
+  "scores": {
+    "total": 41.81,
+    "base": 42.83,
+    "access": 40.29,
+    "sub": {
+      "anti_overtourism": 97.06,
+      "walkability": 24.18,
+      "local_hiking": 0.0,
+      "water": 58.2,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 15.86,
+      "destination_pull": 29.47,
+      "cultural_access": 100.0,
+      "access_hiking": 11.25
+    }
+  },
+  "subscores": {
+    "base_quality": 42.83,
+    "access_value": 40.29,
+    "anti_overtourism": 97.06
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 28898,
+    "domestic_share_overnights": 0.8256,
+    "summer_temp_avg": 16.28,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 80934.7,
+    "walkability_path_m": 3728.5,
+    "scenic_transport_count": 37,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 150,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "aug",
+    "trough_month": "feb",
+    "peak_trough_ratio": 3.65,
+    "monthly_index": [
+      98,
+      35,
+      78,
+      109,
+      116,
+      104,
+      116,
+      128,
+      115,
+      122,
+      91,
+      87
+    ]
+  },
+  "tourism_intensity": 6.7,
+  "restaurant_count": 9,
+  "isos_name": ""
+}

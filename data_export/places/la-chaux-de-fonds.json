@@ -1,0 +1,81 @@
+{
+  "slug": "la-chaux-de-fonds",
+  "name": "La Chaux-de-Fonds",
+  "canton": "NE",
+  "score_total": 40.33,
+  "scores": {
+    "total": 40.33,
+    "base": 45.83,
+    "access": 32.08,
+    "sub": {
+      "anti_overtourism": 99.81,
+      "walkability": 100.0,
+      "local_hiking": 4.39,
+      "water": 0.0,
+      "heritage": 0.0,
+      "climate": 0.0,
+      "scenic_transport": 6.39,
+      "destination_pull": 17.04,
+      "cultural_access": 100.0,
+      "access_hiking": 0.36
+    }
+  },
+  "subscores": {
+    "base_quality": 45.83,
+    "access_value": 32.08,
+    "anti_overtourism": 99.81
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 31090,
+    "domestic_share_overnights": 0.5892,
+    "summer_temp_avg": 14.9,
+    "local_hiking_m": 7583.9,
+    "regional_hiking_m": 47032.2,
+    "walkability_path_m": 15422.4,
+    "scenic_transport_count": 15,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 164,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "jun",
+    "trough_month": "jan",
+    "peak_trough_ratio": 1.71,
+    "monthly_index": [
+      73,
+      90,
+      100,
+      95,
+      112,
+      125,
+      94,
+      94,
+      115,
+      118,
+      105,
+      80
+    ]
+  },
+  "tourism_intensity": 0.8,
+  "restaurant_count": 64,
+  "isos_name": ""
+}

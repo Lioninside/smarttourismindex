@@ -1,0 +1,81 @@
+{
+  "slug": "monteceneri",
+  "name": "Monteceneri",
+  "canton": "TI",
+  "score_total": 52.72,
+  "scores": {
+    "total": 52.72,
+    "base": 56.99,
+    "access": 46.33,
+    "sub": {
+      "anti_overtourism": 99.91,
+      "walkability": 11.51,
+      "local_hiking": 75.51,
+      "water": 64.04,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 2.64,
+      "destination_pull": 55.26,
+      "cultural_access": 100.0,
+      "access_hiking": 26.4
+    }
+  },
+  "subscores": {
+    "base_quality": 56.99,
+    "access_value": 46.33,
+    "anti_overtourism": 99.91
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 2893,
+    "domestic_share_overnights": 0.4946,
+    "summer_temp_avg": 19.26,
+    "local_hiking_m": 130420.2,
+    "regional_hiking_m": 1644089.6,
+    "walkability_path_m": 1774.4,
+    "scenic_transport_count": 7,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 34,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "aug",
+    "trough_month": "feb",
+    "peak_trough_ratio": 3.45,
+    "monthly_index": [
+      64,
+      51,
+      88,
+      77,
+      99,
+      127,
+      136,
+      176,
+      140,
+      105,
+      67,
+      70
+    ]
+  },
+  "tourism_intensity": 0.6,
+  "restaurant_count": 5,
+  "isos_name": ""
+}

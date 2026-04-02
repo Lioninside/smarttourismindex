@@ -1,0 +1,80 @@
+{
+  "slug": "murten",
+  "name": "Murten",
+  "canton": "FR",
+  "score_total": 41.54,
+  "scores": {
+    "total": 41.54,
+    "base": 40.34,
+    "access": 43.35,
+    "sub": {
+      "anti_overtourism": 98.74,
+      "walkability": 12.99,
+      "local_hiking": 0.0,
+      "water": 20.35,
+      "heritage": 0.0,
+      "climate": 100.0,
+      "scenic_transport": 5.29,
+      "destination_pull": 53.98,
+      "cultural_access": 100.0,
+      "access_hiking": 3.78
+    }
+  },
+  "subscores": {
+    "base_quality": 40.34,
+    "access_value": 43.35,
+    "anti_overtourism": 98.74
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 31402,
+    "domestic_share_overnights": 0.8338,
+    "summer_temp_avg": 19.04,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 0.0,
+    "walkability_path_m": 2003.4,
+    "scenic_transport_count": 11,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 154,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "aug",
+    "trough_month": "feb",
+    "peak_trough_ratio": 3.61,
+    "monthly_index": [
+      65,
+      45,
+      67,
+      80,
+      120,
+      126,
+      139,
+      162,
+      145,
+      112,
+      85,
+      54
+    ]
+  },
+  "tourism_intensity": 3.1,
+  "restaurant_count": 28,
+  "isos_name": ""
+}
