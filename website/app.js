@@ -202,8 +202,8 @@ function renderDetail(slug, detail, container) {
   const intensityLabel = ti == null ? '—' : ti < 10 ? 'Low' : ti <= 50 ? 'Medium' : 'High';
   const historicTown = detail.isos_name ? '✓' : '—';
   const restCount = detail.restaurant_count != null ? `~${detail.restaurant_count}` : '—';
-  const destPull = sub.destination_pull != null ? Math.round(sub.destination_pull) : '—';
-  const mtAccess = sub.scenic_transport != null ? Math.round(sub.scenic_transport) : '—';
+  const destPull = sub.destination_pull != null ? `${Math.round(sub.destination_pull)} pt.` : '—';
+  const mtAccess = sub.scenic_transport != null ? `${Math.round(sub.scenic_transport)} pt.` : '—';
 
   const metricsHtml = `
     <div class="metric-item">
@@ -256,36 +256,35 @@ function renderSeasonality(seasonality) {
     return '';
   }
 
-  const { volatility_label, peak_month, trough_month, monthly_index } = seasonality;
+  const { monthly_index } = seasonality;
+  const W = 460, H = 52, PX = 6, PY = 6;
+  const maxVal = Math.max(...monthly_index);
+  const minVal = Math.min(...monthly_index);
+  const range = maxVal - minVal || 1;
 
-  // Season colours: Dec/Jan/Feb winter, Mar/Apr/May spring, Jun/Jul/Aug summer, Sep/Oct/Nov autumn
-  const colors = [
-    '#93b8d8', '#93b8d8',                   // Jan, Feb  — winter
-    '#82c97a', '#82c97a', '#82c97a',         // Mar–May   — spring
-    '#f5a623', '#f5a623', '#f5a623',         // Jun–Aug   — summer
-    '#d4824a', '#d4824a', '#d4824a',         // Sep–Nov   — autumn
-    '#93b8d8'                                // Dec       — winter
-  ];
+  const pts = monthly_index.map((val, i) => {
+    const x = PX + (i / 11) * (W - PX * 2);
+    const y = PY + (1 - (val - minVal) / range) * (H - PY * 2);
+    return [x, y];
+  });
 
-  const maxVal = Math.max(...monthly_index, 100);
-  // Position of the avg=100 reference line as % of chart height (bars grow from bottom)
-  const refPct = (100 / maxVal * 100).toFixed(1);
+  const linePoints = pts.map(([x, y]) => `${x},${y}`).join(' ');
+  const areaPath = `M ${pts[0][0]},${pts[0][1]} ` +
+    pts.slice(1).map(([x, y]) => `L ${x},${y}`).join(' ') +
+    ` L ${pts[11][0]},${H} L ${pts[0][0]},${H} Z`;
 
-  const bars = monthly_index.map((val, i) => {
-    const h = (val / maxVal * 100).toFixed(1);
-    return `<div class="sbar-b" style="height:${h}%;background:${colors[i]}"></div>`;
+  const labels = 'JFMAMJJASOND'.split('').map((m, i) => {
+    const x = PX + (i / 11) * (W - PX * 2);
+    return `<text x="${x}" y="${H + 18}" text-anchor="middle" class="sbar-month-label">${m}</text>`;
   }).join('');
-
-  const months = 'JFMAMJJASOND'.split('').map(l => `<span>${l}</span>`).join('');
 
   return `
     <div class="seasonality-widget">
-      <div class="sbar-chart">
-        <div class="sbar-ref" style="bottom:${refPct}%"></div>
-        ${bars}
-      </div>
-      <div class="sbar-months">${months}</div>
-      <div class="sbar-caption">${volatility_label} · Peak: ${peak_month.toUpperCase()} · Quietest: ${trough_month.toUpperCase()}</div>
+      <svg viewBox="0 0 ${W} ${H + 22}" width="100%" style="overflow:visible;display:block">
+        <path d="${areaPath}" fill="#2563EB" fill-opacity="0.08"/>
+        <polyline points="${linePoints}" fill="none" stroke="#2563EB" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+        ${labels}
+      </svg>
     </div>
   `;
 }
