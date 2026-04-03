@@ -1,0 +1,80 @@
+{
+  "slug": "champery",
+  "name": "Champéry",
+  "canton": "VS",
+  "score_total": 38.73,
+  "scores": {
+    "total": 38.73,
+    "base": 31.95,
+    "access": 48.89,
+    "sub": {
+      "anti_overtourism": 76.67,
+      "walkability": 5.58,
+      "local_hiking": 11.28,
+      "water": 62.78,
+      "heritage": 0.0,
+      "climate": 0.0,
+      "scenic_transport": 68.42,
+      "destination_pull": 72.59,
+      "cultural_access": 15.0,
+      "access_hiking": 18.89
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 73353,
+    "domestic_share_overnights": 0.5417,
+    "summer_temp_avg": 14.67,
+    "local_hiking_m": 19483.0,
+    "regional_hiking_m": 458621.6,
+    "walkability_path_m": 860.4,
+    "scenic_transport_count": 65,
+    "reachable_named_museums": "3",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 160,
+  "seasonality": {
+    "volatility_label": "Strongly seasonal",
+    "peak_month": "feb",
+    "trough_month": "apr",
+    "peak_trough_ratio": 6.52,
+    "monthly_index": [
+      151,
+      185,
+      124,
+      28,
+      58,
+      81,
+      126,
+      138,
+      93,
+      72,
+      37,
+      107
+    ]
+  },
+  "tourism_intensity": 50.1,
+  "restaurant_count": 10,
+  "isos_name": "",
+  "reachable_slugs": [
+    "ollon",
+    "saint-maurice"
+  ]
+}

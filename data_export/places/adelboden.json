@@ -1,0 +1,81 @@
+{
+  "slug": "adelboden",
+  "name": "Adelboden",
+  "canton": "BE",
+  "score_total": 39.84,
+  "scores": {
+    "total": 39.84,
+    "base": 31.33,
+    "access": 52.62,
+    "sub": {
+      "anti_overtourism": 72.29,
+      "walkability": 10.44,
+      "local_hiking": 36.2,
+      "water": 26.18,
+      "heritage": 0.0,
+      "climate": 0.0,
+      "scenic_transport": 64.21,
+      "destination_pull": 78.26,
+      "cultural_access": 10.0,
+      "access_hiking": 49.17
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 210465,
+    "domestic_share_overnights": 0.6703,
+    "summer_temp_avg": 13.97,
+    "local_hiking_m": 62529.6,
+    "regional_hiking_m": 1194073.9,
+    "walkability_path_m": 1610.4,
+    "scenic_transport_count": 61,
+    "reachable_named_museums": "2",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 159,
+  "seasonality": {
+    "volatility_label": "Strongly seasonal",
+    "peak_month": "feb",
+    "trough_month": "apr",
+    "peak_trough_ratio": 5.8,
+    "monthly_index": [
+      136,
+      168,
+      104,
+      29,
+      53,
+      103,
+      140,
+      139,
+      110,
+      77,
+      45,
+      96
+    ]
+  },
+  "tourism_intensity": 59.5,
+  "restaurant_count": 15,
+  "isos_name": "",
+  "reachable_slugs": [
+    "kandersteg",
+    "reichenbach-im-kandertal",
+    "spiez"
+  ]
+}

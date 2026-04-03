@@ -1,0 +1,82 @@
+{
+  "slug": "gruyeres",
+  "name": "Gruyères",
+  "canton": "FR",
+  "score_total": 40.4,
+  "scores": {
+    "total": 40.4,
+    "base": 40.16,
+    "access": 40.77,
+    "sub": {
+      "anti_overtourism": 94.36,
+      "walkability": 0.0,
+      "local_hiking": 10.02,
+      "water": 30.44,
+      "heritage": 50.0,
+      "climate": 50.0,
+      "scenic_transport": 29.47,
+      "destination_pull": 74.44,
+      "cultural_access": 25.0,
+      "access_hiking": 22.3
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 27078,
+    "domestic_share_overnights": 0.6619,
+    "summer_temp_avg": 17.0,
+    "local_hiking_m": 17303.3,
+    "regional_hiking_m": 541605.4,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 28,
+    "reachable_named_museums": "5",
+    "isos_name": "Gruyères",
+    "isos_kategorie": "petite ville/bourg"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 157,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "aug",
+    "trough_month": "jan",
+    "peak_trough_ratio": 2.4,
+    "monthly_index": [
+      62,
+      65,
+      68,
+      78,
+      103,
+      108,
+      134,
+      149,
+      116,
+      121,
+      75,
+      119
+    ]
+  },
+  "tourism_intensity": 12.1,
+  "restaurant_count": 12,
+  "isos_name": "Gruyères",
+  "reachable_slugs": [
+    "bulle",
+    "chateau-doex",
+    "fribourg"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "delemont",
+  "name": "Delémont",
+  "canton": "JU",
+  "score_total": 41.72,
+  "scores": {
+    "total": 41.72,
+    "base": 46.49,
+    "access": 34.57,
+    "sub": {
+      "anti_overtourism": 98.51,
+      "walkability": 15.63,
+      "local_hiking": 0.0,
+      "water": 24.92,
+      "heritage": 50.0,
+      "climate": 100.0,
+      "scenic_transport": 0.0,
+      "destination_pull": 89.84,
+      "cultural_access": 30.0,
+      "access_hiking": 0.78
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 39762,
+    "domestic_share_overnights": 0.8249,
+    "summer_temp_avg": 17.55,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 19008.9,
+    "walkability_path_m": 2410.5,
+    "scenic_transport_count": 0,
+    "reachable_named_museums": "6",
+    "isos_name": "Delémont",
+    "isos_kategorie": "ville"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 147,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "jun",
+    "trough_month": "jan",
+    "peak_trough_ratio": 2.65,
+    "monthly_index": [
+      58,
+      67,
+      86,
+      104,
+      121,
+      153,
+      119,
+      114,
+      96,
+      114,
+      99,
+      68
+    ]
+  },
+  "tourism_intensity": 3.2,
+  "restaurant_count": 29,
+  "isos_name": "Delémont",
+  "reachable_slugs": [
+    "basel",
+    "biel-bienne",
+    "clos-du-doubs",
+    "grenchen",
+    "liestal",
+    "moutier-be",
+    "neuchatel",
+    "porrentruy",
+    "rheinfelden",
+    "saignelegier",
+    "solothurn"
+  ]
+}

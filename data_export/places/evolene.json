@@ -1,0 +1,80 @@
+{
+  "slug": "evolene",
+  "name": "Evolène",
+  "canton": "VS",
+  "score_total": 46.04,
+  "scores": {
+    "total": 46.04,
+    "base": 42.2,
+    "access": 51.82,
+    "sub": {
+      "anti_overtourism": 89.05,
+      "walkability": 9.15,
+      "local_hiking": 7.32,
+      "water": 30.91,
+      "heritage": 70.0,
+      "climate": 50.0,
+      "scenic_transport": 70.53,
+      "destination_pull": 72.07,
+      "cultural_access": 20.0,
+      "access_hiking": 26.91
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 39284,
+    "domestic_share_overnights": 0.7273,
+    "summer_temp_avg": 14.22,
+    "local_hiking_m": 12648.7,
+    "regional_hiking_m": 653426.5,
+    "walkability_path_m": 1410.7,
+    "scenic_transport_count": 67,
+    "reachable_named_museums": "4",
+    "isos_name": "Evolène",
+    "isos_kategorie": "village"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 106,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "aug",
+    "trough_month": "nov",
+    "peak_trough_ratio": 23.33,
+    "monthly_index": [
+      106,
+      163,
+      136,
+      111,
+      15,
+      70,
+      158,
+      184,
+      93,
+      60,
+      8,
+      96
+    ]
+  },
+  "tourism_intensity": 23.5,
+  "restaurant_count": 7,
+  "isos_name": "Evolène",
+  "reachable_slugs": [
+    "sion"
+  ]
+}
