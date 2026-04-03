@@ -177,6 +177,44 @@ def main() -> None:
         json.dump(rows, f, ensure_ascii=False, indent=2)
 
     print(f"Wrote {OUTPUT_JSON} with {len(rows)} rows ({matched} ISOS matches)")
+    _spot_check(rows)
+
+
+# Spot-check: (slug, expect_match, expected_kategorie_contains)
+# expect_match=True → should have an isos_name; False → should be empty
+_SPOT_CHECK = [
+    ("bellinzona",   True,  "kleinstadt"),
+    ("murten",       True,  "kleinstadt"),
+    ("gruyeres",     True,  "dorf"),
+    ("schaffhausen", True,  "stadt"),
+    ("appenzell",    True,  "dorf"),
+    ("dubendorf",    False, ""),
+    ("koniz",        False, ""),
+    ("lancy",        False, ""),
+]
+
+
+def _spot_check(rows: List[Dict[str, Any]]) -> None:
+    by_slug = {r["slug"]: r for r in rows}
+    print("\nHERITAGE SPOT-CHECK:")
+    for slug, expect_match, kat_fragment in _SPOT_CHECK:
+        r = by_slug.get(slug)
+        if r is None:
+            print(f"  {slug:<14}: not in places list — skipped")
+            continue
+        isos_name = r.get("isos_name", "")
+        isos_kat  = r.get("isos_kategorie", "")
+        score     = r.get("heritage_score", 0.0)
+        has_match = bool(isos_name)
+        if expect_match:
+            ok = has_match and kat_fragment.lower() in isos_kat.lower()
+            isos_str = f"{isos_name} ({isos_kat})"
+        else:
+            ok = not has_match
+            isos_str = "—"
+        mark = "✓" if ok else "✗"
+        suffix = "  (expected)" if not expect_match else ""
+        print(f"  {slug:<14}: score={score:.1f}  isos={isos_str}{suffix}  {mark}")
 
 
 if __name__ == "__main__":

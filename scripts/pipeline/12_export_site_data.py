@@ -102,6 +102,55 @@ def load_exclude() -> set:
         return set(json.load(f))
 
 
+SPOT_CHECK_SLUGS = ["bellinzona", "zermatt", "chur"]
+
+
+def _print_completeness(
+    rows: List[Dict[str, Any]],
+    seasonality_data: Dict[str, Any],
+    intensity_data: Dict[str, float],
+) -> None:
+    SEP = "=" * 60
+    n = len(rows)
+    slugs = {r["slug"] for r in rows}
+
+    # Re-read written files for accurate coverage check
+    isos_count   = sum(1 for r in rows if r.get("isos_name"))
+    ti_count     = sum(1 for r in rows if r["slug"] in intensity_data)
+    rest_count   = sum(1 for r in rows if r.get("restaurant_count") not in (None, 0))
+    seas_count   = sum(1 for r in rows if r["slug"] in seasonality_data)
+
+    print(f"\n{SEP}")
+    print("EXPORT COMPLETENESS CHECK")
+    print(SEP)
+    print(f"Place files written: {n}")
+    print(f"\nField coverage (non-empty/non-null):")
+    for label, count in [
+        ("isos_name",         isos_count),
+        ("tourism_intensity",  ti_count),
+        ("restaurant_count",   rest_count),
+        ("seasonality",        seas_count),
+    ]:
+        pct = count / n * 100 if n else 0
+        print(f"  {label:<20}: {count:>4} / {n}  ({pct:.0f}%)")
+
+    print(f"\nSample spot-check:")
+    by_slug = {r["slug"]: r for r in rows}
+    for slug in SPOT_CHECK_SLUGS:
+        if slug not in slugs:
+            continue
+        r = by_slug[slug]
+        isos  = r.get("isos_name") or "—"
+        ti    = intensity_data.get(slug)
+        ti_s  = f"{ti:.1f}" if ti is not None else "—"
+        rest  = r.get("restaurant_count")
+        rest_s = str(rest) if rest not in (None, 0) else "—"
+        seas  = seasonality_data.get(slug, {}).get("volatility_label") or "—"
+        print(f"  {slug:<12}: isos={isos:<20} intensity={ti_s:<8} restaurants={rest_s:<6} seasonal={seas}")
+
+    print(f"{SEP}\n")
+
+
 def main() -> None:
     if not INPUT_JSON.exists():
         raise FileNotFoundError(f"Missing: {INPUT_JSON}")
@@ -189,6 +238,7 @@ def main() -> None:
     print(f"Wrote {INDEX_JSON}")
     print(f"Wrote {VERSION_JSON}")
     print(f"Wrote {len(rows)} place detail files to {PLACES_DIR}")
+    _print_completeness(rows, seasonality_data, intensity_data)
 
 
 if __name__ == "__main__":

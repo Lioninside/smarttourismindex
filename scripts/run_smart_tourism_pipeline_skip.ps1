@@ -34,10 +34,13 @@ foreach ($step in $steps) {
     }
 
     Write-Host "Running $script ..." -ForegroundColor Cyan
+    $t = Get-Date
     python $script
 
     if ($LASTEXITCODE -ne 0) {
-        Write-Host "Stopped at $script because of an error." -ForegroundColor Red
+        Write-Host "  Stopped at $script because of an error." -ForegroundColor Red
         break
     }
+    $elapsed = [math]::Round((Get-Date - $t).TotalSeconds)
+    Write-Host "  [done in ${elapsed}s]" -ForegroundColor Green
 }
