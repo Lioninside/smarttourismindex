@@ -2,80 +2,37 @@
   "slug": "rheinwald",
   "name": "Rheinwald",
   "canton": "GR",
-  "score_total": 44.01,
-  "scores": {
-    "total": 44.01,
-    "base": 35.26,
-    "access": 57.13,
-    "sub": {
-      "anti_overtourism": 84.46,
-      "walkability": 0.45,
-      "local_hiking": 32.99,
-      "water": 49.68,
-      "heritage": 0.0,
-      "climate": 0.0,
-      "scenic_transport": 51.1,
-      "destination_pull": 64.09,
-      "cultural_access": 47.06,
-      "access_hiking": 72.08
-    }
-  },
+  "score_total": 65.25,
   "subscores": {
-    "base_quality": 35.26,
-    "access_value": 57.13,
-    "anti_overtourism": 84.46
+    "base_quality": 50.0,
+    "access_value": 65.0,
+    "practical_comfort": 50,
+    "anti_overtourism": 100.0
   },
   "reachable_tags": [
     "Hiking",
     "Water",
-    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 17413,
     "domestic_share_overnights": 0.672,
     "summer_temp_avg": 12.66,
-    "local_hiking_m": 56978.9,
-    "regional_hiking_m": 1269053.5,
-    "walkability_path_m": 69.6,
-    "scenic_transport_count": 117,
-    "reachable_named_museums": "11",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Splügen, Dorf",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 512.08,
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 5
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 120,
-  "seasonality": {
-    "volatility_label": "Strongly seasonal",
-    "peak_month": "aug",
-    "trough_month": "nov",
-    "peak_trough_ratio": 6.66,
-    "monthly_index": [
-      96,
-      151,
-      91,
-      31,
-      59,
-      112,
-      163,
-      203,
-      123,
-      70,
-      30,
-      71
-    ]
-  },
-  "tourism_intensity": 33.7,
   "restaurant_count": 5,
   "isos_name": ""
 }

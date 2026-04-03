@@ -2,80 +2,37 @@
   "slug": "sachseln",
   "name": "Sachseln",
   "canton": "OW",
-  "score_total": 55.18,
-  "scores": {
-    "total": 55.18,
-    "base": 39.01,
-    "access": 79.44,
-    "sub": {
-      "anti_overtourism": 94.35,
-      "walkability": 8.0,
-      "local_hiking": 27.44,
-      "water": 22.24,
-      "heritage": 0.0,
-      "climate": 50.0,
-      "scenic_transport": 59.25,
-      "destination_pull": 86.54,
-      "cultural_access": 100.0,
-      "access_hiking": 71.35
-    }
-  },
+  "score_total": 66.25,
   "subscores": {
-    "base_quality": 39.01,
-    "access_value": 79.44,
-    "anti_overtourism": 94.35
+    "base_quality": 50.0,
+    "access_value": 65.0,
+    "practical_comfort": 65,
+    "anti_overtourism": 90
   },
   "reachable_tags": [
     "Hiking",
     "Water",
-    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 63762,
     "domestic_share_overnights": 0.6359,
     "summer_temp_avg": 18.09,
-    "local_hiking_m": 47399.2,
-    "regional_hiking_m": 1407901.1,
-    "walkability_path_m": 1234.3,
-    "scenic_transport_count": 134,
-    "reachable_named_museums": "20",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Sachseln, Steinen",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1000.86,
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 4
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 16,
-  "seasonality": {
-    "volatility_label": "Strongly seasonal",
-    "peak_month": "aug",
-    "trough_month": "feb",
-    "peak_trough_ratio": 5.55,
-    "monthly_index": [
-      49,
-      29,
-      90,
-      90,
-      120,
-      155,
-      160,
-      163,
-      131,
-      102,
-      74,
-      38
-    ]
-  },
-  "tourism_intensity": 12.5,
   "restaurant_count": 4,
   "isos_name": ""
 }

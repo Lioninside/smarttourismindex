@@ -3,7 +3,9 @@
     "slug": "bellinzona",
     "name": "Bellinzona",
     "canton": "TI",
+    "rank": null,
     "score_total": 80.75,
+    "scores": {},
     "subscores": {
       "base_quality": 100.0,
       "access_value": 65.0,
@@ -21,7 +23,9 @@
     "slug": "aarau",
     "name": "Aarau",
     "canton": "AG",
+    "rank": null,
     "score_total": 74.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -38,7 +42,9 @@
     "slug": "burgdorf",
     "name": "Burgdorf",
     "canton": "BE",
+    "rank": null,
     "score_total": 74.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -55,7 +61,9 @@
     "slug": "delemont",
     "name": "Delémont",
     "canton": "JU",
+    "rank": null,
     "score_total": 74.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -72,7 +80,9 @@
     "slug": "frauenfeld",
     "name": "Frauenfeld",
     "canton": "TG",
+    "rank": null,
     "score_total": 74.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -89,7 +99,9 @@
     "slug": "grenchen",
     "name": "Grenchen",
     "canton": "SO",
+    "rank": null,
     "score_total": 74.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -106,7 +118,9 @@
     "slug": "kreuzlingen",
     "name": "Kreuzlingen",
     "canton": "TG",
+    "rank": null,
     "score_total": 74.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -123,7 +137,9 @@
     "slug": "la-chaux-de-fonds",
     "name": "La Chaux-de-Fonds",
     "canton": "NE",
+    "rank": null,
     "score_total": 74.0,
+    "scores": {},
     "subscores": {
       "base_quality": 85.0,
       "access_value": 65.0,
@@ -140,7 +156,9 @@
     "slug": "langenthal",
     "name": "Langenthal",
     "canton": "BE",
+    "rank": null,
     "score_total": 74.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -157,7 +175,9 @@
     "slug": "liestal",
     "name": "Liestal",
     "canton": "BL",
+    "rank": null,
     "score_total": 74.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -174,7 +194,9 @@
     "slug": "murten",
     "name": "Murten",
     "canton": "FR",
+    "rank": null,
     "score_total": 74.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -191,7 +213,9 @@
     "slug": "porrentruy",
     "name": "Porrentruy",
     "canton": "JU",
+    "rank": null,
     "score_total": 74.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -208,7 +232,9 @@
     "slug": "poschiavo",
     "name": "Poschiavo",
     "canton": "GR",
+    "rank": null,
     "score_total": 74.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -225,7 +251,9 @@
     "slug": "sierre",
     "name": "Sierre",
     "canton": "VS",
+    "rank": null,
     "score_total": 74.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -242,7 +270,9 @@
     "slug": "solothurn",
     "name": "Solothurn",
     "canton": "SO",
+    "rank": null,
     "score_total": 74.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -259,7 +289,9 @@
     "slug": "sursee",
     "name": "Sursee",
     "canton": "LU",
+    "rank": null,
     "score_total": 74.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -276,7 +308,9 @@
     "slug": "vevey",
     "name": "Vevey",
     "canton": "VD",
+    "rank": null,
     "score_total": 74.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -293,7 +327,9 @@
     "slug": "evolene",
     "name": "Evolène",
     "canton": "VS",
+    "rank": null,
     "score_total": 73.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -310,7 +346,9 @@
     "slug": "arbon",
     "name": "Arbon",
     "canton": "TG",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -327,7 +365,9 @@
     "slug": "baden",
     "name": "Baden",
     "canton": "AG",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -344,7 +384,9 @@
     "slug": "biel-bienne",
     "name": "Biel/Bienne",
     "canton": "BE",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -361,7 +403,9 @@
     "slug": "bourg-en-lavaux",
     "name": "Bourg-en-Lavaux",
     "canton": "VD",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -378,7 +422,9 @@
     "slug": "chiasso",
     "name": "Chiasso",
     "canton": "TI",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -395,7 +441,9 @@
     "slug": "duebendorf",
     "name": "Dübendorf",
     "canton": "ZH",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -412,7 +460,9 @@
     "slug": "fribourg",
     "name": "Fribourg",
     "canton": "FR",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -429,7 +479,9 @@
     "slug": "glarus-nord",
     "name": "Glarus Nord",
     "canton": "GL",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -446,7 +498,9 @@
     "slug": "glarus-sued",
     "name": "Glarus Süd",
     "canton": "GL",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -463,7 +517,9 @@
     "slug": "gruyeres",
     "name": "Gruyères",
     "canton": "FR",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -480,7 +536,9 @@
     "slug": "herzogenbuchsee",
     "name": "Herzogenbuchsee",
     "canton": "BE",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -497,7 +555,9 @@
     "slug": "horgen",
     "name": "Horgen",
     "canton": "ZH",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -514,7 +574,9 @@
     "slug": "koeniz",
     "name": "Köniz",
     "canton": "BE",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -531,7 +593,9 @@
     "slug": "lancy",
     "name": "Lancy",
     "canton": "GE",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -548,7 +612,9 @@
     "slug": "lenzburg",
     "name": "Lenzburg",
     "canton": "AG",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -565,7 +631,9 @@
     "slug": "martigny",
     "name": "Martigny",
     "canton": "VS",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -582,7 +650,9 @@
     "slug": "meiringen",
     "name": "Meiringen",
     "canton": "BE",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -599,7 +669,9 @@
     "slug": "morges",
     "name": "Morges",
     "canton": "VD",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -616,7 +688,9 @@
     "slug": "moutier-be",
     "name": "Moutier (BE)",
     "canton": "BE",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -633,7 +707,9 @@
     "slug": "muralto",
     "name": "Muralto",
     "canton": "TI",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -650,7 +726,9 @@
     "slug": "nyon",
     "name": "Nyon",
     "canton": "VD",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -667,7 +745,9 @@
     "slug": "olten",
     "name": "Olten",
     "canton": "SO",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -684,7 +764,9 @@
     "slug": "rapperswil-jona",
     "name": "Rapperswil-Jona",
     "canton": "SG",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -701,7 +783,9 @@
     "slug": "rheinfelden",
     "name": "Rheinfelden",
     "canton": "AG",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -718,7 +802,9 @@
     "slug": "sion",
     "name": "Sion",
     "canton": "VS",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -735,7 +821,9 @@
     "slug": "spiez",
     "name": "Spiez",
     "canton": "BE",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -752,7 +840,9 @@
     "slug": "uster",
     "name": "Uster",
     "canton": "ZH",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -769,7 +859,9 @@
     "slug": "yverdon-les-bains",
     "name": "Yverdon-les-Bains",
     "canton": "VD",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -786,7 +878,9 @@
     "slug": "zug",
     "name": "Zug",
     "canton": "ZG",
+    "rank": null,
     "score_total": 72.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -803,7 +897,9 @@
     "slug": "bern",
     "name": "Bern",
     "canton": "BE",
+    "rank": null,
     "score_total": 70.75,
+    "scores": {},
     "subscores": {
       "base_quality": 100.0,
       "access_value": 65.0,
@@ -821,7 +917,9 @@
     "slug": "appenzell",
     "name": "Appenzell",
     "canton": "AI",
+    "rank": null,
     "score_total": 70.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 65.0,
@@ -838,7 +936,9 @@
     "slug": "beckenried",
     "name": "Beckenried",
     "canton": "NW",
+    "rank": null,
     "score_total": 70.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -855,7 +955,9 @@
     "slug": "heiden",
     "name": "Heiden",
     "canton": "AR",
+    "rank": null,
     "score_total": 70.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -872,7 +974,9 @@
     "slug": "langnau-im-emmental",
     "name": "Langnau im Emmental",
     "canton": "BE",
+    "rank": null,
     "score_total": 70.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -889,7 +993,9 @@
     "slug": "mendrisio",
     "name": "Mendrisio",
     "canton": "TI",
+    "rank": null,
     "score_total": 70.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -906,7 +1012,9 @@
     "slug": "rorschacherberg",
     "name": "Rorschacherberg",
     "canton": "SG",
+    "rank": null,
     "score_total": 70.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -923,7 +1031,9 @@
     "slug": "sarnen",
     "name": "Sarnen",
     "canton": "OW",
+    "rank": null,
     "score_total": 70.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -940,7 +1050,9 @@
     "slug": "vitznau",
     "name": "Vitznau",
     "canton": "LU",
+    "rank": null,
     "score_total": 70.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -957,7 +1069,9 @@
     "slug": "walenstadt",
     "name": "Walenstadt",
     "canton": "SG",
+    "rank": null,
     "score_total": 70.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -974,7 +1088,9 @@
     "slug": "andermatt",
     "name": "Andermatt",
     "canton": "UR",
+    "rank": null,
     "score_total": 69.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -991,7 +1107,9 @@
     "slug": "neuchatel",
     "name": "Neuchâtel",
     "canton": "NE",
+    "rank": null,
     "score_total": 69.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1008,7 +1126,9 @@
     "slug": "zuoz",
     "name": "Zuoz",
     "canton": "GR",
+    "rank": null,
     "score_total": 69.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1025,7 +1145,9 @@
     "slug": "le-chenit",
     "name": "Le Chenit",
     "canton": "VD",
+    "rank": null,
     "score_total": 68.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 65.0,
@@ -1042,7 +1164,9 @@
     "slug": "maienfeld",
     "name": "Maienfeld",
     "canton": "GR",
+    "rank": null,
     "score_total": 68.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 65.0,
@@ -1059,7 +1183,9 @@
     "slug": "wil",
     "name": "Wil",
     "canton": "SG",
+    "rank": null,
     "score_total": 68.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 65.0,
@@ -1076,7 +1202,9 @@
     "slug": "breil-brigels",
     "name": "Breil/Brigels",
     "canton": "GR",
+    "rank": null,
     "score_total": 67.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 65.0,
@@ -1093,7 +1221,9 @@
     "slug": "chur",
     "name": "Chur",
     "canton": "GR",
+    "rank": null,
     "score_total": 67.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1110,7 +1240,9 @@
     "slug": "thun",
     "name": "Thun",
     "canton": "BE",
+    "rank": null,
     "score_total": 67.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1127,7 +1259,9 @@
     "slug": "winterthur",
     "name": "Winterthur",
     "canton": "ZH",
+    "rank": null,
     "score_total": 67.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1144,7 +1278,9 @@
     "slug": "sachseln",
     "name": "Sachseln",
     "canton": "OW",
+    "rank": null,
     "score_total": 66.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 65.0,
@@ -1161,7 +1297,9 @@
     "slug": "crans-montana",
     "name": "Crans-Montana",
     "canton": "VS",
+    "rank": null,
     "score_total": 66.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1178,7 +1316,9 @@
     "slug": "anniviers",
     "name": "Anniviers",
     "canton": "VS",
+    "rank": null,
     "score_total": 65.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 65.0,
@@ -1195,7 +1335,9 @@
     "slug": "rheinwald",
     "name": "Rheinwald",
     "canton": "GR",
+    "rank": null,
     "score_total": 65.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 65.0,
@@ -1212,7 +1354,9 @@
     "slug": "klosters",
     "name": "Klosters",
     "canton": "GR",
+    "rank": null,
     "score_total": 64.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1229,7 +1373,9 @@
     "slug": "leukerbad",
     "name": "Leukerbad",
     "canton": "VS",
+    "rank": null,
     "score_total": 64.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1246,7 +1392,9 @@
     "slug": "guarda",
     "name": "Guarda",
     "canton": "GR",
+    "rank": null,
     "score_total": 63.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 65.0,
@@ -1263,7 +1411,9 @@
     "slug": "schaffhausen",
     "name": "Schaffhausen",
     "canton": "SH",
+    "rank": null,
     "score_total": 63.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1279,7 +1429,9 @@
     "slug": "spluegen",
     "name": "Splügen",
     "canton": "GR",
+    "rank": null,
     "score_total": 63.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 65.0,
@@ -1296,7 +1448,9 @@
     "slug": "uzwil",
     "name": "Uzwil",
     "canton": "SG",
+    "rank": null,
     "score_total": 63.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1312,7 +1466,9 @@
     "slug": "visp",
     "name": "Visp",
     "canton": "VS",
+    "rank": null,
     "score_total": 63.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1328,7 +1484,9 @@
     "slug": "laax",
     "name": "Laax",
     "canton": "GR",
+    "rank": null,
     "score_total": 63.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1345,7 +1503,9 @@
     "slug": "paradiso",
     "name": "Paradiso",
     "canton": "TI",
+    "rank": null,
     "score_total": 63.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1362,7 +1522,9 @@
     "slug": "wildhaus-alt-st-johann",
     "name": "Wildhaus-Alt St. Johann",
     "canton": "SG",
+    "rank": null,
     "score_total": 62.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 65.0,
@@ -1379,7 +1541,9 @@
     "slug": "adelboden",
     "name": "Adelboden",
     "canton": "BE",
+    "rank": null,
     "score_total": 62.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1396,7 +1560,9 @@
     "slug": "ascona",
     "name": "Ascona",
     "canton": "TI",
+    "rank": null,
     "score_total": 62.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1413,7 +1579,9 @@
     "slug": "basel",
     "name": "Basel",
     "canton": "BS",
+    "rank": null,
     "score_total": 62.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1430,7 +1598,9 @@
     "slug": "geneve",
     "name": "Genève",
     "canton": "GE",
+    "rank": null,
     "score_total": 62.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1447,7 +1617,9 @@
     "slug": "lausanne",
     "name": "Lausanne",
     "canton": "VD",
+    "rank": null,
     "score_total": 62.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1464,7 +1636,9 @@
     "slug": "leysin",
     "name": "Leysin",
     "canton": "VD",
+    "rank": null,
     "score_total": 62.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1481,7 +1655,9 @@
     "slug": "locarno",
     "name": "Locarno",
     "canton": "TI",
+    "rank": null,
     "score_total": 62.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1498,7 +1674,9 @@
     "slug": "meyrin",
     "name": "Meyrin",
     "canton": "GE",
+    "rank": null,
     "score_total": 62.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1515,7 +1693,9 @@
     "slug": "montreux",
     "name": "Montreux",
     "canton": "VD",
+    "rank": null,
     "score_total": 62.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1532,7 +1712,9 @@
     "slug": "st-gallen",
     "name": "St. Gallen",
     "canton": "SG",
+    "rank": null,
     "score_total": 62.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1549,7 +1731,9 @@
     "slug": "egerkingen",
     "name": "Egerkingen",
     "canton": "SO",
+    "rank": null,
     "score_total": 61.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1565,7 +1749,9 @@
     "slug": "emmen",
     "name": "Emmen",
     "canton": "LU",
+    "rank": null,
     "score_total": 61.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1581,7 +1767,9 @@
     "slug": "kuessnacht",
     "name": "Küssnacht",
     "canton": "SZ",
+    "rank": null,
     "score_total": 61.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1597,7 +1785,9 @@
     "slug": "pratteln",
     "name": "Pratteln",
     "canton": "BL",
+    "rank": null,
     "score_total": 61.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1613,7 +1803,9 @@
     "slug": "saint-maurice",
     "name": "Saint-Maurice",
     "canton": "VS",
+    "rank": null,
     "score_total": 61.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1629,7 +1821,9 @@
     "slug": "schwyz",
     "name": "Schwyz",
     "canton": "SZ",
+    "rank": null,
     "score_total": 61.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1645,7 +1839,9 @@
     "slug": "vaz-obervaz",
     "name": "Vaz/Obervaz",
     "canton": "GR",
+    "rank": null,
     "score_total": 61.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 65.0,
@@ -1662,7 +1858,9 @@
     "slug": "zofingen",
     "name": "Zofingen",
     "canton": "AG",
+    "rank": null,
     "score_total": 61.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1678,7 +1876,9 @@
     "slug": "samnaun",
     "name": "Samnaun",
     "canton": "GR",
+    "rank": null,
     "score_total": 60.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 65.0,
@@ -1695,7 +1895,9 @@
     "slug": "zernez",
     "name": "Zernez",
     "canton": "GR",
+    "rank": null,
     "score_total": 60.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1711,7 +1913,9 @@
     "slug": "kloten",
     "name": "Kloten",
     "canton": "ZH",
+    "rank": null,
     "score_total": 60.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1728,7 +1932,9 @@
     "slug": "lugano",
     "name": "Lugano",
     "canton": "TI",
+    "rank": null,
     "score_total": 60.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1745,7 +1951,9 @@
     "slug": "luzern",
     "name": "Luzern",
     "canton": "LU",
+    "rank": null,
     "score_total": 60.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1762,7 +1970,9 @@
     "slug": "zuerich",
     "name": "Zürich",
     "canton": "ZH",
+    "rank": null,
     "score_total": 60.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -1779,7 +1989,9 @@
     "slug": "latena",
     "name": "Laténa",
     "canton": "NE",
+    "rank": null,
     "score_total": 59.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -1795,7 +2007,9 @@
     "slug": "orsieres",
     "name": "Orsières",
     "canton": "VS",
+    "rank": null,
     "score_total": 59.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -1811,7 +2025,9 @@
     "slug": "altstaetten",
     "name": "Altstätten",
     "canton": "SG",
+    "rank": null,
     "score_total": 59.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1827,7 +2043,9 @@
     "slug": "bulle",
     "name": "Bulle",
     "canton": "FR",
+    "rank": null,
     "score_total": 59.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1843,7 +2061,9 @@
     "slug": "collina-doro",
     "name": "Collina d'Oro",
     "canton": "TI",
+    "rank": null,
     "score_total": 59.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1859,7 +2079,9 @@
     "slug": "einsiedeln",
     "name": "Einsiedeln",
     "canton": "SZ",
+    "rank": null,
     "score_total": 59.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1875,7 +2097,9 @@
     "slug": "feusisberg",
     "name": "Feusisberg",
     "canton": "SZ",
+    "rank": null,
     "score_total": 59.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1891,7 +2115,9 @@
     "slug": "ingenbohl",
     "name": "Ingenbohl",
     "canton": "SZ",
+    "rank": null,
     "score_total": 59.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1907,7 +2133,9 @@
     "slug": "kriens",
     "name": "Kriens",
     "canton": "LU",
+    "rank": null,
     "score_total": 59.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1923,7 +2151,9 @@
     "slug": "matten-bei-interlaken",
     "name": "Matten bei Interlaken",
     "canton": "BE",
+    "rank": null,
     "score_total": 59.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1939,7 +2169,9 @@
     "slug": "meggen",
     "name": "Meggen",
     "canton": "LU",
+    "rank": null,
     "score_total": 59.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1955,7 +2187,9 @@
     "slug": "teufen",
     "name": "Teufen",
     "canton": "AR",
+    "rank": null,
     "score_total": 59.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1971,7 +2205,9 @@
     "slug": "unteraegeri",
     "name": "Unterägeri",
     "canton": "ZG",
+    "rank": null,
     "score_total": 59.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -1987,7 +2223,9 @@
     "slug": "wilderswil",
     "name": "Wilderswil",
     "canton": "BE",
+    "rank": null,
     "score_total": 59.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -2003,7 +2241,9 @@
     "slug": "waedenswil",
     "name": "Wädenswil",
     "canton": "ZH",
+    "rank": null,
     "score_total": 59.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -2019,7 +2259,9 @@
     "slug": "st-moritz",
     "name": "St. Moritz",
     "canton": "GR",
+    "rank": null,
     "score_total": 59.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -2036,7 +2278,9 @@
     "slug": "zermatt",
     "name": "Zermatt",
     "canton": "VS",
+    "rank": null,
     "score_total": 59.0,
+    "scores": {},
     "subscores": {
       "base_quality": 65.0,
       "access_value": 65.0,
@@ -2053,7 +2297,9 @@
     "slug": "berguen",
     "name": "Bergün",
     "canton": "GR",
+    "rank": null,
     "score_total": 58.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -2069,7 +2315,9 @@
     "slug": "champery",
     "name": "Champéry",
     "canton": "VS",
+    "rank": null,
     "score_total": 58.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -2085,7 +2333,9 @@
     "slug": "kandersteg",
     "name": "Kandersteg",
     "canton": "BE",
+    "rank": null,
     "score_total": 58.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -2101,7 +2351,9 @@
     "slug": "lenk",
     "name": "Lenk",
     "canton": "BE",
+    "rank": null,
     "score_total": 58.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -2117,7 +2369,9 @@
     "slug": "samedan",
     "name": "Samedan",
     "canton": "GR",
+    "rank": null,
     "score_total": 58.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -2133,7 +2387,9 @@
     "slug": "vals",
     "name": "Vals",
     "canton": "GR",
+    "rank": null,
     "score_total": 58.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -2149,7 +2405,9 @@
     "slug": "amden",
     "name": "Amden",
     "canton": "SG",
+    "rank": null,
     "score_total": 57.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2165,7 +2423,9 @@
     "slug": "beatenberg",
     "name": "Beatenberg",
     "canton": "BE",
+    "rank": null,
     "score_total": 57.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2181,7 +2441,9 @@
     "slug": "blonay-saint-legier",
     "name": "Blonay - Saint-Légier",
     "canton": "VD",
+    "rank": null,
     "score_total": 57.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2197,7 +2459,9 @@
     "slug": "bregaglia",
     "name": "Bregaglia",
     "canton": "GR",
+    "rank": null,
     "score_total": 57.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2213,7 +2477,9 @@
     "slug": "brienz",
     "name": "Brienz",
     "canton": "BE",
+    "rank": null,
     "score_total": 57.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2229,7 +2495,9 @@
     "slug": "clos-du-doubs",
     "name": "Clos du Doubs",
     "canton": "JU",
+    "rank": null,
     "score_total": 57.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2245,7 +2513,9 @@
     "slug": "diemtigen",
     "name": "Diemtigen",
     "canton": "BE",
+    "rank": null,
     "score_total": 57.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2261,7 +2531,9 @@
     "slug": "emmetten",
     "name": "Emmetten",
     "canton": "NW",
+    "rank": null,
     "score_total": 57.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2277,7 +2549,9 @@
     "slug": "gais",
     "name": "Gais",
     "canton": "AR",
+    "rank": null,
     "score_total": 57.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2293,7 +2567,9 @@
     "slug": "hasliberg",
     "name": "Hasliberg",
     "canton": "BE",
+    "rank": null,
     "score_total": 57.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2309,7 +2585,9 @@
     "slug": "innertkirchen",
     "name": "Innertkirchen",
     "canton": "BE",
+    "rank": null,
     "score_total": 57.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2325,7 +2603,9 @@
     "slug": "lumnezia",
     "name": "Lumnezia",
     "canton": "GR",
+    "rank": null,
     "score_total": 57.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2341,7 +2621,9 @@
     "slug": "ollon",
     "name": "Ollon",
     "canton": "VD",
+    "rank": null,
     "score_total": 57.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2357,7 +2639,9 @@
     "slug": "plaffeien",
     "name": "Plaffeien",
     "canton": "FR",
+    "rank": null,
     "score_total": 57.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2373,7 +2657,9 @@
     "slug": "reichenbach-im-kandertal",
     "name": "Reichenbach im Kandertal",
     "canton": "BE",
+    "rank": null,
     "score_total": 57.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2389,7 +2675,9 @@
     "slug": "saignelegier",
     "name": "Saignelégier",
     "canton": "JU",
+    "rank": null,
     "score_total": 57.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2405,7 +2693,9 @@
     "slug": "nendaz",
     "name": "Nendaz",
     "canton": "VS",
+    "rank": null,
     "score_total": 57.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -2421,7 +2711,9 @@
     "slug": "buchs",
     "name": "Buchs",
     "canton": "BE",
+    "rank": null,
     "score_total": 56.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2437,7 +2729,9 @@
     "slug": "surses",
     "name": "Surses",
     "canton": "GR",
+    "rank": null,
     "score_total": 56.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2453,7 +2747,9 @@
     "slug": "val-muestair",
     "name": "Val Müstair",
     "canton": "GR",
+    "rank": null,
     "score_total": 56.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2469,7 +2765,9 @@
     "slug": "bad-ragaz",
     "name": "Bad Ragaz",
     "canton": "SG",
+    "rank": null,
     "score_total": 56.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -2485,7 +2783,9 @@
     "slug": "flims",
     "name": "Flims",
     "canton": "GR",
+    "rank": null,
     "score_total": 56.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -2501,7 +2801,9 @@
     "slug": "lauterbrunnen",
     "name": "Lauterbrunnen",
     "canton": "BE",
+    "rank": null,
     "score_total": 56.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 65.0,
@@ -2518,7 +2820,9 @@
     "slug": "unterseen",
     "name": "Unterseen",
     "canton": "BE",
+    "rank": null,
     "score_total": 56.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -2534,7 +2838,9 @@
     "slug": "weggis",
     "name": "Weggis",
     "canton": "LU",
+    "rank": null,
     "score_total": 56.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -2550,7 +2856,9 @@
     "slug": "aeschi-bei-spiez",
     "name": "Aeschi bei Spiez",
     "canton": "BE",
+    "rank": null,
     "score_total": 55.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2566,7 +2874,9 @@
     "slug": "eschenbach",
     "name": "Eschenbach",
     "canton": "SG",
+    "rank": null,
     "score_total": 55.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2582,7 +2892,9 @@
     "slug": "flums",
     "name": "Flums",
     "canton": "SG",
+    "rank": null,
     "score_total": 55.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2598,7 +2910,9 @@
     "slug": "freienbach",
     "name": "Freienbach",
     "canton": "SZ",
+    "rank": null,
     "score_total": 55.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2611,26 +2925,12 @@
     ]
   },
   {
-    "slug": "monteceneri",
-    "name": "Monteceneri",
-    "canton": "TI",
-    "score_total": 55.5,
-    "subscores": {
-      "base_quality": 35.0,
-      "access_value": 45.0,
-      "practical_comfort": 55,
-      "anti_overtourism": 100.0
-    },
-    "reachable_tags": [
-      "Hiking",
-      "Water"
-    ]
-  },
-  {
     "slug": "quarten",
     "name": "Quarten",
     "canton": "SG",
+    "rank": null,
     "score_total": 55.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2646,7 +2946,9 @@
     "slug": "schangnau",
     "name": "Schangnau",
     "canton": "BE",
+    "rank": null,
     "score_total": 55.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2662,7 +2964,9 @@
     "slug": "sempach",
     "name": "Sempach",
     "canton": "LU",
+    "rank": null,
     "score_total": 55.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2678,7 +2982,9 @@
     "slug": "sigriswil",
     "name": "Sigriswil",
     "canton": "BE",
+    "rank": null,
     "score_total": 55.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2694,7 +3000,9 @@
     "slug": "soglio",
     "name": "Soglio",
     "canton": "GR",
+    "rank": null,
     "score_total": 55.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2710,7 +3018,9 @@
     "slug": "saanen",
     "name": "Saanen",
     "canton": "BE",
+    "rank": null,
     "score_total": 55.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 65.0,
@@ -2727,7 +3037,9 @@
     "slug": "celerina-schlarigna",
     "name": "Celerina/Schlarigna",
     "canton": "GR",
+    "rank": null,
     "score_total": 54.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2743,7 +3055,9 @@
     "slug": "ilanz-glion",
     "name": "Ilanz/Glion",
     "canton": "GR",
+    "rank": null,
     "score_total": 54.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2759,7 +3073,9 @@
     "slug": "la-grande-beroche",
     "name": "La Grande Béroche",
     "canton": "NE",
+    "rank": null,
     "score_total": 54.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2775,7 +3091,9 @@
     "slug": "neckertal",
     "name": "Neckertal",
     "canton": "SG",
+    "rank": null,
     "score_total": 54.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2791,7 +3109,9 @@
     "slug": "saas-grund",
     "name": "Saas-Grund",
     "canton": "VS",
+    "rank": null,
     "score_total": 54.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2807,7 +3127,9 @@
     "slug": "tujetsch",
     "name": "Tujetsch",
     "canton": "GR",
+    "rank": null,
     "score_total": 54.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2823,7 +3145,9 @@
     "slug": "viano",
     "name": "Viano",
     "canton": "GR",
+    "rank": null,
     "score_total": 54.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2839,7 +3163,9 @@
     "slug": "goms",
     "name": "Goms",
     "canton": "VS",
+    "rank": null,
     "score_total": 53.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2855,7 +3181,9 @@
     "slug": "saas-fee",
     "name": "Saas-Fee",
     "canton": "VS",
+    "rank": null,
     "score_total": 53.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -2871,7 +3199,9 @@
     "slug": "scuol",
     "name": "Scuol",
     "canton": "GR",
+    "rank": null,
     "score_total": 53.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -2887,7 +3217,9 @@
     "slug": "brig-glis",
     "name": "Brig-Glis",
     "canton": "VS",
+    "rank": null,
     "score_total": 52.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2903,7 +3235,9 @@
     "slug": "chateau-doex",
     "name": "Château-d'Oex",
     "canton": "VD",
+    "rank": null,
     "score_total": 52.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2919,7 +3253,9 @@
     "slug": "gonten",
     "name": "Gonten",
     "canton": "AI",
+    "rank": null,
     "score_total": 52.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2935,7 +3271,9 @@
     "slug": "gurtnellen",
     "name": "Gurtnellen",
     "canton": "UR",
+    "rank": null,
     "score_total": 52.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2951,7 +3289,9 @@
     "slug": "haut-intyamon",
     "name": "Haut-Intyamon",
     "canton": "FR",
+    "rank": null,
     "score_total": 52.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2967,7 +3307,9 @@
     "slug": "hundwil",
     "name": "Hundwil",
     "canton": "AR",
+    "rank": null,
     "score_total": 52.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -2983,7 +3325,9 @@
     "slug": "morschach",
     "name": "Morschach",
     "canton": "SZ",
+    "rank": null,
     "score_total": 52.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -2999,7 +3343,9 @@
     "slug": "opfikon",
     "name": "Opfikon",
     "canton": "ZH",
+    "rank": null,
     "score_total": 51.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -3015,7 +3361,9 @@
     "slug": "vernier",
     "name": "Vernier",
     "canton": "GE",
+    "rank": null,
     "score_total": 51.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -3031,7 +3379,9 @@
     "slug": "pontresina",
     "name": "Pontresina",
     "canton": "GR",
+    "rank": null,
     "score_total": 50.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -3047,7 +3397,9 @@
     "slug": "bullet",
     "name": "Bullet",
     "canton": "VD",
+    "rank": null,
     "score_total": 49.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -3063,7 +3415,9 @@
     "slug": "ormont-dessus",
     "name": "Ormont-Dessus",
     "canton": "VD",
+    "rank": null,
     "score_total": 49.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -3079,7 +3433,9 @@
     "slug": "tschiertschen",
     "name": "Tschiertschen",
     "canton": "GR",
+    "rank": null,
     "score_total": 49.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -3095,7 +3451,9 @@
     "slug": "interlaken",
     "name": "Interlaken",
     "canton": "BE",
+    "rank": null,
     "score_total": 49.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -3111,7 +3469,9 @@
     "slug": "val-de-bagnes",
     "name": "Val de Bagnes",
     "canton": "VS",
+    "rank": null,
     "score_total": 48.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,
@@ -3127,7 +3487,9 @@
     "slug": "arosa",
     "name": "Arosa",
     "canton": "GR",
+    "rank": null,
     "score_total": 48.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -3143,7 +3505,9 @@
     "slug": "engelberg",
     "name": "Engelberg",
     "canton": "OW",
+    "rank": null,
     "score_total": 48.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -3159,7 +3523,9 @@
     "slug": "grindelwald",
     "name": "Grindelwald",
     "canton": "BE",
+    "rank": null,
     "score_total": 46.25,
+    "scores": {},
     "subscores": {
       "base_quality": 50.0,
       "access_value": 45.0,
@@ -3175,7 +3541,9 @@
     "slug": "davos",
     "name": "Davos",
     "canton": "GR",
+    "rank": null,
     "score_total": 42.5,
+    "scores": {},
     "subscores": {
       "base_quality": 35.0,
       "access_value": 45.0,

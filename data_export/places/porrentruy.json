@@ -2,79 +2,37 @@
   "slug": "porrentruy",
   "name": "Porrentruy",
   "canton": "JU",
-  "score_total": 33.13,
-  "scores": {
-    "total": 33.13,
-    "base": 39.14,
-    "access": 24.11,
-    "sub": {
-      "anti_overtourism": 99.11,
-      "walkability": 13.88,
-      "local_hiking": 0.0,
-      "water": 10.57,
-      "heritage": 0.0,
-      "climate": 100.0,
-      "scenic_transport": 1.76,
-      "destination_pull": 0.0,
-      "cultural_access": 94.12,
-      "access_hiking": 0.32
-    }
-  },
+  "score_total": 74.0,
   "subscores": {
-    "base_quality": 39.14,
-    "access_value": 24.11,
-    "anti_overtourism": 99.11
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 100.0
   },
   "reachable_tags": [
+    "Hiking",
     "Water",
-    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 15475,
     "domestic_share_overnights": 0.908,
     "summer_temp_avg": 18.17,
-    "local_hiking_m": 0.0,
-    "regional_hiking_m": 0.0,
-    "walkability_path_m": 2140.0,
-    "scenic_transport_count": 4,
-    "reachable_named_museums": "19",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Porrentruy, ville",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 519.36,
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 15
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 187,
-  "seasonality": {
-    "volatility_label": "Mildly seasonal",
-    "peak_month": "jul",
-    "trough_month": "feb",
-    "peak_trough_ratio": 3.08,
-    "monthly_index": [
-      68,
-      44,
-      59,
-      92,
-      118,
-      134,
-      136,
-      132,
-      109,
-      135,
-      108,
-      65
-    ]
-  },
-  "tourism_intensity": 2.3,
   "restaurant_count": 15,
   "isos_name": ""
 }

@@ -2,80 +2,36 @@
   "slug": "collina-doro",
   "name": "Collina d'Oro",
   "canton": "TI",
-  "score_total": 44.81,
-  "scores": {
-    "total": 44.81,
-    "base": 43.65,
-    "access": 46.54,
-    "sub": {
-      "anti_overtourism": 99.16,
-      "walkability": 0.0,
-      "local_hiking": 44.24,
-      "water": 33.44,
-      "heritage": 0.0,
-      "climate": 50.0,
-      "scenic_transport": 2.64,
-      "destination_pull": 55.14,
-      "cultural_access": 100.0,
-      "access_hiking": 28.07
-    }
-  },
+  "score_total": 59.25,
   "subscores": {
-    "base_quality": 43.65,
-    "access_value": 46.54,
-    "anti_overtourism": 99.16
+    "base_quality": 50.0,
+    "access_value": 45.0,
+    "practical_comfort": 55,
+    "anti_overtourism": 100.0
   },
   "reachable_tags": [
     "Hiking",
-    "Water",
-    "Scenic transport",
-    "Museums"
+    "Water"
   ],
   "metrics": {
     "overnight_stays": 13969,
     "domestic_share_overnights": 0.3404,
     "summer_temp_avg": 20.77,
-    "local_hiking_m": 76410.7,
-    "regional_hiking_m": 986695.2,
-    "walkability_path_m": 0.0,
-    "scenic_transport_count": 7,
-    "reachable_named_museums": "20",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Carabietta, Paese",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 830.21,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 8
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 110,
-  "seasonality": {
-    "volatility_label": "Highly seasonal",
-    "peak_month": "jul",
-    "trough_month": "feb",
-    "peak_trough_ratio": 14.5,
-    "monthly_index": [
-      48,
-      18,
-      42,
-      81,
-      112,
-      118,
-      254,
-      219,
-      104,
-      93,
-      53,
-      57
-    ]
-  },
-  "tourism_intensity": 2.2,
   "restaurant_count": 8,
   "isos_name": ""
 }

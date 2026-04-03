@@ -32,5 +32,7 @@
     "water": true,
     "heritage": true,
     "osm": true
-  }
+  },
+  "restaurant_count": 5,
+  "isos_name": ""
 }

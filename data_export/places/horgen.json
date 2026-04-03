@@ -2,79 +2,37 @@
   "slug": "horgen",
   "name": "Horgen",
   "canton": "ZH",
-  "score_total": 51.31,
-  "scores": {
-    "total": 51.31,
-    "base": 39.54,
-    "access": 68.95,
-    "sub": {
-      "anti_overtourism": 99.63,
-      "walkability": 13.04,
-      "local_hiking": 0.0,
-      "water": 46.85,
-      "heritage": 0.0,
-      "climate": 50.0,
-      "scenic_transport": 30.4,
-      "destination_pull": 99.56,
-      "cultural_access": 100.0,
-      "access_hiking": 33.1
-    }
-  },
+  "score_total": 72.0,
   "subscores": {
-    "base_quality": 39.54,
-    "access_value": 68.95,
-    "anti_overtourism": 99.63
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 65,
+    "anti_overtourism": 100.0
   },
   "reachable_tags": [
+    "Hiking",
     "Water",
-    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 40931,
     "domestic_share_overnights": 0.5632,
     "summer_temp_avg": 18.43,
-    "local_hiking_m": 0.0,
-    "regional_hiking_m": 35669.4,
-    "walkability_path_m": 2010.5,
-    "scenic_transport_count": 68,
-    "reachable_named_museums": "20",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Horgen, Wannenthal",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 912.41,
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 22
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 50,
-  "seasonality": {
-    "volatility_label": "Mildly seasonal",
-    "peak_month": "sep",
-    "trough_month": "jan",
-    "peak_trough_ratio": 4.56,
-    "monthly_index": [
-      35,
-      39,
-      43,
-      54,
-      94,
-      157,
-      155,
-      153,
-      162,
-      102,
-      104,
-      103
-    ]
-  },
-  "tourism_intensity": 1.2,
   "restaurant_count": 22,
   "isos_name": ""
 }

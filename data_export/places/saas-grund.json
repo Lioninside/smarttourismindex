@@ -2,80 +2,36 @@
   "slug": "saas-grund",
   "name": "Saas-Grund",
   "canton": "VS",
-  "score_total": 39.76,
-  "scores": {
-    "total": 39.76,
-    "base": 40.62,
-    "access": 38.47,
-    "sub": {
-      "anti_overtourism": 75.78,
-      "walkability": 13.38,
-      "local_hiking": 52.03,
-      "water": 23.97,
-      "heritage": 0.0,
-      "climate": 50.0,
-      "scenic_transport": 34.36,
-      "destination_pull": 65.91,
-      "cultural_access": 23.53,
-      "access_hiking": 16.69
-    }
-  },
+  "score_total": 54.5,
   "subscores": {
-    "base_quality": 40.62,
-    "access_value": 38.47,
-    "anti_overtourism": 75.78
+    "base_quality": 35.0,
+    "access_value": 45.0,
+    "practical_comfort": 60,
+    "anti_overtourism": 90
   },
   "reachable_tags": [
     "Hiking",
-    "Water",
-    "Scenic transport",
-    "Museums"
+    "Water"
   ],
   "metrics": {
     "overnight_stays": 52690,
     "domestic_share_overnights": 0.6327,
     "summer_temp_avg": 12.94,
-    "local_hiking_m": 89866.9,
-    "regional_hiking_m": 814947.3,
-    "walkability_path_m": 2063.8,
-    "scenic_transport_count": 79,
-    "reachable_named_museums": "7",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Saas-Grund, Schulhaus",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 610.92,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 5
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 167,
-  "seasonality": {
-    "volatility_label": "Highly seasonal",
-    "peak_month": "feb",
-    "trough_month": "may",
-    "peak_trough_ratio": 9.76,
-    "monthly_index": [
-      166,
-      220,
-      184,
-      55,
-      22,
-      66,
-      115,
-      116,
-      77,
-      66,
-      34,
-      79
-    ]
-  },
-  "tourism_intensity": 52.3,
   "restaurant_count": 5,
   "isos_name": ""
 }

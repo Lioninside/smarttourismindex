@@ -2,80 +2,37 @@
   "slug": "mendrisio",
   "name": "Mendrisio",
   "canton": "TI",
-  "score_total": 44.54,
-  "scores": {
-    "total": 44.54,
-    "base": 43.18,
-    "access": 46.57,
-    "sub": {
-      "anti_overtourism": 98.65,
-      "walkability": 14.9,
-      "local_hiking": 30.23,
-      "water": 29.97,
-      "heritage": 0.0,
-      "climate": 50.0,
-      "scenic_transport": 2.64,
-      "destination_pull": 54.5,
-      "cultural_access": 100.0,
-      "access_hiking": 29.55
-    }
-  },
+  "score_total": 70.0,
   "subscores": {
-    "base_quality": 43.18,
-    "access_value": 46.57,
-    "anti_overtourism": 98.65
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 65,
+    "anti_overtourism": 90
   },
   "reachable_tags": [
     "Hiking",
     "Water",
-    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 50652,
     "domestic_share_overnights": 0.3266,
     "summer_temp_avg": 20.3,
-    "local_hiking_m": 52220.0,
-    "regional_hiking_m": 402716.8,
-    "walkability_path_m": 2298.0,
-    "scenic_transport_count": 7,
-    "reachable_named_museums": "20",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Mendrisio, Autosilo",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 519.9,
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 20
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 116,
-  "seasonality": {
-    "volatility_label": "Mildly seasonal",
-    "peak_month": "jul",
-    "trough_month": "jan",
-    "peak_trough_ratio": 3.03,
-    "monthly_index": [
-      44,
-      65,
-      83,
-      103,
-      131,
-      127,
-      133,
-      121,
-      122,
-      123,
-      80,
-      68
-    ]
-  },
-  "tourism_intensity": 3.3,
   "restaurant_count": 20,
   "isos_name": ""
 }

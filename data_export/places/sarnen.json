@@ -2,80 +2,37 @@
   "slug": "sarnen",
   "name": "Sarnen",
   "canton": "OW",
-  "score_total": 55.1,
-  "scores": {
-    "total": 55.1,
-    "base": 40.35,
-    "access": 77.21,
-    "sub": {
-      "anti_overtourism": 97.81,
-      "walkability": 16.97,
-      "local_hiking": 8.2,
-      "water": 39.12,
-      "heritage": 0.0,
-      "climate": 50.0,
-      "scenic_transport": 54.85,
-      "destination_pull": 85.82,
-      "cultural_access": 100.0,
-      "access_hiking": 66.72
-    }
-  },
+  "score_total": 70.0,
   "subscores": {
-    "base_quality": 40.35,
-    "access_value": 77.21,
-    "anti_overtourism": 97.81
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 65,
+    "anti_overtourism": 90
   },
   "reachable_tags": [
     "Hiking",
     "Water",
-    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 63024,
     "domestic_share_overnights": 0.6465,
     "summer_temp_avg": 18.18,
-    "local_hiking_m": 14165.6,
-    "regional_hiking_m": 1308094.1,
-    "walkability_path_m": 2617.2,
-    "scenic_transport_count": 124,
-    "reachable_named_museums": "20",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Sarnen",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1082.77,
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 17
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 17,
-  "seasonality": {
-    "volatility_label": "Year-round",
-    "peak_month": "aug",
-    "trough_month": "dec",
-    "peak_trough_ratio": 2.29,
-    "monthly_index": [
-      79,
-      66,
-      87,
-      88,
-      104,
-      127,
-      142,
-      147,
-      127,
-      95,
-      74,
-      64
-    ]
-  },
-  "tourism_intensity": 5.1,
   "restaurant_count": 17,
   "isos_name": ""
 }

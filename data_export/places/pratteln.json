@@ -2,79 +2,36 @@
   "slug": "pratteln",
   "name": "Pratteln",
   "canton": "BL",
-  "score_total": 41.11,
-  "scores": {
-    "total": 41.11,
-    "base": 39.51,
-    "access": 43.51,
-    "sub": {
-      "anti_overtourism": 97.67,
-      "walkability": 15.75,
-      "local_hiking": 0.0,
-      "water": 12.93,
-      "heritage": 0.0,
-      "climate": 100.0,
-      "scenic_transport": 2.42,
-      "destination_pull": 59.1,
-      "cultural_access": 100.0,
-      "access_hiking": 0.39
-    }
-  },
+  "score_total": 61.25,
   "subscores": {
-    "base_quality": 39.51,
-    "access_value": 43.51,
-    "anti_overtourism": 97.67
+    "base_quality": 50.0,
+    "access_value": 45.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 90
   },
   "reachable_tags": [
-    "Water",
-    "Scenic transport",
-    "Museums"
+    "Hiking",
+    "Water"
   ],
   "metrics": {
     "overnight_stays": 87371,
     "domestic_share_overnights": 0.4956,
     "summer_temp_avg": 19.49,
-    "local_hiking_m": 0.0,
-    "regional_hiking_m": 10761.7,
-    "walkability_path_m": 2428.5,
-    "scenic_transport_count": 4,
-    "reachable_named_museums": "20",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Pratteln, Schlossstrasse",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 643.06,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 15
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 157,
-  "seasonality": {
-    "volatility_label": "Year-round",
-    "peak_month": "jul",
-    "trough_month": "feb",
-    "peak_trough_ratio": 2.22,
-    "monthly_index": [
-      75,
-      66,
-      86,
-      76,
-      99,
-      107,
-      146,
-      129,
-      97,
-      112,
-      97,
-      111
-    ]
-  },
-  "tourism_intensity": 5.4,
   "restaurant_count": 15,
   "isos_name": ""
 }

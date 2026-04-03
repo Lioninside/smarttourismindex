@@ -2,80 +2,36 @@
   "slug": "emmetten",
   "name": "Emmetten",
   "canton": "NW",
-  "score_total": 55.3,
-  "scores": {
-    "total": 55.3,
-    "base": 42.64,
-    "access": 74.29,
-    "sub": {
-      "anti_overtourism": 88.89,
-      "walkability": 7.73,
-      "local_hiking": 32.23,
-      "water": 49.53,
-      "heritage": 0.0,
-      "climate": 50.0,
-      "scenic_transport": 59.47,
-      "destination_pull": 75.28,
-      "cultural_access": 100.0,
-      "access_hiking": 59.12
-    }
-  },
+  "score_total": 57.5,
   "subscores": {
-    "base_quality": 42.64,
-    "access_value": 74.29,
-    "anti_overtourism": 88.89
+    "base_quality": 35.0,
+    "access_value": 45.0,
+    "practical_comfort": 65,
+    "anti_overtourism": 100.0
   },
   "reachable_tags": [
     "Hiking",
-    "Water",
-    "Scenic transport",
-    "Museums"
+    "Water"
   ],
   "metrics": {
     "overnight_stays": 46089,
     "domestic_share_overnights": 0.5536,
     "summer_temp_avg": 15.11,
-    "local_hiking_m": 55664.9,
-    "regional_hiking_m": 1328606.7,
-    "walkability_path_m": 1191.4,
-    "scenic_transport_count": 134,
-    "reachable_named_museums": "20",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Emmetten (Talstation)",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1124.13,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 5
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 15,
-  "seasonality": {
-    "volatility_label": "Mildly seasonal",
-    "peak_month": "aug",
-    "trough_month": "jan",
-    "peak_trough_ratio": 4.17,
-    "monthly_index": [
-      42,
-      62,
-      86,
-      58,
-      116,
-      156,
-      167,
-      176,
-      138,
-      84,
-      45,
-      70
-    ]
-  },
-  "tourism_intensity": 24.2,
   "restaurant_count": 5,
   "isos_name": ""
 }

@@ -2,79 +2,37 @@
   "slug": "burgdorf",
   "name": "Burgdorf",
   "canton": "BE",
-  "score_total": 42.7,
-  "scores": {
-    "total": 42.7,
-    "base": 40.47,
-    "access": 46.03,
-    "sub": {
-      "anti_overtourism": 99.3,
-      "walkability": 6.82,
-      "local_hiking": 0.0,
-      "water": 28.55,
-      "heritage": 0.0,
-      "climate": 100.0,
-      "scenic_transport": 9.03,
-      "destination_pull": 57.89,
-      "cultural_access": 100.0,
-      "access_hiking": 6.38
-    }
-  },
+  "score_total": 74.0,
   "subscores": {
-    "base_quality": 40.47,
-    "access_value": 46.03,
-    "anti_overtourism": 99.3
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 100.0
   },
   "reachable_tags": [
+    "Hiking",
     "Water",
-    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 34882,
     "domestic_share_overnights": 0.7738,
     "summer_temp_avg": 17.67,
-    "local_hiking_m": 0.0,
-    "regional_hiking_m": 0.0,
-    "walkability_path_m": 1052.5,
-    "scenic_transport_count": 19,
-    "reachable_named_museums": "20",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Burgdorf, Katholische Kirche",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 791.41,
+    "museum_count_2km": 5,
+    "restaurant_count_2km": 30
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 140,
-  "seasonality": {
-    "volatility_label": "Mildly seasonal",
-    "peak_month": "jul",
-    "trough_month": "feb",
-    "peak_trough_ratio": 4.49,
-    "monthly_index": [
-      45,
-      34,
-      72,
-      113,
-      123,
-      136,
-      150,
-      136,
-      122,
-      122,
-      86,
-      60
-    ]
-  },
-  "tourism_intensity": 1.9,
   "restaurant_count": 30,
   "isos_name": ""
 }

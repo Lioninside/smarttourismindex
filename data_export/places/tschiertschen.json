@@ -2,59 +2,36 @@
   "slug": "tschiertschen",
   "name": "Tschiertschen",
   "canton": "GR",
-  "score_total": 54.65,
-  "scores": {
-    "total": 54.65,
-    "base": 42.21,
-    "access": 73.31,
-    "sub": {
-      "anti_overtourism": 96.15,
-      "walkability": 0.0,
-      "local_hiking": 69.81,
-      "water": 28.08,
-      "heritage": 0.0,
-      "climate": 0.0,
-      "scenic_transport": 69.6,
-      "destination_pull": 70.07,
-      "cultural_access": 70.59,
-      "access_hiking": 91.76
-    }
-  },
+  "score_total": 49.5,
   "subscores": {
-    "base_quality": 42.21,
-    "access_value": 73.31,
-    "anti_overtourism": 96.15
+    "base_quality": 35.0,
+    "access_value": 45.0,
+    "practical_comfort": 25,
+    "anti_overtourism": 100.0
   },
   "reachable_tags": [
     "Hiking",
-    "Water",
-    "Scenic transport",
-    "Museums"
+    "Water"
   ],
   "metrics": {
     "overnight_stays": null,
     "domestic_share_overnights": null,
     "summer_temp_avg": 14.43,
-    "local_hiking_m": 120581.4,
-    "regional_hiking_m": 2473251.4,
-    "walkability_path_m": 0.0,
-    "scenic_transport_count": 159,
-    "reachable_named_museums": "15",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Tschiertschen, Dorf",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1163.39,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 4
   },
   "data_status": {
     "bfs": false,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 18,
   "restaurant_count": 4,
   "isos_name": ""
 }

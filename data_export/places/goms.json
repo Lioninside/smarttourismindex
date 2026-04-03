@@ -2,80 +2,36 @@
   "slug": "goms",
   "name": "Goms",
   "canton": "VS",
-  "score_total": 42.71,
-  "scores": {
-    "total": 42.71,
-    "base": 38.98,
-    "access": 48.3,
-    "sub": {
-      "anti_overtourism": 78.81,
-      "walkability": 8.95,
-      "local_hiking": 50.47,
-      "water": 15.93,
-      "heritage": 0.0,
-      "climate": 50.0,
-      "scenic_transport": 45.37,
-      "destination_pull": 74.63,
-      "cultural_access": 23.53,
-      "access_hiking": 42.79
-    }
-  },
+  "score_total": 53.5,
   "subscores": {
-    "base_quality": 38.98,
-    "access_value": 48.3,
-    "anti_overtourism": 78.81
+    "base_quality": 35.0,
+    "access_value": 45.0,
+    "practical_comfort": 55,
+    "anti_overtourism": 90
   },
   "reachable_tags": [
     "Hiking",
-    "Water",
-    "Scenic transport",
-    "Museums"
+    "Water"
   ],
   "metrics": {
     "overnight_stays": 52438,
     "domestic_share_overnights": 0.851,
     "summer_temp_avg": 13.62,
-    "local_hiking_m": 87176.0,
-    "regional_hiking_m": 824822.7,
-    "walkability_path_m": 1381.0,
-    "scenic_transport_count": 104,
-    "reachable_named_museums": "7",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Münster VS",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 675.02,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 2
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 139,
-  "seasonality": {
-    "volatility_label": "Highly seasonal",
-    "peak_month": "feb",
-    "trough_month": "apr",
-    "peak_trough_ratio": 19.25,
-    "monthly_index": [
-      170,
-      198,
-      99,
-      10,
-      26,
-      75,
-      148,
-      162,
-      101,
-      67,
-      31,
-      112
-    ]
-  },
-  "tourism_intensity": 45.8,
   "restaurant_count": 2,
   "isos_name": ""
 }
