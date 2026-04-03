@@ -2,12 +2,15 @@
 
 const DATA = '/data_export';
 
-// Ranked by Swiss annual overnights — order determines display priority
+// Ranked by significance (most significant first) — only these appear in Nearby Highlights
 const SWISS_TOP20 = [
-  "zermatt", "interlaken", "luzern", "zurich", "geneve",
-  "lausanne", "lugano", "st-moritz", "grindelwald", "davos",
-  "bern", "basel", "locarno", "montreux", "pontresina",
-  "saas-fee", "leukerbad", "arosa", "laax", "kandersteg"
+  "zurich", "geneve", "zermatt", "basel", "luzern",
+  "bern", "lausanne", "interlaken", "davos", "st-moritz",
+  "grindelwald", "lugano", "lauterbrunnen", "montreux", "ascona",
+  "arosa", "pontresina", "vernier", "saanen", "engelberg",
+  "locarno", "st-gallen", "laax", "saas-fee", "chur",
+  "vaz-obervaz", "winterthur", "leukerbad", "adelboden", "crans-montana",
+  "flims"
 ];
 
 let allPlaces = [];
