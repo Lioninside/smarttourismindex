@@ -41,6 +41,6 @@ foreach ($step in $steps) {
         Write-Host "  Stopped at $script because of an error." -ForegroundColor Red
         break
     }
-    $elapsed = [math]::Round((Get-Date - $t).TotalSeconds)
+    $elapsed = [math]::Round(((Get-Date) - $t).TotalSeconds)
     Write-Host "  [done in ${elapsed}s]" -ForegroundColor Green
 }
