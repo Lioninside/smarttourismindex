@@ -3,12 +3,6 @@
   "name": "Val de Bagnes",
   "canton": "VS",
   "score_total": 48.5,
-  "subscores": {
-    "base_quality": 35.0,
-    "access_value": 45.0,
-    "practical_comfort": 55,
-    "anti_overtourism": 65
-  },
   "reachable_tags": [
     "Hiking",
     "Water"
@@ -33,5 +27,14 @@
     "osm": true
   },
   "restaurant_count": 1,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "martigny",
+    "montreux",
+    "ollon",
+    "orsieres",
+    "sierre",
+    "sion",
+    "vevey"
+  ]
 }

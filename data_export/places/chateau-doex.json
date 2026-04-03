@@ -3,12 +3,6 @@
   "name": "Château-d'Oex",
   "canton": "VD",
   "score_total": 52.5,
-  "subscores": {
-    "base_quality": 35.0,
-    "access_value": 45.0,
-    "practical_comfort": 40,
-    "anti_overtourism": 100.0
-  },
   "reachable_tags": [
     "Hiking",
     "Water"
@@ -33,5 +27,10 @@
     "osm": true
   },
   "restaurant_count": 5,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "bulle",
+    "gruyeres",
+    "saanen"
+  ]
 }

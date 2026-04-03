@@ -3,12 +3,6 @@
   "name": "Poschiavo",
   "canton": "GR",
   "score_total": 74.0,
-  "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 85,
-    "anti_overtourism": 90
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,8 @@
     "osm": true
   },
   "restaurant_count": 10,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "pontresina"
+  ]
 }

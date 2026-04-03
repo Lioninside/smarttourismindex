@@ -3,12 +3,6 @@
   "name": "Neuchâtel",
   "canton": "NE",
   "score_total": 69.0,
-  "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 85,
-    "anti_overtourism": 65
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,23 @@
     "osm": true
   },
   "restaurant_count": 68,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "bern",
+    "biel-bienne",
+    "delemont",
+    "fribourg",
+    "grenchen",
+    "koeniz",
+    "la-chaux-de-fonds",
+    "la-grande-beroche",
+    "latena",
+    "lausanne",
+    "morges",
+    "moutier-be",
+    "murten",
+    "olten",
+    "solothurn",
+    "yverdon-les-bains"
+  ]
 }

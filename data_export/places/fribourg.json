@@ -3,12 +3,6 @@
   "name": "Fribourg",
   "canton": "FR",
   "score_total": 72.0,
-  "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 75,
-    "anti_overtourism": 90
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,25 @@
     "osm": true
   },
   "restaurant_count": 91,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "bern",
+    "bourg-en-lavaux",
+    "bulle",
+    "burgdorf",
+    "gruyeres",
+    "herzogenbuchsee",
+    "koeniz",
+    "latena",
+    "lausanne",
+    "murten",
+    "neuchatel",
+    "olten",
+    "plaffeien",
+    "spiez",
+    "thun",
+    "vevey",
+    "yverdon-les-bains",
+    "zofingen"
+  ]
 }

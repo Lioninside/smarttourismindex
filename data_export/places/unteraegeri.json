@@ -3,12 +3,6 @@
   "name": "Unterägeri",
   "canton": "ZG",
   "score_total": 59.25,
-  "subscores": {
-    "base_quality": 50.0,
-    "access_value": 45.0,
-    "practical_comfort": 55,
-    "anti_overtourism": 100.0
-  },
   "reachable_tags": [
     "Hiking",
     "Water"
@@ -33,5 +27,10 @@
     "osm": true
   },
   "restaurant_count": 6,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "luzern",
+    "zuerich",
+    "zug"
+  ]
 }

@@ -3,12 +3,6 @@
   "name": "Gais",
   "canton": "AR",
   "score_total": 57.5,
-  "subscores": {
-    "base_quality": 35.0,
-    "access_value": 45.0,
-    "practical_comfort": 65,
-    "anti_overtourism": 100.0
-  },
   "reachable_tags": [
     "Hiking",
     "Water"
@@ -33,5 +27,16 @@
     "osm": true
   },
   "restaurant_count": 5,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "altstaetten",
+    "appenzell",
+    "gonten",
+    "hundwil",
+    "neckertal",
+    "rorschacherberg",
+    "st-gallen",
+    "teufen",
+    "uzwil"
+  ]
 }

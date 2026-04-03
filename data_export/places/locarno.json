@@ -3,12 +3,6 @@
   "name": "Locarno",
   "canton": "TI",
   "score_total": 62.0,
-  "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 75,
-    "anti_overtourism": 40
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,15 @@
     "osm": true
   },
   "restaurant_count": 63,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "ascona",
+    "bellinzona",
+    "collina-doro",
+    "lugano",
+    "mendrisio",
+    "monteceneri",
+    "muralto",
+    "paradiso"
+  ]
 }

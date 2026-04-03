@@ -3,12 +3,6 @@
   "name": "Mendrisio",
   "canton": "TI",
   "score_total": 70.0,
-  "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 65,
-    "anti_overtourism": 90
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,13 @@
     "osm": true
   },
   "restaurant_count": 20,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "bellinzona",
+    "chiasso",
+    "collina-doro",
+    "lugano",
+    "monteceneri",
+    "paradiso"
+  ]
 }

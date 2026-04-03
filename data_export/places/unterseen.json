@@ -3,12 +3,6 @@
   "name": "Unterseen",
   "canton": "BE",
   "score_total": 56.25,
-  "subscores": {
-    "base_quality": 50.0,
-    "access_value": 45.0,
-    "practical_comfort": 75,
-    "anti_overtourism": 65
-  },
   "reachable_tags": [
     "Hiking",
     "Water"
@@ -33,5 +27,21 @@
     "osm": true
   },
   "restaurant_count": 53,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "aeschi-bei-spiez",
+    "beatenberg",
+    "brienz",
+    "diemtigen",
+    "grindelwald",
+    "interlaken",
+    "lauterbrunnen",
+    "matten-bei-interlaken",
+    "meiringen",
+    "reichenbach-im-kandertal",
+    "sigriswil",
+    "spiez",
+    "thun",
+    "wilderswil"
+  ]
 }

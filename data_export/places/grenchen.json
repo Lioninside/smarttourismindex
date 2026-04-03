@@ -3,12 +3,6 @@
   "name": "Grenchen",
   "canton": "SO",
   "score_total": 74.0,
-  "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 75,
-    "anti_overtourism": 100.0
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,25 @@
     "osm": true
   },
   "restaurant_count": 17,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "aarau",
+    "basel",
+    "bern",
+    "biel-bienne",
+    "burgdorf",
+    "clos-du-doubs",
+    "delemont",
+    "egerkingen",
+    "herzogenbuchsee",
+    "la-chaux-de-fonds",
+    "langenthal",
+    "latena",
+    "moutier-be",
+    "neuchatel",
+    "olten",
+    "porrentruy",
+    "solothurn",
+    "yverdon-les-bains"
+  ]
 }

@@ -3,12 +3,6 @@
   "name": "Genève",
   "canton": "GE",
   "score_total": 62.0,
-  "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 85,
-    "anti_overtourism": 30
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,15 @@
     "osm": true
   },
   "restaurant_count": 468,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "bourg-en-lavaux",
+    "lancy",
+    "lausanne",
+    "meyrin",
+    "morges",
+    "nyon",
+    "vernier",
+    "yverdon-les-bains"
+  ]
 }

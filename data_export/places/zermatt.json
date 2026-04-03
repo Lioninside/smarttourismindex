@@ -3,12 +3,6 @@
   "name": "Zermatt",
   "canton": "VS",
   "score_total": 59.0,
-  "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 70,
-    "anti_overtourism": 30
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,6 @@
     "osm": true
   },
   "restaurant_count": 69,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": []
 }

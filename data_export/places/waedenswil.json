@@ -3,12 +3,6 @@
   "name": "Wädenswil",
   "canton": "ZH",
   "score_total": 59.25,
-  "subscores": {
-    "base_quality": 50.0,
-    "access_value": 45.0,
-    "practical_comfort": 55,
-    "anti_overtourism": 100.0
-  },
   "reachable_tags": [
     "Hiking",
     "Water"
@@ -33,5 +27,32 @@
     "osm": true
   },
   "restaurant_count": 21,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "aarau",
+    "amden",
+    "bad-ragaz",
+    "baden",
+    "duebendorf",
+    "einsiedeln",
+    "eschenbach",
+    "feusisberg",
+    "flums",
+    "freienbach",
+    "horgen",
+    "kloten",
+    "lenzburg",
+    "luzern",
+    "maienfeld",
+    "neckertal",
+    "olten",
+    "opfikon",
+    "quarten",
+    "rapperswil-jona",
+    "uster",
+    "walenstadt",
+    "winterthur",
+    "zuerich",
+    "zug"
+  ]
 }

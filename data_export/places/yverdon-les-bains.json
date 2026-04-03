@@ -3,12 +3,6 @@
   "name": "Yverdon-les-Bains",
   "canton": "VD",
   "score_total": 72.0,
-  "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 75,
-    "anti_overtourism": 90
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,22 @@
     "osm": true
   },
   "restaurant_count": 46,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "biel-bienne",
+    "bullet",
+    "fribourg",
+    "grenchen",
+    "haut-intyamon",
+    "la-chaux-de-fonds",
+    "la-grande-beroche",
+    "latena",
+    "lausanne",
+    "montreux",
+    "morges",
+    "neuchatel",
+    "nyon",
+    "solothurn",
+    "vevey"
+  ]
 }

@@ -3,12 +3,6 @@
   "name": "Laténa",
   "canton": "NE",
   "score_total": 59.5,
-  "subscores": {
-    "base_quality": 35.0,
-    "access_value": 45.0,
-    "practical_comfort": 75,
-    "anti_overtourism": 100.0
-  },
   "reachable_tags": [
     "Hiking",
     "Water"
@@ -33,5 +27,20 @@
     "osm": true
   },
   "restaurant_count": 1,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "bern",
+    "biel-bienne",
+    "delemont",
+    "grenchen",
+    "la-chaux-de-fonds",
+    "la-grande-beroche",
+    "lausanne",
+    "morges",
+    "moutier-be",
+    "murten",
+    "neuchatel",
+    "solothurn",
+    "yverdon-les-bains"
+  ]
 }

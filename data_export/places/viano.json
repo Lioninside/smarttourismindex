@@ -3,12 +3,6 @@
   "name": "Viano",
   "canton": "GR",
   "score_total": 54.5,
-  "subscores": {
-    "base_quality": 35.0,
-    "access_value": 45.0,
-    "practical_comfort": 50,
-    "anti_overtourism": 100.0
-  },
   "reachable_tags": [
     "Hiking",
     "Water"
@@ -33,5 +27,6 @@
     "osm": true
   },
   "restaurant_count": 1,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": []
 }

@@ -3,12 +3,6 @@
   "name": "La Chaux-de-Fonds",
   "canton": "NE",
   "score_total": 74.0,
-  "subscores": {
-    "base_quality": 85.0,
-    "access_value": 65.0,
-    "practical_comfort": 50,
-    "anti_overtourism": 100.0
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,13 @@
     "osm": true
   },
   "restaurant_count": 64,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "biel-bienne",
+    "grenchen",
+    "latena",
+    "neuchatel",
+    "saignelegier",
+    "yverdon-les-bains"
+  ]
 }

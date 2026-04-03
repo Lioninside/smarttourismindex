@@ -504,6 +504,7 @@ body {
 }
 
 .metric-item { display: flex; flex-direction: column; gap: 3px; }
+.metric-item--wide { grid-column: 1 / -1; }
 
 .metric-label {
   font-size: 10px;
@@ -518,6 +519,12 @@ body {
   font-weight: 700;
   color: var(--black);
   font-variant-numeric: tabular-nums;
+}
+
+.metric-value--highlights {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
 }
 
 .detail-actions {

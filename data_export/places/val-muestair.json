@@ -3,12 +3,6 @@
   "name": "Val Müstair",
   "canton": "GR",
   "score_total": 56.5,
-  "subscores": {
-    "base_quality": 35.0,
-    "access_value": 45.0,
-    "practical_comfort": 70,
-    "anti_overtourism": 90
-  },
   "reachable_tags": [
     "Hiking",
     "Water"
@@ -33,5 +27,6 @@
     "osm": true
   },
   "restaurant_count": 0,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": []
 }

@@ -3,12 +3,6 @@
   "name": "Burgdorf",
   "canton": "BE",
   "score_total": 74.0,
-  "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 75,
-    "anti_overtourism": 100.0
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,22 @@
     "osm": true
   },
   "restaurant_count": 30,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "aarau",
+    "bern",
+    "biel-bienne",
+    "egerkingen",
+    "fribourg",
+    "herzogenbuchsee",
+    "koeniz",
+    "langenthal",
+    "lenzburg",
+    "liestal",
+    "olten",
+    "solothurn",
+    "spiez",
+    "thun",
+    "zofingen"
+  ]
 }

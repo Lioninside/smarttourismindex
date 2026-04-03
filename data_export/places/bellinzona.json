@@ -3,12 +3,6 @@
   "name": "Bellinzona",
   "canton": "TI",
   "score_total": 80.75,
-  "subscores": {
-    "base_quality": 100.0,
-    "access_value": 65.0,
-    "practical_comfort": 75,
-    "anti_overtourism": 90
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -35,5 +29,15 @@
     "osm": true
   },
   "restaurant_count": 36,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "ascona",
+    "collina-doro",
+    "locarno",
+    "lugano",
+    "mendrisio",
+    "monteceneri",
+    "muralto",
+    "paradiso"
+  ]
 }

@@ -3,12 +3,6 @@
   "name": "Chur",
   "canton": "GR",
   "score_total": 67.0,
-  "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 85,
-    "anti_overtourism": 55
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,21 @@
     "osm": true
   },
   "restaurant_count": 60,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "altstaetten",
+    "arosa",
+    "bad-ragaz",
+    "flims",
+    "flums",
+    "ilanz-glion",
+    "klosters",
+    "laax",
+    "lumnezia",
+    "maienfeld",
+    "quarten",
+    "spluegen",
+    "vaz-obervaz",
+    "walenstadt"
+  ]
 }
