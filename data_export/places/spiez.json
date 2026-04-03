@@ -3,12 +3,6 @@
   "name": "Spiez",
   "canton": "BE",
   "score_total": 72.0,
-  "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 75,
-    "anti_overtourism": 90
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,28 @@
     "osm": true
   },
   "restaurant_count": 16,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "adelboden",
+    "aeschi-bei-spiez",
+    "bern",
+    "brienz",
+    "brig-glis",
+    "burgdorf",
+    "diemtigen",
+    "interlaken",
+    "kandersteg",
+    "koeniz",
+    "lauterbrunnen",
+    "matten-bei-interlaken",
+    "meiringen",
+    "reichenbach-im-kandertal",
+    "sierre",
+    "sigriswil",
+    "sion",
+    "thun",
+    "unterseen",
+    "visp",
+    "wilderswil"
+  ]
 }

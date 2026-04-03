@@ -3,12 +3,6 @@
   "name": "Meggen",
   "canton": "LU",
   "score_total": 59.25,
-  "subscores": {
-    "base_quality": 50.0,
-    "access_value": 45.0,
-    "practical_comfort": 55,
-    "anti_overtourism": 100.0
-  },
   "reachable_tags": [
     "Hiking",
     "Water"
@@ -33,5 +27,21 @@
     "osm": true
   },
   "restaurant_count": 8,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "einsiedeln",
+    "emmen",
+    "ingenbohl",
+    "kriens",
+    "kuessnacht",
+    "luzern",
+    "sachseln",
+    "sarnen",
+    "schwyz",
+    "sursee",
+    "vitznau",
+    "weggis",
+    "zofingen",
+    "zug"
+  ]
 }

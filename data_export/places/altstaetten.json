@@ -3,12 +3,6 @@
   "name": "Altstätten",
   "canton": "SG",
   "score_total": 59.25,
-  "subscores": {
-    "base_quality": 50.0,
-    "access_value": 45.0,
-    "practical_comfort": 55,
-    "anti_overtourism": 100.0
-  },
   "reachable_tags": [
     "Hiking",
     "Water"
@@ -33,5 +27,18 @@
     "osm": true
   },
   "restaurant_count": 18,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "appenzell",
+    "arbon",
+    "bad-ragaz",
+    "flums",
+    "gais",
+    "gonten",
+    "heiden",
+    "maienfeld",
+    "rorschacherberg",
+    "st-gallen",
+    "walenstadt"
+  ]
 }

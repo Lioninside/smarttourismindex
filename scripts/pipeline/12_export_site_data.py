@@ -24,10 +24,11 @@ from datetime import date
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
-INPUT_JSON     = Path("data_processed/final/place_scores.json")
-INTENSITY_CSV  = Path("data_processed/tourism_intensity_seasonality.csv")
-OSM_JSON       = Path("data_processed/osm/osm_poi_metrics.json")
-HERITAGE_JSON  = Path("data_processed/heritage/heritage_metrics.json")
+INPUT_JSON       = Path("data_processed/final/place_scores.json")
+INTENSITY_CSV    = Path("data_processed/tourism_intensity_seasonality.csv")
+OSM_JSON         = Path("data_processed/osm/osm_poi_metrics.json")
+HERITAGE_JSON    = Path("data_processed/heritage/heritage_metrics.json")
+REACHABILITY_JSON = Path("data_processed/sbbapi/sbbAPI_reachability.json")
 EXPORT_DIR     = Path("data_export")
 INDEX_JSON     = EXPORT_DIR / "places-index.json"
 PLACES_DIR     = EXPORT_DIR / "places"
@@ -102,6 +103,54 @@ def load_exclude() -> set:
         return set(json.load(f))
 
 
+SPOT_CHECK_SLUGS = ["bellinzona", "zermatt", "chur"]
+
+
+def _print_completeness(
+    rows: List[Dict[str, Any]],
+    seasonality_data: Dict[str, Any],
+    intensity_data: Dict[str, float],
+    heritage_by_slug: Dict[str, Any],
+    osm_by_slug: Dict[str, Any],
+) -> None:
+    SEP = "=" * 60
+    n = len(rows)
+    slugs = {r["slug"] for r in rows}
+
+    isos_count  = sum(1 for r in rows if heritage_by_slug.get(r["slug"], {}).get("isos_name"))
+    ti_count    = sum(1 for r in rows if r["slug"] in intensity_data)
+    rest_count  = sum(1 for r in rows if osm_by_slug.get(r["slug"], {}).get("restaurant_count_2km", 0) > 0)
+    seas_count  = sum(1 for r in rows if r["slug"] in seasonality_data)
+
+    print(f"\n{SEP}")
+    print("EXPORT COMPLETENESS CHECK")
+    print(SEP)
+    print(f"Place files written: {n}")
+    print(f"\nField coverage (non-empty/non-null):")
+    for label, count in [
+        ("isos_name",         isos_count),
+        ("tourism_intensity",  ti_count),
+        ("restaurant_count",   rest_count),
+        ("seasonality",        seas_count),
+    ]:
+        pct = count / n * 100 if n else 0
+        print(f"  {label:<20}: {count:>4} / {n}  ({pct:.0f}%)")
+
+    print(f"\nSample spot-check:")
+    for slug in SPOT_CHECK_SLUGS:
+        if slug not in slugs:
+            continue
+        isos  = heritage_by_slug.get(slug, {}).get("isos_name") or "—"
+        ti    = intensity_data.get(slug)
+        ti_s  = f"{ti:.1f}" if ti is not None else "—"
+        rest  = osm_by_slug.get(slug, {}).get("restaurant_count_2km", 0)
+        rest_s = str(rest) if rest else "—"
+        seas  = seasonality_data.get(slug, {}).get("volatility_label") or "—"
+        print(f"  {slug:<12}: isos={isos:<20} intensity={ti_s:<8} restaurants={rest_s:<6} seasonal={seas}")
+
+    print(f"{SEP}\n")
+
+
 def main() -> None:
     if not INPUT_JSON.exists():
         raise FileNotFoundError(f"Missing: {INPUT_JSON}")
@@ -115,9 +164,12 @@ def main() -> None:
 
     # Lookup tables
     name_to_slug: Dict[str, str] = {r["name"]: r["slug"] for r in rows}
-    osm_by_slug     = index_by_slug(load_json(OSM_JSON))
-    heritage_by_slug = index_by_slug(load_json(HERITAGE_JSON))
+    osm_by_slug      = index_by_slug(load_json(OSM_JSON))
+    heritage_by_slug  = index_by_slug(load_json(HERITAGE_JSON))
     seasonality_data, intensity_data = load_seasonality(INTENSITY_CSV, name_to_slug)
+    reachable_map: Dict[str, List[str]] = load_json(REACHABILITY_JSON) if REACHABILITY_JSON.exists() else {}
+    if not reachable_map:
+        print(f"  WARNING: {REACHABILITY_JSON} not found — reachable_slugs will be empty")
 
     EXPORT_DIR.mkdir(parents=True, exist_ok=True)
     PLACES_DIR.mkdir(parents=True, exist_ok=True)
@@ -127,13 +179,12 @@ def main() -> None:
     for row in rows:
         slug = row["slug"]
         index_rows.append({
-            "slug":          slug,
-            "name":          row["name"],
-            "canton":        row.get("canton", ""),
-            "rank":          row.get("rank"),
-            "score_total":   row["score_total"],
-            "scores":        row.get("scores", {}),
-            "subscores":     row.get("subscores", {}),
+            "slug":           slug,
+            "name":           row["name"],
+            "canton":         row.get("canton", ""),
+            "rank":           row.get("rank"),
+            "score_total":    row["score_total"],
+            "scores":         row.get("scores", {}),
             "reachable_tags": row.get("reachable_tags", []),
         })
 
@@ -161,10 +212,11 @@ def main() -> None:
         he = heritage_by_slug.get(slug, {})
         detail["isos_name"] = he.get("isos_name", "")
 
-        # Ensure scores object uses new structure if present
-        # (already written by 11_merge_score.py — pass through unchanged)
+        # Reachable place slugs from SBB API reachability map
+        detail["reachable_slugs"] = reachable_map.get(slug, [])
 
-        # Remove any legacy UNESCO fields that may exist in old place files
+        # Remove legacy fields
+        detail.pop("subscores", None)
         detail.pop("local_unesco", None)
         detail.pop("heritage_label", None)
         detail.pop("isos_score_placeholder", None)
@@ -189,6 +241,7 @@ def main() -> None:
     print(f"Wrote {INDEX_JSON}")
     print(f"Wrote {VERSION_JSON}")
     print(f"Wrote {len(rows)} place detail files to {PLACES_DIR}")
+    _print_completeness(rows, seasonality_data, intensity_data, heritage_by_slug, osm_by_slug)
 
 
 if __name__ == "__main__":

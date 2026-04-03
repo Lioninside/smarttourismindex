@@ -3,12 +3,6 @@
   "name": "Brig-Glis",
   "canton": "VS",
   "score_total": 52.5,
-  "subscores": {
-    "base_quality": 35.0,
-    "access_value": 45.0,
-    "practical_comfort": 85,
-    "anti_overtourism": 55
-  },
   "reachable_tags": [
     "Hiking",
     "Water"
@@ -33,5 +27,18 @@
     "osm": true
   },
   "restaurant_count": 1,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "crans-montana",
+    "goms",
+    "kandersteg",
+    "martigny",
+    "reichenbach-im-kandertal",
+    "saas-grund",
+    "sierre",
+    "sion",
+    "spiez",
+    "thun",
+    "visp"
+  ]
 }

@@ -3,12 +3,6 @@
   "name": "Wildhaus-Alt St. Johann",
   "canton": "SG",
   "score_total": 62.25,
-  "subscores": {
-    "base_quality": 50.0,
-    "access_value": 65.0,
-    "practical_comfort": 45,
-    "anti_overtourism": 90
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,6 @@
     "osm": true
   },
   "restaurant_count": 1,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": []
 }

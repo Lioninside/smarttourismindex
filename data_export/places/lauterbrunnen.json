@@ -3,12 +3,6 @@
   "name": "Lauterbrunnen",
   "canton": "BE",
   "score_total": 56.25,
-  "subscores": {
-    "base_quality": 50.0,
-    "access_value": 65.0,
-    "practical_comfort": 75,
-    "anti_overtourism": 30
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,12 @@
     "osm": true
   },
   "restaurant_count": 3,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "brienz",
+    "grindelwald",
+    "spiez",
+    "unterseen",
+    "wilderswil"
+  ]
 }

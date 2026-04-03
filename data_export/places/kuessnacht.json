@@ -3,12 +3,6 @@
   "name": "Küssnacht",
   "canton": "SZ",
   "score_total": 61.25,
-  "subscores": {
-    "base_quality": 50.0,
-    "access_value": 45.0,
-    "practical_comfort": 65,
-    "anti_overtourism": 100.0
-  },
   "reachable_tags": [
     "Hiking",
     "Water"
@@ -33,5 +27,16 @@
     "osm": true
   },
   "restaurant_count": 16,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "emmen",
+    "ingenbohl",
+    "luzern",
+    "meggen",
+    "schwyz",
+    "sursee",
+    "vitznau",
+    "weggis",
+    "zug"
+  ]
 }

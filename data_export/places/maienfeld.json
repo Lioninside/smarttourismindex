@@ -3,12 +3,6 @@
   "name": "Maienfeld",
   "canton": "GR",
   "score_total": 68.25,
-  "subscores": {
-    "base_quality": 50.0,
-    "access_value": 65.0,
-    "practical_comfort": 65,
-    "anti_overtourism": 100.0
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,16 @@
     "osm": true
   },
   "restaurant_count": 3,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "altstaetten",
+    "amden",
+    "bad-ragaz",
+    "chur",
+    "flims",
+    "flums",
+    "klosters",
+    "quarten",
+    "walenstadt"
+  ]
 }

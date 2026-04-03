@@ -3,12 +3,6 @@
   "name": "Winterthur",
   "canton": "ZH",
   "score_total": 67.0,
-  "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 85,
-    "anti_overtourism": 55
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,30 @@
     "osm": true
   },
   "restaurant_count": 113,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "aarau",
+    "arbon",
+    "baden",
+    "duebendorf",
+    "eschenbach",
+    "frauenfeld",
+    "horgen",
+    "hundwil",
+    "kloten",
+    "kreuzlingen",
+    "lenzburg",
+    "neckertal",
+    "opfikon",
+    "rapperswil-jona",
+    "schaffhausen",
+    "st-gallen",
+    "teufen",
+    "uster",
+    "uzwil",
+    "waedenswil",
+    "wil",
+    "zuerich",
+    "zug"
+  ]
 }

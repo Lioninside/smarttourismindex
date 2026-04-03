@@ -2,6 +2,14 @@
 
 const DATA = '/data_export';
 
+// Ranked by Swiss annual overnights — order determines display priority
+const SWISS_TOP20 = [
+  "zermatt", "interlaken", "luzern", "zurich", "geneve",
+  "lausanne", "lugano", "st-moritz", "grindelwald", "davos",
+  "bern", "basel", "locarno", "montreux", "pontresina",
+  "saas-fee", "leukerbad", "arosa", "laax", "kandersteg"
+];
+
 let allPlaces = [];
 let coordinates = {};
 let detailCache = {};
@@ -189,6 +197,11 @@ async function loadAndRenderDetail(slug) {
   }
 }
 
+function getPlaceName(slug) {
+  const p = allPlaces.find(p => p.slug === slug);
+  return p ? p.name : slug;
+}
+
 function renderDetail(slug, detail, container) {
   const s = detail.scores || {};
   const sub = s.sub || {};
@@ -200,33 +213,37 @@ function renderDetail(slug, detail, container) {
 
   const hotelUrl = 'https://www.swisshotels.com';
 
-  const ti = detail.tourism_intensity;
-  const intensityLabel = ti == null ? '—' : ti < 10 ? 'Low' : ti <= 50 ? 'Medium' : 'High';
+  // Grid cell values
   const historicTown = detail.isos_name ? '✓' : '—';
-  const restCount = detail.restaurant_count != null ? `~${detail.restaurant_count}` : '—';
-  const destPull = sub.destination_pull != null ? `${Math.round(sub.destination_pull)} pt.` : '—';
-  const mtAccess = sub.scenic_transport != null ? `${Math.round(sub.scenic_transport)} pt.` : '—';
+
+  const reachableSlugs = detail.reachable_slugs || [];
+  const highlights = SWISS_TOP20
+    .filter(s => reachableSlugs.includes(s))
+    .slice(0, 3)
+    .map(s => getPlaceName(s))
+    .join(' · ');
+  const highlightsDisplay = highlights || '—';
+
+  const displayScore = v => v != null ? `${Math.round(v)} / 100` : '—';
+  const mtAccess   = displayScore(sub.scenic_transport);
+  const cultAccess = displayScore(sub.cultural_access);
 
   const metricsHtml = `
-    <div class="metric-item">
-      <span class="metric-label">Tourism intensity</span>
-      <span class="metric-value">${intensityLabel}</span>
-    </div>
     <div class="metric-item">
       <span class="metric-label">Historic town</span>
       <span class="metric-value">${historicTown}</span>
     </div>
-    <div class="metric-item">
-      <span class="metric-label">Restaurants</span>
-      <span class="metric-value">${restCount}</span>
-    </div>
-    <div class="metric-item">
-      <span class="metric-label">Day trip reach</span>
-      <span class="metric-value">${destPull}</span>
+    <div class="metric-item metric-item--wide">
+      <span class="metric-label">Nearby highlights</span>
+      <span class="metric-value metric-value--highlights">${highlightsDisplay}</span>
     </div>
     <div class="metric-item">
       <span class="metric-label">Mountain access</span>
       <span class="metric-value">${mtAccess}</span>
+    </div>
+    <div class="metric-item">
+      <span class="metric-label">Culture access</span>
+      <span class="metric-value">${cultAccess}</span>
     </div>
   `;
 

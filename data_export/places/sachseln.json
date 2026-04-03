@@ -3,12 +3,6 @@
   "name": "Sachseln",
   "canton": "OW",
   "score_total": 66.25,
-  "subscores": {
-    "base_quality": 50.0,
-    "access_value": 65.0,
-    "practical_comfort": 65,
-    "anti_overtourism": 90
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,13 @@
     "osm": true
   },
   "restaurant_count": 4,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "emmen",
+    "hasliberg",
+    "luzern",
+    "meggen",
+    "meiringen",
+    "sarnen"
+  ]
 }

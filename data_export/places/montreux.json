@@ -3,12 +3,6 @@
   "name": "Montreux",
   "canton": "VD",
   "score_total": 62.0,
-  "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 75,
-    "anti_overtourism": 40
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,22 @@
     "osm": true
   },
   "restaurant_count": 38,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "blonay-saint-legier",
+    "bourg-en-lavaux",
+    "haut-intyamon",
+    "lausanne",
+    "leysin",
+    "martigny",
+    "morges",
+    "nyon",
+    "ollon",
+    "ormont-dessus",
+    "saint-maurice",
+    "sierre",
+    "sion",
+    "val-de-bagnes",
+    "vevey"
+  ]
 }

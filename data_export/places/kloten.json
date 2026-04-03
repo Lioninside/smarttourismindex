@@ -3,12 +3,6 @@
   "name": "Kloten",
   "canton": "ZH",
   "score_total": 60.0,
-  "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 75,
-    "anti_overtourism": 30
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,24 @@
     "osm": true
   },
   "restaurant_count": 19,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "aarau",
+    "baden",
+    "duebendorf",
+    "frauenfeld",
+    "horgen",
+    "lenzburg",
+    "opfikon",
+    "rapperswil-jona",
+    "schaffhausen",
+    "st-gallen",
+    "uster",
+    "uzwil",
+    "waedenswil",
+    "wil",
+    "winterthur",
+    "zuerich",
+    "zug"
+  ]
 }

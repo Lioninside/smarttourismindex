@@ -364,6 +364,7 @@ def main() -> None:
 
     # Exclude places listed in metadata/exclude.json
     exclude_path = Path("metadata/exclude.json")
+    exclude: List[str] = []
     if exclude_path.exists():
         exclude = json.load(exclude_path.open(encoding="utf-8"))
         before = len(rows)
@@ -379,9 +380,67 @@ def main() -> None:
         json.dump(rows, f, ensure_ascii=False, indent=2)
 
     print(f"Wrote {OUTPUT_JSON} with {len(rows)} rows")
-    scores = [r["score_total"] for r in rows]
-    print(f"  score_total range: {min(scores):.1f}–{max(scores):.1f}")
-    print(f"  Top 5: {[r['name'] for r in rows[:5]]}")
+    _print_report(rows, exclude)
+
+
+def _pct(vals: List[float], p: float) -> float:
+    """Pure-Python percentile (nearest rank)."""
+    if not vals:
+        return 0.0
+    s = sorted(vals)
+    idx = max(0, min(len(s) - 1, int(math.ceil(p / 100 * len(s))) - 1))
+    return s[idx]
+
+
+def _print_report(rows: List[Dict[str, Any]], exclude: List[str]) -> None:
+    SEP = "=" * 60
+    n = len(rows)
+
+    totals  = [r["score_total"]              for r in rows]
+    bases   = [r["scores"]["base"]           for r in rows]
+    accesses= [r["scores"]["access"]         for r in rows]
+
+    sub_keys = [
+        "anti_overtourism", "walkability", "local_hiking", "water",
+        "heritage", "climate", "scenic_transport", "destination_pull",
+        "cultural_access", "access_hiking",
+    ]
+
+    print(f"\n{SEP}")
+    print("SCORE REPORT")
+    print(SEP)
+    print(f"Places scored : {n}")
+    print(f"Excluded      : {len(exclude)} ({', '.join(exclude) if exclude else 'none'})")
+
+    for label, vals in [("TOTAL", totals), ("BASE", bases), ("ACCESS", accesses)]:
+        print(f"\n{label} SCORE distribution:")
+        if label == "TOTAL":
+            for tag, p in [("min", 0), ("p10", 10), ("p25", 25),
+                           ("median", 50), ("p75", 75), ("p90", 90), ("max", 100)]:
+                print(f"  {tag:<8}: {_pct(vals, p):.1f}")
+            print(f"  {'range':<8}: {max(vals) - min(vals):.1f}")
+        else:
+            lo, med, hi = _pct(vals, 0), _pct(vals, 50), _pct(vals, 100)
+            print(f"  min / median / max: {lo:.1f} / {med:.1f} / {hi:.1f}")
+
+    print("\nSUB-SCORE COVERAGE (non-zero counts):")
+    for key in sub_keys:
+        nonzero = sum(1 for r in rows if r["scores"]["sub"].get(key, 0) > 0)
+        print(f"  {key:<20}: {nonzero:>3} / {n}")
+
+    print(f"\nTOP 10:")
+    for r in rows[:10]:
+        s = r["scores"]
+        print(f"  {r['rank']:>2}  {r['name']:<20} {r['canton']:<3} "
+              f"total={r['score_total']:.1f}  base={s['base']:.1f}  access={s['access']:.1f}")
+
+    print(f"\nBOTTOM 5:")
+    for r in rows[-5:]:
+        s = r["scores"]
+        print(f"  {r['rank']:>3}  {r['name']:<20} {r['canton']:<3} "
+              f"total={r['score_total']:.1f}  base={s['base']:.1f}  access={s['access']:.1f}")
+
+    print(f"\n{SEP}\n")
 
 
 if __name__ == "__main__":

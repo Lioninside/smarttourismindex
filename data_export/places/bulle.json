@@ -3,12 +3,6 @@
   "name": "Bulle",
   "canton": "FR",
   "score_total": 59.25,
-  "subscores": {
-    "base_quality": 50.0,
-    "access_value": 45.0,
-    "practical_comfort": 65,
-    "anti_overtourism": 90
-  },
   "reachable_tags": [
     "Hiking",
     "Water"
@@ -33,5 +27,12 @@
     "osm": true
   },
   "restaurant_count": 30,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "bourg-en-lavaux",
+    "chateau-doex",
+    "fribourg",
+    "gruyeres",
+    "lausanne"
+  ]
 }

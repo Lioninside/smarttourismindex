@@ -3,12 +3,6 @@
   "name": "Rheinfelden",
   "canton": "AG",
   "score_total": 72.0,
-  "subscores": {
-    "base_quality": 65.0,
-    "access_value": 65.0,
-    "practical_comfort": 65,
-    "anti_overtourism": 100.0
-  },
   "reachable_tags": [
     "Hiking",
     "Water",
@@ -34,5 +28,13 @@
     "osm": true
   },
   "restaurant_count": 18,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "aarau",
+    "baden",
+    "basel",
+    "liestal",
+    "olten",
+    "pratteln"
+  ]
 }

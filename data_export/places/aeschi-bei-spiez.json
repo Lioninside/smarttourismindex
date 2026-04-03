@@ -3,12 +3,6 @@
   "name": "Aeschi bei Spiez",
   "canton": "BE",
   "score_total": 55.5,
-  "subscores": {
-    "base_quality": 35.0,
-    "access_value": 45.0,
-    "practical_comfort": 55,
-    "anti_overtourism": 100.0
-  },
   "reachable_tags": [
     "Hiking",
     "Water"
@@ -33,5 +27,19 @@
     "osm": true
   },
   "restaurant_count": 5,
-  "isos_name": ""
+  "isos_name": "",
+  "reachable_slugs": [
+    "bern",
+    "diemtigen",
+    "interlaken",
+    "kandersteg",
+    "matten-bei-interlaken",
+    "reichenbach-im-kandertal",
+    "sigriswil",
+    "spiez",
+    "thun",
+    "unterseen",
+    "visp",
+    "wilderswil"
+  ]
 }
