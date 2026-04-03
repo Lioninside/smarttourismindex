@@ -564,55 +564,11 @@ body {
   border-bottom: 1px solid var(--gray-200);
 }
 
-/* Chart: 12 bars growing upward from a flex baseline */
-.sbar-chart {
-  display: flex;
-  align-items: flex-end;
-  gap: 3px;
-  height: 72px;
-  position: relative;
-}
-
-/* Individual bars */
-.sbar-b {
-  flex: 1;
-  border-radius: 1px 1px 0 0;
-  min-height: 2px;
-}
-
-/* Dashed reference line at avg = 100 (positioned via inline style bottom:XX%) */
-.sbar-ref {
-  position: absolute;
-  left: 0;
-  right: 0;
-  border-top: 1px dashed var(--gray-400);
-  pointer-events: none;
-  z-index: 1;
-}
-
-/* Month letter labels */
-.sbar-months {
-  display: flex;
-  gap: 3px;
-  margin-top: 5px;
-}
-
-.sbar-months span {
-  flex: 1;
-  text-align: center;
-  font-size: 8px;
-  font-weight: 700;
-  color: var(--gray-400);
-  letter-spacing: 0;
-}
-
-/* Single caption line */
-.sbar-caption {
-  margin-top: 7px;
+.sbar-month-label {
   font-size: 10px;
-  color: var(--gray-500);
-  font-weight: 500;
-  line-height: 1.4;
+  font-weight: 600;
+  fill: var(--gray-400);
+  font-family: inherit;
 }
 
 /* === METHODOLOGY (about page) === */

@@ -2,80 +2,36 @@
   "slug": "matten-bei-interlaken",
   "name": "Matten bei Interlaken",
   "canton": "BE",
-  "score_total": 51.84,
-  "scores": {
-    "total": 51.84,
-    "base": 39.41,
-    "access": 70.49,
-    "sub": {
-      "anti_overtourism": 93.37,
-      "walkability": 8.07,
-      "local_hiking": 29.52,
-      "water": 23.66,
-      "heritage": 0.0,
-      "climate": 50.0,
-      "scenic_transport": 52.2,
-      "destination_pull": 79.08,
-      "cultural_access": 88.24,
-      "access_hiking": 60.29
-    }
-  },
+  "score_total": 59.25,
   "subscores": {
-    "base_quality": 39.41,
-    "access_value": 70.49,
-    "anti_overtourism": 93.37
+    "base_quality": 50.0,
+    "access_value": 45.0,
+    "practical_comfort": 65,
+    "anti_overtourism": 90
   },
   "reachable_tags": [
     "Hiking",
-    "Water",
-    "Scenic transport",
-    "Museums"
+    "Water"
   ],
   "metrics": {
     "overnight_stays": 60667,
     "domestic_share_overnights": 0.2903,
     "summer_temp_avg": 17.75,
-    "local_hiking_m": 50992.6,
-    "regional_hiking_m": 1096183.3,
-    "walkability_path_m": 1245.0,
-    "scenic_transport_count": 119,
-    "reachable_named_museums": "18",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Matten b. I., Brunnen-Haus",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1139.75,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 62
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 43,
-  "seasonality": {
-    "volatility_label": "Strongly seasonal",
-    "peak_month": "aug",
-    "trough_month": "jan",
-    "peak_trough_ratio": 5.11,
-    "monthly_index": [
-      32,
-      63,
-      61,
-      93,
-      140,
-      145,
-      154,
-      165,
-      130,
-      95,
-      68,
-      53
-    ]
-  },
-  "tourism_intensity": 14.6,
   "restaurant_count": 62,
   "isos_name": ""
 }

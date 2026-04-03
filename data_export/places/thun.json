@@ -2,79 +2,37 @@
   "slug": "thun",
   "name": "Thun",
   "canton": "BE",
-  "score_total": 50.8,
-  "scores": {
-    "total": 50.8,
-    "base": 34.61,
-    "access": 75.08,
-    "sub": {
-      "anti_overtourism": 98.37,
-      "walkability": 3.3,
-      "local_hiking": 0.0,
-      "water": 29.02,
-      "heritage": 0.0,
-      "climate": 50.0,
-      "scenic_transport": 57.27,
-      "destination_pull": 85.32,
-      "cultural_access": 100.0,
-      "access_hiking": 48.7
-    }
-  },
+  "score_total": 67.0,
   "subscores": {
-    "base_quality": 34.61,
-    "access_value": 75.08,
-    "anti_overtourism": 98.37
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 65
   },
   "reachable_tags": [
+    "Hiking",
     "Water",
-    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 169409,
     "domestic_share_overnights": 0.5949,
     "summer_temp_avg": 17.85,
-    "local_hiking_m": 0.0,
-    "regional_hiking_m": 620853.5,
-    "walkability_path_m": 508.6,
-    "scenic_transport_count": 129,
-    "reachable_named_museums": "20",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Thun, Asterweg",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1033.12,
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 11
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 59,
-  "seasonality": {
-    "volatility_label": "Mildly seasonal",
-    "peak_month": "jul",
-    "trough_month": "feb",
-    "peak_trough_ratio": 2.9,
-    "monthly_index": [
-      60,
-      54,
-      69,
-      82,
-      112,
-      143,
-      155,
-      150,
-      121,
-      104,
-      82,
-      67
-    ]
-  },
-  "tourism_intensity": 3.9,
   "restaurant_count": 11,
   "isos_name": ""
 }

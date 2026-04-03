@@ -2,79 +2,37 @@
   "slug": "herzogenbuchsee",
   "name": "Herzogenbuchsee",
   "canton": "BE",
-  "score_total": 41.95,
-  "scores": {
-    "total": 41.95,
-    "base": 40.88,
-    "access": 43.56,
-    "sub": {
-      "anti_overtourism": 99.86,
-      "walkability": 16.42,
-      "local_hiking": 0.0,
-      "water": 17.51,
-      "heritage": 0.0,
-      "climate": 100.0,
-      "scenic_transport": 4.63,
-      "destination_pull": 56.58,
-      "cultural_access": 100.0,
-      "access_hiking": 1.32
-    }
-  },
+  "score_total": 72.0,
   "subscores": {
-    "base_quality": 40.88,
-    "access_value": 43.56,
-    "anti_overtourism": 99.86
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 65,
+    "anti_overtourism": 100.0
   },
   "reachable_tags": [
+    "Hiking",
     "Water",
-    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 5933,
     "domestic_share_overnights": 0.6142,
     "summer_temp_avg": 17.96,
-    "local_hiking_m": 0.0,
-    "regional_hiking_m": 13790.2,
-    "walkability_path_m": 2532.7,
-    "scenic_transport_count": 9,
-    "reachable_named_museums": "20",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Herzogenbuchsee, Sonnenplatz",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 733.9,
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 11
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 147,
-  "seasonality": {
-    "volatility_label": "Mildly seasonal",
-    "peak_month": "mar",
-    "trough_month": "dec",
-    "peak_trough_ratio": 3.5,
-    "monthly_index": [
-      68,
-      54,
-      175,
-      95,
-      110,
-      131,
-      109,
-      142,
-      122,
-      67,
-      78,
-      50
-    ]
-  },
-  "tourism_intensity": 0.7,
   "restaurant_count": 11,
   "isos_name": ""
 }

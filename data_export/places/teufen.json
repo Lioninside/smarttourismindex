@@ -2,58 +2,36 @@
   "slug": "teufen",
   "name": "Teufen",
   "canton": "AR",
-  "score_total": 41.86,
-  "scores": {
-    "total": 41.86,
-    "base": 39.54,
-    "access": 45.34,
-    "sub": {
-      "anti_overtourism": 96.15,
-      "walkability": 14.55,
-      "local_hiking": 0.0,
-      "water": 50.63,
-      "heritage": 0.0,
-      "climate": 50.0,
-      "scenic_transport": 22.47,
-      "destination_pull": 35.37,
-      "cultural_access": 100.0,
-      "access_hiking": 19.93
-    }
-  },
+  "score_total": 59.25,
   "subscores": {
-    "base_quality": 39.54,
-    "access_value": 45.34,
-    "anti_overtourism": 96.15
+    "base_quality": 50.0,
+    "access_value": 45.0,
+    "practical_comfort": 55,
+    "anti_overtourism": 100.0
   },
   "reachable_tags": [
-    "Water",
-    "Scenic transport",
-    "Museums"
+    "Hiking",
+    "Water"
   ],
   "metrics": {
     "overnight_stays": 8008,
     "domestic_share_overnights": 0.6682,
     "summer_temp_avg": 16.61,
-    "local_hiking_m": 0.0,
-    "regional_hiking_m": 261207.9,
-    "walkability_path_m": 2243.3,
-    "scenic_transport_count": 52,
-    "reachable_named_museums": "20",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Niederteufen",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1468.8,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 6
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 149,
   "restaurant_count": 6,
   "isos_name": ""
 }

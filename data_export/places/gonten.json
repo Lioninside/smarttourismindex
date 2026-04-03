@@ -2,80 +2,36 @@
   "slug": "gonten",
   "name": "Gonten",
   "canton": "AI",
-  "score_total": 43.95,
-  "scores": {
-    "total": 43.95,
-    "base": 39.84,
-    "access": 50.12,
-    "sub": {
-      "anti_overtourism": 92.72,
-      "walkability": 0.0,
-      "local_hiking": 1.04,
-      "water": 76.34,
-      "heritage": 0.0,
-      "climate": 50.0,
-      "scenic_transport": 27.31,
-      "destination_pull": 41.38,
-      "cultural_access": 100.0,
-      "access_hiking": 30.11
-    }
-  },
+  "score_total": 52.5,
   "subscores": {
-    "base_quality": 39.84,
-    "access_value": 50.12,
-    "anti_overtourism": 92.72
+    "base_quality": 35.0,
+    "access_value": 45.0,
+    "practical_comfort": 40,
+    "anti_overtourism": 100.0
   },
   "reachable_tags": [
     "Hiking",
-    "Water",
-    "Scenic transport",
-    "Museums"
+    "Water"
   ],
   "metrics": {
     "overnight_stays": 22426,
     "domestic_share_overnights": 0.878,
     "summer_temp_avg": 15.81,
-    "local_hiking_m": 1797.2,
-    "regional_hiking_m": 389117.5,
-    "walkability_path_m": 0.0,
-    "scenic_transport_count": 63,
-    "reachable_named_museums": "20",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Gonten",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1495.96,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 3
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 121,
-  "seasonality": {
-    "volatility_label": "Year-round",
-    "peak_month": "sep",
-    "trough_month": "feb",
-    "peak_trough_ratio": 2.04,
-    "monthly_index": [
-      77,
-      67,
-      68,
-      70,
-      104,
-      124,
-      123,
-      137,
-      137,
-      126,
-      85,
-      82
-    ]
-  },
-  "tourism_intensity": 16.0,
   "restaurant_count": 3,
   "isos_name": ""
 }

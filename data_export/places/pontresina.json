@@ -2,80 +2,36 @@
   "slug": "pontresina",
   "name": "Pontresina",
   "canton": "GR",
-  "score_total": 39.69,
-  "scores": {
-    "total": 39.69,
-    "base": 32.19,
-    "access": 50.93,
-    "sub": {
-      "anti_overtourism": 14.28,
-      "walkability": 13.57,
-      "local_hiking": 72.25,
-      "water": 43.06,
-      "heritage": 0.0,
-      "climate": 50.0,
-      "scenic_transport": 40.53,
-      "destination_pull": 68.02,
-      "cultural_access": 41.18,
-      "access_hiking": 53.82
-    }
-  },
+  "score_total": 50.25,
   "subscores": {
-    "base_quality": 32.19,
-    "access_value": 50.93,
-    "anti_overtourism": 14.28
+    "base_quality": 50.0,
+    "access_value": 45.0,
+    "practical_comfort": 70,
+    "anti_overtourism": 40
   },
   "reachable_tags": [
     "Hiking",
-    "Water",
-    "Scenic transport",
-    "Museums"
+    "Water"
   ],
   "metrics": {
     "overnight_stays": 403332,
     "domestic_share_overnights": 0.6491,
     "summer_temp_avg": 9.77,
-    "local_hiking_m": 124792.6,
-    "regional_hiking_m": 1301281.0,
-    "walkability_path_m": 2093.4,
-    "scenic_transport_count": 93,
-    "reachable_named_museums": "10",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Pontresina, Rondo",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 850.5,
+    "museum_count_2km": 0,
+    "restaurant_count_2km": 15
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 168,
-  "seasonality": {
-    "volatility_label": "Highly seasonal",
-    "peak_month": "feb",
-    "trough_month": "may",
-    "peak_trough_ratio": 12.51,
-    "monthly_index": [
-      150,
-      171,
-      127,
-      16,
-      14,
-      76,
-      138,
-      149,
-      114,
-      102,
-      30,
-      112
-    ]
-  },
-  "tourism_intensity": 184.1,
   "restaurant_count": 15,
   "isos_name": ""
 }

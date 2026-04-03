@@ -2,80 +2,37 @@
   "slug": "vitznau",
   "name": "Vitznau",
   "canton": "LU",
-  "score_total": 50.79,
-  "scores": {
-    "total": 50.79,
-    "base": 38.47,
-    "access": 69.29,
-    "sub": {
-      "anti_overtourism": 71.86,
-      "walkability": 7.0,
-      "local_hiking": 29.92,
-      "water": 54.1,
-      "heritage": 0.0,
-      "climate": 50.0,
-      "scenic_transport": 48.02,
-      "destination_pull": 73.33,
-      "cultural_access": 100.0,
-      "access_hiking": 52.55
-    }
-  },
+  "score_total": 70.0,
   "subscores": {
-    "base_quality": 38.47,
-    "access_value": 69.29,
-    "anti_overtourism": 71.86
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 65,
+    "anti_overtourism": 90
   },
   "reachable_tags": [
     "Hiking",
     "Water",
-    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 86841,
     "domestic_share_overnights": 0.5325,
     "summer_temp_avg": 17.88,
-    "local_hiking_m": 51686.2,
-    "regional_hiking_m": 966455.7,
-    "walkability_path_m": 1080.1,
-    "scenic_transport_count": 108,
-    "reachable_named_museums": "20",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Vitznau, Park Hotel",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1068.71,
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 7
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 60,
-  "seasonality": {
-    "volatility_label": "Strongly seasonal",
-    "peak_month": "jul",
-    "trough_month": "feb",
-    "peak_trough_ratio": 5.96,
-    "monthly_index": [
-      33,
-      32,
-      55,
-      81,
-      120,
-      140,
-      190,
-      185,
-      132,
-      98,
-      62,
-      73
-    ]
-  },
-  "tourism_intensity": 60.7,
   "restaurant_count": 7,
   "isos_name": ""
 }

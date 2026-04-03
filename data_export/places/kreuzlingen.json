@@ -2,79 +2,37 @@
   "slug": "kreuzlingen",
   "name": "Kreuzlingen",
   "canton": "TG",
-  "score_total": 44.31,
-  "scores": {
-    "total": 44.31,
-    "base": 47.46,
-    "access": 39.59,
-    "sub": {
-      "anti_overtourism": 99.35,
-      "walkability": 28.12,
-      "local_hiking": 0.0,
-      "water": 46.69,
-      "heritage": 0.0,
-      "climate": 100.0,
-      "scenic_transport": 8.15,
-      "destination_pull": 37.62,
-      "cultural_access": 100.0,
-      "access_hiking": 5.73
-    }
-  },
+  "score_total": 74.0,
   "subscores": {
-    "base_quality": 47.46,
-    "access_value": 39.59,
-    "anti_overtourism": 99.35
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 100.0
   },
   "reachable_tags": [
+    "Hiking",
     "Water",
-    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 40377,
     "domestic_share_overnights": 0.5298,
     "summer_temp_avg": 18.52,
-    "local_hiking_m": 0.0,
-    "regional_hiking_m": 0.0,
-    "walkability_path_m": 4337.1,
-    "scenic_transport_count": 19,
-    "reachable_named_museums": "20",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Kreuzlingen, Alterszentrum",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 329.31,
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 24
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 117,
-  "seasonality": {
-    "volatility_label": "Mildly seasonal",
-    "peak_month": "aug",
-    "trough_month": "jan",
-    "peak_trough_ratio": 4.21,
-    "monthly_index": [
-      42,
-      54,
-      68,
-      93,
-      150,
-      133,
-      151,
-      175,
-      117,
-      92,
-      63,
-      64
-    ]
-  },
-  "tourism_intensity": 1.8,
   "restaurant_count": 24,
   "isos_name": ""
 }

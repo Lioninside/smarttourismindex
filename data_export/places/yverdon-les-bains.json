@@ -2,79 +2,37 @@
   "slug": "yverdon-les-bains",
   "name": "Yverdon-les-Bains",
   "canton": "VD",
-  "score_total": 42.29,
-  "scores": {
-    "total": 42.29,
-    "base": 40.94,
-    "access": 44.32,
-    "sub": {
-      "anti_overtourism": 99.16,
-      "walkability": 18.09,
-      "local_hiking": 0.0,
-      "water": 16.88,
-      "heritage": 0.0,
-      "climate": 100.0,
-      "scenic_transport": 10.13,
-      "destination_pull": 52.74,
-      "cultural_access": 100.0,
-      "access_hiking": 3.06
-    }
-  },
+  "score_total": 72.0,
   "subscores": {
-    "base_quality": 40.94,
-    "access_value": 44.32,
-    "anti_overtourism": 99.16
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 90
   },
   "reachable_tags": [
+    "Hiking",
     "Water",
-    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 67054,
     "domestic_share_overnights": 0.6155,
     "summer_temp_avg": 18.66,
-    "local_hiking_m": 0.0,
-    "regional_hiking_m": 14141.7,
-    "walkability_path_m": 2790.6,
-    "scenic_transport_count": 24,
-    "reachable_named_museums": "20",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Yverdon, Théâtre Benno Besson",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 409.14,
+    "museum_count_2km": 4,
+    "restaurant_count_2km": 46
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 144,
-  "seasonality": {
-    "volatility_label": "Year-round",
-    "peak_month": "aug",
-    "trough_month": "jan",
-    "peak_trough_ratio": 2.2,
-    "monthly_index": [
-      62,
-      65,
-      86,
-      92,
-      124,
-      118,
-      127,
-      137,
-      119,
-      106,
-      91,
-      72
-    ]
-  },
-  "tourism_intensity": 2.2,
   "restaurant_count": 46,
   "isos_name": ""
 }

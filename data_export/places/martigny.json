@@ -2,80 +2,37 @@
   "slug": "martigny",
   "name": "Martigny",
   "canton": "VS",
-  "score_total": 53.42,
-  "scores": {
-    "total": 53.42,
-    "base": 49.77,
-    "access": 58.88,
-    "sub": {
-      "anti_overtourism": 98.18,
-      "walkability": 17.98,
-      "local_hiking": 16.76,
-      "water": 55.21,
-      "heritage": 0.0,
-      "climate": 100.0,
-      "scenic_transport": 55.51,
-      "destination_pull": 51.04,
-      "cultural_access": 94.12,
-      "access_hiking": 22.56
-    }
-  },
+  "score_total": 72.0,
   "subscores": {
-    "base_quality": 49.77,
-    "access_value": 58.88,
-    "anti_overtourism": 98.18
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 90
   },
   "reachable_tags": [
     "Hiking",
     "Water",
-    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 101682,
     "domestic_share_overnights": 0.6075,
     "summer_temp_avg": 18.92,
-    "local_hiking_m": 28943.8,
-    "regional_hiking_m": 801318.7,
-    "walkability_path_m": 2772.5,
-    "scenic_transport_count": 127,
-    "reachable_named_museums": "19",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Martigny, Grand Verger",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 1265.66,
+    "museum_count_2km": 2,
+    "restaurant_count_2km": 40
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 29,
-  "seasonality": {
-    "volatility_label": "Mildly seasonal",
-    "peak_month": "aug",
-    "trough_month": "jan",
-    "peak_trough_ratio": 2.61,
-    "monthly_index": [
-      58,
-      82,
-      82,
-      76,
-      104,
-      124,
-      139,
-      151,
-      129,
-      111,
-      72,
-      73
-    ]
-  },
-  "tourism_intensity": 4.3,
   "restaurant_count": 40,
   "isos_name": ""
 }

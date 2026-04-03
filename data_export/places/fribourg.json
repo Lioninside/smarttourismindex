@@ -2,79 +2,37 @@
   "slug": "fribourg",
   "name": "Fribourg",
   "canton": "FR",
-  "score_total": 45.15,
-  "scores": {
-    "total": 45.15,
-    "base": 41.94,
-    "access": 49.97,
-    "sub": {
-      "anti_overtourism": 99.35,
-      "walkability": 24.05,
-      "local_hiking": 0.0,
-      "water": 15.3,
-      "heritage": 0.0,
-      "climate": 100.0,
-      "scenic_transport": 14.54,
-      "destination_pull": 61.36,
-      "cultural_access": 100.0,
-      "access_hiking": 14.67
-    }
-  },
+  "score_total": 72.0,
   "subscores": {
-    "base_quality": 41.94,
-    "access_value": 49.97,
-    "anti_overtourism": 99.35
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 90
   },
   "reachable_tags": [
+    "Hiking",
     "Water",
-    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 75133,
     "domestic_share_overnights": 0.6272,
     "summer_temp_avg": 17.97,
-    "local_hiking_m": 0.0,
-    "regional_hiking_m": 28213.4,
-    "walkability_path_m": 3709.5,
-    "scenic_transport_count": 32,
-    "reachable_named_museums": "20",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Fribourg, Place Georges Python",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 589.33,
+    "museum_count_2km": 10,
+    "restaurant_count_2km": 91
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 108,
-  "seasonality": {
-    "volatility_label": "Year-round",
-    "peak_month": "sep",
-    "trough_month": "dec",
-    "peak_trough_ratio": 1.6,
-    "monthly_index": [
-      78,
-      82,
-      92,
-      102,
-      109,
-      112,
-      108,
-      117,
-      121,
-      106,
-      98,
-      76
-    ]
-  },
-  "tourism_intensity": 1.8,
   "restaurant_count": 91,
   "isos_name": ""
 }

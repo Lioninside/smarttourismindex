@@ -2,80 +2,37 @@
   "slug": "solothurn",
   "name": "Solothurn",
   "canton": "SO",
-  "score_total": 43.78,
-  "scores": {
-    "total": 43.78,
-    "base": 40.59,
-    "access": 48.56,
-    "sub": {
-      "anti_overtourism": 97.48,
-      "walkability": 17.89,
-      "local_hiking": 1.04,
-      "water": 16.25,
-      "heritage": 0.0,
-      "climate": 100.0,
-      "scenic_transport": 5.73,
-      "destination_pull": 72.38,
-      "cultural_access": 100.0,
-      "access_hiking": 0.87
-    }
-  },
+  "score_total": 74.0,
   "subscores": {
-    "base_quality": 40.59,
-    "access_value": 48.56,
-    "anti_overtourism": 97.48
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 85,
+    "anti_overtourism": 90
   },
   "reachable_tags": [
     "Hiking",
     "Water",
-    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 90793,
     "domestic_share_overnights": 0.6911,
     "summer_temp_avg": 18.35,
-    "local_hiking_m": 1789.0,
-    "regional_hiking_m": 21352.4,
-    "walkability_path_m": 2759.2,
-    "scenic_transport_count": 9,
-    "reachable_named_museums": "20",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Solothurn, Zentralbibliothek",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 843.72,
+    "museum_count_2km": 7,
+    "restaurant_count_2km": 71
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 126,
-  "seasonality": {
-    "volatility_label": "Year-round",
-    "peak_month": "jul",
-    "trough_month": "feb",
-    "peak_trough_ratio": 1.71,
-    "monthly_index": [
-      78,
-      70,
-      87,
-      98,
-      111,
-      118,
-      121,
-      120,
-      118,
-      104,
-      94,
-      81
-    ]
-  },
-  "tourism_intensity": 5.8,
   "restaurant_count": 71,
   "isos_name": ""
 }

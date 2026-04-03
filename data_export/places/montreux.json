@@ -2,80 +2,37 @@
   "slug": "montreux",
   "name": "Montreux",
   "canton": "VD",
-  "score_total": 45.23,
-  "scores": {
-    "total": 45.23,
-    "base": 35.37,
-    "access": 60.03,
-    "sub": {
-      "anti_overtourism": 92.44,
-      "walkability": 15.95,
-      "local_hiking": 5.44,
-      "water": 19.87,
-      "heritage": 0.0,
-      "climate": 50.0,
-      "scenic_transport": 43.61,
-      "destination_pull": 61.72,
-      "cultural_access": 100.0,
-      "access_hiking": 22.85
-    }
-  },
+  "score_total": 62.0,
   "subscores": {
-    "base_quality": 35.37,
-    "access_value": 60.03,
-    "anti_overtourism": 92.44
+    "base_quality": 65.0,
+    "access_value": 65.0,
+    "practical_comfort": 75,
+    "anti_overtourism": 40
   },
   "reachable_tags": [
     "Hiking",
     "Water",
-    "Scenic transport",
     "Museums"
   ],
   "metrics": {
     "overnight_stays": 496571,
     "domestic_share_overnights": 0.4579,
     "summer_temp_avg": 18.89,
-    "local_hiking_m": 9393.8,
-    "regional_hiking_m": 390732.7,
-    "walkability_path_m": 2459.2,
-    "scenic_transport_count": 100,
-    "reachable_named_museums": "20",
-    "isos_name": "",
-    "isos_kategorie": ""
+    "anchor_stop_name": "Montreux-Collège",
+    "anchor_route_count": 0,
+    "hiking_length_15km_km": 702.87,
+    "museum_count_2km": 1,
+    "restaurant_count_2km": 38
   },
   "data_status": {
     "bfs": true,
     "climate": true,
+    "gtfs": true,
+    "hiking": true,
     "water": true,
     "heritage": true,
-    "hiking": true,
-    "walkability": true,
-    "scenic": true,
-    "dest_pull": true,
-    "cultural": true
+    "osm": true
   },
-  "rank": 107,
-  "seasonality": {
-    "volatility_label": "Mildly seasonal",
-    "peak_month": "jul",
-    "trough_month": "jan",
-    "peak_trough_ratio": 3.18,
-    "monthly_index": [
-      47,
-      53,
-      58,
-      85,
-      126,
-      132,
-      148,
-      143,
-      124,
-      89,
-      74,
-      120
-    ]
-  },
-  "tourism_intensity": 16.6,
   "restaurant_count": 38,
   "isos_name": ""
 }
