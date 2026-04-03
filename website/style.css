@@ -572,9 +572,10 @@ body {
 }
 
 .sbar-month-label {
-  font-size: 10px;
-  font-weight: 600;
+  font-size: 6.5px;
+  font-weight: 500;
   fill: var(--gray-400);
+  opacity: 0.6;
   font-family: inherit;
 }
 

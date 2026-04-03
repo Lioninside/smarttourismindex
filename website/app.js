@@ -217,15 +217,15 @@ function renderDetail(slug, detail, container) {
   const hotelUrl = 'https://www.swisshotels.com';
 
   // Grid cell values
-  const historicTown = detail.isos_name ? '✓' : '—';
+  const heritageStatus = detail.isos_name ? 'YES' : 'NO';
 
   const reachableSlugs = detail.reachable_slugs || [];
-  const highlights = SWISS_TOP20
+  const destinations = SWISS_TOP20
     .filter(s => reachableSlugs.includes(s))
     .slice(0, 3)
     .map(s => getPlaceName(s))
-    .join(' · ');
-  const highlightsDisplay = highlights || '—';
+    .join(' • ');
+  const destinationsDisplay = destinations || '—';
 
   const displayScore = v => v != null ? `${Math.round(v)} / 100` : '—';
   const mtAccess   = displayScore(sub.scenic_transport);
@@ -233,19 +233,19 @@ function renderDetail(slug, detail, container) {
 
   const metricsHtml = `
     <div class="metric-item">
-      <span class="metric-label">Historic town</span>
-      <span class="metric-value">${historicTown}</span>
+      <span class="metric-label">Heritage Status</span>
+      <span class="metric-value">${heritageStatus}</span>
     </div>
     <div class="metric-item metric-item--wide">
-      <span class="metric-label">Nearby highlights</span>
-      <span class="metric-value metric-value--highlights">${highlightsDisplay}</span>
+      <span class="metric-label">Destinations (≤1.5h)</span>
+      <span class="metric-value metric-value--highlights">${destinationsDisplay}</span>
     </div>
     <div class="metric-item">
-      <span class="metric-label">Mountain access</span>
+      <span class="metric-label">Mountain Access</span>
       <span class="metric-value">${mtAccess}</span>
     </div>
     <div class="metric-item">
-      <span class="metric-label">Culture access</span>
+      <span class="metric-label">Culture Access</span>
       <span class="metric-value">${cultAccess}</span>
     </div>
   `;
