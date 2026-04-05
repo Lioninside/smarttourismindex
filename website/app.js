@@ -2,12 +2,15 @@
 
 const DATA = '/data_export';
 
-// Ranked by Swiss annual overnights — order determines display priority
+// Ranked by significance (most significant first) — only these appear in Nearby Highlights
 const SWISS_TOP20 = [
-  "zermatt", "interlaken", "luzern", "zurich", "geneve",
-  "lausanne", "lugano", "st-moritz", "grindelwald", "davos",
-  "bern", "basel", "locarno", "montreux", "pontresina",
-  "saas-fee", "leukerbad", "arosa", "laax", "kandersteg"
+  "zurich", "geneve", "zermatt", "basel", "luzern",
+  "bern", "lausanne", "interlaken", "davos", "st-moritz",
+  "grindelwald", "lugano", "lauterbrunnen", "montreux", "ascona",
+  "arosa", "pontresina", "vernier", "saanen", "engelberg",
+  "locarno", "st-gallen", "laax", "saas-fee", "chur",
+  "vaz-obervaz", "winterthur", "leukerbad", "adelboden", "crans-montana",
+  "flims"
 ];
 
 let allPlaces = [];
@@ -139,8 +142,8 @@ function renderCard(place, rank, isExpanded) {
         </div>
       </div>
       <div class="card-bars" onclick="toggleCard('${place.slug}')">
-        ${bar('BASE',   baseVal)}
-        ${bar('ACCESS', accessVal)}
+        ${bar('BASE SCORE',   baseVal)}
+        ${bar('ACCESS SCORE', accessVal)}
       </div>
       ${isExpanded ? `<div class="card-detail" id="detail-${place.slug}">
         <div class="detail-loading">Loading…</div>
@@ -214,15 +217,15 @@ function renderDetail(slug, detail, container) {
   const hotelUrl = 'https://www.swisshotels.com';
 
   // Grid cell values
-  const historicTown = detail.isos_name ? '✓' : '—';
+  const heritageStatus = detail.isos_name ? 'YES' : 'NO';
 
   const reachableSlugs = detail.reachable_slugs || [];
-  const highlights = SWISS_TOP20
+  const destinations = SWISS_TOP20
     .filter(s => reachableSlugs.includes(s))
     .slice(0, 3)
     .map(s => getPlaceName(s))
-    .join(' · ');
-  const highlightsDisplay = highlights || '—';
+    .join(' • ');
+  const destinationsDisplay = destinations || '—';
 
   const displayScore = v => v != null ? `${Math.round(v)} / 100` : '—';
   const mtAccess   = displayScore(sub.scenic_transport);
@@ -230,19 +233,19 @@ function renderDetail(slug, detail, container) {
 
   const metricsHtml = `
     <div class="metric-item">
-      <span class="metric-label">Historic town</span>
-      <span class="metric-value">${historicTown}</span>
+      <span class="metric-label">Listed Townscape (ISOS)</span>
+      <span class="metric-value">${heritageStatus}</span>
     </div>
     <div class="metric-item metric-item--wide">
-      <span class="metric-label">Nearby highlights</span>
-      <span class="metric-value metric-value--highlights">${highlightsDisplay}</span>
+      <span class="metric-label">Destinations (≤1.5h)</span>
+      <span class="metric-value metric-value--highlights">${destinationsDisplay}</span>
     </div>
     <div class="metric-item">
-      <span class="metric-label">Mountain access</span>
+      <span class="metric-label">Mountain Access</span>
       <span class="metric-value">${mtAccess}</span>
     </div>
     <div class="metric-item">
-      <span class="metric-label">Culture access</span>
+      <span class="metric-label">Culture Access</span>
       <span class="metric-value">${cultAccess}</span>
     </div>
   `;
@@ -254,6 +257,7 @@ function renderDetail(slug, detail, container) {
       </div>
       <div class="detail-info-col">
         <div class="detail-metrics">${metricsHtml}</div>
+        ${detail.seasonality ? `<span class="metric-label seasonality-label">Seasonal Pattern</span>` : ''}
         ${renderSeasonality(detail.seasonality)}
         <div class="detail-actions">
           <a href="${hotelUrl}" target="_blank" rel="noopener noreferrer" class="btn-primary">Find a hotel ↗</a>
