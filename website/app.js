@@ -142,8 +142,8 @@ function renderCard(place, rank, isExpanded) {
         </div>
       </div>
       <div class="card-bars" onclick="toggleCard('${place.slug}')">
-        ${bar('BASE',   baseVal)}
-        ${bar('ACCESS', accessVal)}
+        ${bar('BASE SCORE',   baseVal)}
+        ${bar('ACCESS SCORE', accessVal)}
       </div>
       ${isExpanded ? `<div class="card-detail" id="detail-${place.slug}">
         <div class="detail-loading">Loading…</div>
@@ -233,7 +233,7 @@ function renderDetail(slug, detail, container) {
 
   const metricsHtml = `
     <div class="metric-item">
-      <span class="metric-label">Heritage Status</span>
+      <span class="metric-label">Listed Townscape (ISOS)</span>
       <span class="metric-value">${heritageStatus}</span>
     </div>
     <div class="metric-item metric-item--wide">
@@ -257,6 +257,7 @@ function renderDetail(slug, detail, container) {
       </div>
       <div class="detail-info-col">
         <div class="detail-metrics">${metricsHtml}</div>
+        ${detail.seasonality ? `<span class="metric-label seasonality-label">Seasonal Pattern</span>` : ''}
         ${renderSeasonality(detail.seasonality)}
         <div class="detail-actions">
           <a href="${hotelUrl}" target="_blank" rel="noopener noreferrer" class="btn-primary">Find a hotel ↗</a>
