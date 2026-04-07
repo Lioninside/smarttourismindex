@@ -186,8 +186,14 @@ def normalise_column(
 
 
 def water_score_from_row(row: Dict[str, Any]) -> float:
-    """Convert water features count to 0-1 signal. Already continuous — normalise inline."""
-    return float(row.get("water_features_2km", 0))
+    """Convert water features count to 0-1 signal.
+
+    Raw TLM feature counts are biased toward stream-rich mountain areas, where
+    many small river line segments inflate the count relative to lakeside towns
+    that have a single large lake polygon. Cap at 100 so that presence and
+    moderate density matter, but a high stream count does not swamp lake access.
+    """
+    return min(float(row.get("water_features_2km", 0)), 100.0)
 
 
 def climate_score_from_row(row: Dict[str, Any]) -> float:
