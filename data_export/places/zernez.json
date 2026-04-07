@@ -1,0 +1,85 @@
+{
+  "slug": "zernez",
+  "name": "Zernez",
+  "canton": "GR",
+  "score_total": 41.18,
+  "scores": {
+    "total": 41.18,
+    "base": 44.34,
+    "access": 36.43,
+    "sub": {
+      "anti_overtourism": 79.55,
+      "walkability": 10.97,
+      "local_hiking": 44.25,
+      "water": 22.71,
+      "heritage": 50.0,
+      "climate": 50.0,
+      "scenic_transport": 0.0,
+      "destination_pull": 89.0,
+      "cultural_access": 10.0,
+      "access_hiking": 48.22
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 74289,
+    "domestic_share_overnights": 0.8619,
+    "summer_temp_avg": 12.32,
+    "local_hiking_m": 76437.6,
+    "regional_hiking_m": 1170994.0,
+    "walkability_path_m": 1691.8,
+    "scenic_transport_count": 0,
+    "reachable_named_museums": "2",
+    "isos_name": "Zernez",
+    "isos_kategorie": "vitg urban"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 153,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "jul",
+    "trough_month": "apr",
+    "peak_trough_ratio": 15.74,
+    "monthly_index": [
+      84,
+      110,
+      71,
+      12,
+      49,
+      133,
+      197,
+      176,
+      151,
+      157,
+      13,
+      46
+    ]
+  },
+  "tourism_intensity": 43.9,
+  "restaurant_count": 8,
+  "isos_name": "Zernez",
+  "reachable_slugs": [
+    "celerina-schlarigna",
+    "klosters",
+    "pontresina",
+    "samedan",
+    "scuol",
+    "st-moritz",
+    "val-muestair"
+  ]
+}

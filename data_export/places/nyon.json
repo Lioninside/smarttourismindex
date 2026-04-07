@@ -1,0 +1,88 @@
+{
+  "slug": "nyon",
+  "name": "Nyon",
+  "canton": "VD",
+  "score_total": 44.86,
+  "scores": {
+    "total": 44.86,
+    "base": 46.66,
+    "access": 42.16,
+    "sub": {
+      "anti_overtourism": 98.37,
+      "walkability": 16.8,
+      "local_hiking": 0.0,
+      "water": 11.36,
+      "heritage": 70.0,
+      "climate": 100.0,
+      "scenic_transport": 15.79,
+      "destination_pull": 95.58,
+      "cultural_access": 35.0,
+      "access_hiking": 0.0
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 81314,
+    "domestic_share_overnights": 0.4555,
+    "summer_temp_avg": 19.57,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 0.0,
+    "walkability_path_m": 2590.3,
+    "scenic_transport_count": 15,
+    "reachable_named_museums": "7",
+    "isos_name": "Prangins",
+    "isos_kategorie": "village"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 119,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "jun",
+    "trough_month": "jan",
+    "peak_trough_ratio": 2.37,
+    "monthly_index": [
+      58,
+      78,
+      86,
+      120,
+      128,
+      136,
+      129,
+      115,
+      115,
+      93,
+      72,
+      70
+    ]
+  },
+  "tourism_intensity": 3.5,
+  "restaurant_count": 43,
+  "isos_name": "Prangins",
+  "reachable_slugs": [
+    "bourg-en-lavaux",
+    "geneve",
+    "lancy",
+    "lausanne",
+    "meyrin",
+    "montreux",
+    "morges",
+    "vernier",
+    "vevey",
+    "yverdon-les-bains"
+  ]
+}

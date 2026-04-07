@@ -1,0 +1,81 @@
+{
+  "slug": "meyrin",
+  "name": "Meyrin",
+  "canton": "GE",
+  "score_total": 43.41,
+  "scores": {
+    "total": 43.41,
+    "base": 38.11,
+    "access": 51.37,
+    "sub": {
+      "anti_overtourism": 87.94,
+      "walkability": 28.24,
+      "local_hiking": 0.0,
+      "water": 3.15,
+      "heritage": 0.0,
+      "climate": 100.0,
+      "scenic_transport": 0.0,
+      "destination_pull": 92.06,
+      "cultural_access": 95.0,
+      "access_hiking": 0.0
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 703536,
+    "domestic_share_overnights": 0.3157,
+    "summer_temp_avg": 19.52,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 0.0,
+    "walkability_path_m": 4355.8,
+    "scenic_transport_count": 0,
+    "reachable_named_museums": "19",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 131,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "jul",
+    "trough_month": "nov",
+    "peak_trough_ratio": 1.48,
+    "monthly_index": [
+      85,
+      84,
+      91,
+      95,
+      111,
+      119,
+      122,
+      112,
+      103,
+      96,
+      83,
+      99
+    ]
+  },
+  "tourism_intensity": 25.9,
+  "restaurant_count": 29,
+  "isos_name": "",
+  "reachable_slugs": [
+    "geneve",
+    "lancy",
+    "morges",
+    "nyon",
+    "vernier"
+  ]
+}

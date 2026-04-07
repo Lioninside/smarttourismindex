@@ -1,0 +1,87 @@
+{
+  "slug": "rorschacherberg",
+  "name": "Rorschacherberg",
+  "canton": "SG",
+  "score_total": 49.03,
+  "scores": {
+    "total": 49.03,
+    "base": 47.26,
+    "access": 51.67,
+    "sub": {
+      "anti_overtourism": 98.23,
+      "walkability": 3.52,
+      "local_hiking": 0.0,
+      "water": 46.69,
+      "heritage": 100.0,
+      "climate": 50.0,
+      "scenic_transport": 6.84,
+      "destination_pull": 81.32,
+      "cultural_access": 100.0,
+      "access_hiking": 1.46
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 30145,
+    "domestic_share_overnights": 0.6952,
+    "summer_temp_avg": 18.01,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 35571.5,
+    "walkability_path_m": 542.1,
+    "scenic_transport_count": 6,
+    "reachable_named_museums": "20",
+    "isos_name": "Rorschach",
+    "isos_kategorie": "Kleinstadt/Flecken"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 66,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "aug",
+    "trough_month": "dec",
+    "peak_trough_ratio": 3.74,
+    "monthly_index": [
+      48,
+      59,
+      91,
+      100,
+      116,
+      120,
+      140,
+      160,
+      129,
+      110,
+      85,
+      43
+    ]
+  },
+  "tourism_intensity": 3.8,
+  "restaurant_count": 24,
+  "isos_name": "Rorschach",
+  "reachable_slugs": [
+    "altstaetten",
+    "arbon",
+    "heiden",
+    "hundwil",
+    "neckertal",
+    "st-gallen",
+    "teufen",
+    "uzwil",
+    "wil"
+  ]
+}
