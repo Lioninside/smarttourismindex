@@ -227,26 +227,28 @@ function renderDetail(slug, detail, container) {
     .join(' • ');
   const destinationsDisplay = destinations || '—';
 
-  const displayScore = v => v != null ? `${Math.round(v)} / 100` : '—';
-  const mtAccess   = displayScore(sub.scenic_transport);
-  const cultAccess = displayScore(sub.cultural_access);
+  // Tourism pressure category — derived from anti_overtourism sub-score (0–100).
+  // High anti_overtourism = low pressure; low anti_overtourism = high pressure.
+  // Thresholds: >75 → LOW, 50–75 → MODERATE, 25–50 → HIGH, ≤25 → VERY HIGH
+  const aot = sub.anti_overtourism ?? detail.subscores?.anti_overtourism;
+  const pressureLabel = aot == null ? '—'
+    : aot > 75 ? 'LOW'
+    : aot > 50 ? 'MODERATE'
+    : aot > 25 ? 'HIGH'
+    : 'VERY HIGH';
 
   const metricsHtml = `
     <div class="metric-item">
       <span class="metric-label">Listed Townscape (ISOS)</span>
       <span class="metric-value">${heritageStatus}</span>
     </div>
+    <div class="metric-item">
+      <span class="metric-label">Tourism Pressure</span>
+      <span class="metric-value">${pressureLabel}</span>
+    </div>
     <div class="metric-item metric-item--wide">
       <span class="metric-label">Destinations (≤1.5h)</span>
       <span class="metric-value metric-value--highlights">${destinationsDisplay}</span>
-    </div>
-    <div class="metric-item">
-      <span class="metric-label">Mountain Access</span>
-      <span class="metric-value">${mtAccess}</span>
-    </div>
-    <div class="metric-item">
-      <span class="metric-label">Culture Access</span>
-      <span class="metric-value">${cultAccess}</span>
     </div>
   `;
 
