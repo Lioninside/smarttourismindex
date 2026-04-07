@@ -13,6 +13,12 @@ Run scripts/tools/ExtractTLM.py first if the GeoPackages don't exist yet.
 
 Output:
   - data_processed/water/water_metrics.json
+
+Water signal used for scoring (water_equiv_2km_m2):
+  - Lakes: clipped polygon area in m²  (Lake Thun next to Spiez >> small pond)
+  - Rivers: clipped length × per-segment width from TLM BREITENKLASSE attribute
+    (wide rivers like Aare/Rhine score high; long but narrow mountain streams
+     score low because their width class is 1–2, giving them 0.5–3 m width)
 """
 
 from __future__ import annotations
@@ -34,10 +40,25 @@ OUTPUT_JSON  = Path("data_processed/water/water_metrics.json")
 BUFFER_LOCAL_M  = 2000   # water within 2km → local_water = True
 BUFFER_NEARBY_M = 10000  # water within 10km → reachable_water = True
 
+# TLM BREITENKLASSE → representative width in metres.
+# Used to convert river segment length to an equivalent water area so that
+# wide rivers (Aare, Rhine) contribute proportionally more than narrow streams.
+# Segments without a valid BREITENKLASSE get RIVER_WIDTH_FALLBACK_M.
+BREITENKLASSE_WIDTH: Dict[int, float] = {
+    1: 0.5,   # < 1 m   — tiny ditch / brook
+    2: 3.0,   # 1–5 m   — small stream
+    3: 10.0,  # 5–15 m  — medium stream
+    4: 30.0,  # 15–50 m — river
+    5: 75.0,  # > 50 m  — major river (Aare, Rhine, Rhone …)
+}
+RIVER_WIDTH_FALLBACK_M = 3.0  # conservative default for unknown segments
+
 SPOT_CHECK_SLUGS = [
-    # Lakeside towns — should all be local=True
+    # Lakeside towns — should score high on lake area
     "spiez", "beckenried", "vitznau", "weggis", "kussnacht", "bourg-en-lavaux",
-    # Inland towns — should score low on lakes (rivers may still register)
+    # River cities — should score well via river length
+    "bern", "basel", "thun",
+    # Inland towns with limited water — should score low
     "langenthal", "herzogenbuchsee", "wil",
 ]
 
@@ -86,12 +107,55 @@ def read_water() -> gpd.GeoDataFrame:
     )
 
 
-def water_label(local_count: int, nearby_count: int) -> str:
-    if local_count > 0:
+def water_label(local_equiv_m2: float, nearby_equiv_m2: float) -> str:
+    if local_equiv_m2 > 0:
         return "local"
-    if nearby_count > 0:
+    if nearby_equiv_m2 > 0:
         return "reachable"
     return "limited"
+
+
+def _river_equiv_area(rivers: gpd.GeoDataFrame, buf) -> float:
+    """Equivalent area (m²) for river segments clipped to buffer.
+
+    Each segment's clipped length is multiplied by its width derived from
+    BREITENKLASSE so that wide rivers (Aare, Rhine) dominate over long but
+    narrow mountain streams. Segments without a valid BREITENKLASSE get a
+    conservative fallback width.
+    """
+    if rivers.empty:
+        return 0.0
+
+    clipped_lengths = rivers.geometry.intersection(buf).length
+
+    if "BREITENKLASSE" in rivers.columns:
+        widths = (
+            rivers["BREITENKLASSE"]
+            .map(BREITENKLASSE_WIDTH)
+            .fillna(RIVER_WIDTH_FALLBACK_M)
+        )
+    else:
+        widths = pd.Series(RIVER_WIDTH_FALLBACK_M, index=rivers.index)
+
+    return float((clipped_lengths * widths).sum())
+
+
+def _water_equivalent_m2(features: gpd.GeoDataFrame, buf) -> float:
+    """Combined water area equivalent within buffer (m²).
+
+    Lakes: clipped polygon area.
+    Rivers/streams: clipped length × per-segment width from BREITENKLASSE.
+    """
+    if features.empty:
+        return 0.0
+
+    lakes  = features[features["water_type"] == "standing"]
+    rivers = features[features["water_type"] == "flowing"]
+
+    lake_area  = float(lakes.geometry.intersection(buf).area.sum()) if not lakes.empty else 0.0
+    river_area = _river_equiv_area(rivers, buf)
+
+    return lake_area + river_area
 
 
 def main() -> None:
@@ -107,15 +171,20 @@ def main() -> None:
         local  = water[water.intersects(buf_local)]
         nearby = water[water.intersects(buf_nearby)]
 
+        local_equiv_m2  = _water_equivalent_m2(local,  buf_local)
+        nearby_equiv_m2 = _water_equivalent_m2(nearby, buf_nearby)
+
         rows.append(
             {
                 "slug": place["slug"],
                 "name": place["name"],
-                "water_features_2km": int(len(local)),
-                "water_features_10km": int(len(nearby)),
-                "local_water": bool(len(local) > 0),
-                "reachable_water": bool(len(nearby) > 0),
-                "water_access_label": water_label(len(local), len(nearby)),
+                "water_features_2km":    int(len(local)),
+                "water_features_10km":   int(len(nearby)),
+                "water_equiv_2km_m2":    round(local_equiv_m2),
+                "water_equiv_10km_m2":   round(nearby_equiv_m2),
+                "local_water":           bool(local_equiv_m2 > 0),
+                "reachable_water":       bool(nearby_equiv_m2 > 0),
+                "water_access_label":    water_label(local_equiv_m2, nearby_equiv_m2),
             }
         )
 
@@ -126,6 +195,7 @@ def main() -> None:
 
     print(f"Wrote {OUTPUT_JSON} with {len(rows)} rows")
     print(f"  Local buffer: {BUFFER_LOCAL_M}m  |  Nearby buffer: {BUFFER_NEARBY_M}m")
+    print(f"  River widths by BREITENKLASSE: {BREITENKLASSE_WIDTH}")
     _spot_check(rows)
 
 
@@ -137,7 +207,8 @@ def _spot_check(rows: List[Dict[str, Any]]) -> None:
         if r is None:
             print(f"  {slug:<28} — not in places list")
             continue
-        print(f"  {slug:<28} water_2km={r['water_features_2km']:>4}  "
+        equiv_ha = r.get("water_equiv_2km_m2", 0) / 10_000
+        print(f"  {slug:<28} equiv_ha={equiv_ha:>8.1f}  "
               f"local={str(r['local_water']):<5}  label={r['water_access_label']}")
 
 
