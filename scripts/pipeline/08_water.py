@@ -86,12 +86,21 @@ def read_water() -> gpd.GeoDataFrame:
     )
 
 
-def water_label(local_count: int, nearby_count: int) -> str:
-    if local_count > 0:
+def water_label(local_area_m2: float, nearby_area_m2: float) -> str:
+    if local_area_m2 > 0:
         return "local"
-    if nearby_count > 0:
+    if nearby_area_m2 > 0:
         return "reachable"
     return "limited"
+
+
+def _clip_area_m2(features: gpd.GeoDataFrame, buf) -> float:
+    """Sum of clipped lake area (m²) within buffer. Rivers have no meaningful area so excluded."""
+    lakes = features[features["water_type"] == "standing"]
+    if lakes.empty:
+        return 0.0
+    clipped = lakes.geometry.intersection(buf)
+    return float(clipped.area.sum())
 
 
 def main() -> None:
@@ -107,15 +116,20 @@ def main() -> None:
         local  = water[water.intersects(buf_local)]
         nearby = water[water.intersects(buf_nearby)]
 
+        local_area_m2  = _clip_area_m2(local,  buf_local)
+        nearby_area_m2 = _clip_area_m2(nearby, buf_nearby)
+
         rows.append(
             {
                 "slug": place["slug"],
                 "name": place["name"],
-                "water_features_2km": int(len(local)),
+                "water_features_2km":  int(len(local)),
                 "water_features_10km": int(len(nearby)),
-                "local_water": bool(len(local) > 0),
-                "reachable_water": bool(len(nearby) > 0),
-                "water_access_label": water_label(len(local), len(nearby)),
+                "lake_area_2km_m2":    round(local_area_m2),
+                "lake_area_10km_m2":   round(nearby_area_m2),
+                "local_water":         bool(len(local) > 0),
+                "reachable_water":     bool(len(nearby) > 0),
+                "water_access_label":  water_label(local_area_m2, nearby_area_m2),
             }
         )
 
@@ -137,8 +151,9 @@ def _spot_check(rows: List[Dict[str, Any]]) -> None:
         if r is None:
             print(f"  {slug:<28} — not in places list")
             continue
-        print(f"  {slug:<28} water_2km={r['water_features_2km']:>4}  "
-              f"local={str(r['local_water']):<5}  label={r['water_access_label']}")
+        lake_ha = r.get("lake_area_2km_m2", 0) / 10_000
+        print(f"  {slug:<28} features_2km={r['water_features_2km']:>4}  "
+              f"lake_ha={lake_ha:>8.1f}  local={str(r['local_water']):<5}  label={r['water_access_label']}")
 
 
 if __name__ == "__main__":
