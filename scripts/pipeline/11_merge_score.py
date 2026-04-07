@@ -25,7 +25,7 @@ Scoring model:
     ot_score           25%   (inverted tourism_intensity, 99th-pct clip)
     walkability_score  20%   (0-1)
     local_hiking_score 20%   (local_hiking_m normalised, 0-1)
-    water_score        15%   (lake area m² clipped to 2 km buffer, normalised 0-1)
+    water_score        15%   (lake area + river length×30m within 2 km, normalised 0-1)
     heritage_score     10%   (ISOS graded, 0-1)
     climate_score      10%   (summer suitability, 0-1)
 
@@ -186,18 +186,19 @@ def normalise_column(
 
 
 def water_score_from_row(row: Dict[str, Any]) -> float:
-    """Lake area (m²) clipped to the 2 km buffer as the water signal.
+    """Combined water equivalent (m²) within 2 km buffer.
 
-    Using lake area instead of feature count avoids the stream-segment bias:
-    places with many small alpine streams would otherwise score far higher than
-    lakeside towns where the entire lake is a single large polygon.  Area is
-    proportional to actual water presence — Lake Thun next to Spiez registers
-    as a large value, a tiny pond registers as near-zero.
+    Lakes: clipped polygon area.
+    Rivers: clipped length × assumed width (30 m) → equivalent area.
 
-    Falls back to 0 if the field is absent (old water_metrics.json without the
-    area columns — re-run 08_water.py to populate it).
+    This gives fair weight to both lakeside towns (Spiez on Lake Thun) and
+    river cities (Bern on the Aare, Basel on the Rhine) while avoiding the
+    old stream-segment-count bias that inflated alpine stream-heavy areas.
+
+    Falls back to 0 if the field is absent (old water_metrics.json —
+    re-run 08_water.py to populate it).
     """
-    return float(row.get("lake_area_2km_m2", 0))
+    return float(row.get("water_equiv_2km_m2", 0))
 
 
 def climate_score_from_row(row: Dict[str, Any]) -> float:
@@ -245,9 +246,9 @@ def main() -> None:
                        for r in load_json(WALKABILITY_JSON) if "walkability_score" in r}
     local_hike_norm = normalise_column(list(hiking.values()), "local_hiking_m", all_slugs)
     water_norm      = normalise_column(
-        [{"slug": s, "lake_area_2km_m2": water_score_from_row(r)}
+        [{"slug": s, "water_equiv_2km_m2": water_score_from_row(r)}
          for s, r in water.items()],
-        "lake_area_2km_m2", all_slugs,
+        "water_equiv_2km_m2", all_slugs,
     )
     climate_norm    = normalise_column(
         [{"slug": s, "_cs": climate_score_from_row(r)} for s, r in climate.items()],
