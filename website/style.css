@@ -440,7 +440,8 @@ body {
   color: var(--gray-400);
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  min-width: 52px;
+  width: 90px;
+  flex-shrink: 0;
 }
 
 .bar-track {
