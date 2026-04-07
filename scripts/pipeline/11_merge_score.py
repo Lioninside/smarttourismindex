@@ -25,7 +25,7 @@ Scoring model:
     ot_score           25%   (inverted tourism_intensity, 99th-pct clip)
     walkability_score  20%   (0-1)
     local_hiking_score 20%   (local_hiking_m normalised, 0-1)
-    water_score        15%   (lake area + river length×30m within 2 km, normalised 0-1)
+    water_score        15%   (lake area + river length×BREITENKLASSE width within 2 km, normalised 0-1)
     heritage_score     10%   (ISOS graded, 0-1)
     climate_score      10%   (summer suitability, 0-1)
 
