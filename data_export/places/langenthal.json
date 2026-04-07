@@ -1,0 +1,95 @@
+{
+  "slug": "langenthal",
+  "name": "Langenthal",
+  "canton": "BE",
+  "score_total": 48.13,
+  "scores": {
+    "total": 48.13,
+    "base": 54.64,
+    "access": 38.37,
+    "sub": {
+      "anti_overtourism": 98.98,
+      "walkability": 19.55,
+      "local_hiking": 0.0,
+      "water": 39.91,
+      "heritage": 100.0,
+      "climate": 100.0,
+      "scenic_transport": 3.68,
+      "destination_pull": 98.88,
+      "cultural_access": 30.0,
+      "access_hiking": 0.66
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 34794,
+    "domestic_share_overnights": 0.7194,
+    "summer_temp_avg": 17.97,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 16070.2,
+    "walkability_path_m": 3014.4,
+    "scenic_transport_count": 3,
+    "reachable_named_museums": "6",
+    "isos_name": "Langenthal",
+    "isos_kategorie": "Kleinstadt/Flecken"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 77,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "may",
+    "trough_month": "jul",
+    "peak_trough_ratio": 1.59,
+    "monthly_index": [
+      85,
+      78,
+      101,
+      97,
+      121,
+      119,
+      76,
+      117,
+      118,
+      94,
+      115,
+      78
+    ]
+  },
+  "tourism_intensity": 2.2,
+  "restaurant_count": 38,
+  "isos_name": "Langenthal",
+  "reachable_slugs": [
+    "aarau",
+    "baden",
+    "basel",
+    "bern",
+    "burgdorf",
+    "egerkingen",
+    "herzogenbuchsee",
+    "koeniz",
+    "lenzburg",
+    "liestal",
+    "luzern",
+    "olten",
+    "pratteln",
+    "solothurn",
+    "sursee",
+    "zofingen",
+    "zuerich"
+  ]
+}

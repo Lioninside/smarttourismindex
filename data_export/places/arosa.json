@@ -1,0 +1,79 @@
+{
+  "slug": "arosa",
+  "name": "Arosa",
+  "canton": "GR",
+  "score_total": 48.09,
+  "scores": {
+    "total": 48.09,
+    "base": 28.62,
+    "access": 77.29,
+    "sub": {
+      "anti_overtourism": 36.52,
+      "walkability": 0.0,
+      "local_hiking": 60.78,
+      "water": 48.9,
+      "heritage": 0.0,
+      "climate": 0.0,
+      "scenic_transport": 97.89,
+      "destination_pull": 76.4,
+      "cultural_access": 40.0,
+      "access_hiking": 100.0
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 418711,
+    "domestic_share_overnights": 0.6972,
+    "summer_temp_avg": 11.14,
+    "local_hiking_m": 104978.3,
+    "regional_hiking_m": 2428263.6,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 93,
+    "reachable_named_museums": "8",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 78,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "feb",
+    "trough_month": "may",
+    "peak_trough_ratio": 75.97,
+    "monthly_index": [
+      204,
+      236,
+      184,
+      33,
+      3,
+      32,
+      119,
+      124,
+      56,
+      34,
+      17,
+      158
+    ]
+  },
+  "tourism_intensity": 136.3,
+  "restaurant_count": 26,
+  "isos_name": "",
+  "reachable_slugs": [
+    "chur"
+  ]
+}
