@@ -1,0 +1,79 @@
+{
+  "slug": "tujetsch",
+  "name": "Tujetsch",
+  "canton": "GR",
+  "score_total": 41.28,
+  "scores": {
+    "total": 41.28,
+    "base": 38.24,
+    "access": 45.84,
+    "sub": {
+      "anti_overtourism": 80.95,
+      "walkability": 9.52,
+      "local_hiking": 79.0,
+      "water": 1.96,
+      "heritage": 0.0,
+      "climate": 0.0,
+      "scenic_transport": 34.74,
+      "destination_pull": 73.35,
+      "cultural_access": 15.0,
+      "access_hiking": 64.4
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 42718,
+    "domestic_share_overnights": 0.7845,
+    "summer_temp_avg": 13.82,
+    "local_hiking_m": 136453.3,
+    "regional_hiking_m": 1563688.4,
+    "walkability_path_m": 1468.2,
+    "scenic_transport_count": 33,
+    "reachable_named_museums": "3",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 137,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "feb",
+    "trough_month": "nov",
+    "peak_trough_ratio": 33.99,
+    "monthly_index": [
+      176,
+      238,
+      150,
+      13,
+      32,
+      59,
+      161,
+      133,
+      74,
+      84,
+      7,
+      73
+    ]
+  },
+  "tourism_intensity": 40.9,
+  "restaurant_count": 2,
+  "isos_name": "",
+  "reachable_slugs": [
+    "andermatt"
+  ]
+}

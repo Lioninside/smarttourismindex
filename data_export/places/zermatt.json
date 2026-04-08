@@ -1,0 +1,77 @@
+{
+  "slug": "zermatt",
+  "name": "Zermatt",
+  "canton": "VS",
+  "score_total": 17.36,
+  "scores": {
+    "total": 17.36,
+    "base": 16.11,
+    "access": 19.25,
+    "sub": {
+      "anti_overtourism": 0.0,
+      "walkability": 0.0,
+      "local_hiking": 54.49,
+      "water": 1.39,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 43.16,
+      "destination_pull": 0.0,
+      "cultural_access": 10.0,
+      "access_hiking": 25.34
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 1700264,
+    "domestic_share_overnights": 0.3437,
+    "summer_temp_avg": 11.72,
+    "local_hiking_m": 94119.0,
+    "regional_hiking_m": 615349.0,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 41,
+    "reachable_named_museums": "2",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 183,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "feb",
+    "trough_month": "nov",
+    "peak_trough_ratio": 4.04,
+    "monthly_index": [
+      130,
+      142,
+      138,
+      80,
+      58,
+      92,
+      118,
+      126,
+      104,
+      60,
+      35,
+      118
+    ]
+  },
+  "tourism_intensity": 268.9,
+  "restaurant_count": 69,
+  "isos_name": "",
+  "reachable_slugs": []
+}

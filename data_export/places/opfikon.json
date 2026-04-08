@@ -1,0 +1,94 @@
+{
+  "slug": "opfikon",
+  "name": "Opfikon",
+  "canton": "ZH",
+  "score_total": 41.88,
+  "scores": {
+    "total": 41.88,
+    "base": 32.85,
+    "access": 55.43,
+    "sub": {
+      "anti_overtourism": 82.67,
+      "walkability": 10.15,
+      "local_hiking": 0.0,
+      "water": 0.98,
+      "heritage": 0.0,
+      "climate": 100.0,
+      "scenic_transport": 5.26,
+      "destination_pull": 96.01,
+      "cultural_access": 100.0,
+      "access_hiking": 0.34
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 848207,
+    "domestic_share_overnights": 0.4901,
+    "summer_temp_avg": 18.56,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 8227.1,
+    "walkability_path_m": 1564.9,
+    "scenic_transport_count": 4,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 126,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "jul",
+    "trough_month": "jan",
+    "peak_trough_ratio": 2.22,
+    "monthly_index": [
+      60,
+      62,
+      74,
+      95,
+      119,
+      128,
+      134,
+      124,
+      116,
+      108,
+      83,
+      98
+    ]
+  },
+  "tourism_intensity": 37.2,
+  "restaurant_count": 14,
+  "isos_name": "",
+  "reachable_slugs": [
+    "aarau",
+    "baden",
+    "duebendorf",
+    "frauenfeld",
+    "horgen",
+    "kloten",
+    "lenzburg",
+    "olten",
+    "rapperswil-jona",
+    "schaffhausen",
+    "uster",
+    "uzwil",
+    "waedenswil",
+    "wil",
+    "winterthur",
+    "zuerich",
+    "zug"
+  ]
+}

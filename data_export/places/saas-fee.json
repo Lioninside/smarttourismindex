@@ -1,0 +1,80 @@
+{
+  "slug": "saas-fee",
+  "name": "Saas-Fee",
+  "canton": "VS",
+  "score_total": 32.82,
+  "scores": {
+    "total": 32.82,
+    "base": 24.6,
+    "access": 45.15,
+    "sub": {
+      "anti_overtourism": 32.84,
+      "walkability": 2.73,
+      "local_hiking": 52.76,
+      "water": 1.98,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 57.89,
+      "destination_pull": 71.29,
+      "cultural_access": 5.0,
+      "access_hiking": 34.3
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 271313,
+    "domestic_share_overnights": 0.6749,
+    "summer_temp_avg": 11.73,
+    "local_hiking_m": 91134.9,
+    "regional_hiking_m": 832857.5,
+    "walkability_path_m": 420.4,
+    "scenic_transport_count": 55,
+    "reachable_named_museums": "1",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 169,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "feb",
+    "trough_month": "may",
+    "peak_trough_ratio": 14.68,
+    "monthly_index": [
+      135,
+      179,
+      156,
+      75,
+      12,
+      40,
+      112,
+      129,
+      92,
+      87,
+      59,
+      125
+    ]
+  },
+  "tourism_intensity": 144.2,
+  "restaurant_count": 22,
+  "isos_name": "",
+  "reachable_slugs": [
+    "saas-grund",
+    "visp"
+  ]
+}

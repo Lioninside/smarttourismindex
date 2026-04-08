@@ -1,0 +1,81 @@
+{
+  "slug": "leysin",
+  "name": "Leysin",
+  "canton": "VD",
+  "score_total": 39.51,
+  "scores": {
+    "total": 39.51,
+    "base": 26.86,
+    "access": 58.47,
+    "sub": {
+      "anti_overtourism": 76.43,
+      "walkability": 1.7,
+      "local_hiking": 36.44,
+      "water": 0.85,
+      "heritage": 0.0,
+      "climate": 0.0,
+      "scenic_transport": 70.53,
+      "destination_pull": 82.31,
+      "cultural_access": 30.0,
+      "access_hiking": 34.11
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 183813,
+    "domestic_share_overnights": 0.5406,
+    "summer_temp_avg": 13.86,
+    "local_hiking_m": 62947.9,
+    "regional_hiking_m": 828334.5,
+    "walkability_path_m": 261.9,
+    "scenic_transport_count": 67,
+    "reachable_named_museums": "6",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 150,
+  "seasonality": {
+    "volatility_label": "Strongly seasonal",
+    "peak_month": "feb",
+    "trough_month": "apr",
+    "peak_trough_ratio": 5.05,
+    "monthly_index": [
+      134,
+      164,
+      125,
+      32,
+      55,
+      106,
+      163,
+      151,
+      81,
+      64,
+      43,
+      82
+    ]
+  },
+  "tourism_intensity": 50.6,
+  "restaurant_count": 15,
+  "isos_name": "",
+  "reachable_slugs": [
+    "montreux",
+    "ollon",
+    "ormont-dessus"
+  ]
+}

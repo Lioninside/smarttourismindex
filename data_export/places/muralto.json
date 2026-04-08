@@ -1,0 +1,87 @@
+{
+  "slug": "muralto",
+  "name": "Muralto",
+  "canton": "TI",
+  "score_total": 55.18,
+  "scores": {
+    "total": 55.18,
+    "base": 47.49,
+    "access": 66.71,
+    "sub": {
+      "anti_overtourism": 75.31,
+      "walkability": 8.64,
+      "local_hiking": 44.2,
+      "water": 53.94,
+      "heritage": 50.0,
+      "climate": 50.0,
+      "scenic_transport": 15.79,
+      "destination_pull": 88.32,
+      "cultural_access": 100.0,
+      "access_hiking": 69.86
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 140214,
+    "domestic_share_overnights": 0.7448,
+    "summer_temp_avg": 22.11,
+    "local_hiking_m": 76354.1,
+    "regional_hiking_m": 1696469.4,
+    "walkability_path_m": 1331.8,
+    "scenic_transport_count": 15,
+    "reachable_named_museums": "20",
+    "isos_name": "Locarno",
+    "isos_kategorie": "città"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 10,
+  "seasonality": {
+    "volatility_label": "Strongly seasonal",
+    "peak_month": "jul",
+    "trough_month": "jan",
+    "peak_trough_ratio": 5.51,
+    "monthly_index": [
+      28,
+      41,
+      84,
+      125,
+      125,
+      134,
+      152,
+      150,
+      142,
+      121,
+      54,
+      45
+    ]
+  },
+  "tourism_intensity": 53.0,
+  "restaurant_count": 68,
+  "isos_name": "Locarno",
+  "reachable_slugs": [
+    "ascona",
+    "bellinzona",
+    "collina-doro",
+    "locarno",
+    "lugano",
+    "mendrisio",
+    "monteceneri",
+    "paradiso"
+  ]
+}

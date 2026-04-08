@@ -1,0 +1,82 @@
+{
+  "slug": "saas-grund",
+  "name": "Saas-Grund",
+  "canton": "VS",
+  "score_total": 44.65,
+  "scores": {
+    "total": 44.65,
+    "base": 42.25,
+    "access": 48.25,
+    "sub": {
+      "anti_overtourism": 75.64,
+      "walkability": 13.38,
+      "local_hiking": 52.03,
+      "water": 1.75,
+      "heritage": 50.0,
+      "climate": 50.0,
+      "scenic_transport": 58.95,
+      "destination_pull": 80.94,
+      "cultural_access": 5.0,
+      "access_hiking": 33.56
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 52690,
+    "domestic_share_overnights": 0.6327,
+    "summer_temp_avg": 12.94,
+    "local_hiking_m": 89866.9,
+    "regional_hiking_m": 814947.3,
+    "walkability_path_m": 2063.8,
+    "scenic_transport_count": 56,
+    "reachable_named_museums": "1",
+    "isos_name": "Bidermatten (Saas-Balen)",
+    "isos_kategorie": "Weiler"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 97,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "feb",
+    "trough_month": "may",
+    "peak_trough_ratio": 9.76,
+    "monthly_index": [
+      166,
+      220,
+      184,
+      55,
+      22,
+      66,
+      115,
+      116,
+      77,
+      66,
+      34,
+      79
+    ]
+  },
+  "tourism_intensity": 52.3,
+  "restaurant_count": 5,
+  "isos_name": "Bidermatten (Saas-Balen)",
+  "reachable_slugs": [
+    "brig-glis",
+    "saas-fee",
+    "visp"
+  ]
+}
