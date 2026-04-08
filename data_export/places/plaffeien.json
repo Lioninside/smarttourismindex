@@ -1,0 +1,79 @@
+{
+  "slug": "plaffeien",
+  "name": "Plaffeien",
+  "canton": "FR",
+  "score_total": 46.86,
+  "scores": {
+    "total": 46.86,
+    "base": 47.04,
+    "access": 46.58,
+    "sub": {
+      "anti_overtourism": 96.51,
+      "walkability": 0.83,
+      "local_hiking": 0.0,
+      "water": 16.69,
+      "heritage": 70.0,
+      "climate": 50.0,
+      "scenic_transport": 24.21,
+      "destination_pull": 69.04,
+      "cultural_access": 65.0,
+      "access_hiking": 15.73
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 26107,
+    "domestic_share_overnights": 0.905,
+    "summer_temp_avg": 16.22,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 381854.6,
+    "walkability_path_m": 704.1,
+    "scenic_transport_count": 23,
+    "reachable_named_museums": "13",
+    "isos_name": "Plaffeien (Oberschrot, Plaffeien)",
+    "isos_kategorie": "Dorf"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 129,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "aug",
+    "trough_month": "nov",
+    "peak_trough_ratio": 2.71,
+    "monthly_index": [
+      83,
+      89,
+      62,
+      79,
+      94,
+      109,
+      160,
+      161,
+      131,
+      107,
+      60,
+      65
+    ]
+  },
+  "tourism_intensity": 7.5,
+  "restaurant_count": 0,
+  "isos_name": "Plaffeien (Oberschrot, Plaffeien)",
+  "reachable_slugs": [
+    "fribourg"
+  ]
+}

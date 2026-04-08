@@ -1,0 +1,82 @@
+{
+  "slug": "ascona",
+  "name": "Ascona",
+  "canton": "TI",
+  "score_total": 57.03,
+  "scores": {
+    "total": 57.03,
+    "base": 52.51,
+    "access": 63.81,
+    "sub": {
+      "anti_overtourism": 63.11,
+      "walkability": 11.71,
+      "local_hiking": 30.36,
+      "water": 92.23,
+      "heritage": 50.0,
+      "climate": 50.0,
+      "scenic_transport": 15.79,
+      "destination_pull": 81.18,
+      "cultural_access": 100.0,
+      "access_hiking": 64.82
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 421815,
+    "domestic_share_overnights": 0.7434,
+    "summer_temp_avg": 22.27,
+    "local_hiking_m": 52438.6,
+    "regional_hiking_m": 1574056.3,
+    "walkability_path_m": 9993.6,
+    "scenic_transport_count": 15,
+    "reachable_named_museums": "20",
+    "isos_name": "Ascona",
+    "isos_kategorie": "cittadina/borgo"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 43,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "aug",
+    "trough_month": "jan",
+    "peak_trough_ratio": 12.25,
+    "monthly_index": [
+      15,
+      26,
+      62,
+      120,
+      132,
+      153,
+      181,
+      181,
+      160,
+      111,
+      37,
+      22
+    ]
+  },
+  "tourism_intensity": 79.2,
+  "restaurant_count": 44,
+  "isos_name": "Ascona",
+  "reachable_slugs": [
+    "bellinzona",
+    "locarno",
+    "muralto"
+  ]
+}

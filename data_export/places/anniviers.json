@@ -1,0 +1,81 @@
+{
+  "slug": "anniviers",
+  "name": "Anniviers",
+  "canton": "VS",
+  "score_total": 50.75,
+  "scores": {
+    "total": 50.75,
+    "base": 39.57,
+    "access": 67.52,
+    "sub": {
+      "anti_overtourism": 71.5,
+      "walkability": 1.08,
+      "local_hiking": 0.13,
+      "water": 13.22,
+      "heritage": 40.0,
+      "climate": 100.0,
+      "scenic_transport": 85.26,
+      "destination_pull": 76.41,
+      "cultural_access": 55.0,
+      "access_hiking": 35.15
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 164678,
+    "domestic_share_overnights": 0.4691,
+    "summer_temp_avg": 17.93,
+    "local_hiking_m": 232.2,
+    "regional_hiking_m": 853545.1,
+    "walkability_path_m": 925.5,
+    "scenic_transport_count": 81,
+    "reachable_named_museums": "11",
+    "isos_name": "Sierre",
+    "isos_kategorie": "cas particulier"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 102,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "feb",
+    "trough_month": "may",
+    "peak_trough_ratio": 25.19,
+    "monthly_index": [
+      162,
+      196,
+      169,
+      75,
+      8,
+      51,
+      160,
+      175,
+      64,
+      25,
+      11,
+      104
+    ]
+  },
+  "tourism_intensity": 61.2,
+  "restaurant_count": 2,
+  "isos_name": "Sierre",
+  "reachable_slugs": [
+    "crans-montana",
+    "sierre"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "porrentruy",
+  "name": "Porrentruy",
+  "canton": "JU",
+  "score_total": 39.64,
+  "scores": {
+    "total": 39.64,
+    "base": 48.43,
+    "access": 26.47,
+    "sub": {
+      "anti_overtourism": 98.93,
+      "walkability": 3.37,
+      "local_hiking": 0.0,
+      "water": 6.09,
+      "heritage": 50.0,
+      "climate": 100.0,
+      "scenic_transport": 0.53,
+      "destination_pull": 71.03,
+      "cultural_access": 20.0,
+      "access_hiking": 0.0
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 15475,
+    "domestic_share_overnights": 0.908,
+    "summer_temp_avg": 18.17,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 0.0,
+    "walkability_path_m": 2875.1,
+    "scenic_transport_count": 0,
+    "reachable_named_museums": "4",
+    "isos_name": "Porrentruy",
+    "isos_kategorie": "ville"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 160,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "jul",
+    "trough_month": "feb",
+    "peak_trough_ratio": 3.08,
+    "monthly_index": [
+      68,
+      44,
+      59,
+      92,
+      118,
+      134,
+      136,
+      132,
+      109,
+      135,
+      108,
+      65
+    ]
+  },
+  "tourism_intensity": 2.3,
+  "restaurant_count": 15,
+  "isos_name": "Porrentruy",
+  "reachable_slugs": [
+    "clos-du-doubs",
+    "delemont",
+    "grenchen",
+    "moutier-be",
+    "saignelegier"
+  ]
+}

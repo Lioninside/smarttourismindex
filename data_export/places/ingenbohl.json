@@ -1,0 +1,90 @@
+{
+  "slug": "ingenbohl",
+  "name": "Ingenbohl",
+  "canton": "SZ",
+  "score_total": 65.99,
+  "scores": {
+    "total": 65.99,
+    "base": 62.87,
+    "access": 70.66,
+    "sub": {
+      "anti_overtourism": 97.16,
+      "walkability": 1.66,
+      "local_hiking": 19.27,
+      "water": 94.7,
+      "heritage": 70.0,
+      "climate": 50.0,
+      "scenic_transport": 92.63,
+      "destination_pull": 90.53,
+      "cultural_access": 35.0,
+      "access_hiking": 46.44
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 52516,
+    "domestic_share_overnights": 0.5898,
+    "summer_temp_avg": 17.95,
+    "local_hiking_m": 33286.4,
+    "regional_hiking_m": 1127745.5,
+    "walkability_path_m": 1414.2,
+    "scenic_transport_count": 87,
+    "reachable_named_museums": "7",
+    "isos_name": "Brunnen (Ingenbohl)",
+    "isos_kategorie": "Verstädtertes Dorf"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 4,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "aug",
+    "trough_month": "dec",
+    "peak_trough_ratio": 3.83,
+    "monthly_index": [
+      47,
+      49,
+      76,
+      86,
+      126,
+      139,
+      164,
+      170,
+      129,
+      92,
+      76,
+      44
+    ]
+  },
+  "tourism_intensity": 6.1,
+  "restaurant_count": 24,
+  "isos_name": "Brunnen (Ingenbohl)",
+  "reachable_slugs": [
+    "beckenried",
+    "einsiedeln",
+    "gurtnellen",
+    "kuessnacht",
+    "luzern",
+    "meggen",
+    "morschach",
+    "schwyz",
+    "vitznau",
+    "weggis",
+    "zug"
+  ]
+}

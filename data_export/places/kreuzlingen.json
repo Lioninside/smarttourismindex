@@ -1,0 +1,82 @@
+{
+  "slug": "kreuzlingen",
+  "name": "Kreuzlingen",
+  "canton": "TG",
+  "score_total": 51.56,
+  "scores": {
+    "total": 51.56,
+    "base": 61.76,
+    "access": 36.25,
+    "sub": {
+      "anti_overtourism": 99.16,
+      "walkability": 5.49,
+      "local_hiking": 0.0,
+      "water": 93.1,
+      "heritage": 50.0,
+      "climate": 100.0,
+      "scenic_transport": 0.0,
+      "destination_pull": 83.34,
+      "cultural_access": 45.0,
+      "access_hiking": 0.0
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 40377,
+    "domestic_share_overnights": 0.5298,
+    "summer_temp_avg": 18.52,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 0.0,
+    "walkability_path_m": 4686.3,
+    "scenic_transport_count": 0,
+    "reachable_named_museums": "9",
+    "isos_name": "Bommen (Kemmental)",
+    "isos_kategorie": "Weiler"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 98,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "aug",
+    "trough_month": "jan",
+    "peak_trough_ratio": 4.21,
+    "monthly_index": [
+      42,
+      54,
+      68,
+      93,
+      150,
+      133,
+      151,
+      175,
+      117,
+      92,
+      63,
+      64
+    ]
+  },
+  "tourism_intensity": 1.8,
+  "restaurant_count": 24,
+  "isos_name": "Bommen (Kemmental)",
+  "reachable_slugs": [
+    "arbon",
+    "frauenfeld",
+    "schaffhausen",
+    "st-gallen",
+    "winterthur"
+  ]
+}

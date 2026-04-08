@@ -1,0 +1,89 @@
+{
+  "slug": "altstaetten",
+  "name": "Altstätten",
+  "canton": "SG",
+  "score_total": 53.02,
+  "scores": {
+    "total": 53.02,
+    "base": 51.67,
+    "access": 55.04,
+    "sub": {
+      "anti_overtourism": 99.58,
+      "walkability": 2.66,
+      "local_hiking": 0.0,
+      "water": 10.22,
+      "heritage": 100.0,
+      "climate": 50.0,
+      "scenic_transport": 12.63,
+      "destination_pull": 83.31,
+      "cultural_access": 100.0,
+      "access_hiking": 8.41
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 14020,
+    "domestic_share_overnights": 0.7036,
+    "summer_temp_avg": 18.69,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 204198.0,
+    "walkability_path_m": 2267.8,
+    "scenic_transport_count": 12,
+    "reachable_named_museums": "20",
+    "isos_name": "Altstätten",
+    "isos_kategorie": "Kleinstadt/Flecken"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 87,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "may",
+    "trough_month": "dec",
+    "peak_trough_ratio": 2.44,
+    "monthly_index": [
+      78,
+      95,
+      78,
+      81,
+      170,
+      139,
+      98,
+      84,
+      103,
+      108,
+      95,
+      70
+    ]
+  },
+  "tourism_intensity": 0.9,
+  "restaurant_count": 18,
+  "isos_name": "Altstätten",
+  "reachable_slugs": [
+    "appenzell",
+    "arbon",
+    "bad-ragaz",
+    "flums",
+    "gais",
+    "gonten",
+    "heiden",
+    "maienfeld",
+    "rorschacherberg",
+    "st-gallen",
+    "walenstadt"
+  ]
+}
