@@ -24,6 +24,7 @@
       <nav class="site-nav">
         <a href="index.html" class="active">Ranking</a>
         <a href="methodology.html">Methodology</a>
+        <a href="faq.html">FAQ</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
       </nav>
@@ -31,7 +32,7 @@
   </div>
 </header>
 
-<!-- HERO -->
+<!-- HERO — unchanged -->
 <section class="hero">
   <div class="container">
     <div class="hero-layout">
@@ -80,14 +81,13 @@
         <p><strong>Base Score</strong> measures how well a place works for staying, getting around, and spending time there. It incorporates local quality signals, landscape, culture, and tourism pressure.</p>
         <p><strong>Access Score</strong> measures what a place connects to beyond itself — major destinations, natural features, and experiences reachable within a reasonable travel radius.</p>
         <p>A destination can rank well for one reason or both. A well-functioning local base. Strong regional reach. The most interesting places in the index tend to combine both.</p>
-        <p>The score is data-based and built around one defined question: how strong is this place as a base for exploration?</p>
         <p><a href="methodology.html" class="text-link">How the score works →</a></p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- WHAT IT IS -->
+<!-- WHAT IT IS + HOW IT WAS BUILT — merged, tightened -->
 <section class="content-section bg-light">
   <div class="container">
     <div class="two-col">
@@ -96,27 +96,9 @@
         <h2>A different lens on destinations</h2>
       </div>
       <div>
-        <p>Most travel platforms are optimised around attention, reviews, or pricing. That is what they are built for.</p>
-        <p>Smart Tourism Index asks a different question. It looks at how useful a place is as a base and how well it connects to the surrounding region. The ranking is built from public data — not editorial judgment or user ratings.</p>
-        <p>This does not replace platforms like Google Maps, TripAdvisor, or booking sites. It adds a different perspective: one focused on reach, local quality, and visitor pressure.</p>
-        <p class="small-note">This is not a booking tool. It is not a review platform. It is not a verdict on whether a place is worth visiting.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- HOW IT WAS BUILT -->
-<section class="content-section">
-  <div class="container">
-    <div class="two-col">
-      <div>
-        <span class="section-label">How It Was Built</span>
-        <h2>Public data. Careful integration.</h2>
-      </div>
-      <div>
-        <p>The hard part was not finding the data. It was making datasets built for different purposes, systems, and geographies work together in a way that produces fair, comparable results.</p>
-        <p>Data sources include the Swiss Federal Statistical Office BFS, MeteoSwiss, Swiss GTFS, swissTLM3D, OpenStreetMap, and more.</p>
-        <p>Cleaning, aligning, and calibrating those sources was most of the work. A ranking is only as credible as the decisions made about how its inputs relate to each other.</p>
+        <p>Most travel platforms are optimised around attention, reviews, or pricing. Smart Tourism Index asks a different question: how useful is a place as a base, and how well does it connect to the surrounding region?</p>
+        <p>The ranking is built from public data — not editorial judgment or user ratings. Sources include the Swiss Federal Statistical Office BFS, MeteoSwiss, swissTLM3D, OpenStreetMap, and more. Making those datasets work together comparably across 184 places was the core challenge.</p>
+        <p>This does not replace booking tools or review platforms. It adds a structured, data-based view focused on reach, local quality, and visitor pressure.</p>
         <p><a href="https://github.com/Lioninside/smarttourismindex" target="_blank" rel="noopener noreferrer" class="text-link">View the project on GitHub →</a></p>
       </div>
     </div>
@@ -124,20 +106,83 @@
 </section>
 
 <!-- HOW TO READ IT -->
-<section class="content-section bg-light">
+<section class="content-section">
   <div class="container">
     <div class="two-col">
       <div>
         <span class="section-label">How To Read It</span>
-        <h2>Why places score differently</h2>
+        <h2>Visibility and suitability are not the same thing</h2>
       </div>
       <div>
-        <p>A place does not rank high because it is well known.</p>
-        <p>It ranks high when it works well as a base, has lower visitor pressure, and opens up strong access to the wider region.</p>
-        <p>That is why some famous destinations score lower than expected. High tourism pressure is factored in and can reduce a score even for well-known places. A smaller, less obvious place can rank above it if it offers better local conditions and comparable reach.</p>
-        <p>The ranking is designed to surface a different set of answers to the question of where to base a trip.</p>
+        <p>A place does not rank high because it is well known. It ranks high when it works well as a base, has lower visitor pressure, and opens up strong access to the wider region.</p>
+        <p>High tourism pressure is factored in and reduces a score even for prominent destinations. A smaller, less obvious place can rank above it if local conditions and regional reach are stronger.</p>
+        <p>The ranking is designed to surface a different set of answers to the question of where to base a trip through Switzerland.</p>
+        <p><a href="faq.html" class="text-link">Common questions about how scores work →</a></p>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- FAQ TEASER -->
+<section class="faq-teaser-section">
+  <div class="container">
+    <span class="section-label">FAQ</span>
+    <h2 class="faq-teaser-heading">Questions people often ask</h2>
+    <p class="faq-teaser-intro">A few quick answers before you explore the ranking in more detail.</p>
+    <div class="faq-list" role="list">
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false">
+          What does the score actually measure?
+          <span class="faq-icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer" hidden>
+          <p>It asks one question: how good is a place as a base for exploring Switzerland?</p>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false">
+          Why only 184 places?
+          <span class="faq-icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer" hidden>
+          <p>Because the ranking is built on the BFS overnight stay dataset, and only those places are included.</p>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false">
+          Does the platform use live data?
+          <span class="faq-icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer" hidden>
+          <p>No. It uses processed public datasets and timetable-based reachability at the time of calculation.</p>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false">
+          Why does a place with many tourists still score well?
+          <span class="faq-icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer" hidden>
+          <p>Because tourism pressure is measured per resident, not by raw overnight numbers alone.</p>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false">
+          How is water measured?
+          <span class="faq-icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer" hidden>
+          <p>The model uses nearby lake area and river size, so major water presence counts more than minor features.</p>
+        </div>
+      </div>
+
+    </div>
+    <a href="faq.html" class="text-link faq-teaser-cta">View full FAQ →</a>
   </div>
 </section>
 
@@ -179,23 +224,26 @@
 <!-- READ MORE STRIP -->
 <section class="read-more-section">
   <div class="container">
-    <span class="section-label">Read More</span>
+    <span class="section-label">Related Reading</span>
     <div class="read-more-grid">
       <div class="read-more-card">
         <h3>Why Base and Access matter</h3>
-        <p>A strong travel base is not only the place itself. It is also what the place gives access to.</p>
+        <p>A strong travel base is not only the place itself. It is also what the place gives access to beyond it.</p>
+        <a href="methodology.html" class="card-link">Methodology →</a>
       </div>
       <div class="read-more-card">
         <h3>What this ranking is and is not</h3>
         <p>A data-based comparison through one defined lens. Not a review score, not a popularity ranking.</p>
-      </div>
-      <div class="read-more-card">
-        <h3>Public data is available. Comparable data is harder.</h3>
-        <p>The challenge was not collecting data. It was making diverse public datasets produce reliable, comparable results.</p>
+        <a href="faq.html" class="card-link">Full FAQ →</a>
       </div>
       <div class="read-more-card">
         <h3>Why overtourism needs better distribution thinking</h3>
-        <p>Overtourism is partly a concentration problem. Data can help surface better-distributed alternatives.</p>
+        <p>Overtourism is partly a concentration problem. Structured data can help surface better-distributed alternatives.</p>
+        <a href="methodology.html#ot" class="card-link">How pressure is scored →</a>
+      </div>
+      <div class="read-more-card">
+        <h3>How public data becomes a comparable ranking</h3>
+        <p>The challenge was not collecting data. It was making diverse public datasets produce reliable, comparable results across 184 places.</p>
       </div>
       <div class="read-more-card">
         <h3>Why I built this</h3>
@@ -252,6 +300,7 @@
       <nav class="footer-nav">
         <a href="index.html">Ranking</a>
         <a href="methodology.html">Methodology</a>
+        <a href="faq.html">FAQ</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
       </nav>
