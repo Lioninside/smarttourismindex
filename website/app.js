@@ -375,9 +375,30 @@ function initMainMap() {
 
     mapMarkers.push({ marker: m, score });
   });
+
+  // Score filter overlay control
+  const ScoreFilter = L.Control.extend({
+    options: { position: 'bottomright' },
+    onAdd() {
+      const wrap = L.DomUtil.create('div', 'map-score-control');
+      wrap.innerHTML =
+        '<span class="map-score-label">Min. score: 0</span>' +
+        '<input class="map-score-slider" type="range" min="0" max="100" value="0" step="5">';
+      L.DomEvent.disableClickPropagation(wrap);
+      L.DomEvent.disableScrollPropagation(wrap);
+      const label  = wrap.querySelector('.map-score-label');
+      const slider = wrap.querySelector('.map-score-slider');
+      L.DomEvent.on(slider, 'input', () => {
+        currentMinScore = +slider.value;
+        filterMapMarkers(label);
+      });
+      return wrap;
+    }
+  });
+  new ScoreFilter().addTo(mainMap);
 }
 
-function filterMapMarkers() {
+function filterMapMarkers(labelEl) {
   mapMarkers.forEach(({ marker, score }) => {
     if (score >= currentMinScore) {
       if (!mainMap.hasLayer(marker)) marker.addTo(mainMap);
@@ -385,8 +406,7 @@ function filterMapMarkers() {
       if (mainMap.hasLayer(marker)) mainMap.removeLayer(marker);
     }
   });
-  const label = document.getElementById('score-slider-label');
-  if (label) label.textContent = `Min. score: ${currentMinScore}`;
+  if (labelEl) labelEl.textContent = `Min. score: ${currentMinScore}`;
 }
 
 function scoreColor(score) {
@@ -404,17 +424,9 @@ function switchTab(name) {
   document.querySelectorAll('.tab-content').forEach(c =>
     c.classList.toggle('active', c.id === `tab-${name}`));
 
-  const isMap = name === 'map';
-  const searchInput   = document.getElementById('search-input');
-  const cantonFilter  = document.getElementById('canton-filter');
-  const sliderWrap    = document.getElementById('score-slider-wrap');
-  if (searchInput)  searchInput.hidden  = isMap;
-  if (cantonFilter) cantonFilter.hidden = isMap;
-  if (sliderWrap)   sliderWrap.hidden   = !isMap;
+  history.replaceState(null, '', name === 'map' ? '#map' : location.pathname + location.search);
 
-  history.replaceState(null, '', isMap ? '#map' : location.pathname + location.search);
-
-  if (isMap) {
+  if (name === 'map') {
     setTimeout(() => {
       initMainMap();
       if (mainMap) mainMap.invalidateSize();
@@ -441,11 +453,6 @@ function setupEvents() {
 
   document.querySelectorAll('.tab-btn').forEach(btn =>
     btn.addEventListener('click', () => switchTab(btn.dataset.tab)));
-
-  document.getElementById('score-slider')?.addEventListener('input', e => {
-    currentMinScore = +e.target.value;
-    filterMapMarkers();
-  });
 }
 
 // ── Boot ─────────────────────────────────────────────────────────────────────
