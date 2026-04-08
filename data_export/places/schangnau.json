@@ -1,0 +1,78 @@
+{
+  "slug": "schangnau",
+  "name": "Schangnau",
+  "canton": "BE",
+  "score_total": 31.33,
+  "scores": {
+    "total": 31.33,
+    "base": 31.93,
+    "access": 30.42,
+    "sub": {
+      "anti_overtourism": 92.18,
+      "walkability": 0.0,
+      "local_hiking": 7.63,
+      "water": 15.76,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 28.42,
+      "destination_pull": 57.47,
+      "cultural_access": 0.0,
+      "access_hiking": 30.99
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport"
+  ],
+  "metrics": {
+    "overnight_stays": 15604,
+    "domestic_share_overnights": 0.966,
+    "summer_temp_avg": 15.23,
+    "local_hiking_m": 13186.3,
+    "regional_hiking_m": 752441.5,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 27,
+    "reachable_named_museums": "0",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 172,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "jul",
+    "trough_month": "apr",
+    "peak_trough_ratio": 10.33,
+    "monthly_index": [
+      99,
+      87,
+      87,
+      16,
+      119,
+      130,
+      168,
+      150,
+      122,
+      120,
+      25,
+      77
+    ]
+  },
+  "tourism_intensity": 16.8,
+  "restaurant_count": 1,
+  "isos_name": "",
+  "reachable_slugs": [
+    "langnau-im-emmental"
+  ]
+}

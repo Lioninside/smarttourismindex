@@ -1,0 +1,84 @@
+{
+  "slug": "pontresina",
+  "name": "Pontresina",
+  "canton": "GR",
+  "score_total": 40.65,
+  "scores": {
+    "total": 40.65,
+    "base": 31.99,
+    "access": 53.64,
+    "sub": {
+      "anti_overtourism": 14.25,
+      "walkability": 13.57,
+      "local_hiking": 72.25,
+      "water": 8.42,
+      "heritage": 50.0,
+      "climate": 50.0,
+      "scenic_transport": 49.47,
+      "destination_pull": 85.87,
+      "cultural_access": 20.0,
+      "access_hiking": 53.59
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 403332,
+    "domestic_share_overnights": 0.6491,
+    "summer_temp_avg": 9.77,
+    "local_hiking_m": 124792.6,
+    "regional_hiking_m": 1301281.0,
+    "walkability_path_m": 2093.4,
+    "scenic_transport_count": 47,
+    "reachable_named_museums": "4",
+    "isos_name": "Pontresina",
+    "isos_kategorie": "cas spezial"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 146,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "feb",
+    "trough_month": "may",
+    "peak_trough_ratio": 12.51,
+    "monthly_index": [
+      150,
+      171,
+      127,
+      16,
+      14,
+      76,
+      138,
+      149,
+      114,
+      102,
+      30,
+      112
+    ]
+  },
+  "tourism_intensity": 184.1,
+  "restaurant_count": 15,
+  "isos_name": "Pontresina",
+  "reachable_slugs": [
+    "celerina-schlarigna",
+    "poschiavo",
+    "samedan",
+    "st-moritz",
+    "zernez"
+  ]
+}

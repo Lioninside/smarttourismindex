@@ -1,0 +1,80 @@
+{
+  "slug": "poschiavo",
+  "name": "Poschiavo",
+  "canton": "GR",
+  "score_total": 45.54,
+  "scores": {
+    "total": 45.54,
+    "base": 54.47,
+    "access": 32.14,
+    "sub": {
+      "anti_overtourism": 90.45,
+      "walkability": 6.42,
+      "local_hiking": 71.21,
+      "water": 8.85,
+      "heritage": 50.0,
+      "climate": 100.0,
+      "scenic_transport": 4.21,
+      "destination_pull": 79.48,
+      "cultural_access": 15.0,
+      "access_hiking": 21.88
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 77245,
+    "domestic_share_overnights": 0.7276,
+    "summer_temp_avg": 15.91,
+    "local_hiking_m": 122995.1,
+    "regional_hiking_m": 531409.8,
+    "walkability_path_m": 989.9,
+    "scenic_transport_count": 4,
+    "reachable_named_museums": "3",
+    "isos_name": "Poschiavo",
+    "isos_kategorie": "villaggio urbanizzato"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 102,
+  "seasonality": {
+    "volatility_label": "Strongly seasonal",
+    "peak_month": "aug",
+    "trough_month": "nov",
+    "peak_trough_ratio": 5.9,
+    "monthly_index": [
+      48,
+      61,
+      50,
+      52,
+      100,
+      139,
+      196,
+      203,
+      132,
+      118,
+      34,
+      65
+    ]
+  },
+  "tourism_intensity": 20.5,
+  "restaurant_count": 10,
+  "isos_name": "Poschiavo",
+  "reachable_slugs": [
+    "pontresina"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "weggis",
+  "name": "Weggis",
+  "canton": "LU",
+  "score_total": 56.0,
+  "scores": {
+    "total": 56.0,
+    "base": 44.81,
+    "access": 72.78,
+    "sub": {
+      "anti_overtourism": 80.2,
+      "walkability": 8.53,
+      "local_hiking": 20.39,
+      "water": 93.16,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 53.16,
+      "destination_pull": 88.91,
+      "cultural_access": 100.0,
+      "access_hiking": 34.37
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 198583,
+    "domestic_share_overnights": 0.5659,
+    "summer_temp_avg": 18.51,
+    "local_hiking_m": 35217.4,
+    "regional_hiking_m": 834623.8,
+    "walkability_path_m": 1315.7,
+    "scenic_transport_count": 49,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 20,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "aug",
+    "trough_month": "jan",
+    "peak_trough_ratio": 2.97,
+    "monthly_index": [
+      55,
+      58,
+      74,
+      88,
+      123,
+      140,
+      155,
+      163,
+      119,
+      91,
+      72,
+      61
+    ]
+  },
+  "tourism_intensity": 42.5,
+  "restaurant_count": 6,
+  "isos_name": "",
+  "reachable_slugs": [
+    "ingenbohl",
+    "kuessnacht",
+    "luzern",
+    "meggen",
+    "schwyz",
+    "vitznau",
+    "zug"
+  ]
+}

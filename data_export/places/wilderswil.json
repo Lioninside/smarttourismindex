@@ -1,0 +1,89 @@
+{
+  "slug": "wilderswil",
+  "name": "Wilderswil",
+  "canton": "BE",
+  "score_total": 46.88,
+  "scores": {
+    "total": 46.88,
+    "base": 41.38,
+    "access": 55.12,
+    "sub": {
+      "anti_overtourism": 78.99,
+      "walkability": 12.74,
+      "local_hiking": 31.96,
+      "water": 4.62,
+      "heritage": 70.0,
+      "climate": 50.0,
+      "scenic_transport": 50.53,
+      "destination_pull": 90.45,
+      "cultural_access": 25.0,
+      "access_hiking": 43.83
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 123048,
+    "domestic_share_overnights": 0.3805,
+    "summer_temp_avg": 17.81,
+    "local_hiking_m": 55198.2,
+    "regional_hiking_m": 1064314.2,
+    "walkability_path_m": 1964.9,
+    "scenic_transport_count": 48,
+    "reachable_named_museums": "5",
+    "isos_name": "Wilderswil",
+    "isos_kategorie": "Verstädtertes Dorf"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 94,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "jul",
+    "trough_month": "dec",
+    "peak_trough_ratio": 2.91,
+    "monthly_index": [
+      63,
+      84,
+      78,
+      94,
+      113,
+      128,
+      153,
+      150,
+      121,
+      99,
+      63,
+      52
+    ]
+  },
+  "tourism_intensity": 45.1,
+  "restaurant_count": 7,
+  "isos_name": "Wilderswil",
+  "reachable_slugs": [
+    "aeschi-bei-spiez",
+    "beatenberg",
+    "brienz",
+    "grindelwald",
+    "lauterbrunnen",
+    "meiringen",
+    "reichenbach-im-kandertal",
+    "spiez",
+    "thun",
+    "unterseen"
+  ]
+}

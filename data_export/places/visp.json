@@ -1,0 +1,92 @@
+{
+  "slug": "visp",
+  "name": "Visp",
+  "canton": "VS",
+  "score_total": 55.07,
+  "scores": {
+    "total": 55.07,
+    "base": 53.11,
+    "access": 58.01,
+    "sub": {
+      "anti_overtourism": 97.58,
+      "walkability": 20.83,
+      "local_hiking": 15.11,
+      "water": 10.19,
+      "heritage": 100.0,
+      "climate": 100.0,
+      "scenic_transport": 70.53,
+      "destination_pull": 91.15,
+      "cultural_access": 15.0,
+      "access_hiking": 38.39
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 45543,
+    "domestic_share_overnights": 0.5918,
+    "summer_temp_avg": 18.6,
+    "local_hiking_m": 26100.0,
+    "regional_hiking_m": 932124.1,
+    "walkability_path_m": 3212.2,
+    "scenic_transport_count": 67,
+    "reachable_named_museums": "3",
+    "isos_name": "Visp",
+    "isos_kategorie": "Kleinstadt/Flecken"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 26,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "aug",
+    "trough_month": "dec",
+    "peak_trough_ratio": 1.68,
+    "monthly_index": [
+      78,
+      97,
+      92,
+      96,
+      95,
+      120,
+      123,
+      129,
+      114,
+      99,
+      80,
+      77
+    ]
+  },
+  "tourism_intensity": 5.2,
+  "restaurant_count": 16,
+  "isos_name": "Visp",
+  "reachable_slugs": [
+    "adelboden",
+    "aeschi-bei-spiez",
+    "bern",
+    "brig-glis",
+    "crans-montana",
+    "kandersteg",
+    "martigny",
+    "reichenbach-im-kandertal",
+    "saas-grund",
+    "sierre",
+    "sion",
+    "spiez",
+    "thun"
+  ]
+}

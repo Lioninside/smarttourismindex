@@ -1,0 +1,85 @@
+{
+  "slug": "sigriswil",
+  "name": "Sigriswil",
+  "canton": "BE",
+  "score_total": 49.75,
+  "scores": {
+    "total": 49.75,
+    "base": 49.18,
+    "access": 50.61,
+    "sub": {
+      "anti_overtourism": 89.19,
+      "walkability": 0.0,
+      "local_hiking": 12.95,
+      "water": 95.25,
+      "heritage": 50.0,
+      "climate": 50.0,
+      "scenic_transport": 21.58,
+      "destination_pull": 88.46,
+      "cultural_access": 50.0,
+      "access_hiking": 34.0
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 103124,
+    "domestic_share_overnights": 0.7977,
+    "summer_temp_avg": 16.97,
+    "local_hiking_m": 22362.1,
+    "regional_hiking_m": 825570.7,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 20,
+    "reachable_named_museums": "10",
+    "isos_name": "Wiler (Sigriswil)",
+    "isos_kategorie": "Weiler"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 68,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "aug",
+    "trough_month": "jan",
+    "peak_trough_ratio": 1.93,
+    "monthly_index": [
+      74,
+      78,
+      76,
+      92,
+      111,
+      118,
+      133,
+      142,
+      116,
+      102,
+      81,
+      78
+    ]
+  },
+  "tourism_intensity": 23.2,
+  "restaurant_count": 3,
+  "isos_name": "Wiler (Sigriswil)",
+  "reachable_slugs": [
+    "aeschi-bei-spiez",
+    "beatenberg",
+    "bern",
+    "reichenbach-im-kandertal",
+    "spiez",
+    "thun"
+  ]
+}

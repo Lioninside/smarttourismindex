@@ -1,0 +1,78 @@
+{
+  "slug": "soglio",
+  "name": "Soglio",
+  "canton": "GR",
+  "score_total": 29.77,
+  "scores": {
+    "total": 29.77,
+    "base": 42.93,
+    "access": 10.04,
+    "sub": {
+      "anti_overtourism": 84.16,
+      "walkability": 0.0,
+      "local_hiking": 41.25,
+      "water": 10.9,
+      "heritage": 70.0,
+      "climate": 50.0,
+      "scenic_transport": 9.47,
+      "destination_pull": 0.0,
+      "cultural_access": 15.0,
+      "access_hiking": 22.96
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 55546,
+    "domestic_share_overnights": 0.5719,
+    "summer_temp_avg": 15.85,
+    "local_hiking_m": 71248.7,
+    "regional_hiking_m": 557580.7,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 9,
+    "reachable_named_museums": "3",
+    "isos_name": "Soglio (Bregaglia)",
+    "isos_kategorie": "villaggio"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 176,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "aug",
+    "trough_month": "nov",
+    "peak_trough_ratio": 25.14,
+    "monthly_index": [
+      114,
+      149,
+      90,
+      14,
+      30,
+      94,
+      182,
+      239,
+      110,
+      89,
+      10,
+      81
+    ]
+  },
+  "tourism_intensity": 34.0,
+  "restaurant_count": 1,
+  "isos_name": "Soglio (Bregaglia)",
+  "reachable_slugs": []
+}
