@@ -1,0 +1,82 @@
+{
+  "slug": "innertkirchen",
+  "name": "Innertkirchen",
+  "canton": "BE",
+  "score_total": 39.77,
+  "scores": {
+    "total": 39.77,
+    "base": 34.17,
+    "access": 48.16,
+    "sub": {
+      "anti_overtourism": 88.17,
+      "walkability": 10.51,
+      "local_hiking": 18.39,
+      "water": 8.98,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 42.11,
+      "destination_pull": 79.06,
+      "cultural_access": 20.0,
+      "access_hiking": 45.42
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 27732,
+    "domestic_share_overnights": 0.6614,
+    "summer_temp_avg": 16.82,
+    "local_hiking_m": 31761.2,
+    "regional_hiking_m": 1102901.2,
+    "walkability_path_m": 1621.5,
+    "scenic_transport_count": 40,
+    "reachable_named_museums": "4",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 155,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "aug",
+    "trough_month": "nov",
+    "peak_trough_ratio": 17.68,
+    "monthly_index": [
+      21,
+      20,
+      39,
+      19,
+      73,
+      169,
+      288,
+      290,
+      176,
+      60,
+      16,
+      29
+    ]
+  },
+  "tourism_intensity": 25.4,
+  "restaurant_count": 0,
+  "isos_name": "",
+  "reachable_slugs": [
+    "brienz",
+    "hasliberg",
+    "meiringen",
+    "sachseln"
+  ]
+}

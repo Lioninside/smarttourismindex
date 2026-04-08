@@ -1,0 +1,95 @@
+{
+  "slug": "liestal",
+  "name": "Liestal",
+  "canton": "BL",
+  "score_total": 51.57,
+  "scores": {
+    "total": 51.57,
+    "base": 48.72,
+    "access": 55.84,
+    "sub": {
+      "anti_overtourism": 99.25,
+      "walkability": 16.56,
+      "local_hiking": 0.0,
+      "water": 3.98,
+      "heritage": 100.0,
+      "climate": 100.0,
+      "scenic_transport": 3.68,
+      "destination_pull": 98.83,
+      "cultural_access": 100.0,
+      "access_hiking": 0.55
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 24054,
+    "domestic_share_overnights": 0.6788,
+    "summer_temp_avg": 19.23,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 13371.5,
+    "walkability_path_m": 2554.3,
+    "scenic_transport_count": 2,
+    "reachable_named_museums": "20",
+    "isos_name": "Liestal",
+    "isos_kategorie": "Kleinstadt/Flecken"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 49,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "jun",
+    "trough_month": "dec",
+    "peak_trough_ratio": 2.31,
+    "monthly_index": [
+      67,
+      77,
+      92,
+      102,
+      127,
+      140,
+      87,
+      102,
+      139,
+      102,
+      104,
+      61
+    ]
+  },
+  "tourism_intensity": 1.6,
+  "restaurant_count": 27,
+  "isos_name": "Liestal",
+  "reachable_slugs": [
+    "aarau",
+    "basel",
+    "bern",
+    "burgdorf",
+    "delemont",
+    "egerkingen",
+    "herzogenbuchsee",
+    "langenthal",
+    "lenzburg",
+    "luzern",
+    "olten",
+    "pratteln",
+    "rheinfelden",
+    "solothurn",
+    "sursee",
+    "zofingen",
+    "zuerich"
+  ]
+}

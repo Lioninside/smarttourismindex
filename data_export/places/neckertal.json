@@ -1,0 +1,94 @@
+{
+  "slug": "neckertal",
+  "name": "Neckertal",
+  "canton": "SG",
+  "score_total": 38.25,
+  "scores": {
+    "total": 38.25,
+    "base": 31.53,
+    "access": 48.33,
+    "sub": {
+      "anti_overtourism": 98.56,
+      "walkability": 0.27,
+      "local_hiking": 0.0,
+      "water": 12.25,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 16.84,
+      "destination_pull": 85.54,
+      "cultural_access": 65.0,
+      "access_hiking": 9.11
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 20723,
+    "domestic_share_overnights": 0.5393,
+    "summer_temp_avg": 16.26,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 221143.0,
+    "walkability_path_m": 41.8,
+    "scenic_transport_count": 16,
+    "reachable_named_museums": "13",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 158,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "aug",
+    "trough_month": "dec",
+    "peak_trough_ratio": 4.08,
+    "monthly_index": [
+      62,
+      63,
+      70,
+      70,
+      113,
+      114,
+      143,
+      195,
+      123,
+      114,
+      84,
+      48
+    ]
+  },
+  "tourism_intensity": 3.1,
+  "restaurant_count": 0,
+  "isos_name": "",
+  "reachable_slugs": [
+    "arbon",
+    "eschenbach",
+    "flums",
+    "freienbach",
+    "gonten",
+    "hundwil",
+    "rapperswil-jona",
+    "rorschacherberg",
+    "st-gallen",
+    "teufen",
+    "uster",
+    "uzwil",
+    "waedenswil",
+    "walenstadt",
+    "wil",
+    "wildhaus-alt-st-johann",
+    "winterthur"
+  ]
+}

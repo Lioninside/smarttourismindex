@@ -1,0 +1,90 @@
+{
+  "slug": "latena",
+  "name": "Laténa",
+  "canton": "NE",
+  "score_total": 40.08,
+  "scores": {
+    "total": 40.08,
+    "base": 39.19,
+    "access": 41.42,
+    "sub": {
+      "anti_overtourism": 96.2,
+      "walkability": 0.0,
+      "local_hiking": 0.0,
+      "water": 7.61,
+      "heritage": 40.0,
+      "climate": 100.0,
+      "scenic_transport": 12.63,
+      "destination_pull": 91.61,
+      "cultural_access": 40.0,
+      "access_hiking": 1.0
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 30796,
+    "domestic_share_overnights": 0.6774,
+    "summer_temp_avg": 19.16,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 24288.1,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 12,
+    "reachable_named_museums": "8",
+    "isos_name": "Montmirail (Thielle-Wavre)",
+    "isos_kategorie": "cas particulier"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 151,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "jan",
+    "trough_month": "jan",
+    "peak_trough_ratio": 0.0,
+    "monthly_index": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "restaurant_count": 1,
+  "isos_name": "Montmirail (Thielle-Wavre)",
+  "reachable_slugs": [
+    "bern",
+    "biel-bienne",
+    "delemont",
+    "grenchen",
+    "la-chaux-de-fonds",
+    "la-grande-beroche",
+    "lausanne",
+    "morges",
+    "moutier-be",
+    "murten",
+    "neuchatel",
+    "solothurn",
+    "yverdon-les-bains"
+  ]
+}

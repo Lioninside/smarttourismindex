@@ -1,0 +1,76 @@
+{
+  "slug": "le-chenit",
+  "name": "Le Chenit",
+  "canton": "VD",
+  "score_total": 22.52,
+  "scores": {
+    "total": 22.52,
+    "base": 31.89,
+    "access": 8.47,
+    "sub": {
+      "anti_overtourism": 97.39,
+      "walkability": 9.71,
+      "local_hiking": 0.0,
+      "water": 4.01,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 11.58,
+      "destination_pull": 0.0,
+      "cultural_access": 20.0,
+      "access_hiking": 0.0
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 28101,
+    "domestic_share_overnights": 0.6376,
+    "summer_temp_avg": 15.27,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 0.0,
+    "walkability_path_m": 1497.8,
+    "scenic_transport_count": 11,
+    "reachable_named_museums": "4",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 182,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "aug",
+    "trough_month": "dec",
+    "peak_trough_ratio": 1.85,
+    "monthly_index": [
+      79,
+      84,
+      91,
+      82,
+      116,
+      120,
+      124,
+      131,
+      108,
+      98,
+      96,
+      71
+    ]
+  },
+  "tourism_intensity": 5.6,
+  "restaurant_count": 4,
+  "isos_name": "",
+  "reachable_slugs": []
+}
