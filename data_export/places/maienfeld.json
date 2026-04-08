@@ -1,0 +1,88 @@
+{
+  "slug": "maienfeld",
+  "name": "Maienfeld",
+  "canton": "GR",
+  "score_total": 51.24,
+  "scores": {
+    "total": 51.24,
+    "base": 48.81,
+    "access": 54.89,
+    "sub": {
+      "anti_overtourism": 94.55,
+      "walkability": 3.45,
+      "local_hiking": 37.24,
+      "water": 13.56,
+      "heritage": 100.0,
+      "climate": 50.0,
+      "scenic_transport": 32.63,
+      "destination_pull": 84.44,
+      "cultural_access": 40.0,
+      "access_hiking": 65.12
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 37671,
+    "domestic_share_overnights": 0.7535,
+    "summer_temp_avg": 18.2,
+    "local_hiking_m": 64319.9,
+    "regional_hiking_m": 1581187.8,
+    "walkability_path_m": 532.2,
+    "scenic_transport_count": 31,
+    "reachable_named_museums": "8",
+    "isos_name": "Maienfeld",
+    "isos_kategorie": "Kleinstadt/Flecken"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 47,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "aug",
+    "trough_month": "nov",
+    "peak_trough_ratio": 1.94,
+    "monthly_index": [
+      74,
+      78,
+      80,
+      85,
+      110,
+      115,
+      132,
+      138,
+      126,
+      110,
+      71,
+      81
+    ]
+  },
+  "tourism_intensity": 11.7,
+  "restaurant_count": 3,
+  "isos_name": "Maienfeld",
+  "reachable_slugs": [
+    "altstaetten",
+    "amden",
+    "bad-ragaz",
+    "chur",
+    "flims",
+    "flums",
+    "klosters",
+    "quarten",
+    "walenstadt"
+  ]
+}

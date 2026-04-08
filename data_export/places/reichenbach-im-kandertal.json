@@ -1,0 +1,88 @@
+{
+  "slug": "reichenbach-im-kandertal",
+  "name": "Reichenbach im Kandertal",
+  "canton": "BE",
+  "score_total": 47.19,
+  "scores": {
+    "total": 47.19,
+    "base": 44.13,
+    "access": 51.76,
+    "sub": {
+      "anti_overtourism": 95.2,
+      "walkability": 4.67,
+      "local_hiking": 36.03,
+      "water": 47.95,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 32.63,
+      "destination_pull": 91.95,
+      "cultural_access": 30.0,
+      "access_hiking": 45.92
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 36057,
+    "domestic_share_overnights": 0.7112,
+    "summer_temp_avg": 16.63,
+    "local_hiking_m": 62239.5,
+    "regional_hiking_m": 1115170.1,
+    "walkability_path_m": 720.7,
+    "scenic_transport_count": 31,
+    "reachable_named_museums": "6",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 92,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "aug",
+    "trough_month": "jan",
+    "peak_trough_ratio": 3.34,
+    "monthly_index": [
+      51,
+      68,
+      74,
+      66,
+      144,
+      142,
+      155,
+      170,
+      113,
+      91,
+      64,
+      62
+    ]
+  },
+  "tourism_intensity": 10.3,
+  "restaurant_count": 3,
+  "isos_name": "",
+  "reachable_slugs": [
+    "adelboden",
+    "aeschi-bei-spiez",
+    "bern",
+    "interlaken",
+    "kandersteg",
+    "matten-bei-interlaken",
+    "sigriswil",
+    "spiez",
+    "thun",
+    "visp"
+  ]
+}

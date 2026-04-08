@@ -1,0 +1,77 @@
+{
+  "slug": "wildhaus-alt-st-johann",
+  "name": "Wildhaus-Alt St. Johann",
+  "canton": "SG",
+  "score_total": 30.57,
+  "scores": {
+    "total": 30.57,
+    "base": 33.94,
+    "access": 25.51,
+    "sub": {
+      "anti_overtourism": 83.28,
+      "walkability": 6.92,
+      "local_hiking": 36.68,
+      "water": 29.34,
+      "heritage": 0.0,
+      "climate": 0.0,
+      "scenic_transport": 50.53,
+      "destination_pull": 0.0,
+      "cultural_access": 20.0,
+      "access_hiking": 35.67
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 89077,
+    "domestic_share_overnights": 0.827,
+    "summer_temp_avg": 14.83,
+    "local_hiking_m": 63354.1,
+    "regional_hiking_m": 866252.1,
+    "walkability_path_m": 1066.8,
+    "scenic_transport_count": 48,
+    "reachable_named_museums": "4",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 177,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "feb",
+    "trough_month": "nov",
+    "peak_trough_ratio": 3.93,
+    "monthly_index": [
+      117,
+      154,
+      98,
+      54,
+      82,
+      94,
+      134,
+      138,
+      113,
+      92,
+      39,
+      85
+    ]
+  },
+  "tourism_intensity": 35.9,
+  "restaurant_count": 1,
+  "isos_name": "",
+  "reachable_slugs": []
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "vals",
+  "name": "Vals",
+  "canton": "GR",
+  "score_total": 27.34,
+  "scores": {
+    "total": 27.34,
+    "base": 33.06,
+    "access": 18.75,
+    "sub": {
+      "anti_overtourism": 68.19,
+      "walkability": 0.0,
+      "local_hiking": 54.39,
+      "water": 34.23,
+      "heritage": 0.0,
+      "climate": 0.0,
+      "scenic_transport": 12.63,
+      "destination_pull": 0.0,
+      "cultural_access": 20.0,
+      "access_hiking": 66.44
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 64148,
+    "domestic_share_overnights": 0.7016,
+    "summer_temp_avg": 13.62,
+    "local_hiking_m": 93943.3,
+    "regional_hiking_m": 1613438.5,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 12,
+    "reachable_named_museums": "4",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 180,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "feb",
+    "trough_month": "apr",
+    "peak_trough_ratio": 4.04,
+    "monthly_index": [
+      140,
+      174,
+      116,
+      43,
+      70,
+      64,
+      101,
+      122,
+      86,
+      90,
+      84,
+      108
+    ]
+  },
+  "tourism_intensity": 68.3,
+  "restaurant_count": 12,
+  "isos_name": "",
+  "reachable_slugs": []
+}
