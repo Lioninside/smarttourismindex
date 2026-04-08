@@ -1,0 +1,85 @@
+{
+  "slug": "vitznau",
+  "name": "Vitznau",
+  "canton": "LU",
+  "score_total": 57.83,
+  "scores": {
+    "total": 57.83,
+    "base": 47.43,
+    "access": 73.42,
+    "sub": {
+      "anti_overtourism": 71.73,
+      "walkability": 0.0,
+      "local_hiking": 29.92,
+      "water": 99.54,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 64.21,
+      "destination_pull": 89.8,
+      "cultural_access": 85.0,
+      "access_hiking": 39.8
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 86841,
+    "domestic_share_overnights": 0.5325,
+    "summer_temp_avg": 17.88,
+    "local_hiking_m": 51686.2,
+    "regional_hiking_m": 966455.7,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 60,
+    "reachable_named_museums": "17",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 39,
+  "seasonality": {
+    "volatility_label": "Strongly seasonal",
+    "peak_month": "jul",
+    "trough_month": "feb",
+    "peak_trough_ratio": 5.96,
+    "monthly_index": [
+      33,
+      32,
+      55,
+      81,
+      120,
+      140,
+      190,
+      185,
+      132,
+      98,
+      62,
+      73
+    ]
+  },
+  "tourism_intensity": 60.7,
+  "restaurant_count": 7,
+  "isos_name": "",
+  "reachable_slugs": [
+    "ingenbohl",
+    "kuessnacht",
+    "luzern",
+    "meggen",
+    "morschach",
+    "schwyz",
+    "weggis"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "ollon",
+  "name": "Ollon",
+  "canton": "VD",
+  "score_total": 56.21,
+  "scores": {
+    "total": 56.21,
+    "base": 50.31,
+    "access": 65.05,
+    "sub": {
+      "anti_overtourism": 94.04,
+      "walkability": 2.62,
+      "local_hiking": 4.3,
+      "water": 3.2,
+      "heritage": 70.0,
+      "climate": 100.0,
+      "scenic_transport": 93.68,
+      "destination_pull": 90.23,
+      "cultural_access": 20.0,
+      "access_hiking": 32.54
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 119617,
+    "domestic_share_overnights": 0.6129,
+    "summer_temp_avg": 18.6,
+    "local_hiking_m": 7419.7,
+    "regional_hiking_m": 790191.8,
+    "walkability_path_m": 2233.1,
+    "scenic_transport_count": 89,
+    "reachable_named_museums": "4",
+    "isos_name": "Ollon",
+    "isos_kategorie": "village"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 50,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "feb",
+    "trough_month": "nov",
+    "peak_trough_ratio": 18.19,
+    "monthly_index": [
+      175,
+      206,
+      112,
+      16,
+      42,
+      134,
+      143,
+      142,
+      76,
+      24,
+      11,
+      118
+    ]
+  },
+  "tourism_intensity": 12.8,
+  "restaurant_count": 2,
+  "isos_name": "Ollon",
+  "reachable_slugs": [
+    "blonay-saint-legier",
+    "champery",
+    "haut-intyamon",
+    "lausanne",
+    "leysin",
+    "martigny",
+    "montreux",
+    "morges",
+    "ormont-dessus",
+    "saint-maurice",
+    "sion",
+    "vevey"
+  ]
+}

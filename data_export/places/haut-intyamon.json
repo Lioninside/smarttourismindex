@@ -1,0 +1,89 @@
+{
+  "slug": "haut-intyamon",
+  "name": "Haut-Intyamon",
+  "canton": "FR",
+  "score_total": 50.53,
+  "scores": {
+    "total": 50.53,
+    "base": 50.69,
+    "access": 50.29,
+    "sub": {
+      "anti_overtourism": 98.88,
+      "walkability": 0.0,
+      "local_hiking": 17.55,
+      "water": 13.44,
+      "heritage": 70.0,
+      "climate": 50.0,
+      "scenic_transport": 43.16,
+      "destination_pull": 89.56,
+      "cultural_access": 25.0,
+      "access_hiking": 28.14
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 3440,
+    "domestic_share_overnights": 0.548,
+    "summer_temp_avg": 16.64,
+    "local_hiking_m": 30305.5,
+    "regional_hiking_m": 683433.1,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 41,
+    "reachable_named_museums": "5",
+    "isos_name": "Neirivue (Haut-Intyamon)",
+    "isos_kategorie": "village"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 103,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "jul",
+    "trough_month": "nov",
+    "peak_trough_ratio": 4.05,
+    "monthly_index": [
+      84,
+      73,
+      62,
+      76,
+      111,
+      94,
+      202,
+      195,
+      106,
+      77,
+      50,
+      71
+    ]
+  },
+  "tourism_intensity": 2.4,
+  "restaurant_count": 0,
+  "isos_name": "Neirivue (Haut-Intyamon)",
+  "reachable_slugs": [
+    "blonay-saint-legier",
+    "bourg-en-lavaux",
+    "lausanne",
+    "martigny",
+    "montreux",
+    "morges",
+    "ollon",
+    "saint-maurice",
+    "vevey",
+    "yverdon-les-bains"
+  ]
+}

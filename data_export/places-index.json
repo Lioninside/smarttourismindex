@@ -1,0 +1,5581 @@
+[
+  {
+    "slug": "emmetten",
+    "name": "Emmetten",
+    "canton": "NW",
+    "rank": 1,
+    "score_total": 69.55,
+    "scores": {
+      "total": 69.55,
+      "base": 63.05,
+      "access": 79.29,
+      "sub": {
+        "anti_overtourism": 88.73,
+        "walkability": 0.0,
+        "local_hiking": 32.23,
+        "water": 96.57,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 90.53,
+        "destination_pull": 88.09,
+        "cultural_access": 70.0,
+        "access_hiking": 54.71
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "chur",
+    "name": "Chur",
+    "canton": "GR",
+    "rank": 2,
+    "score_total": 68.31,
+    "scores": {
+      "total": 68.31,
+      "base": 68.06,
+      "access": 68.68,
+      "sub": {
+        "anti_overtourism": 97.25,
+        "walkability": 8.47,
+        "local_hiking": 61.48,
+        "water": 4.92,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 66.32,
+        "destination_pull": 88.5,
+        "cultural_access": 35.0,
+        "access_hiking": 89.91
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "beckenried",
+    "name": "Beckenried",
+    "canton": "NW",
+    "rank": 3,
+    "score_total": 67.08,
+    "scores": {
+      "total": 67.08,
+      "base": 64.06,
+      "access": 71.61,
+      "sub": {
+        "anti_overtourism": 94.74,
+        "walkability": 0.14,
+        "local_hiking": 25.62,
+        "water": 100.0,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 78.95,
+        "destination_pull": 88.56,
+        "cultural_access": 55.0,
+        "access_hiking": 50.68
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "ingenbohl",
+    "name": "Ingenbohl",
+    "canton": "SZ",
+    "rank": 4,
+    "score_total": 65.99,
+    "scores": {
+      "total": 65.99,
+      "base": 62.87,
+      "access": 70.66,
+      "sub": {
+        "anti_overtourism": 97.16,
+        "walkability": 1.66,
+        "local_hiking": 19.27,
+        "water": 94.7,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 92.63,
+        "destination_pull": 90.53,
+        "cultural_access": 35.0,
+        "access_hiking": 46.44
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "locarno",
+    "name": "Locarno",
+    "canton": "TI",
+    "rank": 5,
+    "score_total": 64.53,
+    "scores": {
+      "total": 64.53,
+      "base": 63.35,
+      "access": 66.31,
+      "sub": {
+        "anti_overtourism": 92.18,
+        "walkability": 14.43,
+        "local_hiking": 37.42,
+        "water": 95.11,
+        "heritage": 50.0,
+        "climate": 50.0,
+        "scenic_transport": 15.79,
+        "destination_pull": 87.75,
+        "cultural_access": 100.0,
+        "access_hiking": 68.3
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "collina-doro",
+    "name": "Collina d'Oro",
+    "canton": "TI",
+    "rank": 6,
+    "score_total": 64.49,
+    "scores": {
+      "total": 64.49,
+      "base": 68.68,
+      "access": 58.2,
+      "sub": {
+        "anti_overtourism": 98.98,
+        "walkability": 3.49,
+        "local_hiking": 44.24,
+        "water": 95.3,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 3.16,
+        "destination_pull": 87.19,
+        "cultural_access": 100.0,
+        "access_hiking": 40.63
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "walenstadt",
+    "name": "Walenstadt",
+    "canton": "SG",
+    "rank": 7,
+    "score_total": 63.96,
+    "scores": {
+      "total": 63.96,
+      "base": 71.29,
+      "access": 52.98,
+      "sub": {
+        "anti_overtourism": 99.07,
+        "walkability": 0.27,
+        "local_hiking": 34.69,
+        "water": 97.34,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 44.21,
+        "destination_pull": 82.94,
+        "cultural_access": 30.0,
+        "access_hiking": 48.88
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "weggis",
+    "name": "Weggis",
+    "canton": "LU",
+    "rank": 8,
+    "score_total": 63.69,
+    "scores": {
+      "total": 63.69,
+      "base": 57.64,
+      "access": 72.78,
+      "sub": {
+        "anti_overtourism": 80.2,
+        "walkability": 0.24,
+        "local_hiking": 20.39,
+        "water": 93.16,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 53.16,
+        "destination_pull": 88.91,
+        "cultural_access": 100.0,
+        "access_hiking": 34.37
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "kuessnacht",
+    "name": "Küssnacht",
+    "canton": "SZ",
+    "rank": 9,
+    "score_total": 63.58,
+    "scores": {
+      "total": 63.58,
+      "base": 65.13,
+      "access": 61.25,
+      "sub": {
+        "anti_overtourism": 98.65,
+        "walkability": 1.56,
+        "local_hiking": 6.59,
+        "water": 93.73,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 20.53,
+        "destination_pull": 89.71,
+        "cultural_access": 100.0,
+        "access_hiking": 21.2
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "sachseln",
+    "name": "Sachseln",
+    "canton": "OW",
+    "rank": 10,
+    "score_total": 63.54,
+    "scores": {
+      "total": 63.54,
+      "base": 68.07,
+      "access": 56.76,
+      "sub": {
+        "anti_overtourism": 94.18,
+        "walkability": 0.0,
+        "local_hiking": 27.44,
+        "water": 95.49,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 63.16,
+        "destination_pull": 88.7,
+        "cultural_access": 10.0,
+        "access_hiking": 57.98
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "sursee",
+    "name": "Sursee",
+    "canton": "LU",
+    "rank": 11,
+    "score_total": 63.13,
+    "scores": {
+      "total": 63.13,
+      "base": 69.5,
+      "access": 53.58,
+      "sub": {
+        "anti_overtourism": 98.09,
+        "walkability": 3.8,
+        "local_hiking": 0.0,
+        "water": 97.94,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 0.0,
+        "destination_pull": 95.26,
+        "cultural_access": 100.0,
+        "access_hiking": 0.0
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "lugano",
+    "name": "Lugano",
+    "canton": "TI",
+    "rank": 12,
+    "score_total": 62.94,
+    "scores": {
+      "total": 62.94,
+      "base": 65.89,
+      "access": 58.52,
+      "sub": {
+        "anti_overtourism": 95.99,
+        "walkability": 12.12,
+        "local_hiking": 33.06,
+        "water": 91.78,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 5.26,
+        "destination_pull": 83.97,
+        "cultural_access": 100.0,
+        "access_hiking": 45.01
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "zuerich",
+    "name": "Zürich",
+    "canton": "ZH",
+    "rank": 13,
+    "score_total": 62.91,
+    "scores": {
+      "total": 62.91,
+      "base": 67.77,
+      "access": 55.61,
+      "sub": {
+        "anti_overtourism": 95.67,
+        "walkability": 54.15,
+        "local_hiking": 0.0,
+        "water": 91.03,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 4.21,
+        "destination_pull": 97.67,
+        "cultural_access": 100.0,
+        "access_hiking": 0.31
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "sarnen",
+    "name": "Sarnen",
+    "canton": "OW",
+    "rank": 14,
+    "score_total": 62.59,
+    "scores": {
+      "total": 62.59,
+      "base": 65.37,
+      "access": 58.44,
+      "sub": {
+        "anti_overtourism": 97.62,
+        "walkability": 0.39,
+        "local_hiking": 8.2,
+        "water": 95.99,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 48.42,
+        "destination_pull": 90.27,
+        "cultural_access": 35.0,
+        "access_hiking": 53.87
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "muralto",
+    "name": "Muralto",
+    "canton": "TI",
+    "rank": 15,
+    "score_total": 62.41,
+    "scores": {
+      "total": 62.41,
+      "base": 59.53,
+      "access": 66.71,
+      "sub": {
+        "anti_overtourism": 75.31,
+        "walkability": 10.29,
+        "local_hiking": 44.2,
+        "water": 97.14,
+        "heritage": 50.0,
+        "climate": 50.0,
+        "scenic_transport": 15.79,
+        "destination_pull": 88.32,
+        "cultural_access": 100.0,
+        "access_hiking": 69.86
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "luzern",
+    "name": "Luzern",
+    "canton": "LU",
+    "rank": 16,
+    "score_total": 61.93,
+    "scores": {
+      "total": 61.93,
+      "base": 63.93,
+      "access": 58.92,
+      "sub": {
+        "anti_overtourism": 92.36,
+        "walkability": 21.58,
+        "local_hiking": 0.0,
+        "water": 93.76,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 16.32,
+        "destination_pull": 97.33,
+        "cultural_access": 85.0,
+        "access_hiking": 23.84
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "rapperswil-jona",
+    "name": "Rapperswil-Jona",
+    "canton": "SG",
+    "rank": 17,
+    "score_total": 61.38,
+    "scores": {
+      "total": 61.38,
+      "base": 63.98,
+      "access": 57.49,
+      "sub": {
+        "anti_overtourism": 99.35,
+        "walkability": 4.26,
+        "local_hiking": 0.0,
+        "water": 91.64,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 14.74,
+        "destination_pull": 97.0,
+        "cultural_access": 90.0,
+        "access_hiking": 9.76
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "geneve",
+    "name": "Genève",
+    "canton": "GE",
+    "rank": 18,
+    "score_total": 61.1,
+    "scores": {
+      "total": 61.1,
+      "base": 67.86,
+      "access": 50.97,
+      "sub": {
+        "anti_overtourism": 94.78,
+        "walkability": 85.91,
+        "local_hiking": 0.0,
+        "water": 88.92,
+        "heritage": 50.0,
+        "climate": 100.0,
+        "scenic_transport": 0.0,
+        "destination_pull": 90.72,
+        "cultural_access": 95.0,
+        "access_hiking": 0.0
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "morges",
+    "name": "Morges",
+    "canton": "VD",
+    "rank": 19,
+    "score_total": 60.94,
+    "scores": {
+      "total": 60.94,
+      "base": 65.78,
+      "access": 53.68,
+      "sub": {
+        "anti_overtourism": 98.28,
+        "walkability": 24.21,
+        "local_hiking": 0.0,
+        "water": 89.19,
+        "heritage": 70.0,
+        "climate": 100.0,
+        "scenic_transport": 0.0,
+        "destination_pull": 95.6,
+        "cultural_access": 100.0,
+        "access_hiking": 0.0
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "brig-glis",
+    "name": "Brig-Glis",
+    "canton": "VS",
+    "rank": 20,
+    "score_total": 60.85,
+    "scores": {
+      "total": 60.85,
+      "base": 61.03,
+      "access": 60.57,
+      "sub": {
+        "anti_overtourism": 93.34,
+        "walkability": 1.06,
+        "local_hiking": 25.18,
+        "water": 19.24,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 81.05,
+        "destination_pull": 85.94,
+        "cultural_access": 20.0,
+        "access_hiking": 36.5
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "thun",
+    "name": "Thun",
+    "canton": "BE",
+    "rank": 21,
+    "score_total": 60.5,
+    "scores": {
+      "total": 60.5,
+      "base": 64.06,
+      "access": 55.15,
+      "sub": {
+        "anti_overtourism": 98.18,
+        "walkability": 9.59,
+        "local_hiking": 0.0,
+        "water": 90.99,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 19.47,
+        "destination_pull": 93.26,
+        "cultural_access": 70.0,
+        "access_hiking": 25.57
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "bourg-en-lavaux",
+    "name": "Bourg-en-Lavaux",
+    "canton": "VD",
+    "rank": 22,
+    "score_total": 60.25,
+    "scores": {
+      "total": 60.25,
+      "base": 64.71,
+      "access": 53.57,
+      "sub": {
+        "anti_overtourism": 97.3,
+        "walkability": 8.56,
+        "local_hiking": 0.0,
+        "water": 94.44,
+        "heritage": 70.0,
+        "climate": 100.0,
+        "scenic_transport": 0.0,
+        "destination_pull": 94.57,
+        "cultural_access": 100.0,
+        "access_hiking": 1.32
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "paradiso",
+    "name": "Paradiso",
+    "canton": "TI",
+    "rank": 23,
+    "score_total": 60.24,
+    "scores": {
+      "total": 60.24,
+      "base": 61.94,
+      "access": 57.69,
+      "sub": {
+        "anti_overtourism": 81.51,
+        "walkability": 10.88,
+        "local_hiking": 34.55,
+        "water": 93.26,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 3.16,
+        "destination_pull": 84.57,
+        "cultural_access": 100.0,
+        "access_hiking": 42.48
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "zug",
+    "name": "Zug",
+    "canton": "ZG",
+    "rank": 24,
+    "score_total": 60.05,
+    "scores": {
+      "total": 60.05,
+      "base": 64.74,
+      "access": 53.01,
+      "sub": {
+        "anti_overtourism": 98.37,
+        "walkability": 8.69,
+        "local_hiking": 0.0,
+        "water": 95.74,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 7.89,
+        "destination_pull": 98.42,
+        "cultural_access": 80.0,
+        "access_hiking": 7.46
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "meggen",
+    "name": "Meggen",
+    "canton": "LU",
+    "rank": 25,
+    "score_total": 60.01,
+    "scores": {
+      "total": 60.01,
+      "base": 56.69,
+      "access": 65.0,
+      "sub": {
+        "anti_overtourism": 99.07,
+        "walkability": 1.69,
+        "local_hiking": 0.0,
+        "water": 95.31,
+        "heritage": 50.0,
+        "climate": 50.0,
+        "scenic_transport": 28.42,
+        "destination_pull": 90.75,
+        "cultural_access": 100.0,
+        "access_hiking": 28.31
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "lausanne",
+    "name": "Lausanne",
+    "canton": "VD",
+    "rank": 26,
+    "score_total": 59.94,
+    "scores": {
+      "total": 59.94,
+      "base": 64.49,
+      "access": 53.12,
+      "sub": {
+        "anti_overtourism": 96.88,
+        "walkability": 62.5,
+        "local_hiking": 0.0,
+        "water": 77.81,
+        "heritage": 50.0,
+        "climate": 100.0,
+        "scenic_transport": 0.0,
+        "destination_pull": 93.75,
+        "cultural_access": 100.0,
+        "access_hiking": 0.0
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "saint-maurice",
+    "name": "Saint-Maurice",
+    "canton": "VS",
+    "rank": 27,
+    "score_total": 59.93,
+    "scores": {
+      "total": 59.93,
+      "base": 56.32,
+      "access": 65.34,
+      "sub": {
+        "anti_overtourism": 97.95,
+        "walkability": 4.79,
+        "local_hiking": 25.18,
+        "water": 6.14,
+        "heritage": 70.0,
+        "climate": 100.0,
+        "scenic_transport": 78.95,
+        "destination_pull": 90.29,
+        "cultural_access": 40.0,
+        "access_hiking": 30.44
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "sierre",
+    "name": "Sierre",
+    "canton": "VS",
+    "rank": 28,
+    "score_total": 59.75,
+    "scores": {
+      "total": 59.75,
+      "base": 52.61,
+      "access": 70.48,
+      "sub": {
+        "anti_overtourism": 99.35,
+        "walkability": 1.42,
+        "local_hiking": 0.0,
+        "water": 14.39,
+        "heritage": 70.0,
+        "climate": 100.0,
+        "scenic_transport": 83.16,
+        "destination_pull": 87.79,
+        "cultural_access": 55.0,
+        "access_hiking": 36.28
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "sion",
+    "name": "Sion",
+    "canton": "VS",
+    "rank": 29,
+    "score_total": 59.25,
+    "scores": {
+      "total": 59.25,
+      "base": 53.39,
+      "access": 68.05,
+      "sub": {
+        "anti_overtourism": 98.56,
+        "walkability": 12.8,
+        "local_hiking": 1.34,
+        "water": 11.81,
+        "heritage": 70.0,
+        "climate": 100.0,
+        "scenic_transport": 80.0,
+        "destination_pull": 88.75,
+        "cultural_access": 50.0,
+        "access_hiking": 32.8
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "rorschacherberg",
+    "name": "Rorschacherberg",
+    "canton": "SG",
+    "rank": 30,
+    "score_total": 59.12,
+    "scores": {
+      "total": 59.12,
+      "base": 64.08,
+      "access": 51.67,
+      "sub": {
+        "anti_overtourism": 98.23,
+        "walkability": 1.84,
+        "local_hiking": 0.0,
+        "water": 96.2,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 6.84,
+        "destination_pull": 81.32,
+        "cultural_access": 100.0,
+        "access_hiking": 1.46
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "crans-montana",
+    "name": "Crans-Montana",
+    "canton": "VS",
+    "rank": 31,
+    "score_total": 59.08,
+    "scores": {
+      "total": 59.08,
+      "base": 49.79,
+      "access": 73.02,
+      "sub": {
+        "anti_overtourism": 90.82,
+        "walkability": 4.56,
+        "local_hiking": 17.57,
+        "water": 20.46,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 68.42,
+        "destination_pull": 80.93,
+        "cultural_access": 90.0,
+        "access_hiking": 38.07
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "vevey",
+    "name": "Vevey",
+    "canton": "VD",
+    "rank": 32,
+    "score_total": 59.07,
+    "scores": {
+      "total": 59.07,
+      "base": 64.46,
+      "access": 50.99,
+      "sub": {
+        "anti_overtourism": 97.62,
+        "walkability": 9.93,
+        "local_hiking": 0.0,
+        "water": 91.2,
+        "heritage": 70.0,
+        "climate": 100.0,
+        "scenic_transport": 23.16,
+        "destination_pull": 95.0,
+        "cultural_access": 55.0,
+        "access_hiking": 11.92
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "arbon",
+    "name": "Arbon",
+    "canton": "TG",
+    "rank": 33,
+    "score_total": 58.89,
+    "scores": {
+      "total": 58.89,
+      "base": 63.46,
+      "access": 52.02,
+      "sub": {
+        "anti_overtourism": 98.79,
+        "walkability": 1.27,
+        "local_hiking": 0.0,
+        "water": 91.33,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 6.32,
+        "destination_pull": 83.75,
+        "cultural_access": 100.0,
+        "access_hiking": 0.0
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "visp",
+    "name": "Visp",
+    "canton": "VS",
+    "rank": 34,
+    "score_total": 58.67,
+    "scores": {
+      "total": 58.67,
+      "base": 59.11,
+      "access": 58.01,
+      "sub": {
+        "anti_overtourism": 97.58,
+        "walkability": 2.84,
+        "local_hiking": 15.11,
+        "water": 10.19,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 70.53,
+        "destination_pull": 91.15,
+        "cultural_access": 15.0,
+        "access_hiking": 38.39
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "waedenswil",
+    "name": "Wädenswil",
+    "canton": "ZH",
+    "rank": 35,
+    "score_total": 58.64,
+    "scores": {
+      "total": 58.64,
+      "base": 59.61,
+      "access": 57.19,
+      "sub": {
+        "anti_overtourism": 99.72,
+        "walkability": 3.36,
+        "local_hiking": 0.0,
+        "water": 92.38,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 6.84,
+        "destination_pull": 98.31,
+        "cultural_access": 100.0,
+        "access_hiking": 4.29
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "freienbach",
+    "name": "Freienbach",
+    "canton": "SZ",
+    "rank": 36,
+    "score_total": 58.61,
+    "scores": {
+      "total": 58.61,
+      "base": 59.03,
+      "access": 57.98,
+      "sub": {
+        "anti_overtourism": 98.46,
+        "walkability": 0.55,
+        "local_hiking": 0.0,
+        "water": 92.91,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 10.0,
+        "destination_pull": 94.76,
+        "cultural_access": 100.0,
+        "access_hiking": 10.33
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "bern",
+    "name": "Bern",
+    "canton": "BE",
+    "rank": 37,
+    "score_total": 58.24,
+    "scores": {
+      "total": 58.24,
+      "base": 59.8,
+      "access": 55.9,
+      "sub": {
+        "anti_overtourism": 96.27,
+        "walkability": 53.11,
+        "local_hiking": 0.0,
+        "water": 4.07,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 4.74,
+        "destination_pull": 98.27,
+        "cultural_access": 100.0,
+        "access_hiking": 0.0
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "horgen",
+    "name": "Horgen",
+    "canton": "ZH",
+    "rank": 38,
+    "score_total": 58.1,
+    "scores": {
+      "total": 58.1,
+      "base": 59.67,
+      "access": 55.74,
+      "sub": {
+        "anti_overtourism": 99.44,
+        "walkability": 0.75,
+        "local_hiking": 0.0,
+        "water": 95.11,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 3.68,
+        "destination_pull": 98.06,
+        "cultural_access": 100.0,
+        "access_hiking": 1.47
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "vitznau",
+    "name": "Vitznau",
+    "canton": "LU",
+    "rank": 39,
+    "score_total": 57.83,
+    "scores": {
+      "total": 57.83,
+      "base": 47.43,
+      "access": 73.42,
+      "sub": {
+        "anti_overtourism": 71.73,
+        "walkability": 0.0,
+        "local_hiking": 29.92,
+        "water": 99.54,
+        "heritage": 0.0,
+        "climate": 50.0,
+        "scenic_transport": 64.21,
+        "destination_pull": 89.8,
+        "cultural_access": 85.0,
+        "access_hiking": 39.8
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "winterthur",
+    "name": "Winterthur",
+    "canton": "ZH",
+    "rank": 40,
+    "score_total": 57.64,
+    "scores": {
+      "total": 57.64,
+      "base": 59.89,
+      "access": 54.27,
+      "sub": {
+        "anti_overtourism": 99.16,
+        "walkability": 40.43,
+        "local_hiking": 0.0,
+        "water": 7.32,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 0.53,
+        "destination_pull": 96.99,
+        "cultural_access": 100.0,
+        "access_hiking": 0.09
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "lumnezia",
+    "name": "Lumnezia",
+    "canton": "GR",
+    "rank": 41,
+    "score_total": 57.51,
+    "scores": {
+      "total": 57.51,
+      "base": 61.69,
+      "access": 51.23,
+      "sub": {
+        "anti_overtourism": 97.25,
+        "walkability": 0.0,
+        "local_hiking": 69.01,
+        "water": 8.09,
+        "heritage": 50.0,
+        "climate": 100.0,
+        "scenic_transport": 47.37,
+        "destination_pull": 62.02,
+        "cultural_access": 25.0,
+        "access_hiking": 81.1
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "basel",
+    "name": "Basel",
+    "canton": "BS",
+    "rank": 42,
+    "score_total": 57.1,
+    "scores": {
+      "total": 57.1,
+      "base": 58.46,
+      "access": 55.06,
+      "sub": {
+        "anti_overtourism": 95.95,
+        "walkability": 42.07,
+        "local_hiking": 0.0,
+        "water": 3.12,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 3.68,
+        "destination_pull": 96.41,
+        "cultural_access": 100.0,
+        "access_hiking": 0.2
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "ascona",
+    "name": "Ascona",
+    "canton": "TI",
+    "rank": 43,
+    "score_total": 57.03,
+    "scores": {
+      "total": 57.03,
+      "base": 52.51,
+      "access": 63.81,
+      "sub": {
+        "anti_overtourism": 63.11,
+        "walkability": 11.71,
+        "local_hiking": 30.36,
+        "water": 92.23,
+        "heritage": 50.0,
+        "climate": 50.0,
+        "scenic_transport": 15.79,
+        "destination_pull": 81.18,
+        "cultural_access": 100.0,
+        "access_hiking": 64.82
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "ilanz-glion",
+    "name": "Ilanz/Glion",
+    "canton": "GR",
+    "rank": 44,
+    "score_total": 56.6,
+    "scores": {
+      "total": 56.6,
+      "base": 59.3,
+      "access": 52.55,
+      "sub": {
+        "anti_overtourism": 97.9,
+        "walkability": 0.0,
+        "local_hiking": 55.94,
+        "water": 8.29,
+        "heritage": 50.0,
+        "climate": 100.0,
+        "scenic_transport": 54.74,
+        "destination_pull": 58.17,
+        "cultural_access": 25.0,
+        "access_hiking": 82.86
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "spiez",
+    "name": "Spiez",
+    "canton": "BE",
+    "rank": 45,
+    "score_total": 56.6,
+    "scores": {
+      "total": 56.6,
+      "base": 59.05,
+      "access": 52.94,
+      "sub": {
+        "anti_overtourism": 94.83,
+        "walkability": 9.11,
+        "local_hiking": 3.23,
+        "water": 90.27,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 21.58,
+        "destination_pull": 94.28,
+        "cultural_access": 50.0,
+        "access_hiking": 37.88
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "brienz",
+    "name": "Brienz",
+    "canton": "BE",
+    "rank": 46,
+    "score_total": 56.49,
+    "scores": {
+      "total": 56.49,
+      "base": 58.45,
+      "access": 53.54,
+      "sub": {
+        "anti_overtourism": 83.33,
+        "walkability": 0.42,
+        "local_hiking": 15.96,
+        "water": 98.13,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 48.42,
+        "destination_pull": 85.28,
+        "cultural_access": 25.0,
+        "access_hiking": 47.87
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "aarau",
+    "name": "Aarau",
+    "canton": "AG",
+    "rank": 47,
+    "score_total": 56.42,
+    "scores": {
+      "total": 56.42,
+      "base": 57.1,
+      "access": 55.41,
+      "sub": {
+        "anti_overtourism": 99.35,
+        "walkability": 8.57,
+        "local_hiking": 0.0,
+        "water": 9.59,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 2.11,
+        "destination_pull": 99.21,
+        "cultural_access": 100.0,
+        "access_hiking": 0.06
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "einsiedeln",
+    "name": "Einsiedeln",
+    "canton": "SZ",
+    "rank": 48,
+    "score_total": 56.41,
+    "scores": {
+      "total": 56.41,
+      "base": 60.14,
+      "access": 50.81,
+      "sub": {
+        "anti_overtourism": 98.32,
+        "walkability": 0.52,
+        "local_hiking": 2.26,
+        "water": 67.6,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 35.79,
+        "destination_pull": 94.51,
+        "cultural_access": 35.0,
+        "access_hiking": 19.82
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "baden",
+    "name": "Baden",
+    "canton": "AG",
+    "rank": 49,
+    "score_total": 56.36,
+    "scores": {
+      "total": 56.36,
+      "base": 56.98,
+      "access": 55.43,
+      "sub": {
+        "anti_overtourism": 97.58,
+        "walkability": 10.61,
+        "local_hiking": 2.55,
+        "water": 7.56,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 3.16,
+        "destination_pull": 98.09,
+        "cultural_access": 100.0,
+        "access_hiking": 0.34
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "ollon",
+    "name": "Ollon",
+    "canton": "VD",
+    "rank": 50,
+    "score_total": 56.21,
+    "scores": {
+      "total": 56.21,
+      "base": 50.31,
+      "access": 65.05,
+      "sub": {
+        "anti_overtourism": 94.04,
+        "walkability": 2.62,
+        "local_hiking": 4.3,
+        "water": 3.2,
+        "heritage": 70.0,
+        "climate": 100.0,
+        "scenic_transport": 93.68,
+        "destination_pull": 90.23,
+        "cultural_access": 20.0,
+        "access_hiking": 32.54
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "maienfeld",
+    "name": "Maienfeld",
+    "canton": "GR",
+    "rank": 51,
+    "score_total": 56.16,
+    "scores": {
+      "total": 56.16,
+      "base": 57.01,
+      "access": 54.89,
+      "sub": {
+        "anti_overtourism": 94.55,
+        "walkability": 1.02,
+        "local_hiking": 37.24,
+        "water": 7.32,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 32.63,
+        "destination_pull": 84.44,
+        "cultural_access": 40.0,
+        "access_hiking": 65.12
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "martigny",
+    "name": "Martigny",
+    "canton": "VS",
+    "rank": 52,
+    "score_total": 56.07,
+    "scores": {
+      "total": 56.07,
+      "base": 52.98,
+      "access": 60.7,
+      "sub": {
+        "anti_overtourism": 98.0,
+        "walkability": 4.95,
+        "local_hiking": 16.76,
+        "water": 14.92,
+        "heritage": 50.0,
+        "climate": 100.0,
+        "scenic_transport": 49.47,
+        "destination_pull": 90.53,
+        "cultural_access": 55.0,
+        "access_hiking": 33.0
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "nyon",
+    "name": "Nyon",
+    "canton": "VD",
+    "rank": 53,
+    "score_total": 56.06,
+    "scores": {
+      "total": 56.06,
+      "base": 65.32,
+      "access": 42.16,
+      "sub": {
+        "anti_overtourism": 98.37,
+        "walkability": 16.58,
+        "local_hiking": 0.0,
+        "water": 91.02,
+        "heritage": 70.0,
+        "climate": 100.0,
+        "scenic_transport": 15.79,
+        "destination_pull": 95.58,
+        "cultural_access": 35.0,
+        "access_hiking": 0.0
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "koeniz",
+    "name": "Köniz",
+    "canton": "BE",
+    "rank": 54,
+    "score_total": 56.02,
+    "scores": {
+      "total": 56.02,
+      "base": 57.72,
+      "access": 53.47,
+      "sub": {
+        "anti_overtourism": 99.81,
+        "walkability": 22.53,
+        "local_hiking": 0.0,
+        "water": 3.46,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 4.74,
+        "destination_pull": 90.15,
+        "cultural_access": 100.0,
+        "access_hiking": 0.0
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "schaffhausen",
+    "name": "Schaffhausen",
+    "canton": "SH",
+    "rank": 55,
+    "score_total": 55.98,
+    "scores": {
+      "total": 55.98,
+      "base": 56.56,
+      "access": 55.11,
+      "sub": {
+        "anti_overtourism": 98.65,
+        "walkability": 13.95,
+        "local_hiking": 0.0,
+        "water": 3.78,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 4.74,
+        "destination_pull": 95.62,
+        "cultural_access": 100.0,
+        "access_hiking": 0.0
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "olten",
+    "name": "Olten",
+    "canton": "SO",
+    "rank": 56,
+    "score_total": 55.95,
+    "scores": {
+      "total": 55.95,
+      "base": 55.66,
+      "access": 56.38,
+      "sub": {
+        "anti_overtourism": 98.18,
+        "walkability": 6.14,
+        "local_hiking": 0.0,
+        "water": 3.92,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 4.74,
+        "destination_pull": 99.69,
+        "cultural_access": 100.0,
+        "access_hiking": 0.35
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "celerina-schlarigna",
+    "name": "Celerina/Schlarigna",
+    "canton": "GR",
+    "rank": 57,
+    "score_total": 55.92,
+    "scores": {
+      "total": 55.92,
+      "base": 56.31,
+      "access": 55.34,
+      "sub": {
+        "anti_overtourism": 60.83,
+        "walkability": 3.37,
+        "local_hiking": 100.0,
+        "water": 34.85,
+        "heritage": 50.0,
+        "climate": 50.0,
+        "scenic_transport": 51.58,
+        "destination_pull": 86.88,
+        "cultural_access": 20.0,
+        "access_hiking": 58.65
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "solothurn",
+    "name": "Solothurn",
+    "canton": "SO",
+    "rank": 58,
+    "score_total": 55.9,
+    "scores": {
+      "total": 55.9,
+      "base": 55.88,
+      "access": 55.94,
+      "sub": {
+        "anti_overtourism": 97.3,
+        "walkability": 5.9,
+        "local_hiking": 1.04,
+        "water": 5.95,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 8.95,
+        "destination_pull": 97.9,
+        "cultural_access": 95.0,
+        "access_hiking": 0.88
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "liestal",
+    "name": "Liestal",
+    "canton": "BL",
+    "rank": 59,
+    "score_total": 55.87,
+    "scores": {
+      "total": 55.87,
+      "base": 55.89,
+      "access": 55.84,
+      "sub": {
+        "anti_overtourism": 99.25,
+        "walkability": 5.13,
+        "local_hiking": 0.0,
+        "water": 3.98,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 3.68,
+        "destination_pull": 98.83,
+        "cultural_access": 100.0,
+        "access_hiking": 0.55
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "matten-bei-interlaken",
+    "name": "Matten bei Interlaken",
+    "canton": "BE",
+    "rank": 60,
+    "score_total": 55.79,
+    "scores": {
+      "total": 55.79,
+      "base": 55.34,
+      "access": 56.45,
+      "sub": {
+        "anti_overtourism": 93.2,
+        "walkability": 5.29,
+        "local_hiking": 29.52,
+        "water": 6.34,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 53.68,
+        "destination_pull": 91.09,
+        "cultural_access": 25.0,
+        "access_hiking": 45.14
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "unteraegeri",
+    "name": "Unterägeri",
+    "canton": "ZG",
+    "rank": 61,
+    "score_total": 55.53,
+    "scores": {
+      "total": 55.53,
+      "base": 55.69,
+      "access": 55.28,
+      "sub": {
+        "anti_overtourism": 98.84,
+        "walkability": 0.94,
+        "local_hiking": 1.65,
+        "water": 97.46,
+        "heritage": 40.0,
+        "climate": 50.0,
+        "scenic_transport": 24.21,
+        "destination_pull": 96.07,
+        "cultural_access": 70.0,
+        "access_hiking": 11.34
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "murten",
+    "name": "Murten",
+    "canton": "FR",
+    "rank": 62,
+    "score_total": 55.49,
+    "scores": {
+      "total": 55.49,
+      "base": 68.24,
+      "access": 36.35,
+      "sub": {
+        "anti_overtourism": 98.56,
+        "walkability": 0.75,
+        "local_hiking": 0.0,
+        "water": 90.69,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 0.0,
+        "destination_pull": 87.84,
+        "cultural_access": 40.0,
+        "access_hiking": 0.0
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "lenzburg",
+    "name": "Lenzburg",
+    "canton": "AG",
+    "rank": 63,
+    "score_total": 55.44,
+    "scores": {
+      "total": 55.44,
+      "base": 55.59,
+      "access": 55.21,
+      "sub": {
+        "anti_overtourism": 98.79,
+        "walkability": 3.12,
+        "local_hiking": 0.0,
+        "water": 4.27,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 0.53,
+        "destination_pull": 100.0,
+        "cultural_access": 100.0,
+        "access_hiking": 0.34
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "bad-ragaz",
+    "name": "Bad Ragaz",
+    "canton": "SG",
+    "rank": 64,
+    "score_total": 55.34,
+    "scores": {
+      "total": 55.34,
+      "base": 54.96,
+      "access": 55.9,
+      "sub": {
+        "anti_overtourism": 90.03,
+        "walkability": 1.23,
+        "local_hiking": 31.44,
+        "water": 10.25,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 32.63,
+        "destination_pull": 84.05,
+        "cultural_access": 45.0,
+        "access_hiking": 64.31
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "schwyz",
+    "name": "Schwyz",
+    "canton": "SZ",
+    "rank": 65,
+    "score_total": 55.3,
+    "scores": {
+      "total": 55.3,
+      "base": 52.35,
+      "access": 59.71,
+      "sub": {
+        "anti_overtourism": 99.39,
+        "walkability": 0.9,
+        "local_hiking": 7.54,
+        "water": 6.23,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 64.21,
+        "destination_pull": 96.92,
+        "cultural_access": 20.0,
+        "access_hiking": 42.49
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "vaz-obervaz",
+    "name": "Vaz/Obervaz",
+    "canton": "GR",
+    "rank": 66,
+    "score_total": 55.16,
+    "scores": {
+      "total": 55.16,
+      "base": 45.17,
+      "access": 70.14,
+      "sub": {
+        "anti_overtourism": 55.05,
+        "walkability": 0.0,
+        "local_hiking": 58.98,
+        "water": 9.07,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 63.16,
+        "destination_pull": 76.4,
+        "cultural_access": 55.0,
+        "access_hiking": 96.83
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "yverdon-les-bains",
+    "name": "Yverdon-les-Bains",
+    "canton": "VD",
+    "rank": 67,
+    "score_total": 55.12,
+    "scores": {
+      "total": 55.12,
+      "base": 62.25,
+      "access": 44.42,
+      "sub": {
+        "anti_overtourism": 98.98,
+        "walkability": 10.33,
+        "local_hiking": 0.0,
+        "water": 93.49,
+        "heritage": 50.0,
+        "climate": 100.0,
+        "scenic_transport": 15.79,
+        "destination_pull": 90.31,
+        "cultural_access": 50.0,
+        "access_hiking": 0.58
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "biel-bienne",
+    "name": "Biel/Bienne",
+    "canton": "BE",
+    "rank": 68,
+    "score_total": 55.11,
+    "scores": {
+      "total": 55.11,
+      "base": 59.98,
+      "access": 47.8,
+      "sub": {
+        "anti_overtourism": 99.07,
+        "walkability": 9.59,
+        "local_hiking": 0.0,
+        "water": 28.68,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 7.37,
+        "destination_pull": 89.37,
+        "cultural_access": 75.0,
+        "access_hiking": 0.21
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "lancy",
+    "name": "Lancy",
+    "canton": "GE",
+    "rank": 69,
+    "score_total": 54.91,
+    "scores": {
+      "total": 54.91,
+      "base": 57.87,
+      "access": 50.46,
+      "sub": {
+        "anti_overtourism": 98.6,
+        "walkability": 100.0,
+        "local_hiking": 0.0,
+        "water": 5.29,
+        "heritage": 50.0,
+        "climate": 100.0,
+        "scenic_transport": 0.0,
+        "destination_pull": 93.2,
+        "cultural_access": 90.0,
+        "access_hiking": 0.0
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "samedan",
+    "name": "Samedan",
+    "canton": "GR",
+    "rank": 70,
+    "score_total": 54.84,
+    "scores": {
+      "total": 54.84,
+      "base": 56.34,
+      "access": 52.59,
+      "sub": {
+        "anti_overtourism": 93.11,
+        "walkability": 0.14,
+        "local_hiking": 63.87,
+        "water": 20.8,
+        "heritage": 50.0,
+        "climate": 50.0,
+        "scenic_transport": 46.32,
+        "destination_pull": 87.25,
+        "cultural_access": 15.0,
+        "access_hiking": 58.49
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "frauenfeld",
+    "name": "Frauenfeld",
+    "canton": "TG",
+    "rank": 71,
+    "score_total": 54.72,
+    "scores": {
+      "total": 54.72,
+      "base": 56.08,
+      "access": 52.7,
+      "sub": {
+        "anti_overtourism": 99.44,
+        "walkability": 2.16,
+        "local_hiking": 0.0,
+        "water": 6.85,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 0.0,
+        "destination_pull": 96.44,
+        "cultural_access": 95.0,
+        "access_hiking": 0.09
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "bellinzona",
+    "name": "Bellinzona",
+    "canton": "TI",
+    "rank": 72,
+    "score_total": 54.67,
+    "scores": {
+      "total": 54.67,
+      "base": 55.61,
+      "access": 53.28,
+      "sub": {
+        "anti_overtourism": 99.07,
+        "walkability": 5.9,
+        "local_hiking": 54.55,
+        "water": 12.57,
+        "heritage": 50.0,
+        "climate": 50.0,
+        "scenic_transport": 9.47,
+        "destination_pull": 88.5,
+        "cultural_access": 55.0,
+        "access_hiking": 67.57
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "teufen",
+    "name": "Teufen",
+    "canton": "AR",
+    "rank": 73,
+    "score_total": 54.43,
+    "scores": {
+      "total": 54.43,
+      "base": 51.58,
+      "access": 58.71,
+      "sub": {
+        "anti_overtourism": 99.35,
+        "walkability": 1.14,
+        "local_hiking": 0.0,
+        "water": 11.06,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 22.63,
+        "destination_pull": 84.36,
+        "cultural_access": 100.0,
+        "access_hiking": 10.76
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "val-de-bagnes",
+    "name": "Val de Bagnes",
+    "canton": "VS",
+    "rank": 74,
+    "score_total": 54.3,
+    "scores": {
+      "total": 54.3,
+      "base": 47.45,
+      "access": 64.58,
+      "sub": {
+        "anti_overtourism": 92.87,
+        "walkability": 0.39,
+        "local_hiking": 16.01,
+        "water": 5.62,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 62.11,
+        "destination_pull": 85.15,
+        "cultural_access": 60.0,
+        "access_hiking": 36.0
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "st-gallen",
+    "name": "St. Gallen",
+    "canton": "SG",
+    "rank": 75,
+    "score_total": 54.24,
+    "scores": {
+      "total": 54.24,
+      "base": 53.06,
+      "access": 56.01,
+      "sub": {
+        "anti_overtourism": 98.18,
+        "walkability": 14.33,
+        "local_hiking": 0.0,
+        "water": 14.49,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 13.16,
+        "destination_pull": 86.12,
+        "cultural_access": 100.0,
+        "access_hiking": 8.17
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "sigriswil",
+    "name": "Sigriswil",
+    "canton": "BE",
+    "rank": 76,
+    "score_total": 53.93,
+    "scores": {
+      "total": 53.93,
+      "base": 56.15,
+      "access": 50.61,
+      "sub": {
+        "anti_overtourism": 89.19,
+        "walkability": 0.11,
+        "local_hiking": 12.95,
+        "water": 95.25,
+        "heritage": 50.0,
+        "climate": 50.0,
+        "scenic_transport": 21.58,
+        "destination_pull": 88.46,
+        "cultural_access": 50.0,
+        "access_hiking": 34.0
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "montreux",
+    "name": "Montreux",
+    "canton": "VD",
+    "rank": 77,
+    "score_total": 53.91,
+    "scores": {
+      "total": 53.91,
+      "base": 54.55,
+      "access": 52.95,
+      "sub": {
+        "anti_overtourism": 92.27,
+        "walkability": 8.77,
+        "local_hiking": 5.44,
+        "water": 92.72,
+        "heritage": 40.0,
+        "climate": 50.0,
+        "scenic_transport": 41.05,
+        "destination_pull": 89.92,
+        "cultural_access": 45.0,
+        "access_hiking": 16.09
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "appenzell",
+    "name": "Appenzell",
+    "canton": "AI",
+    "rank": 78,
+    "score_total": 53.88,
+    "scores": {
+      "total": 53.88,
+      "base": 51.17,
+      "access": 57.95,
+      "sub": {
+        "anti_overtourism": 96.27,
+        "walkability": 2.22,
+        "local_hiking": 0.0,
+        "water": 13.78,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 22.11,
+        "destination_pull": 80.39,
+        "cultural_access": 100.0,
+        "access_hiking": 14.67
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "rheinfelden",
+    "name": "Rheinfelden",
+    "canton": "AG",
+    "rank": 79,
+    "score_total": 53.67,
+    "scores": {
+      "total": 53.67,
+      "base": 55.93,
+      "access": 50.29,
+      "sub": {
+        "anti_overtourism": 99.16,
+        "walkability": 6.61,
+        "local_hiking": 0.0,
+        "water": 3.47,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 3.16,
+        "destination_pull": 89.38,
+        "cultural_access": 90.0,
+        "access_hiking": 0.18
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "uster",
+    "name": "Uster",
+    "canton": "ZH",
+    "rank": 80,
+    "score_total": 53.39,
+    "scores": {
+      "total": 53.39,
+      "base": 52.36,
+      "access": 54.93,
+      "sub": {
+        "anti_overtourism": 99.39,
+        "walkability": 1.34,
+        "local_hiking": 0.0,
+        "water": 16.04,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 2.63,
+        "destination_pull": 96.76,
+        "cultural_access": 100.0,
+        "access_hiking": 0.73
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "eschenbach",
+    "name": "Eschenbach",
+    "canton": "SG",
+    "rank": 81,
+    "score_total": 53.37,
+    "scores": {
+      "total": 53.37,
+      "base": 50.13,
+      "access": 58.23,
+      "sub": {
+        "anti_overtourism": 99.91,
+        "walkability": 0.0,
+        "local_hiking": 0.0,
+        "water": 31.03,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 17.89,
+        "destination_pull": 95.09,
+        "cultural_access": 90.0,
+        "access_hiking": 12.23
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "kriens",
+    "name": "Kriens",
+    "canton": "LU",
+    "rank": 82,
+    "score_total": 53.35,
+    "scores": {
+      "total": 53.35,
+      "base": 52.42,
+      "access": 54.75,
+      "sub": {
+        "anti_overtourism": 97.86,
+        "walkability": 12.54,
+        "local_hiking": 0.0,
+        "water": 12.04,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 14.21,
+        "destination_pull": 89.03,
+        "cultural_access": 80.0,
+        "access_hiking": 25.17
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "burgdorf",
+    "name": "Burgdorf",
+    "canton": "BE",
+    "rank": 83,
+    "score_total": 53.33,
+    "scores": {
+      "total": 53.33,
+      "base": 56.34,
+      "access": 48.83,
+      "sub": {
+        "anti_overtourism": 99.12,
+        "walkability": 7.3,
+        "local_hiking": 0.0,
+        "water": 5.81,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 2.11,
+        "destination_pull": 89.81,
+        "cultural_access": 85.0,
+        "access_hiking": 0.0
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "glarus-sued",
+    "name": "Glarus Süd",
+    "canton": "GL",
+    "rank": 84,
+    "score_total": 53.27,
+    "scores": {
+      "total": 53.27,
+      "base": 57.45,
+      "access": 47.0,
+      "sub": {
+        "anti_overtourism": 97.07,
+        "walkability": 0.24,
+        "local_hiking": 35.9,
+        "water": 7.51,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 27.37,
+        "destination_pull": 69.51,
+        "cultural_access": 40.0,
+        "access_hiking": 52.92
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "zofingen",
+    "name": "Zofingen",
+    "canton": "AG",
+    "rank": 85,
+    "score_total": 53.2,
+    "scores": {
+      "total": 53.2,
+      "base": 56.17,
+      "access": 48.74,
+      "sub": {
+        "anti_overtourism": 99.16,
+        "walkability": 1.18,
+        "local_hiking": 0.0,
+        "water": 8.71,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 0.53,
+        "destination_pull": 99.25,
+        "cultural_access": 75.0,
+        "access_hiking": 0.35
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "grenchen",
+    "name": "Grenchen",
+    "canton": "SO",
+    "rank": 86,
+    "score_total": 53.03,
+    "scores": {
+      "total": 53.03,
+      "base": 51.25,
+      "access": 55.7,
+      "sub": {
+        "anti_overtourism": 99.53,
+        "walkability": 2.59,
+        "local_hiking": 0.0,
+        "water": 4.2,
+        "heritage": 70.0,
+        "climate": 100.0,
+        "scenic_transport": 8.95,
+        "destination_pull": 93.08,
+        "cultural_access": 100.0,
+        "access_hiking": 0.58
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "altstaetten",
+    "name": "Altstätten",
+    "canton": "SG",
+    "rank": 87,
+    "score_total": 53.02,
+    "scores": {
+      "total": 53.02,
+      "base": 51.67,
+      "access": 55.04,
+      "sub": {
+        "anti_overtourism": 99.58,
+        "walkability": 2.66,
+        "local_hiking": 0.0,
+        "water": 10.22,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 12.63,
+        "destination_pull": 83.31,
+        "cultural_access": 100.0,
+        "access_hiking": 8.41
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "unterseen",
+    "name": "Unterseen",
+    "canton": "BE",
+    "rank": 88,
+    "score_total": 52.87,
+    "scores": {
+      "total": 52.87,
+      "base": 52.78,
+      "access": 53.02,
+      "sub": {
+        "anti_overtourism": 84.4,
+        "walkability": 6.32,
+        "local_hiking": 23.98,
+        "water": 13.54,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 41.05,
+        "destination_pull": 92.7,
+        "cultural_access": 25.0,
+        "access_hiking": 44.27
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "flums",
+    "name": "Flums",
+    "canton": "SG",
+    "rank": 89,
+    "score_total": 52.86,
+    "scores": {
+      "total": 52.86,
+      "base": 50.21,
+      "access": 56.83,
+      "sub": {
+        "anti_overtourism": 98.18,
+        "walkability": 0.42,
+        "local_hiking": 17.21,
+        "water": 11.83,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 47.37,
+        "destination_pull": 82.85,
+        "cultural_access": 40.0,
+        "access_hiking": 51.74
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "wilderswil",
+    "name": "Wilderswil",
+    "canton": "BE",
+    "rank": 90,
+    "score_total": 52.73,
+    "scores": {
+      "total": 52.73,
+      "base": 51.14,
+      "access": 55.12,
+      "sub": {
+        "anti_overtourism": 78.99,
+        "walkability": 3.54,
+        "local_hiking": 31.96,
+        "water": 4.62,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 50.53,
+        "destination_pull": 90.45,
+        "cultural_access": 25.0,
+        "access_hiking": 43.83
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "herzogenbuchsee",
+    "name": "Herzogenbuchsee",
+    "canton": "BE",
+    "rank": 91,
+    "score_total": 52.5,
+    "scores": {
+      "total": 52.5,
+      "base": 51.07,
+      "access": 54.65,
+      "sub": {
+        "anti_overtourism": 99.67,
+        "walkability": 0.77,
+        "local_hiking": 0.0,
+        "water": 3.92,
+        "heritage": 70.0,
+        "climate": 100.0,
+        "scenic_transport": 3.68,
+        "destination_pull": 99.03,
+        "cultural_access": 95.0,
+        "access_hiking": 0.57
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "emmen",
+    "name": "Emmen",
+    "canton": "LU",
+    "rank": 92,
+    "score_total": 52.45,
+    "scores": {
+      "total": 52.45,
+      "base": 52.59,
+      "access": 52.24,
+      "sub": {
+        "anti_overtourism": 99.49,
+        "walkability": 3.35,
+        "local_hiking": 0.0,
+        "water": 16.05,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 14.21,
+        "destination_pull": 89.45,
+        "cultural_access": 75.0,
+        "access_hiking": 15.97
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "quarten",
+    "name": "Quarten",
+    "canton": "SG",
+    "rank": 93,
+    "score_total": 52.44,
+    "scores": {
+      "total": 52.44,
+      "base": 53.09,
+      "access": 51.45,
+      "sub": {
+        "anti_overtourism": 90.87,
+        "walkability": 0.0,
+        "local_hiking": 31.54,
+        "water": 96.84,
+        "heritage": 0.0,
+        "climate": 50.0,
+        "scenic_transport": 46.32,
+        "destination_pull": 81.49,
+        "cultural_access": 25.0,
+        "access_hiking": 45.69
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "orsieres",
+    "name": "Orsières",
+    "canton": "VS",
+    "rank": 94,
+    "score_total": 52.12,
+    "scores": {
+      "total": 52.12,
+      "base": 49.57,
+      "access": 55.95,
+      "sub": {
+        "anti_overtourism": 91.01,
+        "walkability": 0.47,
+        "local_hiking": 17.41,
+        "water": 8.25,
+        "heritage": 50.0,
+        "climate": 100.0,
+        "scenic_transport": 50.53,
+        "destination_pull": 79.4,
+        "cultural_access": 50.0,
+        "access_hiking": 29.83
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "pratteln",
+    "name": "Pratteln",
+    "canton": "BL",
+    "rank": 95,
+    "score_total": 51.79,
+    "scores": {
+      "total": 51.79,
+      "base": 50.42,
+      "access": 53.85,
+      "sub": {
+        "anti_overtourism": 97.48,
+        "walkability": 0.81,
+        "local_hiking": 0.0,
+        "water": 3.96,
+        "heritage": 70.0,
+        "climate": 100.0,
+        "scenic_transport": 3.68,
+        "destination_pull": 92.26,
+        "cultural_access": 100.0,
+        "access_hiking": 0.44
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "mendrisio",
+    "name": "Mendrisio",
+    "canton": "TI",
+    "rank": 96,
+    "score_total": 51.78,
+    "scores": {
+      "total": 51.78,
+      "base": 52.5,
+      "access": 50.69,
+      "sub": {
+        "anti_overtourism": 98.46,
+        "walkability": 4.2,
+        "local_hiking": 30.23,
+        "water": 6.64,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 1.05,
+        "destination_pull": 84.62,
+        "cultural_access": 90.0,
+        "access_hiking": 16.58
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "neuchatel",
+    "name": "Neuchâtel",
+    "canton": "NE",
+    "rank": 97,
+    "score_total": 51.78,
+    "scores": {
+      "total": 51.78,
+      "base": 61.54,
+      "access": 37.14,
+      "sub": {
+        "anti_overtourism": 98.42,
+        "walkability": 13.25,
+        "local_hiking": 0.0,
+        "water": 87.91,
+        "heritage": 50.0,
+        "climate": 100.0,
+        "scenic_transport": 6.32,
+        "destination_pull": 91.63,
+        "cultural_access": 30.0,
+        "access_hiking": 1.71
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "kreuzlingen",
+    "name": "Kreuzlingen",
+    "canton": "TG",
+    "rank": 98,
+    "score_total": 51.56,
+    "scores": {
+      "total": 51.56,
+      "base": 61.76,
+      "access": 36.25,
+      "sub": {
+        "anti_overtourism": 99.16,
+        "walkability": 5.49,
+        "local_hiking": 0.0,
+        "water": 93.1,
+        "heritage": 50.0,
+        "climate": 100.0,
+        "scenic_transport": 0.0,
+        "destination_pull": 83.34,
+        "cultural_access": 45.0,
+        "access_hiking": 0.0
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "amden",
+    "name": "Amden",
+    "canton": "SG",
+    "rank": 99,
+    "score_total": 51.47,
+    "scores": {
+      "total": 51.47,
+      "base": 48.76,
+      "access": 55.53,
+      "sub": {
+        "anti_overtourism": 95.02,
+        "walkability": 0.0,
+        "local_hiking": 17.22,
+        "water": 78.76,
+        "heritage": 0.0,
+        "climate": 50.0,
+        "scenic_transport": 42.11,
+        "destination_pull": 77.97,
+        "cultural_access": 55.0,
+        "access_hiking": 38.38
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "gais",
+    "name": "Gais",
+    "canton": "AR",
+    "rank": 100,
+    "score_total": 51.3,
+    "scores": {
+      "total": 51.3,
+      "base": 47.29,
+      "access": 57.32,
+      "sub": {
+        "anti_overtourism": 98.28,
+        "walkability": 0.45,
+        "local_hiking": 0.0,
+        "water": 15.08,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 21.05,
+        "destination_pull": 81.26,
+        "cultural_access": 100.0,
+        "access_hiking": 10.88
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "meiringen",
+    "name": "Meiringen",
+    "canton": "BE",
+    "rank": 101,
+    "score_total": 51.06,
+    "scores": {
+      "total": 51.06,
+      "base": 49.08,
+      "access": 54.03,
+      "sub": {
+        "anti_overtourism": 91.85,
+        "walkability": 0.67,
+        "local_hiking": 22.14,
+        "water": 10.23,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 53.68,
+        "destination_pull": 82.55,
+        "cultural_access": 25.0,
+        "access_hiking": 46.07
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "anniviers",
+    "name": "Anniviers",
+    "canton": "VS",
+    "rank": 102,
+    "score_total": 50.75,
+    "scores": {
+      "total": 50.75,
+      "base": 39.57,
+      "access": 67.52,
+      "sub": {
+        "anti_overtourism": 71.5,
+        "walkability": 1.08,
+        "local_hiking": 0.13,
+        "water": 13.22,
+        "heritage": 40.0,
+        "climate": 100.0,
+        "scenic_transport": 85.26,
+        "destination_pull": 76.41,
+        "cultural_access": 55.0,
+        "access_hiking": 35.15
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "haut-intyamon",
+    "name": "Haut-Intyamon",
+    "canton": "FR",
+    "rank": 103,
+    "score_total": 50.53,
+    "scores": {
+      "total": 50.53,
+      "base": 50.69,
+      "access": 50.29,
+      "sub": {
+        "anti_overtourism": 98.88,
+        "walkability": 0.0,
+        "local_hiking": 17.55,
+        "water": 13.44,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 43.16,
+        "destination_pull": 89.56,
+        "cultural_access": 25.0,
+        "access_hiking": 28.14
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "vernier",
+    "name": "Vernier",
+    "canton": "GE",
+    "rank": 104,
+    "score_total": 50.32,
+    "scores": {
+      "total": 50.32,
+      "base": 50.31,
+      "access": 50.35,
+      "sub": {
+        "anti_overtourism": 96.13,
+        "walkability": 32.0,
+        "local_hiking": 0.0,
+        "water": 15.1,
+        "heritage": 40.0,
+        "climate": 100.0,
+        "scenic_transport": 0.0,
+        "destination_pull": 92.83,
+        "cultural_access": 90.0,
+        "access_hiking": 0.0
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "diemtigen",
+    "name": "Diemtigen",
+    "canton": "BE",
+    "rank": 105,
+    "score_total": 50.18,
+    "scores": {
+      "total": 50.18,
+      "base": 51.31,
+      "access": 48.47,
+      "sub": {
+        "anti_overtourism": 97.95,
+        "walkability": 0.1,
+        "local_hiking": 23.56,
+        "water": 11.37,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 21.58,
+        "destination_pull": 79.56,
+        "cultural_access": 50.0,
+        "access_hiking": 37.54
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "morschach",
+    "name": "Morschach",
+    "canton": "SZ",
+    "rank": 106,
+    "score_total": 50.01,
+    "scores": {
+      "total": 50.01,
+      "base": 35.74,
+      "access": 71.42,
+      "sub": {
+        "anti_overtourism": 7.87,
+        "walkability": 1.5,
+        "local_hiking": 18.06,
+        "water": 94.15,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 100.0,
+        "destination_pull": 74.46,
+        "cultural_access": 45.0,
+        "access_hiking": 52.19
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "fribourg",
+    "name": "Fribourg",
+    "canton": "FR",
+    "rank": 107,
+    "score_total": 49.94,
+    "scores": {
+      "total": 49.94,
+      "base": 52.97,
+      "access": 45.4,
+      "sub": {
+        "anti_overtourism": 99.16,
+        "walkability": 8.43,
+        "local_hiking": 0.0,
+        "water": 32.5,
+        "heritage": 50.0,
+        "climate": 100.0,
+        "scenic_transport": 4.21,
+        "destination_pull": 92.38,
+        "cultural_access": 65.0,
+        "access_hiking": 1.16
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "egerkingen",
+    "name": "Egerkingen",
+    "canton": "SO",
+    "rank": 108,
+    "score_total": 49.77,
+    "scores": {
+      "total": 49.77,
+      "base": 48.4,
+      "access": 51.82,
+      "sub": {
+        "anti_overtourism": 91.8,
+        "walkability": 0.0,
+        "local_hiking": 0.0,
+        "water": 2.41,
+        "heritage": 70.0,
+        "climate": 100.0,
+        "scenic_transport": 6.84,
+        "destination_pull": 98.93,
+        "cultural_access": 80.0,
+        "access_hiking": 0.6
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "hundwil",
+    "name": "Hundwil",
+    "canton": "AR",
+    "rank": 109,
+    "score_total": 49.44,
+    "scores": {
+      "total": 49.44,
+      "base": 43.67,
+      "access": 58.09,
+      "sub": {
+        "anti_overtourism": 88.5,
+        "walkability": 0.0,
+        "local_hiking": 0.0,
+        "water": 10.83,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 22.11,
+        "destination_pull": 81.87,
+        "cultural_access": 100.0,
+        "access_hiking": 12.66
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "laax",
+    "name": "Laax",
+    "canton": "GR",
+    "rank": 110,
+    "score_total": 49.26,
+    "scores": {
+      "total": 49.26,
+      "base": 42.95,
+      "access": 58.72,
+      "sub": {
+        "anti_overtourism": 43.64,
+        "walkability": 0.23,
+        "local_hiking": 65.14,
+        "water": 8.72,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 54.74,
+        "destination_pull": 80.16,
+        "cultural_access": 25.0,
+        "access_hiking": 80.01
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "langenthal",
+    "name": "Langenthal",
+    "canton": "BE",
+    "rank": 111,
+    "score_total": 49.13,
+    "scores": {
+      "total": 49.13,
+      "base": 56.31,
+      "access": 38.37,
+      "sub": {
+        "anti_overtourism": 98.98,
+        "walkability": 1.73,
+        "local_hiking": 0.0,
+        "water": 9.64,
+        "heritage": 100.0,
+        "climate": 100.0,
+        "scenic_transport": 3.68,
+        "destination_pull": 98.88,
+        "cultural_access": 30.0,
+        "access_hiking": 0.66
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "poschiavo",
+    "name": "Poschiavo",
+    "canton": "GR",
+    "rank": 112,
+    "score_total": 48.98,
+    "scores": {
+      "total": 48.98,
+      "base": 60.21,
+      "access": 32.14,
+      "sub": {
+        "anti_overtourism": 90.45,
+        "walkability": 0.0,
+        "local_hiking": 71.21,
+        "water": 8.85,
+        "heritage": 50.0,
+        "climate": 100.0,
+        "scenic_transport": 4.21,
+        "destination_pull": 79.48,
+        "cultural_access": 15.0,
+        "access_hiking": 21.88
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "nendaz",
+    "name": "Nendaz",
+    "canton": "VS",
+    "rank": 113,
+    "score_total": 48.55,
+    "scores": {
+      "total": 48.55,
+      "base": 38.03,
+      "access": 64.32,
+      "sub": {
+        "anti_overtourism": 97.48,
+        "walkability": 0.0,
+        "local_hiking": 11.62,
+        "water": 9.77,
+        "heritage": 0.0,
+        "climate": 50.0,
+        "scenic_transport": 84.21,
+        "destination_pull": 73.3,
+        "cultural_access": 50.0,
+        "access_hiking": 30.48
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "heiden",
+    "name": "Heiden",
+    "canton": "AR",
+    "rank": 114,
+    "score_total": 48.25,
+    "scores": {
+      "total": 48.25,
+      "base": 46.2,
+      "access": 51.32,
+      "sub": {
+        "anti_overtourism": 96.88,
+        "walkability": 0.25,
+        "local_hiking": 0.0,
+        "water": 10.76,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 6.32,
+        "destination_pull": 79.76,
+        "cultural_access": 100.0,
+        "access_hiking": 3.33
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "uzwil",
+    "name": "Uzwil",
+    "canton": "SG",
+    "rank": 115,
+    "score_total": 48.15,
+    "scores": {
+      "total": 48.15,
+      "base": 48.46,
+      "access": 47.67,
+      "sub": {
+        "anti_overtourism": 98.74,
+        "walkability": 2.95,
+        "local_hiking": 0.0,
+        "water": 6.96,
+        "heritage": 50.0,
+        "climate": 100.0,
+        "scenic_transport": 7.37,
+        "destination_pull": 96.66,
+        "cultural_access": 65.0,
+        "access_hiking": 1.42
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "glarus-nord",
+    "name": "Glarus Nord",
+    "canton": "GL",
+    "rank": 116,
+    "score_total": 48.05,
+    "scores": {
+      "total": 48.05,
+      "base": 51.72,
+      "access": 42.55,
+      "sub": {
+        "anti_overtourism": 98.23,
+        "walkability": 0.11,
+        "local_hiking": 19.46,
+        "water": 18.97,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 15.79,
+        "destination_pull": 68.1,
+        "cultural_access": 45.0,
+        "access_hiking": 40.92
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "meyrin",
+    "name": "Meyrin",
+    "canton": "GE",
+    "rank": 117,
+    "score_total": 47.98,
+    "scores": {
+      "total": 47.98,
+      "base": 45.71,
+      "access": 51.37,
+      "sub": {
+        "anti_overtourism": 87.94,
+        "walkability": 23.94,
+        "local_hiking": 0.0,
+        "water": 6.26,
+        "heritage": 40.0,
+        "climate": 100.0,
+        "scenic_transport": 0.0,
+        "destination_pull": 92.06,
+        "cultural_access": 95.0,
+        "access_hiking": 0.0
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "evolene",
+    "name": "Evolène",
+    "canton": "VS",
+    "rank": 118,
+    "score_total": 47.83,
+    "scores": {
+      "total": 47.83,
+      "base": 45.17,
+      "access": 51.82,
+      "sub": {
+        "anti_overtourism": 89.05,
+        "walkability": 0.54,
+        "local_hiking": 7.32,
+        "water": 9.57,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 70.53,
+        "destination_pull": 72.07,
+        "cultural_access": 20.0,
+        "access_hiking": 26.91
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "saas-grund",
+    "name": "Saas-Grund",
+    "canton": "VS",
+    "rank": 119,
+    "score_total": 47.51,
+    "scores": {
+      "total": 47.51,
+      "base": 47.02,
+      "access": 48.25,
+      "sub": {
+        "anti_overtourism": 75.64,
+        "walkability": 0.62,
+        "local_hiking": 52.03,
+        "water": 9.04,
+        "heritage": 50.0,
+        "climate": 50.0,
+        "scenic_transport": 58.95,
+        "destination_pull": 80.94,
+        "cultural_access": 5.0,
+        "access_hiking": 33.56
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "neckertal",
+    "name": "Neckertal",
+    "canton": "SG",
+    "rank": 120,
+    "score_total": 47.49,
+    "scores": {
+      "total": 47.49,
+      "base": 46.92,
+      "access": 48.33,
+      "sub": {
+        "anti_overtourism": 98.56,
+        "walkability": 0.2,
+        "local_hiking": 0.0,
+        "water": 12.25,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 16.84,
+        "destination_pull": 85.54,
+        "cultural_access": 65.0,
+        "access_hiking": 9.11
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "feusisberg",
+    "name": "Feusisberg",
+    "canton": "SZ",
+    "rank": 121,
+    "score_total": 47.46,
+    "scores": {
+      "total": 47.46,
+      "base": 40.96,
+      "access": 57.2,
+      "sub": {
+        "anti_overtourism": 95.02,
+        "walkability": 0.48,
+        "local_hiking": 0.0,
+        "water": 9.41,
+        "heritage": 40.0,
+        "climate": 50.0,
+        "scenic_transport": 11.05,
+        "destination_pull": 94.46,
+        "cultural_access": 95.0,
+        "access_hiking": 12.01
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "wil",
+    "name": "Wil",
+    "canton": "SG",
+    "rank": 122,
+    "score_total": 47.46,
+    "scores": {
+      "total": 47.46,
+      "base": 46.8,
+      "access": 48.45,
+      "sub": {
+        "anti_overtourism": 99.35,
+        "walkability": 0.52,
+        "local_hiking": 0.0,
+        "water": 9.64,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 25.26,
+        "destination_pull": 96.65,
+        "cultural_access": 45.0,
+        "access_hiking": 4.21
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "st-moritz",
+    "name": "St. Moritz",
+    "canton": "GR",
+    "rank": 123,
+    "score_total": 47.32,
+    "scores": {
+      "total": 47.32,
+      "base": 44.64,
+      "access": 51.34,
+      "sub": {
+        "anti_overtourism": 28.41,
+        "walkability": 3.24,
+        "local_hiking": 95.4,
+        "water": 78.05,
+        "heritage": 0.0,
+        "climate": 50.0,
+        "scenic_transport": 47.37,
+        "destination_pull": 82.42,
+        "cultural_access": 15.0,
+        "access_hiking": 57.68
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "arosa",
+    "name": "Arosa",
+    "canton": "GR",
+    "rank": 124,
+    "score_total": 47.23,
+    "scores": {
+      "total": 47.23,
+      "base": 27.19,
+      "access": 77.29,
+      "sub": {
+        "anti_overtourism": 36.52,
+        "walkability": 0.0,
+        "local_hiking": 60.78,
+        "water": 27.21,
+        "heritage": 0.0,
+        "climate": 0.0,
+        "scenic_transport": 97.89,
+        "destination_pull": 76.4,
+        "cultural_access": 40.0,
+        "access_hiking": 100.0
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "la-grande-beroche",
+    "name": "La Grande Béroche",
+    "canton": "NE",
+    "rank": 125,
+    "score_total": 47.1,
+    "scores": {
+      "total": 47.1,
+      "base": 53.26,
+      "access": 37.87,
+      "sub": {
+        "anti_overtourism": 99.39,
+        "walkability": 0.92,
+        "local_hiking": 0.0,
+        "water": 88.99,
+        "heritage": 0.0,
+        "climate": 100.0,
+        "scenic_transport": 1.05,
+        "destination_pull": 87.25,
+        "cultural_access": 45.0,
+        "access_hiking": 0.89
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "gurtnellen",
+    "name": "Gurtnellen",
+    "canton": "UR",
+    "rank": 126,
+    "score_total": 47.05,
+    "scores": {
+      "total": 47.05,
+      "base": 47.11,
+      "access": 46.96,
+      "sub": {
+        "anti_overtourism": 92.45,
+        "walkability": 0.0,
+        "local_hiking": 30.11,
+        "water": 15.68,
+        "heritage": 40.0,
+        "climate": 50.0,
+        "scenic_transport": 46.32,
+        "destination_pull": 76.12,
+        "cultural_access": 5.0,
+        "access_hiking": 59.88
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "scuol",
+    "name": "Scuol",
+    "canton": "GR",
+    "rank": 127,
+    "score_total": 47.05,
+    "scores": {
+      "total": 47.05,
+      "base": 52.22,
+      "access": 39.29,
+      "sub": {
+        "anti_overtourism": 73.36,
+        "walkability": 0.0,
+        "local_hiking": 81.37,
+        "water": 9.62,
+        "heritage": 50.0,
+        "climate": 50.0,
+        "scenic_transport": 11.58,
+        "destination_pull": 76.1,
+        "cultural_access": 25.0,
+        "access_hiking": 44.88
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "latena",
+    "name": "Laténa",
+    "canton": "NE",
+    "rank": 128,
+    "score_total": 46.88,
+    "scores": {
+      "total": 46.88,
+      "base": 50.52,
+      "access": 41.42,
+      "sub": {
+        "anti_overtourism": 96.2,
+        "walkability": 0.21,
+        "local_hiking": 0.0,
+        "water": 7.61,
+        "heritage": 70.0,
+        "climate": 100.0,
+        "scenic_transport": 12.63,
+        "destination_pull": 91.61,
+        "cultural_access": 40.0,
+        "access_hiking": 1.0
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "plaffeien",
+    "name": "Plaffeien",
+    "canton": "FR",
+    "rank": 129,
+    "score_total": 46.86,
+    "scores": {
+      "total": 46.86,
+      "base": 47.04,
+      "access": 46.58,
+      "sub": {
+        "anti_overtourism": 96.51,
+        "walkability": 0.83,
+        "local_hiking": 0.0,
+        "water": 16.69,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 24.21,
+        "destination_pull": 69.04,
+        "cultural_access": 65.0,
+        "access_hiking": 15.73
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "chiasso",
+    "name": "Chiasso",
+    "canton": "TI",
+    "rank": 130,
+    "score_total": 46.81,
+    "scores": {
+      "total": 46.81,
+      "base": 48.76,
+      "access": 43.89,
+      "sub": {
+        "anti_overtourism": 98.14,
+        "walkability": 5.36,
+        "local_hiking": 11.78,
+        "water": 6.18,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 1.05,
+        "destination_pull": 84.76,
+        "cultural_access": 65.0,
+        "access_hiking": 12.65
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "klosters",
+    "name": "Klosters",
+    "canton": "GR",
+    "rank": 131,
+    "score_total": 46.54,
+    "scores": {
+      "total": 46.54,
+      "base": 41.14,
+      "access": 54.63,
+      "sub": {
+        "anti_overtourism": 84.3,
+        "walkability": 0.0,
+        "local_hiking": 70.59,
+        "water": 11.51,
+        "heritage": 0.0,
+        "climate": 0.0,
+        "scenic_transport": 49.47,
+        "destination_pull": 88.39,
+        "cultural_access": 15.0,
+        "access_hiking": 63.51
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "hasliberg",
+    "name": "Hasliberg",
+    "canton": "BE",
+    "rank": 132,
+    "score_total": 46.41,
+    "scores": {
+      "total": 46.41,
+      "base": 40.35,
+      "access": 55.51,
+      "sub": {
+        "anti_overtourism": 63.39,
+        "walkability": 0.53,
+        "local_hiking": 23.69,
+        "water": 6.95,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 63.16,
+        "destination_pull": 76.31,
+        "cultural_access": 25.0,
+        "access_hiking": 49.43
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "leysin",
+    "name": "Leysin",
+    "canton": "VD",
+    "rank": 133,
+    "score_total": 46.41,
+    "scores": {
+      "total": 46.41,
+      "base": 38.37,
+      "access": 58.47,
+      "sub": {
+        "anti_overtourism": 76.43,
+        "walkability": 0.0,
+        "local_hiking": 36.44,
+        "water": 4.37,
+        "heritage": 50.0,
+        "climate": 0.0,
+        "scenic_transport": 70.53,
+        "destination_pull": 82.31,
+        "cultural_access": 30.0,
+        "access_hiking": 34.11
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "reichenbach-im-kandertal",
+    "name": "Reichenbach im Kandertal",
+    "canton": "BE",
+    "rank": 134,
+    "score_total": 46.02,
+    "scores": {
+      "total": 46.02,
+      "base": 42.2,
+      "access": 51.76,
+      "sub": {
+        "anti_overtourism": 95.2,
+        "walkability": 0.14,
+        "local_hiking": 36.03,
+        "water": 9.43,
+        "heritage": 0.0,
+        "climate": 50.0,
+        "scenic_transport": 32.63,
+        "destination_pull": 91.95,
+        "cultural_access": 30.0,
+        "access_hiking": 45.92
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "chateau-doex",
+    "name": "Château-d'Oex",
+    "canton": "VD",
+    "rank": 135,
+    "score_total": 45.82,
+    "scores": {
+      "total": 45.82,
+      "base": 43.55,
+      "access": 49.22,
+      "sub": {
+        "anti_overtourism": 97.25,
+        "walkability": 0.5,
+        "local_hiking": 27.73,
+        "water": 8.54,
+        "heritage": 50.0,
+        "climate": 0.0,
+        "scenic_transport": 43.16,
+        "destination_pull": 80.43,
+        "cultural_access": 25.0,
+        "access_hiking": 39.27
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "blonay-saint-legier",
+    "name": "Blonay - Saint-Légier",
+    "canton": "VD",
+    "rank": 136,
+    "score_total": 45.58,
+    "scores": {
+      "total": 45.58,
+      "base": 43.74,
+      "access": 48.34,
+      "sub": {
+        "anti_overtourism": 98.51,
+        "walkability": 4.04,
+        "local_hiking": 0.91,
+        "water": 7.33,
+        "heritage": 50.0,
+        "climate": 50.0,
+        "scenic_transport": 27.37,
+        "destination_pull": 89.22,
+        "cultural_access": 45.0,
+        "access_hiking": 14.07
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "goms",
+    "name": "Goms",
+    "canton": "VS",
+    "rank": 137,
+    "score_total": 45.55,
+    "scores": {
+      "total": 45.55,
+      "base": 50.51,
+      "access": 38.12,
+      "sub": {
+        "anti_overtourism": 78.67,
+        "walkability": 0.08,
+        "local_hiking": 50.47,
+        "water": 8.74,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 17.89,
+        "destination_pull": 75.51,
+        "cultural_access": 20.0,
+        "access_hiking": 33.97
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "moutier-be",
+    "name": "Moutier (BE)",
+    "canton": "BE",
+    "rank": 138,
+    "score_total": 45.37,
+    "scores": {
+      "total": 45.37,
+      "base": 48.55,
+      "access": 40.59,
+      "sub": {
+        "anti_overtourism": 99.81,
+        "walkability": 0.34,
+        "local_hiking": 1.31,
+        "water": 5.42,
+        "heritage": 50.0,
+        "climate": 100.0,
+        "scenic_transport": 8.95,
+        "destination_pull": 92.63,
+        "cultural_access": 40.0,
+        "access_hiking": 0.75
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "flims",
+    "name": "Flims",
+    "canton": "GR",
+    "rank": 139,
+    "score_total": 45.11,
+    "scores": {
+      "total": 45.11,
+      "base": 37.05,
+      "access": 57.19,
+      "sub": {
+        "anti_overtourism": 68.84,
+        "walkability": 0.12,
+        "local_hiking": 46.39,
+        "water": 14.07,
+        "heritage": 0.0,
+        "climate": 50.0,
+        "scenic_transport": 42.11,
+        "destination_pull": 82.98,
+        "cultural_access": 30.0,
+        "access_hiking": 81.1
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "ormont-dessus",
+    "name": "Ormont-Dessus",
+    "canton": "VD",
+    "rank": 140,
+    "score_total": 45.08,
+    "scores": {
+      "total": 45.08,
+      "base": 38.3,
+      "access": 55.26,
+      "sub": {
+        "anti_overtourism": 83.23,
+        "walkability": 0.48,
+        "local_hiking": 19.56,
+        "water": 12.47,
+        "heritage": 50.0,
+        "climate": 0.0,
+        "scenic_transport": 68.42,
+        "destination_pull": 83.55,
+        "cultural_access": 15.0,
+        "access_hiking": 39.46
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "davos",
+    "name": "Davos",
+    "canton": "GR",
+    "rank": 141,
+    "score_total": 44.84,
+    "scores": {
+      "total": 44.84,
+      "base": 35.67,
+      "access": 58.59,
+      "sub": {
+        "anti_overtourism": 64.51,
+        "walkability": 0.0,
+        "local_hiking": 70.31,
+        "water": 15.06,
+        "heritage": 0.0,
+        "climate": 0.0,
+        "scenic_transport": 57.89,
+        "destination_pull": 76.1,
+        "cultural_access": 25.0,
+        "access_hiking": 80.94
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "kloten",
+    "name": "Kloten",
+    "canton": "ZH",
+    "rank": 142,
+    "score_total": 44.74,
+    "scores": {
+      "total": 44.74,
+      "base": 37.92,
+      "access": 54.98,
+      "sub": {
+        "anti_overtourism": 89.57,
+        "walkability": 3.26,
+        "local_hiking": 0.0,
+        "water": 4.85,
+        "heritage": 0.0,
+        "climate": 100.0,
+        "scenic_transport": 3.16,
+        "destination_pull": 96.59,
+        "cultural_access": 100.0,
+        "access_hiking": 0.34
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "gonten",
+    "name": "Gonten",
+    "canton": "AI",
+    "rank": 143,
+    "score_total": 44.63,
+    "scores": {
+      "total": 44.63,
+      "base": 35.15,
+      "access": 58.84,
+      "sub": {
+        "anti_overtourism": 92.55,
+        "walkability": 0.0,
+        "local_hiking": 1.04,
+        "water": 14.51,
+        "heritage": 0.0,
+        "climate": 50.0,
+        "scenic_transport": 24.21,
+        "destination_pull": 80.59,
+        "cultural_access": 100.0,
+        "access_hiking": 16.02
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "gruyeres",
+    "name": "Gruyères",
+    "canton": "FR",
+    "rank": 144,
+    "score_total": 44.61,
+    "scores": {
+      "total": 44.61,
+      "base": 47.16,
+      "access": 40.77,
+      "sub": {
+        "anti_overtourism": 94.36,
+        "walkability": 0.77,
+        "local_hiking": 10.02,
+        "water": 8.49,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 29.47,
+        "destination_pull": 74.44,
+        "cultural_access": 25.0,
+        "access_hiking": 22.3
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "opfikon",
+    "name": "Opfikon",
+    "canton": "ZH",
+    "rank": 145,
+    "score_total": 44.42,
+    "scores": {
+      "total": 44.42,
+      "base": 37.07,
+      "access": 55.43,
+      "sub": {
+        "anti_overtourism": 82.67,
+        "walkability": 15.14,
+        "local_hiking": 0.0,
+        "water": 5.05,
+        "heritage": 0.0,
+        "climate": 100.0,
+        "scenic_transport": 5.26,
+        "destination_pull": 96.01,
+        "cultural_access": 100.0,
+        "access_hiking": 0.34
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "aeschi-bei-spiez",
+    "name": "Aeschi bei Spiez",
+    "canton": "BE",
+    "rank": 146,
+    "score_total": 44.22,
+    "scores": {
+      "total": 44.22,
+      "base": 38.95,
+      "access": 52.12,
+      "sub": {
+        "anti_overtourism": 95.06,
+        "walkability": 0.23,
+        "local_hiking": 18.51,
+        "water": 11.36,
+        "heritage": 0.0,
+        "climate": 50.0,
+        "scenic_transport": 22.63,
+        "destination_pull": 92.24,
+        "cultural_access": 45.0,
+        "access_hiking": 42.74
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "surses",
+    "name": "Surses",
+    "canton": "GR",
+    "rank": 147,
+    "score_total": 43.97,
+    "scores": {
+      "total": 43.97,
+      "base": 54.15,
+      "access": 28.7,
+      "sub": {
+        "anti_overtourism": 86.82,
+        "walkability": 0.0,
+        "local_hiking": 67.56,
+        "water": 13.97,
+        "heritage": 50.0,
+        "climate": 50.0,
+        "scenic_transport": 22.11,
+        "destination_pull": 0.0,
+        "cultural_access": 40.0,
+        "access_hiking": 80.45
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "duebendorf",
+    "name": "Dübendorf",
+    "canton": "ZH",
+    "rank": 148,
+    "score_total": 43.89,
+    "scores": {
+      "total": 43.89,
+      "base": 36.36,
+      "access": 55.17,
+      "sub": {
+        "anti_overtourism": 99.39,
+        "walkability": 4.62,
+        "local_hiking": 0.0,
+        "water": 7.19,
+        "heritage": 0.0,
+        "climate": 50.0,
+        "scenic_transport": 3.68,
+        "destination_pull": 96.86,
+        "cultural_access": 100.0,
+        "access_hiking": 0.08
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "interlaken",
+    "name": "Interlaken",
+    "canton": "BE",
+    "rank": 149,
+    "score_total": 43.71,
+    "scores": {
+      "total": 43.71,
+      "base": 37.41,
+      "access": 53.16,
+      "sub": {
+        "anti_overtourism": 34.0,
+        "walkability": 5.29,
+        "local_hiking": 29.44,
+        "water": 5.27,
+        "heritage": 100.0,
+        "climate": 50.0,
+        "scenic_transport": 45.26,
+        "destination_pull": 88.67,
+        "cultural_access": 25.0,
+        "access_hiking": 44.85
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "saanen",
+    "name": "Saanen",
+    "canton": "BE",
+    "rank": 150,
+    "score_total": 43.63,
+    "scores": {
+      "total": 43.63,
+      "base": 41.31,
+      "access": 47.12,
+      "sub": {
+        "anti_overtourism": 77.18,
+        "walkability": 1.55,
+        "local_hiking": 31.25,
+        "water": 8.35,
+        "heritage": 70.0,
+        "climate": 0.0,
+        "scenic_transport": 56.84,
+        "destination_pull": 66.9,
+        "cultural_access": 10.0,
+        "access_hiking": 49.98
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "engelberg",
+    "name": "Engelberg",
+    "canton": "OW",
+    "rank": 151,
+    "score_total": 43.6,
+    "scores": {
+      "total": 43.6,
+      "base": 30.53,
+      "access": 63.2,
+      "sub": {
+        "anti_overtourism": 65.35,
+        "walkability": 0.47,
+        "local_hiking": 43.39,
+        "water": 14.64,
+        "heritage": 0.0,
+        "climate": 0.0,
+        "scenic_transport": 88.42,
+        "destination_pull": 88.09,
+        "cultural_access": 5.0,
+        "access_hiking": 60.0
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "tujetsch",
+    "name": "Tujetsch",
+    "canton": "GR",
+    "rank": 152,
+    "score_total": 43.3,
+    "scores": {
+      "total": 43.3,
+      "base": 41.6,
+      "access": 45.84,
+      "sub": {
+        "anti_overtourism": 80.95,
+        "walkability": 0.0,
+        "local_hiking": 79.0,
+        "water": 10.13,
+        "heritage": 0.0,
+        "climate": 0.0,
+        "scenic_transport": 34.74,
+        "destination_pull": 73.35,
+        "cultural_access": 15.0,
+        "access_hiking": 64.4
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "bulle",
+    "name": "Bulle",
+    "canton": "FR",
+    "rank": 153,
+    "score_total": 43.21,
+    "scores": {
+      "total": 43.21,
+      "base": 43.03,
+      "access": 43.47,
+      "sub": {
+        "anti_overtourism": 98.7,
+        "walkability": 4.14,
+        "local_hiking": 0.0,
+        "water": 3.4,
+        "heritage": 50.0,
+        "climate": 50.0,
+        "scenic_transport": 22.11,
+        "destination_pull": 86.17,
+        "cultural_access": 35.0,
+        "access_hiking": 14.93
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "delemont",
+    "name": "Delémont",
+    "canton": "JU",
+    "rank": 154,
+    "score_total": 42.81,
+    "scores": {
+      "total": 42.81,
+      "base": 48.3,
+      "access": 34.57,
+      "sub": {
+        "anti_overtourism": 98.51,
+        "walkability": 3.82,
+        "local_hiking": 0.0,
+        "water": 5.74,
+        "heritage": 50.0,
+        "climate": 100.0,
+        "scenic_transport": 0.0,
+        "destination_pull": 89.84,
+        "cultural_access": 30.0,
+        "access_hiking": 0.78
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "zernez",
+    "name": "Zernez",
+    "canton": "GR",
+    "rank": 155,
+    "score_total": 42.37,
+    "scores": {
+      "total": 42.37,
+      "base": 46.32,
+      "access": 36.43,
+      "sub": {
+        "anti_overtourism": 79.55,
+        "walkability": 0.38,
+        "local_hiking": 44.25,
+        "water": 7.12,
+        "heritage": 50.0,
+        "climate": 50.0,
+        "scenic_transport": 0.0,
+        "destination_pull": 89.0,
+        "cultural_access": 10.0,
+        "access_hiking": 48.22
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "andermatt",
+    "name": "Andermatt",
+    "canton": "UR",
+    "rank": 156,
+    "score_total": 42.19,
+    "scores": {
+      "total": 42.19,
+      "base": 39.99,
+      "access": 45.49,
+      "sub": {
+        "anti_overtourism": 58.22,
+        "walkability": 2.36,
+        "local_hiking": 46.11,
+        "water": 17.12,
+        "heritage": 70.0,
+        "climate": 0.0,
+        "scenic_transport": 30.53,
+        "destination_pull": 71.77,
+        "cultural_access": 25.0,
+        "access_hiking": 57.01
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "beatenberg",
+    "name": "Beatenberg",
+    "canton": "BE",
+    "rank": 157,
+    "score_total": 42.04,
+    "scores": {
+      "total": 42.04,
+      "base": 39.14,
+      "access": 46.4,
+      "sub": {
+        "anti_overtourism": 46.02,
+        "walkability": 1.57,
+        "local_hiking": 28.61,
+        "water": 96.4,
+        "heritage": 0.0,
+        "climate": 50.0,
+        "scenic_transport": 22.63,
+        "destination_pull": 82.32,
+        "cultural_access": 35.0,
+        "access_hiking": 41.07
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "innertkirchen",
+    "name": "Innertkirchen",
+    "canton": "BE",
+    "rank": 158,
+    "score_total": 41.16,
+    "scores": {
+      "total": 41.16,
+      "base": 36.49,
+      "access": 48.16,
+      "sub": {
+        "anti_overtourism": 88.17,
+        "walkability": 0.1,
+        "local_hiking": 18.39,
+        "water": 8.98,
+        "heritage": 0.0,
+        "climate": 50.0,
+        "scenic_transport": 42.11,
+        "destination_pull": 79.06,
+        "cultural_access": 20.0,
+        "access_hiking": 45.42
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "pontresina",
+    "name": "Pontresina",
+    "canton": "GR",
+    "rank": 159,
+    "score_total": 40.95,
+    "scores": {
+      "total": 40.95,
+      "base": 32.49,
+      "access": 53.64,
+      "sub": {
+        "anti_overtourism": 14.25,
+        "walkability": 0.0,
+        "local_hiking": 72.25,
+        "water": 8.42,
+        "heritage": 50.0,
+        "climate": 50.0,
+        "scenic_transport": 49.47,
+        "destination_pull": 85.87,
+        "cultural_access": 20.0,
+        "access_hiking": 53.59
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "porrentruy",
+    "name": "Porrentruy",
+    "canton": "JU",
+    "rank": 160,
+    "score_total": 39.64,
+    "scores": {
+      "total": 39.64,
+      "base": 48.43,
+      "access": 26.47,
+      "sub": {
+        "anti_overtourism": 98.93,
+        "walkability": 3.37,
+        "local_hiking": 0.0,
+        "water": 6.09,
+        "heritage": 50.0,
+        "climate": 100.0,
+        "scenic_transport": 0.53,
+        "destination_pull": 71.03,
+        "cultural_access": 20.0,
+        "access_hiking": 0.0
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "langnau-im-emmental",
+    "name": "Langnau im Emmental",
+    "canton": "BE",
+    "rank": 161,
+    "score_total": 39.12,
+    "scores": {
+      "total": 39.12,
+      "base": 46.62,
+      "access": 27.87,
+      "sub": {
+        "anti_overtourism": 99.49,
+        "walkability": 0.53,
+        "local_hiking": 0.0,
+        "water": 8.14,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 8.42,
+        "destination_pull": 59.68,
+        "cultural_access": 25.0,
+        "access_hiking": 7.91
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "adelboden",
+    "name": "Adelboden",
+    "canton": "BE",
+    "rank": 162,
+    "score_total": 39.04,
+    "scores": {
+      "total": 39.04,
+      "base": 30.0,
+      "access": 52.62,
+      "sub": {
+        "anti_overtourism": 72.29,
+        "walkability": 0.16,
+        "local_hiking": 36.2,
+        "water": 7.02,
+        "heritage": 0.0,
+        "climate": 0.0,
+        "scenic_transport": 64.21,
+        "destination_pull": 78.26,
+        "cultural_access": 10.0,
+        "access_hiking": 49.17
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "breil-brigels",
+    "name": "Breil/Brigels",
+    "canton": "GR",
+    "rank": 163,
+    "score_total": 39.04,
+    "scores": {
+      "total": 39.04,
+      "base": 46.82,
+      "access": 27.37,
+      "sub": {
+        "anti_overtourism": 89.99,
+        "walkability": 0.0,
+        "local_hiking": 89.17,
+        "water": 13.26,
+        "heritage": 0.0,
+        "climate": 0.0,
+        "scenic_transport": 38.95,
+        "destination_pull": 0.0,
+        "cultural_access": 20.0,
+        "access_hiking": 71.24
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "clos-du-doubs",
+    "name": "Clos du Doubs",
+    "canton": "JU",
+    "rank": 164,
+    "score_total": 38.99,
+    "scores": {
+      "total": 38.99,
+      "base": 46.97,
+      "access": 27.02,
+      "sub": {
+        "anti_overtourism": 95.25,
+        "walkability": 1.84,
+        "local_hiking": 0.0,
+        "water": 4.76,
+        "heritage": 50.0,
+        "climate": 100.0,
+        "scenic_transport": 1.58,
+        "destination_pull": 75.94,
+        "cultural_access": 15.0,
+        "access_hiking": 0.1
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "saas-fee",
+    "name": "Saas-Fee",
+    "canton": "VS",
+    "rank": 165,
+    "score_total": 38.77,
+    "scores": {
+      "total": 38.77,
+      "base": 34.53,
+      "access": 45.15,
+      "sub": {
+        "anti_overtourism": 32.84,
+        "walkability": 0.9,
+        "local_hiking": 52.76,
+        "water": 10.21,
+        "heritage": 50.0,
+        "climate": 50.0,
+        "scenic_transport": 57.89,
+        "destination_pull": 71.29,
+        "cultural_access": 5.0,
+        "access_hiking": 34.3
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "saignelegier",
+    "name": "Saignelégier",
+    "canton": "JU",
+    "rank": 166,
+    "score_total": 37.97,
+    "scores": {
+      "total": 37.97,
+      "base": 44.63,
+      "access": 27.98,
+      "sub": {
+        "anti_overtourism": 95.95,
+        "walkability": 0.08,
+        "local_hiking": 0.84,
+        "water": 1.12,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 4.74,
+        "destination_pull": 71.45,
+        "cultural_access": 20.0,
+        "access_hiking": 0.8
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "bullet",
+    "name": "Bullet",
+    "canton": "VD",
+    "rank": 167,
+    "score_total": 37.53,
+    "scores": {
+      "total": 37.53,
+      "base": 33.5,
+      "access": 43.58,
+      "sub": {
+        "anti_overtourism": 86.03,
+        "walkability": 0.0,
+        "local_hiking": 0.4,
+        "water": 0.73,
+        "heritage": 50.0,
+        "climate": 0.0,
+        "scenic_transport": 17.89,
+        "destination_pull": 68.75,
+        "cultural_access": 70.0,
+        "access_hiking": 0.62
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "spluegen",
+    "name": "Splügen",
+    "canton": "GR",
+    "rank": 168,
+    "score_total": 37.05,
+    "scores": {
+      "total": 37.05,
+      "base": 44.42,
+      "access": 26.0,
+      "sub": {
+        "anti_overtourism": 84.3,
+        "walkability": 0.85,
+        "local_hiking": 32.99,
+        "water": 13.0,
+        "heritage": 70.0,
+        "climate": 0.0,
+        "scenic_transport": 10.53,
+        "destination_pull": 0.0,
+        "cultural_access": 60.0,
+        "access_hiking": 52.26
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "kandersteg",
+    "name": "Kandersteg",
+    "canton": "BE",
+    "rank": 169,
+    "score_total": 36.66,
+    "scores": {
+      "total": 36.66,
+      "base": 25.94,
+      "access": 52.75,
+      "sub": {
+        "anti_overtourism": 54.96,
+        "walkability": 0.0,
+        "local_hiking": 38.05,
+        "water": 12.25,
+        "heritage": 0.0,
+        "climate": 0.0,
+        "scenic_transport": 52.63,
+        "destination_pull": 84.34,
+        "cultural_access": 20.0,
+        "access_hiking": 44.38
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "la-chaux-de-fonds",
+    "name": "La Chaux-de-Fonds",
+    "canton": "NE",
+    "rank": 170,
+    "score_total": 36.41,
+    "scores": {
+      "total": 36.41,
+      "base": 39.38,
+      "access": 31.96,
+      "sub": {
+        "anti_overtourism": 99.63,
+        "walkability": 11.16,
+        "local_hiking": 4.39,
+        "water": 0.0,
+        "heritage": 50.0,
+        "climate": 0.0,
+        "scenic_transport": 9.47,
+        "destination_pull": 79.42,
+        "cultural_access": 20.0,
+        "access_hiking": 1.94
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "champery",
+    "name": "Champéry",
+    "canton": "VS",
+    "rank": 171,
+    "score_total": 35.89,
+    "scores": {
+      "total": 35.89,
+      "base": 27.22,
+      "access": 48.89,
+      "sub": {
+        "anti_overtourism": 76.67,
+        "walkability": 0.07,
+        "local_hiking": 11.28,
+        "water": 13.06,
+        "heritage": 0.0,
+        "climate": 0.0,
+        "scenic_transport": 68.42,
+        "destination_pull": 72.59,
+        "cultural_access": 15.0,
+        "access_hiking": 18.89
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "buchs",
+    "name": "Buchs",
+    "canton": "SG",
+    "rank": 172,
+    "score_total": 34.63,
+    "scores": {
+      "total": 34.63,
+      "base": 43.14,
+      "access": 21.85,
+      "sub": {
+        "anti_overtourism": 98.93,
+        "walkability": 4.45,
+        "local_hiking": 0.6,
+        "water": 12.66,
+        "heritage": 40.0,
+        "climate": 50.0,
+        "scenic_transport": 32.63,
+        "destination_pull": 0.0,
+        "cultural_access": 25.0,
+        "access_hiking": 38.75
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "soglio",
+    "name": "Soglio",
+    "canton": "GR",
+    "rank": 173,
+    "score_total": 34.39,
+    "scores": {
+      "total": 34.39,
+      "base": 50.63,
+      "access": 10.04,
+      "sub": {
+        "anti_overtourism": 84.16,
+        "walkability": 0.0,
+        "local_hiking": 41.25,
+        "water": 10.9,
+        "heritage": 70.0,
+        "climate": 50.0,
+        "scenic_transport": 9.47,
+        "destination_pull": 0.0,
+        "cultural_access": 15.0,
+        "access_hiking": 22.96
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "schangnau",
+    "name": "Schangnau",
+    "canton": "BE",
+    "rank": 174,
+    "score_total": 34.09,
+    "scores": {
+      "total": 34.09,
+      "base": 36.54,
+      "access": 30.42,
+      "sub": {
+        "anti_overtourism": 92.18,
+        "walkability": 0.0,
+        "local_hiking": 7.63,
+        "water": 15.76,
+        "heritage": 0.0,
+        "climate": 50.0,
+        "scenic_transport": 28.42,
+        "destination_pull": 57.47,
+        "cultural_access": 0.0,
+        "access_hiking": 30.99
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport"
+    ]
+  },
+  {
+    "slug": "lenk",
+    "name": "Lenk",
+    "canton": "BE",
+    "rank": 175,
+    "score_total": 33.34,
+    "scores": {
+      "total": 33.34,
+      "base": 32.48,
+      "access": 34.64,
+      "sub": {
+        "anti_overtourism": 75.13,
+        "walkability": 0.38,
+        "local_hiking": 40.53,
+        "water": 11.96,
+        "heritage": 0.0,
+        "climate": 0.0,
+        "scenic_transport": 86.32,
+        "destination_pull": 0.0,
+        "cultural_access": 5.0,
+        "access_hiking": 49.96
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "lauterbrunnen",
+    "name": "Lauterbrunnen",
+    "canton": "BE",
+    "rank": 176,
+    "score_total": 30.51,
+    "scores": {
+      "total": 30.51,
+      "base": 16.7,
+      "access": 51.23,
+      "sub": {
+        "anti_overtourism": 0.0,
+        "walkability": 0.57,
+        "local_hiking": 50.4,
+        "water": 10.44,
+        "heritage": 0.0,
+        "climate": 50.0,
+        "scenic_transport": 43.16,
+        "destination_pull": 87.56,
+        "cultural_access": 25.0,
+        "access_hiking": 38.4
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "wildhaus-alt-st-johann",
+    "name": "Wildhaus-Alt St. Johann",
+    "canton": "SG",
+    "rank": 177,
+    "score_total": 30.17,
+    "scores": {
+      "total": 30.17,
+      "base": 33.28,
+      "access": 25.51,
+      "sub": {
+        "anti_overtourism": 83.28,
+        "walkability": 0.0,
+        "local_hiking": 36.68,
+        "water": 6.43,
+        "heritage": 0.0,
+        "climate": 0.0,
+        "scenic_transport": 50.53,
+        "destination_pull": 0.0,
+        "cultural_access": 20.0,
+        "access_hiking": 35.67
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "leukerbad",
+    "name": "Leukerbad",
+    "canton": "VS",
+    "rank": 178,
+    "score_total": 29.43,
+    "scores": {
+      "total": 29.43,
+      "base": 21.81,
+      "access": 40.87,
+      "sub": {
+        "anti_overtourism": 32.7,
+        "walkability": 0.73,
+        "local_hiking": 27.22,
+        "water": 9.89,
+        "heritage": 0.0,
+        "climate": 50.0,
+        "scenic_transport": 71.58,
+        "destination_pull": 0.0,
+        "cultural_access": 55.0,
+        "access_hiking": 37.66
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "val-muestair",
+    "name": "Val Müstair",
+    "canton": "GR",
+    "rank": 179,
+    "score_total": 28.91,
+    "scores": {
+      "total": 28.91,
+      "base": 42.2,
+      "access": 8.97,
+      "sub": {
+        "anti_overtourism": 82.35,
+        "walkability": 0.0,
+        "local_hiking": 54.02,
+        "water": 11.29,
+        "heritage": 0.0,
+        "climate": 50.0,
+        "scenic_transport": 3.16,
+        "destination_pull": 0.0,
+        "cultural_access": 15.0,
+        "access_hiking": 28.45
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "le-chenit",
+    "name": "Le Chenit",
+    "canton": "VD",
+    "rank": 180,
+    "score_total": 28.81,
+    "scores": {
+      "total": 28.81,
+      "base": 42.38,
+      "access": 8.47,
+      "sub": {
+        "anti_overtourism": 97.39,
+        "walkability": 0.56,
+        "local_hiking": 0.0,
+        "water": 4.01,
+        "heritage": 50.0,
+        "climate": 50.0,
+        "scenic_transport": 11.58,
+        "destination_pull": 0.0,
+        "cultural_access": 20.0,
+        "access_hiking": 0.0
+      }
+    },
+    "reachable_tags": [
+      "Water",
+      "Scenic transport",
+      "Museums",
+      "Historic town"
+    ]
+  },
+  {
+    "slug": "vals",
+    "name": "Vals",
+    "canton": "GR",
+    "rank": 181,
+    "score_total": 27.1,
+    "scores": {
+      "total": 27.1,
+      "base": 32.66,
+      "access": 18.75,
+      "sub": {
+        "anti_overtourism": 68.19,
+        "walkability": 0.0,
+        "local_hiking": 54.39,
+        "water": 8.84,
+        "heritage": 0.0,
+        "climate": 0.0,
+        "scenic_transport": 12.63,
+        "destination_pull": 0.0,
+        "cultural_access": 20.0,
+        "access_hiking": 66.44
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "grindelwald",
+    "name": "Grindelwald",
+    "canton": "BE",
+    "rank": 182,
+    "score_total": 23.97,
+    "scores": {
+      "total": 23.97,
+      "base": 7.49,
+      "access": 48.69,
+      "sub": {
+        "anti_overtourism": 2.05,
+        "walkability": 1.58,
+        "local_hiking": 27.09,
+        "water": 8.67,
+        "heritage": 0.0,
+        "climate": 0.0,
+        "scenic_transport": 47.37,
+        "destination_pull": 84.19,
+        "cultural_access": 15.0,
+        "access_hiking": 36.51
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "zermatt",
+    "name": "Zermatt",
+    "canton": "VS",
+    "rank": 183,
+    "score_total": 19.16,
+    "scores": {
+      "total": 19.16,
+      "base": 19.09,
+      "access": 19.25,
+      "sub": {
+        "anti_overtourism": 0.0,
+        "walkability": 21.22,
+        "local_hiking": 54.49,
+        "water": 7.16,
+        "heritage": 0.0,
+        "climate": 50.0,
+        "scenic_transport": 43.16,
+        "destination_pull": 0.0,
+        "cultural_access": 10.0,
+        "access_hiking": 25.34
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  },
+  {
+    "slug": "samnaun",
+    "name": "Samnaun",
+    "canton": "GR",
+    "rank": 184,
+    "score_total": 11.97,
+    "scores": {
+      "total": 11.97,
+      "base": 12.85,
+      "access": 10.66,
+      "sub": {
+        "anti_overtourism": 2.05,
+        "walkability": 0.13,
+        "local_hiking": 53.25,
+        "water": 10.47,
+        "heritage": 0.0,
+        "climate": 0.0,
+        "scenic_transport": 17.89,
+        "destination_pull": 0.0,
+        "cultural_access": 10.0,
+        "access_hiking": 18.64
+      }
+    },
+    "reachable_tags": [
+      "Hiking",
+      "Water",
+      "Scenic transport",
+      "Museums"
+    ]
+  }
+]

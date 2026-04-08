@@ -1,0 +1,100 @@
+{
+  "slug": "solothurn",
+  "name": "Solothurn",
+  "canton": "SO",
+  "score_total": 55.9,
+  "scores": {
+    "total": 55.9,
+    "base": 55.88,
+    "access": 55.94,
+    "sub": {
+      "anti_overtourism": 97.3,
+      "walkability": 5.9,
+      "local_hiking": 1.04,
+      "water": 5.95,
+      "heritage": 100.0,
+      "climate": 100.0,
+      "scenic_transport": 8.95,
+      "destination_pull": 97.9,
+      "cultural_access": 95.0,
+      "access_hiking": 0.88
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 90793,
+    "domestic_share_overnights": 0.6911,
+    "summer_temp_avg": 18.35,
+    "local_hiking_m": 1789.0,
+    "regional_hiking_m": 21352.4,
+    "walkability_path_m": 5035.8,
+    "scenic_transport_count": 8,
+    "reachable_named_museums": "19",
+    "isos_name": "Solothurn",
+    "isos_kategorie": "Stadt"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 58,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "jul",
+    "trough_month": "feb",
+    "peak_trough_ratio": 1.71,
+    "monthly_index": [
+      78,
+      70,
+      87,
+      98,
+      111,
+      118,
+      121,
+      120,
+      118,
+      104,
+      94,
+      81
+    ]
+  },
+  "tourism_intensity": 5.8,
+  "restaurant_count": 71,
+  "isos_name": "Solothurn",
+  "reachable_slugs": [
+    "aarau",
+    "basel",
+    "bern",
+    "biel-bienne",
+    "burgdorf",
+    "delemont",
+    "egerkingen",
+    "grenchen",
+    "herzogenbuchsee",
+    "koeniz",
+    "langenthal",
+    "latena",
+    "lenzburg",
+    "liestal",
+    "moutier-be",
+    "neuchatel",
+    "olten",
+    "sursee",
+    "yverdon-les-bains",
+    "zofingen",
+    "zuerich"
+  ]
+}

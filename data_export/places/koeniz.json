@@ -1,0 +1,94 @@
+{
+  "slug": "koeniz",
+  "name": "Köniz",
+  "canton": "BE",
+  "score_total": 56.02,
+  "scores": {
+    "total": 56.02,
+    "base": 57.72,
+    "access": 53.47,
+    "sub": {
+      "anti_overtourism": 99.81,
+      "walkability": 22.53,
+      "local_hiking": 0.0,
+      "water": 3.46,
+      "heritage": 100.0,
+      "climate": 100.0,
+      "scenic_transport": 4.74,
+      "destination_pull": 90.15,
+      "cultural_access": 100.0,
+      "access_hiking": 0.0
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 18358,
+    "domestic_share_overnights": 0.6009,
+    "summer_temp_avg": 17.7,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 0.0,
+    "walkability_path_m": 19231.9,
+    "scenic_transport_count": 3,
+    "reachable_named_museums": "20",
+    "isos_name": "Bern",
+    "isos_kategorie": "Stadt"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 54,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "aug",
+    "trough_month": "feb",
+    "peak_trough_ratio": 3.59,
+    "monthly_index": [
+      57,
+      47,
+      90,
+      73,
+      103,
+      120,
+      148,
+      170,
+      102,
+      111,
+      112,
+      67
+    ]
+  },
+  "tourism_intensity": 0.4,
+  "restaurant_count": 25,
+  "isos_name": "Bern",
+  "reachable_slugs": [
+    "aarau",
+    "bern",
+    "biel-bienne",
+    "burgdorf",
+    "fribourg",
+    "herzogenbuchsee",
+    "langenthal",
+    "latena",
+    "murten",
+    "neuchatel",
+    "olten",
+    "solothurn",
+    "spiez",
+    "sursee",
+    "thun",
+    "zofingen"
+  ]
+}

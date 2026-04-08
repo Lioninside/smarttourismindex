@@ -1,0 +1,81 @@
+{
+  "slug": "grindelwald",
+  "name": "Grindelwald",
+  "canton": "BE",
+  "score_total": 23.97,
+  "scores": {
+    "total": 23.97,
+    "base": 7.49,
+    "access": 48.69,
+    "sub": {
+      "anti_overtourism": 2.05,
+      "walkability": 1.58,
+      "local_hiking": 27.09,
+      "water": 8.67,
+      "heritage": 0.0,
+      "climate": 0.0,
+      "scenic_transport": 47.37,
+      "destination_pull": 84.19,
+      "cultural_access": 15.0,
+      "access_hiking": 36.51
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 762611,
+    "domestic_share_overnights": 0.2217,
+    "summer_temp_avg": 14.39,
+    "local_hiking_m": 46790.4,
+    "regional_hiking_m": 886500.5,
+    "walkability_path_m": 1349.6,
+    "scenic_transport_count": 45,
+    "reachable_named_museums": "3",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 182,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "jul",
+    "trough_month": "nov",
+    "peak_trough_ratio": 4.87,
+    "monthly_index": [
+      93,
+      113,
+      88,
+      61,
+      103,
+      133,
+      151,
+      149,
+      124,
+      80,
+      31,
+      74
+    ]
+  },
+  "tourism_intensity": 210.3,
+  "restaurant_count": 18,
+  "isos_name": "",
+  "reachable_slugs": [
+    "lauterbrunnen",
+    "unterseen",
+    "wilderswil"
+  ]
+}
