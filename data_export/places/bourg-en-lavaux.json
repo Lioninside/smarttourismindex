@@ -1,0 +1,89 @@
+{
+  "slug": "bourg-en-lavaux",
+  "name": "Bourg-en-Lavaux",
+  "canton": "VD",
+  "score_total": 50.81,
+  "scores": {
+    "total": 50.81,
+    "base": 48.97,
+    "access": 53.57,
+    "sub": {
+      "anti_overtourism": 97.3,
+      "walkability": 5.09,
+      "local_hiking": 0.0,
+      "water": 44.21,
+      "heritage": 70.0,
+      "climate": 100.0,
+      "scenic_transport": 0.0,
+      "destination_pull": 94.57,
+      "cultural_access": 100.0,
+      "access_hiking": 1.32
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 32325,
+    "domestic_share_overnights": 0.5823,
+    "summer_temp_avg": 18.45,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 31989.3,
+    "walkability_path_m": 785.5,
+    "scenic_transport_count": 0,
+    "reachable_named_museums": "20",
+    "isos_name": "Grandvaux (Bourg-en-Lavaux)",
+    "isos_kategorie": "village"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 42,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "jul",
+    "trough_month": "jan",
+    "peak_trough_ratio": 3.62,
+    "monthly_index": [
+      39,
+      56,
+      83,
+      92,
+      121,
+      131,
+      142,
+      135,
+      123,
+      104,
+      82,
+      90
+    ]
+  },
+  "tourism_intensity": 5.8,
+  "restaurant_count": 7,
+  "isos_name": "Grandvaux (Bourg-en-Lavaux)",
+  "reachable_slugs": [
+    "blonay-saint-legier",
+    "bulle",
+    "fribourg",
+    "geneve",
+    "haut-intyamon",
+    "lausanne",
+    "montreux",
+    "morges",
+    "nyon",
+    "ollon",
+    "vevey",
+    "yverdon-les-bains"
+  ]
+}

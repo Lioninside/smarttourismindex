@@ -1,0 +1,80 @@
+{
+  "slug": "ilanz-glion",
+  "name": "Ilanz/Glion",
+  "canton": "GR",
+  "score_total": 51.56,
+  "scores": {
+    "total": 51.56,
+    "base": 50.9,
+    "access": 52.55,
+    "sub": {
+      "anti_overtourism": 97.9,
+      "walkability": 0.0,
+      "local_hiking": 55.94,
+      "water": 1.6,
+      "heritage": 50.0,
+      "climate": 100.0,
+      "scenic_transport": 54.74,
+      "destination_pull": 58.17,
+      "cultural_access": 25.0,
+      "access_hiking": 82.86
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 25881,
+    "domestic_share_overnights": 0.6585,
+    "summer_temp_avg": 15.74,
+    "local_hiking_m": 96619.6,
+    "regional_hiking_m": 2011980.9,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 52,
+    "reachable_named_museums": "5",
+    "isos_name": "Duvin (Ilanz/Glion)",
+    "isos_kategorie": "vitg"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 33,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "jul",
+    "trough_month": "nov",
+    "peak_trough_ratio": 2.52,
+    "monthly_index": [
+      88,
+      119,
+      74,
+      62,
+      93,
+      110,
+      153,
+      148,
+      103,
+      77,
+      61,
+      113
+    ]
+  },
+  "tourism_intensity": 4.5,
+  "restaurant_count": 0,
+  "isos_name": "Duvin (Ilanz/Glion)",
+  "reachable_slugs": [
+    "lumnezia"
+  ]
+}

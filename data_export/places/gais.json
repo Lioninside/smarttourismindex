@@ -1,0 +1,87 @@
+{
+  "slug": "gais",
+  "name": "Gais",
+  "canton": "AR",
+  "score_total": 46.06,
+  "scores": {
+    "total": 46.06,
+    "base": 38.55,
+    "access": 57.32,
+    "sub": {
+      "anti_overtourism": 98.28,
+      "walkability": 7.71,
+      "local_hiking": 0.0,
+      "water": 2.92,
+      "heritage": 70.0,
+      "climate": 50.0,
+      "scenic_transport": 21.05,
+      "destination_pull": 81.26,
+      "cultural_access": 100.0,
+      "access_hiking": 10.88
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 11504,
+    "domestic_share_overnights": 0.8827,
+    "summer_temp_avg": 15.83,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 264201.9,
+    "walkability_path_m": 1189.2,
+    "scenic_transport_count": 20,
+    "reachable_named_museums": "20",
+    "isos_name": "Gais",
+    "isos_kategorie": "Dorf"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 85,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "aug",
+    "trough_month": "mar",
+    "peak_trough_ratio": 3.78,
+    "monthly_index": [
+      51,
+      82,
+      47,
+      101,
+      89,
+      149,
+      128,
+      177,
+      146,
+      115,
+      66,
+      49
+    ]
+  },
+  "tourism_intensity": 3.7,
+  "restaurant_count": 5,
+  "isos_name": "Gais",
+  "reachable_slugs": [
+    "altstaetten",
+    "appenzell",
+    "gonten",
+    "hundwil",
+    "neckertal",
+    "rorschacherberg",
+    "st-gallen",
+    "teufen",
+    "uzwil"
+  ]
+}

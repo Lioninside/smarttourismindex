@@ -1,0 +1,93 @@
+{
+  "slug": "burgdorf",
+  "name": "Burgdorf",
+  "canton": "BE",
+  "score_total": 47.32,
+  "scores": {
+    "total": 47.32,
+    "base": 46.31,
+    "access": 48.83,
+    "sub": {
+      "anti_overtourism": 99.12,
+      "walkability": 6.82,
+      "local_hiking": 0.0,
+      "water": 1.12,
+      "heritage": 100.0,
+      "climate": 100.0,
+      "scenic_transport": 2.11,
+      "destination_pull": 89.81,
+      "cultural_access": 85.0,
+      "access_hiking": 0.0
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 34882,
+    "domestic_share_overnights": 0.7738,
+    "summer_temp_avg": 17.67,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 0.0,
+    "walkability_path_m": 1052.5,
+    "scenic_transport_count": 2,
+    "reachable_named_museums": "17",
+    "isos_name": "Burgdorf",
+    "isos_kategorie": "Stadt"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 76,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "jul",
+    "trough_month": "feb",
+    "peak_trough_ratio": 4.49,
+    "monthly_index": [
+      45,
+      34,
+      72,
+      113,
+      123,
+      136,
+      150,
+      136,
+      122,
+      122,
+      86,
+      60
+    ]
+  },
+  "tourism_intensity": 1.9,
+  "restaurant_count": 30,
+  "isos_name": "Burgdorf",
+  "reachable_slugs": [
+    "aarau",
+    "bern",
+    "biel-bienne",
+    "egerkingen",
+    "fribourg",
+    "herzogenbuchsee",
+    "koeniz",
+    "langenthal",
+    "lenzburg",
+    "liestal",
+    "olten",
+    "solothurn",
+    "spiez",
+    "thun",
+    "zofingen"
+  ]
+}

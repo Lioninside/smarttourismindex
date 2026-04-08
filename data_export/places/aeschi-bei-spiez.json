@@ -1,0 +1,90 @@
+{
+  "slug": "aeschi-bei-spiez",
+  "name": "Aeschi bei Spiez",
+  "canton": "BE",
+  "score_total": 40.53,
+  "scores": {
+    "total": 40.53,
+    "base": 32.8,
+    "access": 52.12,
+    "sub": {
+      "anti_overtourism": 95.06,
+      "walkability": 0.0,
+      "local_hiking": 18.51,
+      "water": 2.2,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 22.63,
+      "destination_pull": 92.24,
+      "cultural_access": 45.0,
+      "access_hiking": 42.74
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 30608,
+    "domestic_share_overnights": 0.5658,
+    "summer_temp_avg": 16.41,
+    "local_hiking_m": 31963.4,
+    "regional_hiking_m": 1037903.5,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 21,
+    "reachable_named_museums": "9",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 142,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "jul",
+    "trough_month": "jan",
+    "peak_trough_ratio": 4.46,
+    "monthly_index": [
+      38,
+      58,
+      50,
+      77,
+      124,
+      134,
+      171,
+      166,
+      150,
+      124,
+      54,
+      53
+    ]
+  },
+  "tourism_intensity": 10.6,
+  "restaurant_count": 5,
+  "isos_name": "",
+  "reachable_slugs": [
+    "bern",
+    "diemtigen",
+    "interlaken",
+    "kandersteg",
+    "matten-bei-interlaken",
+    "reichenbach-im-kandertal",
+    "sigriswil",
+    "spiez",
+    "thun",
+    "unterseen",
+    "visp",
+    "wilderswil"
+  ]
+}
