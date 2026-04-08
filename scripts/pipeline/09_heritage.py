@@ -37,7 +37,9 @@ PLACES_CSV   = Path("metadata/places_master.csv")
 ISOS_GEOJSON = Path("data_raw/isos/isos_national.geojson")
 OUTPUT_JSON  = Path("data_processed/heritage/heritage_metrics.json")
 
-BUFFER_M = 2000  # 2 km exact in metres (Euclidean in LV95)
+BUFFER_M = 4000  # 4 km — wider buffer needed for large cities where the
+                 # ISOS centroid (historic core) can be >2 km from the
+                 # municipality's geographic centre used in places_master.csv
 
 # Graded scores per siedlungskategorie (case-insensitive key lookup)
 ISOS_SCORES: Dict[str, float] = {
