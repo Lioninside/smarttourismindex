@@ -22,11 +22,11 @@ Output:
 
 Scoring model:
   BASE  60%:
-    ot_score           25%   (inverted tourism_intensity, 99th-pct clip)
-    walkability_score  20%   (0-1)
+    ot_score           30%   (inverted tourism_intensity, 99th-pct clip)
+    walkability_score  10%   (OSM pedestrian+living_street length within 3 km, 0-1)
     local_hiking_score 20%   (local_hiking_m normalised, 0-1)
     water_score        15%   (lake area + river length×BREITENKLASSE width within 2 km, normalised 0-1)
-    heritage_score     10%   (ISOS graded, 0-1)
+    heritage_score     15%   (ISOS graded, 0-1)
     climate_score      10%   (summer suitability, 0-1)
 
   ACCESS 40%:
@@ -281,11 +281,11 @@ def main() -> None:
         s_climate   = get_or_median(climate_norm,     slug, "climate_score")
 
         base_score = (
-            s_ot       * 0.25 +
-            s_walk     * 0.20 +
+            s_ot       * 0.30 +
+            s_walk     * 0.10 +
             s_loc_hike * 0.20 +
             s_water    * 0.15 +
-            s_heritage * 0.10 +
+            s_heritage * 0.15 +
             s_climate  * 0.10
         )
 
