@@ -530,6 +530,8 @@ body {
 
 .detail-actions {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 10px;
   margin-top: 20px;
   padding-top: 20px;
@@ -943,10 +945,9 @@ body {
   .faq-teaser-section { padding: 48px 0; }
   .faq-cta-grid { grid-template-columns: 1fr; }
   .faq-group-heading { padding-top: 28px; }
-}
-
   .ranking-controls { flex-direction: column; align-items: stretch; }
   .filters { flex-direction: column; }
+}
   #search-input { min-width: unset; width: 100%; }
   #canton-filter { width: 100%; }
   .methodology-grid { grid-template-columns: 1fr; }
