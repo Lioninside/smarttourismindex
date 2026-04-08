@@ -60,31 +60,7 @@ Total metres of marked hiking trails within 4km. WANDERWEGE IN (1,2,3).
 
 ### Water (15%)
 
-Equivalent water area within 2km of the place anchor (EPSG:2056 buffer).
-
-**Metric: `water_equiv_2km_m2`** (output of `08_water.py`)
-
-```
-water_equiv_2km_m2 = Σ clipped lake polygon area (m²)
-                   + Σ (clipped river length (m) × BREITENKLASSE width)
-```
-
-River width by TLM `BREITENKLASSE` attribute:
-
-| Class | Width range | Width used |
-|---|---|---|
-| 1 | < 1 m | 0.5 m |
-| 2 | 1–5 m | 3.0 m |
-| 3 | 5–15 m | 10.0 m |
-| 4 | 15–50 m | 30.0 m |
-| 5 | > 50 m | 75.0 m |
-| missing | — | 3.0 m (fallback) |
-
-Rationale: the old feature-count approach (raw TLM intersections) heavily underrated lakeside towns — Lake Thun is one large polygon while an alpine stream-heavy area generates hundreds of short river segments. Area-equivalent scoring gives proportional weight to large lakes, wide rivers (Aare, Rhine, Rhone), and correctly discounts long-but-narrow alpine streams.
-
-Scoring: `water_equiv_2km_m2` min-max normalised across 184 places.
-
-**Requires updated `water_metrics.json`** — old files contain only `water_features_2km`. Rerun `08_water.py` before `11_merge_score.py` on any existing installation.
+Proximity to TLM lakes (`tlm_lakes.gpkg`) and rivers (`tlm_rivers.gpkg`).
 
 ### Heritage character (10%)
 
@@ -210,9 +186,7 @@ All sub-scores 0–1. Missing values → median. No places dropped.
 | Place count | 185 | 184 (Monteceneri excluded) |
 | ISOS coordinate handling | Bug — haversine on LV95 | Fixed — EPSG:2056 metre buffers |
 | Water GeoPackages | Missing | `tlm_rivers.gpkg` + `tlm_lakes.gpkg` |
-| Water scoring metric | Raw feature count | Area-equivalent m² (lake area + river length × BREITENKLASSE width) |
 | BFS column names | English (broken) | German (fixed) |
 | BFS filenames | Hardcoded dates | Wildcard glob |
 | place_mapping.json | Basic aliases | Canton-qualified BFS name aliases |
-| Excluded places | None | `scripts/pipeline/exclude.json` |
-| Score output format | `subscores` only | `scores.base`, `scores.access`, `scores.sub.*` |
+| Excluded places | None | `metadata/exclude.json` |
