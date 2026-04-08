@@ -1,0 +1,102 @@
+{
+  "slug": "waedenswil",
+  "name": "Wädenswil",
+  "canton": "ZH",
+  "score_total": 52.34,
+  "scores": {
+    "total": 52.34,
+    "base": 49.11,
+    "access": 57.19,
+    "sub": {
+      "anti_overtourism": 99.72,
+      "walkability": 3.36,
+      "local_hiking": 0.0,
+      "water": 92.38,
+      "heritage": 0.0,
+      "climate": 50.0,
+      "scenic_transport": 6.84,
+      "destination_pull": 98.31,
+      "cultural_access": 100.0,
+      "access_hiking": 4.29
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 7901,
+    "domestic_share_overnights": 0.6259,
+    "summer_temp_avg": 18.88,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 104058.1,
+    "walkability_path_m": 2865.6,
+    "scenic_transport_count": 6,
+    "reachable_named_museums": "20",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 77,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "jun",
+    "trough_month": "jan",
+    "peak_trough_ratio": 2.64,
+    "monthly_index": [
+      55,
+      56,
+      85,
+      98,
+      128,
+      145,
+      140,
+      144,
+      135,
+      80,
+      77,
+      56
+    ]
+  },
+  "tourism_intensity": 0.6,
+  "restaurant_count": 21,
+  "isos_name": "",
+  "reachable_slugs": [
+    "aarau",
+    "amden",
+    "bad-ragaz",
+    "baden",
+    "duebendorf",
+    "einsiedeln",
+    "eschenbach",
+    "feusisberg",
+    "flums",
+    "freienbach",
+    "horgen",
+    "kloten",
+    "lenzburg",
+    "luzern",
+    "maienfeld",
+    "neckertal",
+    "olten",
+    "opfikon",
+    "quarten",
+    "rapperswil-jona",
+    "uster",
+    "walenstadt",
+    "winterthur",
+    "zuerich",
+    "zug"
+  ]
+}

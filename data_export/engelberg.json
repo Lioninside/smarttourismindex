@@ -1,0 +1,81 @@
+{
+  "slug": "engelberg",
+  "name": "Engelberg",
+  "canton": "OW",
+  "score_total": 43.6,
+  "scores": {
+    "total": 43.6,
+    "base": 30.53,
+    "access": 63.2,
+    "sub": {
+      "anti_overtourism": 65.35,
+      "walkability": 0.47,
+      "local_hiking": 43.39,
+      "water": 14.64,
+      "heritage": 0.0,
+      "climate": 0.0,
+      "scenic_transport": 88.42,
+      "destination_pull": 88.09,
+      "cultural_access": 5.0,
+      "access_hiking": 60.0
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 328002,
+    "domestic_share_overnights": 0.4371,
+    "summer_temp_avg": 14.52,
+    "local_hiking_m": 74947.9,
+    "regional_hiking_m": 1457020.9,
+    "walkability_path_m": 398.2,
+    "scenic_transport_count": 84,
+    "reachable_named_museums": "1",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 143,
+  "seasonality": {
+    "volatility_label": "Mildly seasonal",
+    "peak_month": "jul",
+    "trough_month": "nov",
+    "peak_trough_ratio": 4.11,
+    "monthly_index": [
+      101,
+      130,
+      92,
+      63,
+      108,
+      134,
+      137,
+      129,
+      100,
+      74,
+      33,
+      97
+    ]
+  },
+  "tourism_intensity": 74.4,
+  "restaurant_count": 10,
+  "isos_name": "",
+  "reachable_slugs": [
+    "luzern",
+    "sachseln",
+    "sarnen"
+  ]
+}

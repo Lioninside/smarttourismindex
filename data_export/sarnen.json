@@ -1,0 +1,90 @@
+{
+  "slug": "sarnen",
+  "name": "Sarnen",
+  "canton": "OW",
+  "score_total": 62.59,
+  "scores": {
+    "total": 62.59,
+    "base": 65.37,
+    "access": 58.44,
+    "sub": {
+      "anti_overtourism": 97.62,
+      "walkability": 0.39,
+      "local_hiking": 8.2,
+      "water": 95.99,
+      "heritage": 100.0,
+      "climate": 50.0,
+      "scenic_transport": 48.42,
+      "destination_pull": 90.27,
+      "cultural_access": 35.0,
+      "access_hiking": 53.87
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 63024,
+    "domestic_share_overnights": 0.6465,
+    "summer_temp_avg": 18.18,
+    "local_hiking_m": 14165.6,
+    "regional_hiking_m": 1308094.1,
+    "walkability_path_m": 335.1,
+    "scenic_transport_count": 46,
+    "reachable_named_museums": "7",
+    "isos_name": "Sarnen",
+    "isos_kategorie": "Kleinstadt/Flecken"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 11,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "aug",
+    "trough_month": "dec",
+    "peak_trough_ratio": 2.29,
+    "monthly_index": [
+      79,
+      66,
+      87,
+      88,
+      104,
+      127,
+      142,
+      147,
+      127,
+      95,
+      74,
+      64
+    ]
+  },
+  "tourism_intensity": 5.1,
+  "restaurant_count": 17,
+  "isos_name": "Sarnen",
+  "reachable_slugs": [
+    "beckenried",
+    "emmen",
+    "emmetten",
+    "engelberg",
+    "hasliberg",
+    "luzern",
+    "meggen",
+    "meiringen",
+    "sachseln",
+    "sursee",
+    "zofingen"
+  ]
+}

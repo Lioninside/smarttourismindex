@@ -1,0 +1,81 @@
+{
+  "slug": "scuol",
+  "name": "Scuol",
+  "canton": "GR",
+  "score_total": 47.05,
+  "scores": {
+    "total": 47.05,
+    "base": 52.22,
+    "access": 39.29,
+    "sub": {
+      "anti_overtourism": 73.36,
+      "walkability": 0.0,
+      "local_hiking": 81.37,
+      "water": 9.62,
+      "heritage": 50.0,
+      "climate": 50.0,
+      "scenic_transport": 11.58,
+      "destination_pull": 76.1,
+      "cultural_access": 25.0,
+      "access_hiking": 44.88
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 266633,
+    "domestic_share_overnights": 0.7881,
+    "summer_temp_avg": 14.88,
+    "local_hiking_m": 140557.2,
+    "regional_hiking_m": 1089771.2,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 11,
+    "reachable_named_museums": "5",
+    "isos_name": "Scuol",
+    "isos_kategorie": "vitg urban"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 113,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "feb",
+    "trough_month": "apr",
+    "peak_trough_ratio": 8.42,
+    "monthly_index": [
+      138,
+      173,
+      111,
+      20,
+      30,
+      98,
+      133,
+      140,
+      104,
+      122,
+      48,
+      83
+    ]
+  },
+  "tourism_intensity": 57.2,
+  "restaurant_count": 15,
+  "isos_name": "Scuol",
+  "reachable_slugs": [
+    "klosters",
+    "zernez"
+  ]
+}

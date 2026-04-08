@@ -1,0 +1,85 @@
+{
+  "slug": "sachseln",
+  "name": "Sachseln",
+  "canton": "OW",
+  "score_total": 60.84,
+  "scores": {
+    "total": 60.84,
+    "base": 63.57,
+    "access": 56.76,
+    "sub": {
+      "anti_overtourism": 94.18,
+      "walkability": 0.0,
+      "local_hiking": 27.44,
+      "water": 95.49,
+      "heritage": 70.0,
+      "climate": 50.0,
+      "scenic_transport": 63.16,
+      "destination_pull": 88.7,
+      "cultural_access": 10.0,
+      "access_hiking": 57.98
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 63762,
+    "domestic_share_overnights": 0.6359,
+    "summer_temp_avg": 18.09,
+    "local_hiking_m": 47399.2,
+    "regional_hiking_m": 1407901.1,
+    "walkability_path_m": 0.0,
+    "scenic_transport_count": 60,
+    "reachable_named_museums": "2",
+    "isos_name": "Sachseln",
+    "isos_kategorie": "Verstädtertes Dorf"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 17,
+  "seasonality": {
+    "volatility_label": "Strongly seasonal",
+    "peak_month": "aug",
+    "trough_month": "feb",
+    "peak_trough_ratio": 5.55,
+    "monthly_index": [
+      49,
+      29,
+      90,
+      90,
+      120,
+      155,
+      160,
+      163,
+      131,
+      102,
+      74,
+      38
+    ]
+  },
+  "tourism_intensity": 12.5,
+  "restaurant_count": 4,
+  "isos_name": "Sachseln",
+  "reachable_slugs": [
+    "emmen",
+    "hasliberg",
+    "luzern",
+    "meggen",
+    "meiringen",
+    "sarnen"
+  ]
+}
