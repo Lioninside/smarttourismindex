@@ -118,17 +118,6 @@ body {
   line-height: 1.75;
 }
 
-.pull-quote {
-  font-size: 17px;
-  font-weight: 600;
-  font-style: italic;
-  border-left: 3px solid var(--black);
-  padding-left: 20px;
-  margin: 32px 0;
-  line-height: 1.5;
-  color: var(--black);
-}
-
 .hero-stats {
   display: flex;
   gap: 40px;
@@ -222,7 +211,6 @@ body {
 .view-all-link:hover { text-decoration: underline; }
 
 /* === CONTENT SECTIONS === */
-.what-is-index,
 .content-section {
   padding: 80px 0;
   border-bottom: 1px solid var(--gray-200);
@@ -423,12 +411,6 @@ body {
 }
 
 /* === SCORE BARS === */
-.detail-bars {
-  margin-bottom: 16px;
-  display: grid;
-  gap: 7px;
-}
-
 .bar-row {
   display: flex;
   align-items: center;
@@ -648,20 +630,6 @@ body {
 .source-item strong { display: block; font-size: 15px; font-weight: 700; margin-bottom: 6px; }
 .source-item p { font-size: 14px; color: var(--gray-600); line-height: 1.65; }
 
-/* === PAGE HERO (about) === */
-.page-hero {
-  padding: 80px 0 64px;
-  border-bottom: 1px solid var(--gray-200);
-}
-
-.page-hero h1 {
-  font-size: clamp(36px, 5vw, 64px);
-  font-weight: 900;
-  letter-spacing: -0.03em;
-  line-height: 1.1;
-  margin-bottom: 24px;
-}
-
 .content-block { max-width: 680px; }
 .content-block p { font-size: 16px; color: var(--gray-600); margin-bottom: 16px; line-height: 1.75; }
 
@@ -708,13 +676,6 @@ body {
 
 .text-link:hover { text-decoration: underline; }
 
-/* === SMALL NOTE === */
-.small-note {
-  font-size: 13px;
-  color: var(--gray-500);
-  line-height: 1.6;
-  margin-top: 4px;
-}
 
 /* === FEEDBACK LINKS === */
 .feedback-links {
@@ -975,7 +936,6 @@ body {
   .filters { flex-direction: column; }
   #search-input { min-width: unset; width: 100%; }
   #canton-filter { width: 100%; }
-}
   .methodology-grid { grid-template-columns: 1fr; }
   .detail-metrics { grid-template-columns: 1fr; }
   .place-name { font-size: 16px; }
@@ -983,7 +943,7 @@ body {
   .card-detail { margin-left: 0; }
   .detail-actions { flex-direction: column; }
   .hero { padding: 48px 0 40px; }
-  .ranking-section, .what-is-index, .content-section { padding: 48px 0; }
+  .ranking-section, .content-section { padding: 48px 0; }
   .seasonality-widget { width: 100%; }
   .read-more-grid { grid-template-columns: 1fr; }
   .feedback-links { flex-direction: column; }

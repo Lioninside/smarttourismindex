@@ -14,6 +14,7 @@ const SWISS_TOP20 = [
 ];
 
 let allPlaces = [];
+let placesBySlug = {};
 let coordinates = {};
 let detailCache = {};
 let currentSearch = '';
@@ -33,6 +34,7 @@ async function init() {
       fetch(`${DATA}/coordinates.json`).then(r => r.json())
     ]);
     allPlaces = places;
+    placesBySlug = Object.fromEntries(places.map(p => [p.slug, p.name]));
     coordinates = coords;
     renderLeaderboard();
     populateCantonFilter();
@@ -204,8 +206,7 @@ async function loadAndRenderDetail(slug) {
 }
 
 function getPlaceName(slug) {
-  const p = allPlaces.find(p => p.slug === slug);
-  return p ? p.name : slug;
+  return placesBySlug[slug] || slug;
 }
 
 function renderDetail(slug, detail, container) {
@@ -457,22 +458,15 @@ function setupEvents() {
 
 // ── Boot ─────────────────────────────────────────────────────────────────────
 
-document.addEventListener('DOMContentLoaded', init);
-
-// ── FAQ Accordion ─────────────────────────────────────────────────────────────
-// Works on both the homepage teaser and faq.html.
-
 document.addEventListener('DOMContentLoaded', () => {
+  init();
+
+  // FAQ accordion — works on both homepage teaser and faq.html
   document.querySelectorAll('.faq-question').forEach(btn => {
     btn.addEventListener('click', () => {
       const expanded = btn.getAttribute('aria-expanded') === 'true';
-      const answer = btn.nextElementSibling;
       btn.setAttribute('aria-expanded', String(!expanded));
-      if (expanded) {
-        answer.hidden = true;
-      } else {
-        answer.hidden = false;
-      }
+      btn.nextElementSibling.hidden = expanded;
     });
   });
 });
