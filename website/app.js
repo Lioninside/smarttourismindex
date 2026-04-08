@@ -21,6 +21,8 @@ let currentCanton = '';
 let expandedSlug = null;
 let mainMap = null;
 let miniMapInstance = null;
+let mapMarkers = [];
+let currentMinScore = 0;
 
 // ── Init ────────────────────────────────────────────────────────────────────
 
@@ -36,6 +38,7 @@ async function init() {
     populateCantonFilter();
     renderList();
     setupEvents();
+    if (location.hash === '#map') switchTab('map');
   } catch (e) {
     console.error('Failed to load data:', e);
     document.getElementById('places-list').innerHTML =
@@ -357,7 +360,7 @@ function initMainMap() {
     if (!coord) return;
     const score = Math.round(place.score_total);
 
-    L.circleMarker([coord.lat, coord.lon], {
+    const m = L.circleMarker([coord.lat, coord.lon], {
       radius: 7,
       fillColor: scoreColor(score),
       color: '#ffffff',
@@ -369,7 +372,21 @@ function initMainMap() {
       <span class="popup-score">${score}</span>
       <a class="popup-link" href="#ranking" onclick="jumpToPlace('${place.slug}')">View details →</a>
     `, { maxWidth: 180 }).addTo(mainMap);
+
+    mapMarkers.push({ marker: m, score });
   });
+}
+
+function filterMapMarkers() {
+  mapMarkers.forEach(({ marker, score }) => {
+    if (score >= currentMinScore) {
+      if (!mainMap.hasLayer(marker)) marker.addTo(mainMap);
+    } else {
+      if (mainMap.hasLayer(marker)) mainMap.removeLayer(marker);
+    }
+  });
+  const label = document.getElementById('score-slider-label');
+  if (label) label.textContent = `Min. score: ${currentMinScore}`;
 }
 
 function scoreColor(score) {
@@ -387,7 +404,17 @@ function switchTab(name) {
   document.querySelectorAll('.tab-content').forEach(c =>
     c.classList.toggle('active', c.id === `tab-${name}`));
 
-  if (name === 'map') {
+  const isMap = name === 'map';
+  const searchInput   = document.getElementById('search-input');
+  const cantonFilter  = document.getElementById('canton-filter');
+  const sliderWrap    = document.getElementById('score-slider-wrap');
+  if (searchInput)  searchInput.hidden  = isMap;
+  if (cantonFilter) cantonFilter.hidden = isMap;
+  if (sliderWrap)   sliderWrap.hidden   = !isMap;
+
+  history.replaceState(null, '', isMap ? '#map' : location.pathname + location.search);
+
+  if (isMap) {
     setTimeout(() => {
       initMainMap();
       if (mainMap) mainMap.invalidateSize();
@@ -414,6 +441,11 @@ function setupEvents() {
 
   document.querySelectorAll('.tab-btn').forEach(btn =>
     btn.addEventListener('click', () => switchTab(btn.dataset.tab)));
+
+  document.getElementById('score-slider')?.addEventListener('input', e => {
+    currentMinScore = +e.target.value;
+    filterMapMarkers();
+  });
 }
 
 // ── Boot ─────────────────────────────────────────────────────────────────────

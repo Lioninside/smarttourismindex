@@ -332,6 +332,10 @@ body {
 #search-input { min-width: 220px; }
 #canton-filter { min-width: 140px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%2364748B' stroke-width='1.5' fill='none'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; padding-right: 32px; }
 
+.score-slider-wrap { display: flex; align-items: center; gap: 12px; }
+#score-slider-label { font-size: 13px; color: var(--gray); white-space: nowrap; min-width: 110px; }
+#score-slider { flex: 1; min-width: 160px; accent-color: var(--black); cursor: pointer; }
+
 .tab-content { display: none; }
 .tab-content.active { display: block; }
 
@@ -947,9 +951,11 @@ body {
   .faq-group-heading { padding-top: 28px; }
   .ranking-controls { flex-direction: column; align-items: stretch; }
   .filters { flex-direction: column; }
-}
   #search-input { min-width: unset; width: 100%; }
   #canton-filter { width: 100%; }
+  .score-slider-wrap { width: 100%; }
+  #score-slider { min-width: unset; width: 100%; }
+}
   .methodology-grid { grid-template-columns: 1fr; }
   .detail-metrics { grid-template-columns: 1fr; }
   .place-name { font-size: 16px; }
