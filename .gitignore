@@ -1,0 +1,5 @@
+# Raw source data — local only, never push to remote
+data_raw/
+
+# SBB API cache — local only, pipeline never touches this
+data_processed/sbbapi/
