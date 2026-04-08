@@ -54,6 +54,14 @@ BREITENKLASSE_WIDTH: Dict[int, float] = {
 }
 RIVER_WIDTH_FALLBACK_M = 3.0  # conservative default for unknown segments
 
+# Cap lake area contribution per buffer at 1 km² (1,000,000 m²).
+# Without this, places whose 2km circle mostly overlaps a large lake
+# (e.g. Ingenbohl on Vierwaldstättersee) score 5–6 million m² while
+# river cities score ~50,000 m² — a 100× gap that dominates the ranking.
+# The cap still strongly rewards lakeside places over inland ones while
+# keeping the scale comparable to the river metric.
+LAKE_AREA_CAP_M2 = 1_000_000  # 1 km²
+
 SPOT_CHECK_SLUGS = [
     # Lakeside towns — should score high on lake area
     "spiez", "beckenried", "vitznau", "weggis", "kussnacht", "bourg-en-lavaux",
@@ -203,6 +211,7 @@ def _water_equivalent_m2(features: gpd.GeoDataFrame, buf) -> float:
     rivers = features[features["water_type"] == "flowing"]
 
     lake_area  = float(lakes.geometry.intersection(buf).area.sum()) if not lakes.empty else 0.0
+    lake_area  = min(lake_area, LAKE_AREA_CAP_M2)
     river_area = _river_equiv_area(rivers, buf)
 
     return lake_area + river_area
