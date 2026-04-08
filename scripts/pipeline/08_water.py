@@ -30,7 +30,8 @@ from typing import Any, Dict, List
 
 import geopandas as gpd
 import pandas as pd
-from shapely.geometry import Point
+from shapely.geometry import Point, Polygon
+from shapely.ops import polygonize, unary_union
 
 PLACES_CSV   = Path("metadata/places_master.csv")
 RIVERS_GPKG  = Path("data_raw/tlm/tlm_rivers.gpkg")
@@ -81,6 +82,51 @@ def read_places(path: Path) -> List[Dict[str, Any]]:
         return rows
 
 
+def _polygonize_lakes(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    """Convert lake boundary lines to filled polygon areas.
+
+    swissTLM3D TLM_STEHENDES_GEWAESSER stores lake outlines as closed
+    LineStrings rather than filled Polygons.  Polygonizing reconstructs
+    the filled areas so that .area returns the correct lake surface in m².
+
+    If the geometries are already Polygons (future-proof), this is a no-op.
+    If polygonize yields no results (malformed data), the original GDF is
+    returned and lake area will be 0 (safe degradation back to river-only).
+    """
+    if gdf.empty:
+        return gdf
+
+    geom_types = set(gdf.geom_type.dropna().unique())
+
+    # Already polygons — nothing to do
+    if geom_types <= {"Polygon", "MultiPolygon"}:
+        return gdf
+
+    # LinearRing geometries: wrap each directly in a Polygon
+    if geom_types <= {"LinearRing"}:
+        polys = [Polygon(g) for g in gdf.geometry if g is not None]
+        if polys:
+            return gpd.GeoDataFrame(geometry=polys, crs=gdf.crs)
+        return gdf
+
+    # LineString / MultiLineString: merge and polygonize
+    if geom_types <= {"LineString", "MultiLineString", "LinearRing"}:
+        merged = unary_union(gdf.geometry)
+        polys  = list(polygonize(merged))
+        if polys:
+            print(f"  [lakes] polygonized {len(gdf):,} boundary lines "
+                  f"→ {len(polys):,} lake polygons")
+            return gpd.GeoDataFrame(geometry=polys, crs=gdf.crs)
+        print("  [lakes] WARNING: polygonize returned no polygons — "
+              "lake area contribution will be 0")
+        return gdf
+
+    # Mixed or unexpected geometry types — skip conversion
+    print(f"  [lakes] WARNING: unexpected geometry types {geom_types}, "
+          "skipping polygonize")
+    return gdf
+
+
 def read_water() -> gpd.GeoDataFrame:
     for p in (RIVERS_GPKG, LAKES_GPKG):
         if not p.exists():
@@ -96,6 +142,10 @@ def read_water() -> gpd.GeoDataFrame:
 
     flowing  = flowing.to_crs(2056)
     standing = standing.to_crs(2056)
+
+    # TLM lakes are stored as closed boundary lines, not filled polygons.
+    # Polygonize converts them so .area returns the actual lake surface area.
+    standing = _polygonize_lakes(standing)
 
     flowing["water_type"] = "flowing"
     standing["water_type"] = "standing"
