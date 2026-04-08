@@ -1,0 +1,93 @@
+{
+  "slug": "chur",
+  "name": "Chur",
+  "canton": "GR",
+  "score_total": 64.3,
+  "scores": {
+    "total": 64.3,
+    "base": 61.38,
+    "access": 68.68,
+    "sub": {
+      "anti_overtourism": 97.25,
+      "walkability": 20.16,
+      "local_hiking": 61.48,
+      "water": 4.92,
+      "heritage": 100.0,
+      "climate": 100.0,
+      "scenic_transport": 66.32,
+      "destination_pull": 88.5,
+      "cultural_access": 35.0,
+      "access_hiking": 89.91
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 256175,
+    "domestic_share_overnights": 0.4895,
+    "summer_temp_avg": 18.4,
+    "local_hiking_m": 106192.3,
+    "regional_hiking_m": 2183203.6,
+    "walkability_path_m": 3108.9,
+    "scenic_transport_count": 63,
+    "reachable_named_museums": "7",
+    "isos_name": "Chur",
+    "isos_kategorie": "Stadt"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 1,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "aug",
+    "trough_month": "nov",
+    "peak_trough_ratio": 1.74,
+    "monthly_index": [
+      82,
+      94,
+      89,
+      86,
+      115,
+      116,
+      119,
+      119,
+      118,
+      102,
+      68,
+      94
+    ]
+  },
+  "tourism_intensity": 5.9,
+  "restaurant_count": 60,
+  "isos_name": "Chur",
+  "reachable_slugs": [
+    "altstaetten",
+    "arosa",
+    "bad-ragaz",
+    "flims",
+    "flums",
+    "ilanz-glion",
+    "klosters",
+    "laax",
+    "lumnezia",
+    "maienfeld",
+    "quarten",
+    "spluegen",
+    "vaz-obervaz",
+    "walenstadt"
+  ]
+}

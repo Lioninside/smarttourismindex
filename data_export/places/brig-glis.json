@@ -1,0 +1,89 @@
+{
+  "slug": "brig-glis",
+  "name": "Brig-Glis",
+  "canton": "VS",
+  "score_total": 49.84,
+  "scores": {
+    "total": 49.84,
+    "base": 42.68,
+    "access": 60.57,
+    "sub": {
+      "anti_overtourism": 93.34,
+      "walkability": 7.13,
+      "local_hiking": 25.18,
+      "water": 19.24,
+      "heritage": 0.0,
+      "climate": 100.0,
+      "scenic_transport": 81.05,
+      "destination_pull": 85.94,
+      "cultural_access": 20.0,
+      "access_hiking": 36.5
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums"
+  ],
+  "metrics": {
+    "overnight_stays": 203884,
+    "domestic_share_overnights": 0.6003,
+    "summer_temp_avg": 17.82,
+    "local_hiking_m": 43500.1,
+    "regional_hiking_m": 886330.6,
+    "walkability_path_m": 1099.8,
+    "scenic_transport_count": 77,
+    "reachable_named_museums": "4",
+    "isos_name": "",
+    "isos_kategorie": ""
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 66,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "aug",
+    "trough_month": "nov",
+    "peak_trough_ratio": 2.39,
+    "monthly_index": [
+      74,
+      100,
+      99,
+      100,
+      101,
+      112,
+      124,
+      138,
+      118,
+      100,
+      58,
+      75
+    ]
+  },
+  "tourism_intensity": 14.3,
+  "restaurant_count": 1,
+  "isos_name": "",
+  "reachable_slugs": [
+    "crans-montana",
+    "goms",
+    "kandersteg",
+    "martigny",
+    "reichenbach-im-kandertal",
+    "saas-grund",
+    "sierre",
+    "sion",
+    "spiez",
+    "thun",
+    "visp"
+  ]
+}

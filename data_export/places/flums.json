@@ -1,0 +1,91 @@
+{
+  "slug": "flums",
+  "name": "Flums",
+  "canton": "SG",
+  "score_total": 49.27,
+  "scores": {
+    "total": 49.27,
+    "base": 44.23,
+    "access": 56.83,
+    "sub": {
+      "anti_overtourism": 98.18,
+      "walkability": 12.32,
+      "local_hiking": 17.21,
+      "water": 11.83,
+      "heritage": 70.0,
+      "climate": 50.0,
+      "scenic_transport": 47.37,
+      "destination_pull": 82.85,
+      "cultural_access": 40.0,
+      "access_hiking": 51.74
+    }
+  },
+  "reachable_tags": [
+    "Hiking",
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 21792,
+    "domestic_share_overnights": 0.8683,
+    "summer_temp_avg": 18.69,
+    "local_hiking_m": 29729.7,
+    "regional_hiking_m": 1256417.3,
+    "walkability_path_m": 1900.2,
+    "scenic_transport_count": 45,
+    "reachable_named_museums": "8",
+    "isos_name": "Flums",
+    "isos_kategorie": "Verstädtertes Dorf"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 73,
+  "seasonality": {
+    "volatility_label": "Highly seasonal",
+    "peak_month": "feb",
+    "trough_month": "apr",
+    "peak_trough_ratio": 29.42,
+    "monthly_index": [
+      191,
+      230,
+      110,
+      8,
+      14,
+      78,
+      142,
+      139,
+      88,
+      85,
+      10,
+      106
+    ]
+  },
+  "tourism_intensity": 3.9,
+  "restaurant_count": 5,
+  "isos_name": "Flums",
+  "reachable_slugs": [
+    "altstaetten",
+    "amden",
+    "bad-ragaz",
+    "chur",
+    "eschenbach",
+    "freienbach",
+    "maienfeld",
+    "neckertal",
+    "quarten",
+    "rapperswil-jona",
+    "waedenswil",
+    "walenstadt"
+  ]
+}

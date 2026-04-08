@@ -1,0 +1,96 @@
+{
+  "slug": "grenchen",
+  "name": "Grenchen",
+  "canton": "SO",
+  "score_total": 51.49,
+  "scores": {
+    "total": 51.49,
+    "base": 48.69,
+    "access": 55.7,
+    "sub": {
+      "anti_overtourism": 99.53,
+      "walkability": 30.86,
+      "local_hiking": 0.0,
+      "water": 4.2,
+      "heritage": 70.0,
+      "climate": 100.0,
+      "scenic_transport": 8.95,
+      "destination_pull": 93.08,
+      "cultural_access": 100.0,
+      "access_hiking": 0.58
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Scenic transport",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 24573,
+    "domestic_share_overnights": 0.7831,
+    "summer_temp_avg": 18.09,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 14036.8,
+    "walkability_path_m": 4758.9,
+    "scenic_transport_count": 8,
+    "reachable_named_museums": "20",
+    "isos_name": "Grenchen",
+    "isos_kategorie": "Verstädtertes Dorf"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 51,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "aug",
+    "trough_month": "jan",
+    "peak_trough_ratio": 1.81,
+    "monthly_index": [
+      76,
+      80,
+      86,
+      85,
+      98,
+      115,
+      122,
+      138,
+      99,
+      90,
+      126,
+      86
+    ]
+  },
+  "tourism_intensity": 1.0,
+  "restaurant_count": 17,
+  "isos_name": "Grenchen",
+  "reachable_slugs": [
+    "aarau",
+    "basel",
+    "bern",
+    "biel-bienne",
+    "burgdorf",
+    "clos-du-doubs",
+    "delemont",
+    "egerkingen",
+    "herzogenbuchsee",
+    "la-chaux-de-fonds",
+    "langenthal",
+    "latena",
+    "moutier-be",
+    "neuchatel",
+    "olten",
+    "porrentruy",
+    "solothurn",
+    "yverdon-les-bains"
+  ]
+}

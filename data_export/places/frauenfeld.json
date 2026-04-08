@@ -1,0 +1,88 @@
+{
+  "slug": "frauenfeld",
+  "name": "Frauenfeld",
+  "canton": "TG",
+  "score_total": 52.25,
+  "scores": {
+    "total": 52.25,
+    "base": 51.95,
+    "access": 52.7,
+    "sub": {
+      "anti_overtourism": 99.44,
+      "walkability": 30.29,
+      "local_hiking": 0.0,
+      "water": 6.85,
+      "heritage": 100.0,
+      "climate": 100.0,
+      "scenic_transport": 0.0,
+      "destination_pull": 96.44,
+      "cultural_access": 95.0,
+      "access_hiking": 0.09
+    }
+  },
+  "reachable_tags": [
+    "Water",
+    "Museums",
+    "Historic town"
+  ],
+  "metrics": {
+    "overnight_stays": 32775,
+    "domestic_share_overnights": 0.6341,
+    "summer_temp_avg": 18.59,
+    "local_hiking_m": 0.0,
+    "regional_hiking_m": 2145.5,
+    "walkability_path_m": 4671.8,
+    "scenic_transport_count": 0,
+    "reachable_named_museums": "19",
+    "isos_name": "Frauenfeld",
+    "isos_kategorie": "Stadt"
+  },
+  "data_status": {
+    "bfs": true,
+    "climate": true,
+    "water": true,
+    "heritage": true,
+    "hiking": true,
+    "walkability": true,
+    "scenic": true,
+    "dest_pull": true,
+    "cultural": true
+  },
+  "rank": 39,
+  "seasonality": {
+    "volatility_label": "Year-round",
+    "peak_month": "jul",
+    "trough_month": "jan",
+    "peak_trough_ratio": 1.5,
+    "monthly_index": [
+      81,
+      87,
+      85,
+      108,
+      91,
+      115,
+      122,
+      109,
+      109,
+      105,
+      100,
+      87
+    ]
+  },
+  "tourism_intensity": 1.2,
+  "restaurant_count": 44,
+  "isos_name": "Frauenfeld",
+  "reachable_slugs": [
+    "arbon",
+    "duebendorf",
+    "kloten",
+    "kreuzlingen",
+    "opfikon",
+    "schaffhausen",
+    "uster",
+    "uzwil",
+    "wil",
+    "winterthur",
+    "zuerich"
+  ]
+}
